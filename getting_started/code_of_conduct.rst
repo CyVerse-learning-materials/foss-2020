@@ -37,4 +37,4 @@ See http://www.ashedryden.com/blog/codes-of-conduct-101-faq for more information
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/getting_started/code_of_conduct.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/CyVerse/getting_started/code_of_conduct.rst" target="blank">Github Repo Link</a>

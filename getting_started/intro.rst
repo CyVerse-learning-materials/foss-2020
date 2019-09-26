@@ -6,7 +6,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**FOSS 2019 Introduction**
+**FOSS 2020 Introduction**
 -------------
 
 Welcome and staff introductions
@@ -124,4 +124,4 @@ Each day will start with an overview of the days activites and end with an asses
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/getting_started/intro.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/getting_started/intro.rst" target="blank">Github Repo Link</a>

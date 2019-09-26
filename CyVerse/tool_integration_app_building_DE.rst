@@ -123,7 +123,7 @@ To publish your app click on 'Share' at the top of the 'Apps' window and select 
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/tool_integration_app_building_DE.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/CyVerse/tool_integration_app_building_DE.rst" target="blank">Github Repo Link</a>
 
 .. |DElogin| image:: ../img/toolintegration1.png
   :width: 750

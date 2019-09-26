@@ -1,6 +1,6 @@
 |foss-main|
 
-CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) 2019
+CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) 2020
 ------------------------------------
 
 Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
@@ -17,14 +17,18 @@ There are no pre-requisites for FOSS, but the course will cover a lot of materia
 Expected outcomes:
 ------------------
 
-- Familiarity with productivity software for organizing your lab group, communications, and research
-- How to scale out your computation from laptop to cloud and high performance computing (HPC) systems
-- How to manage data for open science and reproducibility
+- Become familiar with productivity software for organizing your lab group, communications, and research
+- Learn how to scale out your computation from laptop to cloud and high performance computing (HPC) systems
+- Learn how to manage data for open science and reproducibility
+
+
+By working through an example project relevant to their interests, participants will practice open science skills using CyVerse, GitHub, R or Python, and other resources. At the end of the week, students will present a plan for how to integrate open science into their labs.
+
 
 .. toctree::
    :maxdepth: 1
    
-   FOSS 2019 Home <self>
+   FOSS 2020 Home <self>
 
 .. toctree::
    :maxdepth: 1
@@ -42,31 +46,37 @@ Expected outcomes:
    getting_started/code_of_conduct
    getting_started/agenda
    getting_started/open_sci_lab
+   getting_started/colab_culture
    getting_started/glossary
+   
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: CyVerse
+
+   CyVerse/intro_to_cyverse
+   CyVerse/data_store
+   CyVerse/de
+   CyVerse/de-data-manage
+   CyVerse/de-data-analysis
+   CyVerse/vice
+   CyVerse/tool_integration_app_building_DE 
+   CyVerse/workflow 
+   CyVerse/atmo 
+   
    
 .. toctree::
    :maxdepth: 1
    :caption: Software Essentials
    
    software_essentials/linux
+   software_essentials/commandline
    software_essentials/version_control
    software_essentials/communication
    software_essentials/websites
-   software_essentials/commandline
    software_essentials/R_Studio
    software_essentials/RStudio_Git
    software_essentials/continuous_integration
-
-.. toctree::
-   :maxdepth: 1
-   :caption: CyVerse
-
-   CyVerse/intro_to_cyverse
-   CyVerse/de
-   CyVerse/data_store
-   CyVerse/vice
-   CyVerse/atmo
-   CyVerse/tool_integration_app_building_DE
    
 
 .. toctree::

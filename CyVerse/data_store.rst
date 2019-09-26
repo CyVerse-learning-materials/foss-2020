@@ -73,40 +73,7 @@ For data that are not stable or permanent, you can request a `Community Released
 
 For an overview see `Publishing data on the CyVerse Data Commons <https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons>`_.
 
-Advanced Metadata Usage
-~~~~~~~~~~~~~~~~~~~~~
 
-The Data Commons provides advanced metadata features in the Discovery Environment, including:
-
-- `metadata templates <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Usingmetadatatemplates>`_ 
-
-Exercise: 
-- Open the DE
-- Apply the DOI request template to a folder.
-- Apply an ontology term to a file or folder.
-
-
-- `bulk metadata application <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Addingbulkmetadatatomultiplefilesorfolders>`_
-
-Exercise:
-- Copy the B123 file to your home directory
-
-.. code-block:: bash
-
-    $ icd /iplant/home/$username
-    $ icp -r /iplant/home/rwalls/B123 B123
-    $ ils
-
-- In the DE apply the DE apply metadata to the contents of B123
-	- Browse to B123
-	- View the metadata for one of the files using the *Metadata* menu or the three dots (it should be black)
-	- View the contents of the file ``Rice_metadata.csv``
-	- Browse back to your home directory
-	- Check the box next to any directory
-	- Select *Metadata* > *Apply Bulk Metadata*
-	- Select the file B123/Rice_metadata.csv
-	- Browse back to B123
-	- View the metadata of the different files in the directory
 
 Additional Resources
 ==================
@@ -159,4 +126,4 @@ Additional Resources
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/data_store.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/CyVerse/data_store.rst" target="blank">Github Repo Link</a>

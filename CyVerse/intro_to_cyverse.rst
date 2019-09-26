@@ -252,7 +252,7 @@ Intercom is our live-chat user support app. You will find the Intercom 'smiley' 
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/intro_to_cyverse.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/CyVerse/intro_to_cyverse.rst" target="blank">Github Repo Link</a>
 
 
 .. |cyverse logo| image:: ../img/cyverse_cmyk.png
