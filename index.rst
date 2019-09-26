@@ -63,7 +63,7 @@ By working through an example project relevant to their interests, participants 
    CyVerse/tool_integration_app_building_DE 
    CyVerse/workflow 
 
- 
+
 .. toctree::
    :maxdepth: 1
    :caption: Reproducible Science
@@ -72,28 +72,17 @@ By working through an example project relevant to their interests, participants 
    reproducible_science/communication
    reproducible_science/websites
    reproducible_science/version_control
- 
+
 
 .. toctree::
    :maxdepth: 1
    :caption: Cloud Computing
-   
+
    cloud_comput/intro
-   cloud_comput/xsede
    cloud_comput/atmo
+   cloud_comput/xsede
    cloud_comput/cyberinfrastructure
 
- 
-.. toctree::
-   :maxdepth: 1
-   :caption: Software Essentials
-   
-   software_essentials/linux
-   software_essentials/commandline
-   software_essentials/R_Studio
-   software_essentials/RStudio_Git
-   software_essentials/continuous_integration
-   
 
 .. toctree::
    :maxdepth: 1
@@ -104,6 +93,16 @@ By working through an example project relevant to their interests, participants 
    Data_management/dmp
 
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Software Essentials
+   
+   software_essentials/linux
+   software_essentials/commandline
+   software_essentials/R_Studio
+   software_essentials/RStudio_Git
+   software_essentials/continuous_integration
+   
    
 .. toctree::
    :maxdepth: 1
