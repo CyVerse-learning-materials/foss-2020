@@ -130,7 +130,7 @@ You should see something like this
 	Welcome to
 	    _   _                             _
 	   / \ | |_ _ __ ___   ___  ___ _ __ | |__   ___ _ __ ___
-	  / _ \| __| '_ ` _ \ / _ \/ __| '_ \| '_ \ / _ \ '__/ _ \
+	  / _ \| __| '_ ` _`  \ / _ \/ __| '_ \| '_ \ / _ \ '__/ _ \
 	 / ___ \ |_| | | | | | (_) \__ \ |_) | | | |  __/ | |  __/
 	/_/   \_\__|_| |_| |_|\___/|___/ .__/|_| |_|\___|_|  \___|
 	
@@ -536,4 +536,4 @@ Congratulations - you've got a Virtual Machine ready to do some serious data sci
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/CyVerse/atmo.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/cloud_comput/atmo.rst" target="blank">Github Repo Link</a>

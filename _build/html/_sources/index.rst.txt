@@ -64,16 +64,23 @@ By working through an example project relevant to their interests, participants 
    CyVerse/workflow 
    CyVerse/atmo 
    
-   
+ 
+.. toctree::
+   :maxdepth: 1
+   :caption: Reproducible Science
+
+   reproducible_science/intro
+   reproducible_science/communication
+   reproducible_science/websites
+   reproducible_science/version_control
+ 
+ 
 .. toctree::
    :maxdepth: 1
    :caption: Software Essentials
    
    software_essentials/linux
    software_essentials/commandline
-   software_essentials/version_control
-   software_essentials/communication
-   software_essentials/websites
    software_essentials/R_Studio
    software_essentials/RStudio_Git
    software_essentials/continuous_integration

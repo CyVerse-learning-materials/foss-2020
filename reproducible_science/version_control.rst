@@ -294,4 +294,4 @@ Using Github on your own or for your classes
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/software_essentials/version_control.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/reproducible_science/version_control.rst" target="blank">Github Repo Link</a>

@@ -71,4 +71,4 @@ CyVerse supports "`Powered by <http://www.cyverse.org/powered-by-cyverse>`_" pro
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/getting_started/intro.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/cloud_comput/xsede.rst" target="blank">Github Repo Link</a>

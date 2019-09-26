@@ -102,4 +102,4 @@ Department of Agriculture `FACT <https://nifa.usda.gov/program/fact>`_
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/getting_started/intro.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/cloud_comput/cyberinfrastructure.rst" target="blank">Github Repo Link</a>

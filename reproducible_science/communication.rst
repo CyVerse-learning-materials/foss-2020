@@ -127,4 +127,4 @@ There are many ways scientists use social media and the web to share their data 
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/software_essentials/communication.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-202020/tree/master/reproducible_science/communication.rst" target="blank">Github Repo Link</a>
