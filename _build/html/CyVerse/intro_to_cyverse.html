@@ -1,0 +1,530 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Introduction to CyVerse &mdash; CyVerse Learning Institute Foundations of Open Science Skills 2019 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="../_static/cyverse.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/cyverse.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="CyVerse Data Store" href="data_store.html" />
+    <link rel="prev" title="Glossary &amp; Acronyms" href="../getting_started/glossary.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> CyVerse Learning Institute Foundations of Open Science Skills 2019
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">FOSS 2020 Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Before you Arrive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../before/main.html"><strong>Before you arrive</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/installation.html"><strong>Pre-Workshop Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/about_cyverse.html"><strong>About CyVerse</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/intro.html"><strong>FOSS 2020 Introduction</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/code_of_conduct.html"><strong>Code of Conduct</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/agenda.html"><strong>Agenda</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/open_sci_lab.html"><strong>Open Science Lab</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/colab_culture.html"><strong>Collaboration Culture and Roles</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/glossary.html"><strong>Glossary &amp; Acronyms</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">CyVerse</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>Introduction to CyVerse</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-cyberinfrastructure">What is Cyberinfrastructure?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">User Portal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Data Store</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">Discovery Environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">Atmosphere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">Bisque</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">DNA Subway</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">Data Commons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#science-apis">Science APIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">SciApps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">Powered by CyVerse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">The CyVerse Learning Center</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id11">The CyVerse Wiki</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#intercom">Intercom</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="data_store.html"><strong>CyVerse Data Store</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="de.html"><strong>Discovery Environment</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="de-data-manage.html"><strong>Discovery Environment - Data Management</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="de-data-analysis.html"><strong>Discovery Environment - Data Analysis</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="vice.html"><strong>VICE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="tool_integration_app_building_DE.html"><strong>Tool Integration into the DE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="workflow.html"><strong>Creating Workflows</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="atmo.html"><strong>Atmosphere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Software Essentials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/linux.html"><strong>Basics of Linux</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/commandline.html"><strong>Command Line and the Unix Shell</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/version_control.html"><strong>Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/communication.html"><strong>Lab Group Communication</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/websites.html"><strong>Websites &amp; Documentation</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/R_Studio.html"><strong>Introduction to R &amp; RStudio</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/RStudio_Git.html"><strong>RStudio with Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/continuous_integration.html"><strong>Continuous Integration</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Data Management</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/overview.html"><strong>Data Management Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/FAIR.html"><strong>FAIR Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/dmp.html"><strong>Data Management Plans (DMP)</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Moving On</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/xsede.html"><strong>Research Cyberinfrastructure associated with CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/cyberinfrastructure.html"><strong>Other Cyberinfrastructure Projects</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Containers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockeronatmo.html">Launching a Docker app on Atmosphere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/biocontainers.html"><strong>Introduction to BioContainers</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockerintro.html"><strong>Introduction to Docker</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockeradvanced.html"><strong>Advanced Docker</strong></a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CyVerse Learning Institute Foundations of Open Science Skills 2019</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li><strong>Introduction to CyVerse</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/CyVerse/intro_to_cyverse.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p><a class="reference external" href="http://learning.cyverse.org/"><img alt="CyVerse_logo2" src="../_images/cyverse_cmyk1.png" style="width: 500px; height: 100px;" /></a></p>
+<p><a class="reference external" href="http://learning.cyverse.org/"><img alt="Home_Icon2" src="../_images/homeicon1.png" style="width: 25px; height: 25px;" /></a>
+<a class="reference external" href="http://learning.cyverse.org/">Learning Center Home</a></p>
+<div class="section" id="introduction-to-cyverse">
+<h1><strong>Introduction to CyVerse</strong><a class="headerlink" href="#introduction-to-cyverse" title="Permalink to this headline">¶</a></h1>
+<p><strong>Vision:</strong>
+Transforming Science through Data-Driven Discovery.</p>
+<p><strong>Mission:</strong>
+To design, deploy, and expand a national Cyberinfrastructure for Life Sciences research, and to train scientists in its use.</p>
+<p><strong>Evolution of CyVerse</strong></p>
+<p><a class="reference internal" href="../_images/evolutionofcyverse.png"><img alt="evolcyverse" src="../_images/evolutionofcyverse.png" style="width: 750px; height: 200px;" /></a></p>
+<p>CyVerse is an NSF-funded project. The project began in 2008 as ‘iPlant’ with the mission of ‘empowering a new plant biology’. Funding was renewed in 2013 for another 5 years with the new mission of ‘cyberinfrastructure for life sciences’. In 2016 the name of the project was changed from ‘iPlant’ to ‘CyVerse’ to reflect its role in all life scieneces, not just plants. In 2018 CyVerse was renewed for another 5 years with our current mission: ‘to design, deploy, and expand a national Cyberinfrastructure for Life Sciences research, and to train scientists in its use’.</p>
+<p>Over the past 10 years CyVerse priorities have focused on genomics and transcriptomics tools that were needed to deal with the huge increase in high-throughput seqeuncing data. While that is still a priority, CyVerse has since expanded to include image and geospatial analysis tools. CyVerse is built for data.</p>
+<div class="section" id="what-is-cyberinfrastructure">
+<h2>What is Cyberinfrastructure?<a class="headerlink" href="#what-is-cyberinfrastructure" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Cyberinfrastructure is a combination of</dt><dd><ul class="simple">
+<li><p>platforms, tools and datasets researchers need to do their work</p></li>
+<li><p>storage and compute hardware necessary for modern analyses</p></li>
+<li><p>people who provide training and support</p></li>
+</ul>
+</dd>
+</dl>
+<p>The CyVerse cyberinfrastructure can be thought of in layers. The bottom layer (on which everything else is built) consists of the hardware resources. On top of that are the services necessary to make a functional system. The next layer represents extensible services, or those parts of the system that may be adopted and used by thrid parties. Most users will interact primarily with the top layer which represents the various analysis and distribution platforms. While the bottom layers are the most flexible, the top layers are the most user-friendly.</p>
+<p><a class="reference internal" href="../_images/Layer_Cake_Updated.png"><img alt="layer cake" src="../_images/Layer_Cake_Updated.png" style="width: 750px; height: 600px;" /></a></p>
+</div>
+<div class="section" id="id1">
+<h2><a class="reference external" href="https://user.cyverse.org">User Portal</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p><strong>The CyVerse user portal allows users to manage their accounts, subscriptions and events in a single place.</strong> Some things you can do here include:</p>
+<dl class="simple">
+<dt>Create and manage your CyVerse account</dt><dd><ul class="simple">
+<li><p>Reset your password</p></li>
+<li><p>Add an email address to your account</p></li>
+<li><p>Change your name or username</p></li>
+<li><p>Change your institution, department, position</p></li>
+<li><p>Change your CyVerse subscriptions</p></li>
+</ul>
+</dd>
+<dt>Manage access to CyVerse platforms/services</dt><dd><ul class="simple">
+<li><p>Some CyVerse services (such as Atmosphere) have additional restrictions and access must be ‘turned on’.</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>Manage workshops you’ve attended or hosted</strong></p>
+<p><strong>Access ‘Powered by CyVerse’ projects</strong></p>
+<dl class="simple">
+<dt>User portal forms</dt><dd><ul class="simple">
+<li><p>Request a Data Store allocation increase</p></li>
+<li><p>Request a community released data folder</p></li>
+<li><p>Request a workshop or webinar</p></li>
+<li><p>Reserve Atmosphere cloud resources for workshops or classes</p></li>
+<li><p>Request an External Collaborative Partnership (ECP)</p></li>
+<li><p>Get Powered by CyVerse</p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="id2">
+<h2><a class="reference external" href="https://de.cyverse.org/de/">Data Store</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../_images/datastore-icon.png"><img alt="datastorelogo" src="../_images/datastore-icon.png" style="width: 88px; height: 100px;" /></a></p>
+<p><strong>Securely store data for active analyses or sharing with your collaborators.</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><dl class="simple">
+<dt>Upload, download and share your data</dt><dd><ul>
+<li><p>DE simple upload/download. Convenient but not good for large files.</p></li>
+<li><p>Cyberduck is a third-party software with graphic interface for transferring data. Available for Mac and Windows.</p></li>
+<li><p>iCommands is more powerful/flexible, good for large transfers but requires some command line knowledge</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Data limit of 100 GB (can request increase up to 10 TB)</p></li>
+<li><p>Data storage is integrated into the Discovery Environment (where analyses are run).</p></li>
+<li><p>Share your data with collaborators</p></li>
+<li><p><a class="reference external" href="https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/">Data Store guide</a></p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id3">
+<h2><a class="reference external" href="https://de.cyverse.org/de/">Discovery Environment</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../_images/de-icon.png"><img alt="DElogo" src="../_images/de-icon.png" style="width: 100px; height: 88px;" /></a></p>
+<p><strong>Use hundreds of bioinformatics apps and manage data in a simple web interface.</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Provides graphic interface for bioinformatics tools for scientists with no command line experience</p></li>
+<li><dl class="simple">
+<dt>User extensible. Users can add their own tools and make their own apps.</dt><dd><ul>
+<li><p>Share them with collaborators</p></li>
+<li><p>Publish them</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>VICE (Visual and Interactive Computing Environment) for interactive use of Jupyter notebooks, RStudio and RShiny.</p></li>
+<li><p>Integrated with the Data Store for ease of use</p></li>
+<li><p>Share your analyses with your collaborators</p></li>
+<li><p><a class="reference external" href="http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/">DE guide</a></p></li>
+<li><p><a class="reference external" href="https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/index.html">VICE documentation</a></p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id4">
+<h2><a class="reference external" href="https://atmo.cyverse.org/application/images">Atmosphere</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../_images/atmosphere-icon.png"><img alt="atmologo" src="../_images/atmosphere-icon.png" style="width: 100px; height: 75px;" /></a></p>
+<p><strong>Create a custom cloud-based scientific analysis platform or use a ready-made one for your area of scientific interest.</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Cloud computing for life sciences</p></li>
+<li><p>100s of pre-built images</p></li>
+<li><p>Fully customize your software setup</p></li>
+<li><p>Choose (or build) an image that best suits your needs</p></li>
+<li><p><a class="reference external" href="https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/">Atmosphere guide</a></p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id5">
+<h2><a class="reference external" href="https://bisque.cyverse.org/client_service/">Bisque</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../_images/bisque-icon.png"><img alt="bisquelogo" src="../_images/bisque-icon.png" style="width: 100px; height: 100px;" /></a></p>
+<p><strong>Bio-Image Semantic Query User Environment for the exchange and exploration of image data</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Exchange, explore, and analyze biological images and their metadata.</p></li>
+<li><p>Image data analysis and management</p></li>
+<li><p><a class="reference external" href="https://wiki.cyverse.org/wiki/display/BIS">Bisque manual</a></p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id6">
+<h2><a class="reference external" href="https://dnasubway.cyverse.org/">DNA Subway</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../_images/dnasubway-icon.png"><img alt="dnasubwaylogo" src="../_images/dnasubway-icon.png" style="width: 100px; height: 75px;" /></a></p>
+<p><strong>Teach classroom-friendly bioinformatics for genome analysis, DNA Barcoding, and RNA-Sequencing.</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Educational tool</p></li>
+<li><dl class="simple">
+<dt>Ties together key bioinformatics tools and databases to</dt><dd><ul>
+<li><p>assemble gene models</p></li>
+<li><p>investigate genomes</p></li>
+<li><p>work with phylogenetic trees</p></li>
+<li><p>analyze DNA barcodes</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Analyze your own data or the sample data provided</p></li>
+<li><p><a class="reference external" href="https://cyverse-dnasubway-guide.readthedocs-hosted.com/en/latest/">DNA Subway guide</a></p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id7">
+<h2><a class="reference external" href="http://datacommons.cyverse.org/">Data Commons</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../_images/DataCommons_DrkBlue.png"><img alt="DClogo" src="../_images/DataCommons_DrkBlue.png" style="width: 100px; height: 100px;" /></a></p>
+<p><strong>The Data Commons provides services to manage, organize, preserve, publish, discover, and reuse data.</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Access discoverable and reusable data with metadata features and functions</p></li>
+<li><p>Browse Community Released Data and data curated by CyVerse</p></li>
+<li><p>Easily publish data to the NCBI or directly to the CyVerse Data Commons</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="science-apis">
+<h2>Science APIs<a class="headerlink" href="#science-apis" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../_images/ScienceAPIs_DkBlue.png"><img alt="sciAPIslogo" src="../_images/ScienceAPIs_DkBlue.png" style="width: 100px; height: 75px;" /></a></p>
+<p><strong>Programmatic access to CyVerse services</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Science-as-a-service platform</p></li>
+<li><p>Define your own compute, and storage resources (local and CyVerse)</p></li>
+<li><p>Build your own app store of scientific codes and workflows</p></li>
+<li><p>Agave API for HPC</p></li>
+<li><p>Terrain API for DE</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id8">
+<h2><a class="reference external" href="https://www.sciapps.org/">SciApps</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p><strong>A cloud-based platform for building and sharing reproducible bioinformatics workflows across distributed computing and storage systems</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Build branching analysis workflows</p></li>
+<li><p><a class="reference external" href="https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/index.html">SciApps guide</a></p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id9">
+<h2><a class="reference external" href="http://www.cyverse.org/powered-by-cyverse">Powered by CyVerse</a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../_images/PoweredbyCyverse_LogoSquare.png"><img alt="PBlogo" src="../_images/PoweredbyCyverse_LogoSquare.png" style="width: 88px; height: 100px;" /></a></p>
+<p><strong>Third-party projects can leverage the CyVerse cyberinfrastructure components to provide services to their users.</strong></p>
+<blockquote>
+<div><dl class="simple">
+<dt>Some ‘Powered by CyVerse’ projects you may be familiar with</dt><dd><ul class="simple">
+<li><p>CoGe</p></li>
+<li><p>BioExtract Server</p></li>
+<li><p>CIPRES</p></li>
+<li><p>ClearedLeavesDB</p></li>
+<li><p>Digital Imaging of Root Traits (DIRT)</p></li>
+<li><p>Federated Plant Database Initiative for Legumes (LegFed)</p></li>
+<li><p>Galaxy</p></li>
+<li><p>Genomes to Fields</p></li>
+<li><p>iMicrobe</p></li>
+<li><p>Integrated Breeding Platform</p></li>
+<li><p>SoyKB</p></li>
+<li><p>TERRA-REF</p></li>
+<li><p>TNRS- Taxonomic Name Resolution Service</p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</div>
+<div class="section" id="id10">
+<h2><a class="reference external" href="https://learning.cyverse.org/en/latest/#">The CyVerse Learning Center</a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../_images/Learningcenter_DkBlue.png"><img alt="LClogo" src="../_images/Learningcenter_DkBlue.png" style="width: 100px; height: 100px;" /></a></p>
+<p><strong>The CyVerse Learning center is a beta release of our learning materials in the popular “Read the Docs” formatting.</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>We are transitioning our learning materials into this format to make them easier to search, use, and update.</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id11">
+<h2><a class="reference external" href="https://wiki.cyverse.org">The CyVerse Wiki</a><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<p><strong>This collaborative documentation site is used to record important information about CyVerse, its products and services, and community collaborators and their projects.</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Anyone with a CyVerse account is welcome to help out.</p></li>
+<li><p>User have their own spaces and can add content</p></li>
+<li><dl class="simple">
+<dt>Much of the CyVerse documentation has been moved the Learning center but some things will continue to be in the Wiki</dt><dd><ul>
+<li><p>DE app documentation</p></li>
+<li><p>Many tutorials</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="intercom">
+<h2>Intercom<a class="headerlink" href="#intercom" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../_images/intercomlogo.png"><img alt="intercomlogo" src="../_images/intercomlogo.png" style="width: 100px; height: 100px;" /></a></p>
+<p>Intercom is our live-chat user support app. You will find the Intercom ‘smiley’ logo in the bottom right corner of the Discovery Environment, Atmosphere, the Wiki and the user portal.</p>
+<hr class="docutils" />
+<p><strong>Fix or improve this documentation:</strong></p>
+<ul class="simple">
+<li><p>On Github: <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/CyVerse/intro_to_cyverse.rst" target="blank">Github Repo Link</a></p></li>
+<li><p>Send feedback: <a class="reference external" href="mailto:Tutorials&#37;&#52;&#48;CyVerse&#46;org">Tutorials<span>&#64;</span>CyVerse<span>&#46;</span>org</a></p></li>
+</ul>
+<hr class="docutils" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="data_store.html" class="btn btn-neutral float-right" title="CyVerse Data Store" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../getting_started/glossary.html" class="btn btn-neutral float-left" title="Glossary &amp; Acronyms" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, CyVerse
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

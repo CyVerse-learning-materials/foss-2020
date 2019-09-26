@@ -1,0 +1,528 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Introduction to BioContainers &mdash; CyVerse Learning Institute Foundations of Open Science Skills 2019 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="../_static/cyverse.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/cyverse.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Introduction to Docker" href="dockerintro.html" />
+    <link rel="prev" title="Launching a Docker app on Atmosphere" href="dockeronatmo.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> CyVerse Learning Institute Foundations of Open Science Skills 2019
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">FOSS 2020 Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Before you Arrive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../before/main.html"><strong>Before you arrive</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/installation.html"><strong>Pre-Workshop Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/about_cyverse.html"><strong>About CyVerse</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/intro.html"><strong>FOSS 2020 Introduction</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/code_of_conduct.html"><strong>Code of Conduct</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/agenda.html"><strong>Agenda</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/open_sci_lab.html"><strong>Open Science Lab</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/colab_culture.html"><strong>Collaboration Culture and Roles</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/glossary.html"><strong>Glossary &amp; Acronyms</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">CyVerse</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/intro_to_cyverse.html"><strong>Introduction to CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/data_store.html"><strong>CyVerse Data Store</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de.html"><strong>Discovery Environment</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de-data-manage.html"><strong>Discovery Environment - Data Management</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de-data-analysis.html"><strong>Discovery Environment - Data Analysis</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/vice.html"><strong>VICE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/tool_integration_app_building_DE.html"><strong>Tool Integration into the DE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/workflow.html"><strong>Creating Workflows</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/atmo.html"><strong>Atmosphere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Software Essentials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/linux.html"><strong>Basics of Linux</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/commandline.html"><strong>Command Line and the Unix Shell</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/version_control.html"><strong>Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/communication.html"><strong>Lab Group Communication</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/websites.html"><strong>Websites &amp; Documentation</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/R_Studio.html"><strong>Introduction to R &amp; RStudio</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/RStudio_Git.html"><strong>RStudio with Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/continuous_integration.html"><strong>Continuous Integration</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Data Management</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/overview.html"><strong>Data Management Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/FAIR.html"><strong>FAIR Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/dmp.html"><strong>Data Management Plans (DMP)</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Moving On</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/xsede.html"><strong>Research Cyberinfrastructure associated with CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/cyberinfrastructure.html"><strong>Other Cyberinfrastructure Projects</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Containers</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dockeronatmo.html">Launching a Docker app on Atmosphere</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>Introduction to BioContainers</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction-to-bioconda"><strong>Introduction to Bioconda</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#glossary"><strong>Glossary</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#where-to-get-a-biocontainer">Where to Get a BioContainer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#the-biocontainers-registry">The BioContainers Registry</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#quay">Quay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#dockerhub">DockerHub</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-request-a-biocontainer">How to Request a BioContainer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-use-a-biocontainer">How to Use a BioContainer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-install-docker">How to Install Docker</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#get-data-to-use-with-your-container">Get Data to Use with Your Container</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#use-docker-pull-to-get-the-image">Use ‘docker pull’ to Get the Image</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#use-the-docker-run-command-to-run-the-container">Use the ‘docker run’ Command to Run the Container</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#what-it-all-means">What it All Means</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-build-a-biocontainer">How to Build a BioContainer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#useful-links">Useful Links</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dockerintro.html"><strong>Introduction to Docker</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="dockeradvanced.html"><strong>Advanced Docker</strong></a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CyVerse Learning Institute Foundations of Open Science Skills 2019</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li><strong>Introduction to BioContainers</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Containers/biocontainers.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p><a class="reference external" href="http://learning.cyverse.org/"><img alt="CyVerse_logo2" src="../_images/cyverse_cmyk.png" style="width: 500px; height: 100px;" /></a></p>
+<p><a class="reference external" href="http://learning.cyverse.org/"><img alt="Home_Icon2" src="../_images/homeicon.png" style="width: 25px; height: 25px;" /></a>
+<a class="reference external" href="http://learning.cyverse.org/">Learning Center Home</a></p>
+<div class="section" id="introduction-to-biocontainers">
+<h1><strong>Introduction to BioContainers</strong><a class="headerlink" href="#introduction-to-biocontainers" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://biocontainers.pro/#/">BioContainers</a> is a community-driven project that provides the infrastructure and basic guidelines to create, manage and distribute bioinformatics containers with <strong>special focus in proteomics, genomics, transcriptomics and metabolomics</strong>. BioContainers is based on the popular frameworks of Docker.</p>
+<p><a class="reference internal" href="../_images/biocontainers5a.png"><img alt="biocontainerlogo" src="../_images/biocontainers5a.png" style="width: 500px;" /></a></p>
+<p><strong>BioContainers Goals</strong>:</p>
+<ul class="simple">
+<li><p>Provide a base specification and images to easily build and deploy new bioinformatics/proteomics software including the source and examples.</p></li>
+<li><p>Provide a series of containers ready to be used by the bioinformatics community (<a class="reference external" href="https://github.com/BioContainers/containers">https://github.com/BioContainers/containers</a>).</p></li>
+<li><p>Define a set of guidelines and specifications to build a standardized container that can be used in combination with other containers and bioinformatics tools.</p></li>
+<li><p>Define a complete infrastructure to develop, deploy and test new bioinformatics containers using continuous integration suites such as Travis Continuous Integration (<a class="reference external" href="https://travisci">https://travisci</a>. org/), Shippable (<a class="reference external" href="https://app.shippable.com/">https://app.shippable.com/</a>) or manually built solutions.</p></li>
+<li><p>Provide support and help to the bioinformatics community to deploy new containers for researchers that do not have bioinformatics support.</p></li>
+<li><p>Provide guidelines and help on how to create reproducible pipelines by defining, reusing and reporting specific container versions which will consistently produce the exact same result and always be available in the history of the container.</p></li>
+<li><p>Coordinate and integrate developers and bioinformaticians to produce best practice of documentation and software development.</p></li>
+</ul>
+<div class="section" id="introduction-to-bioconda">
+<h2><strong>Introduction to Bioconda</strong><a class="headerlink" href="#introduction-to-bioconda" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference internal" href="../_images/biocontainers13.png"><img alt="biocondalogo" src="../_images/biocontainers13.png" style="width: 300px;" /></a></p>
+<p><a class="reference external" href="https://bioconda.github.io/">Bioconda</a> is a channel for the conda package manager specializing in bioinformatics software. It consists of:</p>
+<ul class="simple">
+<li><p>A repository of recipes hosted on <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes">GitHub</a></p></li>
+<li><p>A build system that turns these recipes into conda packages</p></li>
+<li><p>A repository of &gt; 6000 bioinformatics packages ready to use with a simple conda install command</p></li>
+<li><p><strong>Each package added to Bioconda also has a corresponding Docker BioContainer automatically created and uploaded to Quay.io</strong></p></li>
+<li><p>Over 600 contributors that add, modify, update and maintain the recipes</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Recipe vs package</strong>
+A <strong>recipe</strong> is a directory containing a small set of files that defines name, version, dependencies, and URL for source code. A recipe
+typically contains a meta.yaml file that defines these settings and a build.sh script that builds the software. A recipe is
+converted into a package by running “conda-build” on the recipe.
+A <strong>package</strong> is a bgzipped tar file (.tar.bz2) that contains the built software. Packages are uploaded to anaconda.org so that users can install them with “conda install” command.</p>
+</div>
+<p>You can <a class="reference external" href="https://bioconda.github.io/contributing.html">contribute</a> to the Bioconda project by building your own packages. Each package will also be made available as a BioContainer at <a class="reference external" href="https://quay.io/organization/biocontainers">Quay.io</a>.</p>
+</div>
+<div class="section" id="glossary">
+<span id="getbiocontainer"></span><h2><strong>Glossary</strong><a class="headerlink" href="#glossary" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Image:</strong> self-contained, read-only ‘snapshot’ of your applications and packages, with all their dependencies</p></li>
+<li><p><strong>Container:</strong> a running instance of your image</p></li>
+<li><p><strong>Image registry:</strong> a storage and content delivery system, holding named images, available in different tagged versions</p></li>
+<li><p><strong>Docker:</strong> a program that runs and handles life-cycle of containers and images</p></li>
+<li><p><strong>CyVerse tool:</strong> Software program that is integrated into the back end of the DE for use in DE apps</p></li>
+<li><p><strong>CyVerse app:</strong> graphic interface of a tool made available for use in the DE</p></li>
+</ul>
+</div>
+<div class="section" id="where-to-get-a-biocontainer">
+<h2>Where to Get a BioContainer<a class="headerlink" href="#where-to-get-a-biocontainer" title="Permalink to this headline">¶</a></h2>
+<p>Images are made publicly available through image registries. There are several different image registries that provide access to BioContainers. The three major registries are detailed here.</p>
+<div class="section" id="the-biocontainers-registry">
+<h3>The BioContainers Registry<a class="headerlink" href="#the-biocontainers-registry" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://biocontainers.pro/#/registry">BioContainers Registry</a> UI provides the interface to search, tag, and document BioContainers across all the registries. Which means that if a BioContainer exists you can find it here.</p>
+<p>To find the tool you want to use just search for it by name in the search box at the top of the registry page. The BioContainers registry returns partial matches and matches to the tool description. So, if you want to find all the tools relevant to Nanopore analysis you can search for ‘nanopore’.</p>
+<p><a class="reference internal" href="../_images/biocontainers15.png"><img alt="biocontainersregistry" src="../_images/biocontainers15.png" style="width: 750px;" /></a></p>
+<p>If the tool you are looking for is already available as a BioContainer click on that tile in the search results. This will display all the available BioContainers and Conda packages for this tool (ie. different versions of the tool). Choose the version of the tool you want to use (when in doubt, choose the most recent version). Select the icon at the right to copy the ‘docker pull’ command for that version.</p>
+<p><a class="reference internal" href="../_images/biocontainers19.png"><img alt="registrytags" src="../_images/biocontainers19.png" style="width: 750px;" /></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You want the docker images, not the Conda packages. Conda packages are not containers.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If your tool is not already available as a BioContainer (ie. your search returned nothing) proceed to the <a class="reference internal" href="#how-to-request-a-biocontainer">How to Request a BioContainer</a> or <a class="reference internal" href="#how-to-build-a-biocontainer">How to Build a BioContainer</a> section below.</p>
+</div>
+</div>
+<div class="section" id="quay">
+<h3>Quay<a class="headerlink" href="#quay" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://quay.io/">Quay</a> is another image registry. Unlike the BioContainers Registry, Quay.io is not specific to BioContainers. Anyone (including you) can create an account at Quay.io and host your own images but <strong>an account is not necessary to use BioContainers (or other publicly available images)</strong>.</p>
+<p>Although anyone can create a BioContainer, the majority of BioContainers are created by the Bioconda project. Every Bioconda package has a corresponding BioContainer available at Quay.io. From the Quay.io page search for the tool you want by name.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Quay.io search will only find those tools with an exact match of the name (unlike the BioContainers Registry).</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Other users may also have images available that contain your tool. Be sure to choose the image that is part of the ‘biocontainers’ organization. BioContainers is a trusted source and you know what you’re getting.</p>
+</div>
+<p><a class="reference internal" href="../_images/biocontainers20.png"><img alt="quayio" src="../_images/biocontainers20.png" style="width: 750px;" /></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If your search yields no results then double-check by searching the BioContainers Registry (just to be sure). If your tool isn’t available as a BioContainer then proceed to the <a class="reference internal" href="#how-to-request-a-biocontainer">How to request a BioContainer</a> or <a class="reference internal" href="#how-to-build-a-biocontainer">How to build a BioContainer</a> section below.</p>
+</div>
+<p>From the repo page, choose the ‘tags’ tab on the left side of the screen and you will get a list of the available images. Unlike the BioContainers Registry, Quay.io will not display conda packages in the list. Again, when in doubt choose the most recent version available for your tool. Click on the ‘fetch tag’ icon to the right of your chosen version. Then select ‘Docker pull (by tag)’ from the drop-down and copy the ‘docker pull’ command.</p>
+<p><a class="reference internal" href="../_images/biocontainers3.png"><img alt="quayiotags" src="../_images/biocontainers3.png" style="width: 750px;" /></a></p>
+<p><a class="reference internal" href="../_images/biocontainers8.png"><img alt="quayiopull" src="../_images/biocontainers8.png" style="width: 750px;" /></a></p>
+</div>
+<div class="section" id="dockerhub">
+<h3>DockerHub<a class="headerlink" href="#dockerhub" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://hub.docker.com/">DockerHub</a> is the most well-known and popular image registry for Docker containers. Like Quay.io, you can create an account at DockerHub and host your own images but <strong>an account is not necessary to use BioContainers (or other publicly available images)</strong>.</p>
+<p>There are fewer BioContainers images available at DockerHub than the other two registries. You can see them all by searching for ‘biocontainers’ in the search bar of the DockerHub page.</p>
+<p><a class="reference internal" href="../_images/biocontainers16.png"><img alt="dockerhub" src="../_images/biocontainers16.png" style="width: 750px;" /></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can also search for the name of the tool you want. Be sure that you choose images the belong to the BioContainers organization. There will be many other options available on DockerHub. BioContainers is a trusted source.</p>
+</div>
+<p>The second image in this search results list is ‘vcftools’. Select ‘vcftools’ and you will see the repo page for this tool. The ‘docker pull’ command can be copied from the overview page; however, there is no tag specified. To see the available versions, select the tags tab at the top of the page. You will need to supply the tag of the version you want following a colon at the end of your docker pull command to get a specific version.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker pull biocontainers/vcftools:v0.1.14_cv2
+</pre></div>
+</div>
+<p>While DockerHub offers fewer BioContainers than the other registries it does offer some advantages for those who want to build their own BioContainers.</p>
+<ul class="simple">
+<li><p>The first image in the  search results for ‘biocontainers’ is the ‘biocontainers base image’. This image can be built upon if you wish to build your own BioContainers.</p></li>
+<li><p>Dockerfiles are available for these containers so you can see exactly how they were built.</p></li>
+</ul>
+<p>For more information on building your own BioContainer see <a class="reference internal" href="#how-to-build-a-biocontainer">How to build a BioContainer</a> section below.</p>
+</div>
+</div>
+<div class="section" id="how-to-request-a-biocontainer">
+<span id="request"></span><h2>How to Request a BioContainer<a class="headerlink" href="#how-to-request-a-biocontainer" title="Permalink to this headline">¶</a></h2>
+<p>If the tool you want isn’t available as a BioContainer you can request that one be built for you.
+Users can request a container by opening an issue in the <a class="reference external" href="http://github.com/BioContainers/containers/issues">containers repository</a></p>
+<p><a class="reference internal" href="../_images/biocontainers18.png"><img alt="requestcontainer" src="../_images/biocontainers18.png" style="width: 750px;" /></a></p>
+<p>The issue should contain:</p>
+<ul class="simple">
+<li><p>the name of the software</p></li>
+<li><p>the url of the code or binary to be packaged</p></li>
+<li><p>information about the software</p></li>
+<li><p>tag the issue with the ‘Container Request’ label</p></li>
+</ul>
+<p>When the container is deployed and fully functional, the issue will be closed by the developer or the contributor to BioContainers. When a container is deployed and the developer closes the issue in GitHub the user receives a notification that the container is ready.You can the find your container at Quay.io and use the ‘docker pull’ command to run it as you would any other container.</p>
+</div>
+<div class="section" id="how-to-use-a-biocontainer">
+<h2>How to Use a BioContainer<a class="headerlink" href="#how-to-use-a-biocontainer" title="Permalink to this headline">¶</a></h2>
+<p>To run your BioContainer you will need a computer with Docker installed.</p>
+<div class="section" id="how-to-install-docker">
+<h3>How to Install Docker<a class="headerlink" href="#how-to-install-docker" title="Permalink to this headline">¶</a></h3>
+<p>Installing Docker on your computer takes a little time but it is reasonably straight forward and it is a one-time setup. <a class="reference external" href="https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/docker/dockerintro.html">Docker can be installed by following these directions.</a></p>
+<p>Docker installation is much easier on an Atmosphere instance with the ‘ezd’ command.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ ezd
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-data-to-use-with-your-container">
+<h3>Get Data to Use with Your Container<a class="headerlink" href="#get-data-to-use-with-your-container" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://learning.cyverse.org/projects/atmosphere-guide/en/latest/step4.html">Set up iCommands.</a></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ iget /iplant/home/shared/iplantcollaborative/example_data/porechop/SRR6059710.fastq
+$ mv SRR6059710.fastq Desktop
+$ <span class="nb">cd</span> Desktop
+</pre></div>
+</div>
+</div>
+<div class="section" id="use-docker-pull-to-get-the-image">
+<h3>Use ‘docker pull’ to Get the Image<a class="headerlink" href="#use-docker-pull-to-get-the-image" title="Permalink to this headline">¶</a></h3>
+<p>First, you will need to pull the image from the registry onto your computer. Use the ‘docker pull’ command you copied from the registry above (<a class="reference internal" href="#where-to-get-a-biocontainer">Where to Get a BioContainer</a>).</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker pull quay.io/biocontainers/porechop:0.2.3_seqan2.1.1--py36h2d50403_3
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are working on a system for which you don’t have root permissions you will need to use ‘sudo’ and provide your password. Like this:</p>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo docker pull quay.io/biocontainers/porechop:0.2.3_seqan2.1.1--py36h2d50403_3
+</pre></div>
+</div>
+<p><a class="reference internal" href="../_images/biocontainers11.png"><img alt="pullquayio" src="../_images/biocontainers11.png" style="width: 750px;" /></a></p>
+</div>
+<div class="section" id="use-the-docker-run-command-to-run-the-container">
+<h3>Use the ‘docker run’ Command to Run the Container<a class="headerlink" href="#use-the-docker-run-command-to-run-the-container" title="Permalink to this headline">¶</a></h3>
+<p>The easiest way to test that the container will run is to run the help command for the tool. In this case ‘-h’ is the help command.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo docker run --rm -v <span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>:/working-dir -w /working-dir --entrypoint<span class="o">=</span><span class="s2">&quot;porechop&quot;</span> quay.io/biocontainers/porechop:0.2.3_seqan2.1.1--py36h2d50403_3 -h
+</pre></div>
+</div>
+<p>From the result we are able to see the only required option is ‘-i INPUT’. Options in [square brackets] are not required.</p>
+<p>Now we can run the container with our data file to see the output.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo docker run --rm -v <span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>:/working-dir -w /working-dir --entrypoint<span class="o">=</span><span class="s2">&quot;porechop&quot;</span> quay.io/biocontainers/porechop:0.2.3_seqan2.1.1--py36h2d50403_3 -i SRR6059710.fastq -o porechop_output.fastq
+</pre></div>
+</div>
+<p>We can break the command down into pieces so it is easier to read (the backslash represents where we have broken the line).</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo <span class="se">\</span>
+docker run <span class="se">\</span>
+--rm <span class="se">\</span>
+-v <span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>:/working-dir <span class="se">\</span>
+-w /working-dir <span class="se">\</span>
+--entrypoint<span class="o">=</span><span class="s2">&quot;porechop&quot;</span> <span class="se">\</span>
+quay.io/biocontainers/porechop:0.2.3_seqan2.1.1--py36h2d50403_3 <span class="se">\</span>
+-i SRR6059710.fastq <span class="se">\</span>
+-o porechop_out.fastq
+</pre></div>
+</div>
+</div>
+<div class="section" id="what-it-all-means">
+<h3>What it All Means<a class="headerlink" href="#what-it-all-means" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>‘sudo’ allows you to run the container with ‘root’ permissions–only required if you don’t have root permissions on your machine</p></li>
+<li><p>‘docker run’ tells docker to run the container</p></li>
+<li><p>‘–rm’ removes the container (not the image) from your system when the analysis is complete</p></li>
+<li><p>‘-v’ mounts a <em>local</em> directory into a directory <em>within the container</em></p></li>
+<li><p>‘-w’ specifies the working directory within the container</p></li>
+<li><p>‘–entrypoint’ tells the container what to do (usually the name of the tool; the command you would use to run the tool on the command line)</p></li>
+<li><p>‘quay.io/biocontainers/porechop:0.2.3_seqan2.1.1–py36h2d50403_3’ is the name of the image we pulled from Quay.io</p></li>
+<li><p>‘-i’ is the argument for the input file (FASTQ) for Porechop</p></li>
+<li><p>‘-o’ is the arguemnt for the output file (trimmed FASTQ) for Porechop</p></li>
+</ul>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>You must supply an entrypoint on the command line when you run a BioContainer. It is possible to build entrypoints into a container but that is not he case with BioContainers.</p>
+</div>
+<p><a class="reference internal" href="../_images/biocontainers6.png"><img alt="porechoprun" src="../_images/biocontainers6.png" style="width: 750px;" /></a>
+<a class="reference internal" href="../_images/biocontainers1.png"><img alt="porechoptrim" src="../_images/biocontainers1.png" style="width: 750px;" /></a>
+<a class="reference internal" href="../_images/biocontainers2.png"><img alt="porechopdone" src="../_images/biocontainers2.png" style="width: 750px;" /></a></p>
+<p>The output from Porechop is saved into the working directory within the container. We ran the container we mounted our current <em>local</em> working directory into the working directory <em>within the container</em>. The analysis has finished, the container has been removed (remember –rm) and now we should find our outputs in our <em>local</em> current working directory.</p>
+<p>List the files:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ ls -l
+</pre></div>
+</div>
+<p><a class="reference internal" href="../_images/biocontainers12.png"><img alt="porechopout" src="../_images/biocontainers12.png" style="width: 750px;" /></a></p>
+<p>You can see the ‘porechop_out.fastq’ file is in our current working directory. Notice that the this file is owned by ‘root’. This is because Docker containers always run as ‘root’.</p>
+<p>At this point you can run your container on any system with Docker installed. To use this container on an HPC system you will need to use Singularity (rather than Docker) to run your container. For more information about running Docker containers with Singularity see the <a class="reference external" href="https://singularity.lbl.gov/quickstart">Singularity documentation</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Reporting a problem with a container:
+If you find a problem with a BioContainer an issue should be opened in the <a class="reference external" href="http://github.com/BioContainers/containers/issues">containers repository</a>, you should use the ‘broken’ tag (see tags). Developers of the project will pick-up the issue and deploy a new version of the container. A message will be delivered when the container has been fixed.</p>
+</div>
+</div>
+</div>
+<div class="section" id="how-to-build-a-biocontainer">
+<span id="buildbiocontainer"></span><h2>How to Build a BioContainer<a class="headerlink" href="#how-to-build-a-biocontainer" title="Permalink to this headline">¶</a></h2>
+<p>For more information on building Bioconda BioContainers see the <a class="reference external" href="https://bioconda.github.io/contributing.html">Bioconda docmentation</a></p>
+<p>For more information on building Docker BioContainers see <a class="reference external" href="https://github.com/BioContainers/specs#33-how-to-create-a-docker-based-biocontainer">BioContainers contribution guidelines</a>.</p>
+</div>
+<div class="section" id="useful-links">
+<h2>Useful Links<a class="headerlink" href="#useful-links" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://biocontainers.pro/#/">BioContainers</a></p></li>
+<li><p><a class="reference external" href="https://bioconda.github.io/">Bioconda</a></p></li>
+<li><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes">Bioconda GitHub</a></p></li>
+<li><p><a class="reference external" href="https://quay.io/organization/biocontainers">Quay.io BioContainers organization</a></p></li>
+<li><p><a class="reference external" href="https://biocontainers.pro/#/registry">BioContainers Registry</a></p></li>
+<li><p><a class="reference external" href="https://hub.docker.com/">DockerHub</a></p></li>
+<li><p><a class="reference external" href="http://github.com/BioContainers/containers/issues">Request a BioContainer</a></p></li>
+<li><p><a class="reference external" href="https://singularity.lbl.gov/quickstart">Singularity documentation</a></p></li>
+<li><p><a class="reference external" href="https://github.com/BioContainers/specs#33-how-to-create-a-docker-based-biocontainer">BioContainers contribution guidelines</a></p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Fix or improve this documentation:</strong></p>
+<ul class="simple">
+<li><p>On Github: <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/Containers/biocontainers.rst" target="blank">Github Repo Link</a></p></li>
+<li><p>Send feedback: <a class="reference external" href="mailto:Tutorials&#37;&#52;&#48;CyVerse&#46;org">Tutorials<span>&#64;</span>CyVerse<span>&#46;</span>org</a></p></li>
+</ul>
+<hr class="docutils" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="dockerintro.html" class="btn btn-neutral float-right" title="Introduction to Docker" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="dockeronatmo.html" class="btn btn-neutral float-left" title="Launching a Docker app on Atmosphere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, CyVerse
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

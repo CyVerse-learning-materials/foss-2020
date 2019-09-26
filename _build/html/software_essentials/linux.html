@@ -1,0 +1,336 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Basics of Linux &mdash; CyVerse Learning Institute Foundations of Open Science Skills 2019 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="../_static/cyverse.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/cyverse.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Command Line and the Unix Shell" href="commandline.html" />
+    <link rel="prev" title="Atmosphere" href="../CyVerse/atmo.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> CyVerse Learning Institute Foundations of Open Science Skills 2019
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">FOSS 2020 Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Before you Arrive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../before/main.html"><strong>Before you arrive</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/installation.html"><strong>Pre-Workshop Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/about_cyverse.html"><strong>About CyVerse</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/intro.html"><strong>FOSS 2020 Introduction</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/code_of_conduct.html"><strong>Code of Conduct</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/agenda.html"><strong>Agenda</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/open_sci_lab.html"><strong>Open Science Lab</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/colab_culture.html"><strong>Collaboration Culture and Roles</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/glossary.html"><strong>Glossary &amp; Acronyms</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">CyVerse</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/intro_to_cyverse.html"><strong>Introduction to CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/data_store.html"><strong>CyVerse Data Store</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de.html"><strong>Discovery Environment</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de-data-manage.html"><strong>Discovery Environment - Data Management</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de-data-analysis.html"><strong>Discovery Environment - Data Analysis</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/vice.html"><strong>VICE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/tool_integration_app_building_DE.html"><strong>Tool Integration into the DE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/workflow.html"><strong>Creating Workflows</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/atmo.html"><strong>Atmosphere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Software Essentials</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>Basics of Linux</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#common-linux-operating-systems"><em>Common Linux Operating Systems</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installing-linux"><em>Installing Linux</em></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#desktop-based-distributions"><em>Desktop-based Distributions</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#windows-subsystem-for-linux"><em>Windows Subsystem for Linux</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#windows-linux-dual-boot"><em>Windows Linux Dual boot</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#package-managers"><em>Package Managers</em></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#self-paced"><em>Self Paced</em></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="commandline.html"><strong>Command Line and the Unix Shell</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="version_control.html"><strong>Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="communication.html"><strong>Lab Group Communication</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="websites.html"><strong>Websites &amp; Documentation</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="R_Studio.html"><strong>Introduction to R &amp; RStudio</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="RStudio_Git.html"><strong>RStudio with Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuous_integration.html"><strong>Continuous Integration</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Data Management</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/overview.html"><strong>Data Management Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/FAIR.html"><strong>FAIR Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/dmp.html"><strong>Data Management Plans (DMP)</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Moving On</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/xsede.html"><strong>Research Cyberinfrastructure associated with CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/cyberinfrastructure.html"><strong>Other Cyberinfrastructure Projects</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Containers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockeronatmo.html">Launching a Docker app on Atmosphere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/biocontainers.html"><strong>Introduction to BioContainers</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockerintro.html"><strong>Introduction to Docker</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockeradvanced.html"><strong>Advanced Docker</strong></a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CyVerse Learning Institute Foundations of Open Science Skills 2019</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li><strong>Basics of Linux</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/software_essentials/linux.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p><a class="reference external" href="http://learning.cyverse.org/"><img alt="CyVerse_logo2" src="../_images/cyverse_cmyk6.png" style="width: 500px; height: 100px;" /></a></p>
+<p><a class="reference external" href="http://learning.cyverse.org/"><img alt="Home_Icon2" src="../_images/homeicon6.png" style="width: 25px; height: 25px;" /></a>
+<a class="reference external" href="http://learning.cyverse.org/">Learning Center Home</a></p>
+<div class="section" id="basics-of-linux">
+<h1><strong>Basics of Linux</strong><a class="headerlink" href="#basics-of-linux" title="Permalink to this headline">¶</a></h1>
+<p>Modern web, cloud, high performance computing, and most data science applications are run on operating systems (OS) other than Microsoft Windows. To do data intensive science, you need a familiarity with <a class="reference external" href="https://www.linux.org/">Linux</a>. We’ve scheduled several sections during FOSS for working on Linux Systems, including on the <a class="reference external" href="https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/software_essentials/commandline.html">Command Line Interface (CLI) and Unix Shell</a>, and using <a class="reference external" href="https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/CyVerse/atmo.html">CyVerse’ Atmosphere Cloud</a>, which runs Linux OS virtual machines.</p>
+<p>The good news comes in two parts. First, whether you know it or not, you <strong>probably</strong> already use Linux or a platform based on Linux, on a daily basis. <em>Do you have an Android or iOS phone?</em> If you own a <a class="reference external" href="https://itsfoss.com/mac-linux-difference/">Mac OS X</a> device, you already enjoy many of the benefits of a Linux-like OS, including access to a terminal. Second, the Linux experience has generally be described as <a class="reference external" href="https://www.wired.com/2016/01/i-moved-to-linux-and-its-even-better-than-i-expected/">satisfying</a>, and many users report moving on from Windows OS to Linux comes <a class="reference external" href="https://codingstartups.com/moved-windows-linux-lessons-learned/">without regret</a>.</p>
+<p>Over <a class="reference external" href="https://en.wikipedia.org/wiki/Usage_share_of_operating_systems">87%</a> of the personal computer market still relies on the popular Microsoft OS. However, the landscape changes completely for mobile apps (99% Linux or Linux-like [Android, iOS], &lt;0.1% Windows), web (66% Linux, 32%  Windows), and cloud or HPC (100% Linux). Microsoft is acutely aware of this disparity, and is actively working to integrate Linux into their OS, including their <a class="reference external" href="https://www.theverge.com/2018/6/18/17474284/microsoft-github-acquisition-developer-reaction">acquisition of GitHub</a>, and release of <a class="reference external" href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">Windows Subsystem for Linux (WSL)</a>.</p>
+<div class="section" id="common-linux-operating-systems">
+<h2><em>Common Linux Operating Systems</em><a class="headerlink" href="#common-linux-operating-systems" title="Permalink to this headline">¶</a></h2>
+<p>The most common operating systems you’ll see used for data science are:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://alpinelinux.org/">Alpine</a> - small and lightweight, useful in container applications</p></li>
+<li><p><a class="reference external" href="https://www.centos.org/">CentOS</a> - stable, reliable, most commonly used on web and cloud servers</p></li>
+<li><p><a class="reference external" href="https://www.debian.org/">Debian</a> - lightweight, utilitarian, stable</p></li>
+<li><p><a class="reference external" href="https://www.ubuntu.com/">Ubuntu</a> - utilitarian, user friendly, most popular distribution, based on Debian</p></li>
+</ul>
+<p>Enterprise Distributions:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.redhat.com/en">Red Hat</a> - based on open source software, you pay for customer support</p></li>
+</ul>
+</div>
+<div class="section" id="installing-linux">
+<h2><em>Installing Linux</em><a class="headerlink" href="#installing-linux" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="desktop-based-distributions">
+<h3><em>Desktop-based Distributions</em><a class="headerlink" href="#desktop-based-distributions" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop">Ubuntu</a></p></li>
+<li><p><a class="reference external" href="https://www.debian.org/releases/stable/installmanual">Debian</a></p></li>
+<li><p><a class="reference external" href="https://linuxmint-installation-guide.readthedocs.io/en/latest/">Mint</a> - “modern, elegant and comfortable operating system which is both powerful and easy to use.”</p></li>
+<li><p><a class="reference external" href="https://www.opensuse.org/">OpenSUSE</a> - “The makers’ choice for sysadmins, developers and desktop users.”</p></li>
+</ul>
+</div>
+<div class="section" id="windows-subsystem-for-linux">
+<h3><em>Windows Subsystem for Linux</em><a class="headerlink" href="#windows-subsystem-for-linux" title="Permalink to this headline">¶</a></h3>
+<p>The so-called “WSL” is a complete linux subsystem that runs under Windows 10. Microsoft recently announced <a class="reference external" href="https://devblogs.microsoft.com/commandline/announcing-wsl-2/">WSL 2.0</a>.</p>
+</div>
+<div class="section" id="windows-linux-dual-boot">
+<h3><em>Windows Linux Dual boot</em><a class="headerlink" href="#windows-linux-dual-boot" title="Permalink to this headline">¶</a></h3>
+<p>Not ready to take the Linux plunge yet? Why not set up a Windows-Linux dual boot?</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.lifewire.com/ultimate-windows-8-1-ubuntu-dual-boot-guide-2200654">Ubuntu</a></p></li>
+<li><p><a class="reference external" href="https://itsfoss.com/guide-install-linux-mint-16-dual-boot-windows/">Mint</a></p></li>
+</ul>
+</div>
+<div class="section" id="package-managers">
+<h3><em>Package Managers</em><a class="headerlink" href="#package-managers" title="Permalink to this headline">¶</a></h3>
+<p>Linux uses <a class="reference external" href="https://en.wikipedia.org/wiki/Package_manager">package management</a> services to install programs. If you’re a R user, this should seem familiar.</p>
+<p>Packages can be installed on the command line, or in graphic UI.</p>
+</div>
+</div>
+<div class="section" id="self-paced">
+<h2><em>Self Paced</em><a class="headerlink" href="#self-paced" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://itsfoss.com/best-linux-beginners/">Best Linux Distributions for Beginners</a></p>
+<p><a class="reference external" href="https://www.lifewire.com/beginners-guide-to-linux-4090233">Beginners Guide to Linux</a></p>
+<p><strong>Fix or improve this documentation:</strong></p>
+<ul class="simple">
+<li><p>On Github: <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/software_essentials/websites.rst" target="blank">Github Repo Link</a></p></li>
+<li><p>Send feedback: <a class="reference external" href="mailto:Tutorials&#37;&#52;&#48;CyVerse&#46;org">Tutorials<span>&#64;</span>CyVerse<span>&#46;</span>org</a></p></li>
+</ul>
+<hr class="docutils" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="commandline.html" class="btn btn-neutral float-right" title="Command Line and the Unix Shell" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../CyVerse/atmo.html" class="btn btn-neutral float-left" title="Atmosphere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, CyVerse
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

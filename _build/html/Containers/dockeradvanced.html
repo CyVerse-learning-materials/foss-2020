@@ -1,0 +1,990 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Advanced Docker &mdash; CyVerse Learning Institute Foundations of Open Science Skills 2019 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="../_static/cyverse.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/cyverse.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Introduction to Docker" href="dockerintro.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> CyVerse Learning Institute Foundations of Open Science Skills 2019
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">FOSS 2020 Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Before you Arrive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../before/main.html"><strong>Before you arrive</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/installation.html"><strong>Pre-Workshop Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/about_cyverse.html"><strong>About CyVerse</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/intro.html"><strong>FOSS 2020 Introduction</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/code_of_conduct.html"><strong>Code of Conduct</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/agenda.html"><strong>Agenda</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/open_sci_lab.html"><strong>Open Science Lab</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/colab_culture.html"><strong>Collaboration Culture and Roles</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/glossary.html"><strong>Glossary &amp; Acronyms</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">CyVerse</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/intro_to_cyverse.html"><strong>Introduction to CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/data_store.html"><strong>CyVerse Data Store</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de.html"><strong>Discovery Environment</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de-data-manage.html"><strong>Discovery Environment - Data Management</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de-data-analysis.html"><strong>Discovery Environment - Data Analysis</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/vice.html"><strong>VICE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/tool_integration_app_building_DE.html"><strong>Tool Integration into the DE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/workflow.html"><strong>Creating Workflows</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/atmo.html"><strong>Atmosphere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Software Essentials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/linux.html"><strong>Basics of Linux</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/commandline.html"><strong>Command Line and the Unix Shell</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/version_control.html"><strong>Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/communication.html"><strong>Lab Group Communication</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/websites.html"><strong>Websites &amp; Documentation</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/R_Studio.html"><strong>Introduction to R &amp; RStudio</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/RStudio_Git.html"><strong>RStudio with Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/continuous_integration.html"><strong>Continuous Integration</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Data Management</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/overview.html"><strong>Data Management Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/FAIR.html"><strong>FAIR Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/dmp.html"><strong>Data Management Plans (DMP)</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Moving On</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/xsede.html"><strong>Research Cyberinfrastructure associated with CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/cyberinfrastructure.html"><strong>Other Cyberinfrastructure Projects</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Containers</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="dockeronatmo.html">Launching a Docker app on Atmosphere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biocontainers.html"><strong>Introduction to BioContainers</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="dockerintro.html"><strong>Introduction to Docker</strong></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>Advanced Docker</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#docker-registries">1. Docker Registries</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#popular-registries">1.1 Popular Registries</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#log-into-a-registry-with-your-docker-id">1.1.1 Log into a Registry with your Docker ID</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tagging-images">1.1.2 Tagging images</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#publish-the-image">1.1.3 Publish the image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pull-and-run-the-image-from-the-remote-repository">1.1.4 Pull and run the image from the remote repository</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#private-repositories">1.2 Private repositories</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pull-down-the-registry-image">1.2.1 Pull down the Registry Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tag-the-image-that-you-want-to-push">1.2.2 Tag the image that you want to push</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#publish-the-image-into-the-local-registry">1.2.2 Publish the image into the local registry</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pull-and-run-the-image-from-the-local-repository">1.2.3 Pull and run the image from the local repository</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#automated-docker-image-building-from-github">2. Automated Docker image building from GitHub</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#prerequisites">2.1 Prerequisites</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#link-your-docker-hub-account-to-github">2.2 Link your Docker Hub account to GitHub</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#automated-container-builds">2.3 Automated Container Builds</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#exercise-1-5-10-mins-updating-and-automated-building">Exercise 1 (5-10 mins): Updating and automated building</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#managing-data-in-docker">3. Managing Data in Docker</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#volumes">3.1 Volumes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#choose-the-v-or-mount-flag-for-mounting-volumes">3.1.1 Choose the -v or –mount flag for mounting volumes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#bind-mounts">3.2 Bind mounts</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#create-and-manage-volumes">3.3 Create and manage volumes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#populate-a-volume-using-a-container">3.3.1 Populate a volume using a container</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">3.4 Bind mounts</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#start-a-container-with-a-bind-mount">3.2.1 Start a container with a bind mount</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#use-a-read-only-bind-mount">3.4.1 Use a read-only bind mount</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#tmpfs-mounts">3.3 tmpfs Mounts</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#docker-compose-for-multi-container-apps">4. Docker Compose for multi-container apps</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CyVerse Learning Institute Foundations of Open Science Skills 2019</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li><strong>Advanced Docker</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Containers/dockeradvanced.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="advanced-docker">
+<h1><strong>Advanced Docker</strong><a class="headerlink" href="#advanced-docker" title="Permalink to this headline">¶</a></h1>
+<p>Now that we are <em>relatively</em> comfortable with Docker, lets look at some advanced Docker topics, such as:</p>
+<ul class="simple">
+<li><p>Registry</p></li>
+<li><p>Porting a Docker image to a Registry &amp; Repository (public and private)</p></li>
+<li><p>Managing data within containers</p></li>
+<li><p>Deploying containers on cloud services</p></li>
+</ul>
+<div class="section" id="docker-registries">
+<h2>1. Docker Registries<a class="headerlink" href="#docker-registries" title="Permalink to this headline">¶</a></h2>
+<p>To demonstrate the portability of what we just created, let’s upload our built Docker image to a Docker Registry and then run it somewhere else (i.e. <a class="reference external" href="https://atmo.cyverse.org">CyVerse Atmosphere</a>).</p>
+<p>In this exercise, you’ll learn how to push built containers to registries, pull those containers from registries, and run those containers on remote hosts (virtual machines).</p>
+<p>This will benefit you when you want to deploy new containers to production environments where testing is not possible.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>So what <em>EXACTLY</em> is a <strong>Registry</strong>?</p>
+<p>A registry is a collection of Repositories, and a Repository is a collection of Images. A Docker Registry is sort of like a GitHub Repository, except the code is already compiled, in this case, into a container. You must have an account on a registry. You can create many repositories. The Docker CLI uses Docker’s public registry by default. You can even set up your own private registry using Docker Trusted Registry</p>
+</div>
+<p>There are several things you can do with Docker registries:</p>
+<ul class="simple">
+<li><p>Push images</p></li>
+<li><p>Find images</p></li>
+<li><p>Pull images</p></li>
+<li><p>Share images</p></li>
+</ul>
+<div class="section" id="popular-registries">
+<h3>1.1 Popular Registries<a class="headerlink" href="#popular-registries" title="Permalink to this headline">¶</a></h3>
+<p>Some examples of public/private registries to consider for your research needs:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://cloud.docker.com/">Docker Cloud</a></p></li>
+<li><p><a class="reference external" href="https://hub.docker.com/">Docker Hub</a></p></li>
+<li><p><a class="reference external" href="https://docs.docker.com/ee/dtr/">Docker Trusted Registry</a></p></li>
+<li><p><a class="reference external" href="https://aws.amazon.com/ecr/">Amazon Elastic Container Registry</a></p></li>
+<li><p><a class="reference external" href="https://aws.amazon.com/ecr/">Google Container Registry</a></p></li>
+<li><p><a class="reference external" href="https://azure.microsoft.com/en-us/services/container-registry/">Azure Container Registry</a></p></li>
+<li><p><a class="reference external" href="https://ngc.nvidia.com/catalog/containers">NVIDIA GPU Cloud</a></p></li>
+<li><p><a class="reference external" href="https://private-docker-registry.com/">Private Docker Registry</a> - not official Docker</p></li>
+<li><p><a class="reference external" href="https://docs.gitlab.com/ce/administration/container_registry.html">Gitlab Container Registry</a></p></li>
+<li><p><a class="reference external" href="https://quay.io/">CoreOS Quay</a></p></li>
+<li><p><a class="reference external" href="https://treescale.com/">TreeScale</a></p></li>
+<li><p><a class="reference external" href="https://www.canister.io/">Canister</a></p></li>
+</ul>
+<div class="section" id="log-into-a-registry-with-your-docker-id">
+<h4>1.1.1 Log into a Registry with your Docker ID<a class="headerlink" href="#log-into-a-registry-with-your-docker-id" title="Permalink to this headline">¶</a></h4>
+<p>Now that you’ve created and tested your image, you can push it to Docker cloud or Docker hub.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you don’t have an account, sign up for one at <a class="reference external" href="https://cloud.docker.com/">Docker Cloud</a> or <a class="reference external" href="https://hub.docker.com/">Docker Hub</a>. Make note of your username. There are several advantages of registering to DockerHub which we will see later on in the session</p>
+</div>
+<p>First, you have to login to your Docker Hub account.</p>
+<p>If you want to authenticate to a different Registry, type the name of the registry after <code class="docutils literal notranslate"><span class="pre">login</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker login &lt;registry-name&gt;
+Authenticating with existing credentials...
+WARNING! Your password will be stored unencrypted in /home/tswetnam/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+</pre></div>
+</div>
+<p>If it is your first time logging in you will be queried for your <code class="docutils literal notranslate"><span class="pre">username</span></code> and <code class="docutils literal notranslate"><span class="pre">password</span></code>.</p>
+<p>Login with your Docker ID to push and pull images from Docker Hub or private registry.</p>
+<p>If you don’t have a Docker ID, head over to <a class="reference external" href="https://hub.docker.com">https://hub.docker.com</a> to create one.</p>
+</div>
+<div class="section" id="tagging-images">
+<h4>1.1.2 Tagging images<a class="headerlink" href="#tagging-images" title="Permalink to this headline">¶</a></h4>
+<p>The notation for associating a local image with a repository on a registry is <code class="docutils literal notranslate"><span class="pre">username/repository:tag</span></code>. The tag is optional, but recommended, since it is the mechanism that registries use to give Docker images a version. Give the repository and tag meaningful names for the context, such as <code class="docutils literal notranslate"><span class="pre">get-started:part2</span></code>. This will put the image in the <code class="docutils literal notranslate"><span class="pre">get-started</span></code> repository and tag it as <code class="docutils literal notranslate"><span class="pre">part2</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>By default the docker image gets a <code class="docutils literal notranslate"><span class="pre">latest</span></code> tag if you don’t provide one. Thought convenient, it is not recommended for reproducibility purposes.</p>
+</div>
+<p>Now, put it all together to tag the image. Run docker tag image with your username, repository, and tag names so that the image will upload to your desired destination. For our docker image since we already have our Dockerhub username we will just add tag which in this case is <code class="docutils literal notranslate"><span class="pre">1.0</span></code></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker tag username/appname:latest username/appname:1.0
+</pre></div>
+</div>
+</div>
+<div class="section" id="publish-the-image">
+<h4>1.1.3 Publish the image<a class="headerlink" href="#publish-the-image" title="Permalink to this headline">¶</a></h4>
+<p>Upload your tagged image to the Dockerhub repository</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker push username/appname:1.0
+</pre></div>
+</div>
+<p>Once complete, the results of this upload are publicly available. If you log in to Docker Hub, you will see the new image there, with its pull command.</p>
+<p><a class="reference internal" href="../_images/docker_image.png"><img alt="docker_image" src="../_images/docker_image.png" style="width: 500px;" /></a></p>
+<p>Congrats! You just made your first Docker image and shared it with the world!</p>
+</div>
+<div class="section" id="pull-and-run-the-image-from-the-remote-repository">
+<h4>1.1.4 Pull and run the image from the remote repository<a class="headerlink" href="#pull-and-run-the-image-from-the-remote-repository" title="Permalink to this headline">¶</a></h4>
+<p>Let’s try to run the image from the remote repository on Cloud server by logging into CyVerse Atmosphere, <a class="reference external" href="../atmosphere/boot.html">launching an instance</a></p>
+<p>First install Docker on Atmosphere using from here <code class="docutils literal notranslate"><span class="pre">https://docs.docker.com/install/linux/docker-ce/ubuntu</span></code> or alternatively you can use <code class="docutils literal notranslate"><span class="pre">ezd</span></code> command which is a short-cut command for installing Docker on Atmosphere</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ ezd
+</pre></div>
+</div>
+<p>Now run the following command to run the docker image from Dockerhub</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo docker run -d -p <span class="m">8888</span>:8888 --name jupyter username/jupyter:1.0
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You don’t have to run <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">pull</span></code> since if the image isn’t available locally on the machine, Docker will pull it from the repository.</p>
+</div>
+<p>Head over to <code class="docutils literal notranslate"><span class="pre">http://&lt;vm-address&gt;:8888</span></code> and your app should be live.</p>
+</div>
+</div>
+<div class="section" id="private-repositories">
+<h3>1.2 Private repositories<a class="headerlink" href="#private-repositories" title="Permalink to this headline">¶</a></h3>
+<p>In an earlier part, we had looked at the Docker Hub, which is a public registry that is hosted by Docker. While the Dockerhub plays an important role in giving public visibility to your Docker images and for you to utilize quality Docker images put up by others, there is a clear need to setup your own private registry too for your team/organization. For example, CyVerse has it own private registry which will be used to push the Docker images.</p>
+<div class="section" id="pull-down-the-registry-image">
+<h4>1.2.1 Pull down the Registry Image<a class="headerlink" href="#pull-down-the-registry-image" title="Permalink to this headline">¶</a></h4>
+<p>You might have guessed by now that the registry must be available as a Docker image from the Docker Hub and it should be as simple as pulling the image down and running that. You are correct!</p>
+<p>A Dockerhub search on the keyword <code class="docutils literal notranslate"><span class="pre">registry</span></code> brings up the following image as the top result:</p>
+<p><a class="reference internal" href="../_images/private_registry.png"><img alt="private_registry" src="../_images/private_registry.png" style="width: 500px;" /></a></p>
+<p>Run a container from <code class="docutils literal notranslate"><span class="pre">registry</span></code> Dockerhub image</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker run -d -p <span class="m">5000</span>:5000 --name registry registry:2
+</pre></div>
+</div>
+<p>Run <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">ps</span> <span class="pre">-l</span></code> to check the recent container from this Docker image</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker ps -l
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+6e44a0459373        registry:2          <span class="s2">&quot;/entrypoint.sh /e...&quot;</span>   <span class="m">11</span> seconds ago      Up <span class="m">10</span> seconds       <span class="m">0</span>.0.0.0:5000-&gt;5000/tcp   registry
+</pre></div>
+</div>
+</div>
+<div class="section" id="tag-the-image-that-you-want-to-push">
+<h4>1.2.2 Tag the image that you want to push<a class="headerlink" href="#tag-the-image-that-you-want-to-push" title="Permalink to this headline">¶</a></h4>
+<p>Next step is to tag your image under the registry namespace and push it there</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nv">REGISTRY</span><span class="o">=</span>localhost:5000
+
+$ docker tag <span class="nv">$YOUR_DOCKERHUB_USERNAME</span>/myfirstapp:1.0 <span class="nv">$REGISTRY</span>/<span class="k">$(</span>whoami<span class="k">)</span>/myfirstapp:1.0
+</pre></div>
+</div>
+</div>
+<div class="section" id="publish-the-image-into-the-local-registry">
+<h4>1.2.2 Publish the image into the local registry<a class="headerlink" href="#publish-the-image-into-the-local-registry" title="Permalink to this headline">¶</a></h4>
+<p>Finally push the image to the local registry</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker push <span class="nv">$REGISTRY</span>/<span class="k">$(</span>whoami<span class="k">)</span>/myfirstapp:1.0
+The push refers to a repository <span class="o">[</span>localhost:5000/upendra_35/myfirstapp<span class="o">]</span>
+64436820c85c: Pushed
+831cff83ec9e: Pushed
+c3497b2669a8: Pushed
+1c5b16094682: Pushed
+c52044a91867: Pushed
+60ab55d3379d: Pushed
+<span class="m">1</span>.0: digest: sha256:5095dea8b2cf308c5866ef646a0e84d494a00ff0e9b2c8e8313a176424a230ce size: <span class="m">1572</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="pull-and-run-the-image-from-the-local-repository">
+<h4>1.2.3 Pull and run the image from the local repository<a class="headerlink" href="#pull-and-run-the-image-from-the-local-repository" title="Permalink to this headline">¶</a></h4>
+<p>You can also pull the image from the local repository similar to how you pull it from Dockerhub and run a container from it</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker run -d -P --name<span class="o">=</span>myfirstapplocal <span class="nv">$REGISTRY</span>/<span class="k">$(</span>whoami<span class="k">)</span>/myfirstapp:1.0
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="automated-docker-image-building-from-github">
+<h2>2. Automated Docker image building from GitHub<a class="headerlink" href="#automated-docker-image-building-from-github" title="Permalink to this headline">¶</a></h2>
+<p>An automated build is a Docker image build that is triggered by a code change in a GitHub or Bitbucket repository. By linking a remote code repository to a Dockerhub automated build repository, you can build a new Docker image every time a code change is pushed to your code repository.</p>
+<p>A build context is a Dockerfile and any files at a specific location. For an automated build, the build context is a repository containing a Dockerfile.</p>
+<p>Automated Builds have several advantages:</p>
+<ul class="simple">
+<li><p>Images built in this way are built exactly as specified.</p></li>
+<li><p>The Dockerfile is available to anyone with access to your Docker Hub repository.</p></li>
+<li><p>Your repository is kept up-to-date with code changes automatically.</p></li>
+<li><p>Automated Builds are supported for both public and private repositories on both GitHub and Bitbucket.</p></li>
+</ul>
+<div class="section" id="prerequisites">
+<h3>2.1 Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h3>
+<p>To use automated builds, you first must have an account on <a class="reference external" href="https://hub.docker.com">Docker Hub</a> and on the hosted repository provider (<a class="reference external" href="https://github.com/">GitHub</a> or <a class="reference external" href="https://bitbucket.org/">Bitbucket</a>). While Docker Hub supports linking both GitHub and Bitbucket repositories, here we will use a GitHub repository. If you don’t already have one, make sure you have a GitHub account. A basic account is free</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>If you have previously linked your Github or Bitbucket account, you must have chosen the Public and Private connection type. To view your current connection settings, log in to Docker Hub and choose Profile &gt; Settings &gt; Linked Accounts &amp; Services.</p></li>
+<li><p>Building Windows containers is not supported.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="link-your-docker-hub-account-to-github">
+<h3>2.2 Link your Docker Hub account to GitHub<a class="headerlink" href="#link-your-docker-hub-account-to-github" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Log into Docker Hub.</p></li>
+<li><p>Click “Create Repository+”</p></li>
+</ol>
+<p><a class="reference internal" href="../_images/dockerhub_create.png"><img alt="dockerhub_create" src="../_images/dockerhub_create.png" style="width: 800px;" /></a></p>
+<ol class="arabic simple" start="3">
+<li><p>Click the Build Settings and select <code class="docutils literal notranslate"><span class="pre">GitHub</span></code>.</p></li>
+</ol>
+<p><a class="reference internal" href="../_images/dockerhub_createrepo.png"><img alt="dockerhub_createrepo" src="../_images/dockerhub_createrepo.png" style="width: 800px;" /></a></p>
+<p>The system prompts you to choose between <strong>Public and Private</strong> and <strong>Limited Access</strong>. The <strong>Public</strong> and <strong>Private</strong> connection type is required if you want to use the Automated Builds.</p>
+<ol class="arabic simple" start="4">
+<li><p>Press <code class="docutils literal notranslate"><span class="pre">Select</span></code> under <strong>Public and Private</strong> connection type.
+If you are not logged into GitHub, the system prompts you to enter GitHub credentials before prompting you to grant access. After you grant access to your code repository, the system returns you to Docker Hub and the link is complete.</p></li>
+</ol>
+<p><a class="reference internal" href="../_images/dockerhub_buildsettings.png"><img alt="dockerhub_buildsettings" src="../_images/dockerhub_buildsettings.png" style="width: 800px;" /></a></p>
+<p>After you grant access to your code repository, the system returns you to Docker Hub and the link is complete. For example, github linked hosted repository looks like this:</p>
+<p><a class="reference internal" href="../_images/dockerhub_autobuild.png"><img alt="dockerhub_autobuild" src="../_images/dockerhub_autobuild.png" style="width: 800px;" /></a></p>
+</div>
+<div class="section" id="automated-container-builds">
+<h3>2.3 Automated Container Builds<a class="headerlink" href="#automated-container-builds" title="Permalink to this headline">¶</a></h3>
+<p>Automated build repositories rely on the integration with a version control system (GitHub or Gitlab) where your <code class="docutils literal notranslate"><span class="pre">Dockerfile</span></code> is kept.</p>
+<p>Let’s create an automatic build for our container using the instructions below:</p>
+<ol class="arabic simple">
+<li><p>Initialize git repository for the <cite>jupyter</cite> directory you created for your <code class="docutils literal notranslate"><span class="pre">Dockerfile</span></code></p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git init
+Initialized empty Git repository in /home/username/github/repository_name/
+
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+<span class="o">(</span>use <span class="s2">&quot;git add &lt;file&gt;...&quot;</span> to include in what will be committed<span class="o">)</span>
+
+        Dockerfileg
+
+nothing added to commit but untracked files present <span class="o">(</span>use <span class="s2">&quot;git add&quot;</span> to track<span class="o">)</span>
+
+$ git add * <span class="o">&amp;&amp;</span> git commit -m<span class="s2">&quot;Add files and folders&quot;</span>
+<span class="o">[</span>master <span class="o">(</span>root-commit<span class="o">)</span> cfdf021<span class="o">]</span> Add files and folders
+ <span class="m">4</span> files changed, <span class="m">75</span> insertions<span class="o">(</span>+<span class="o">)</span>
+ create mode <span class="m">100644</span> Dockerfile
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Create a new repository on github by navigating to this url - <a class="reference external" href="https://github.com/new">https://github.com/new</a></p></li>
+</ol>
+<p><a class="reference internal" href="../_images/create_repo.png"><img alt="create_repo" src="../_images/create_repo.png" style="width: 500px;" /></a></p>
+<ol class="arabic simple" start="3">
+<li><p>Push the repository to github</p></li>
+</ol>
+<p><a class="reference internal" href="../_images/create_repo2.png"><img alt="create_repo2" src="../_images/create_repo2.png" style="width: 500px;" /></a></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git remote add origin https://github.com/username/jupyter.git
+
+$ git push -u origin master
+Counting objects: <span class="m">7</span>, <span class="k">done</span>.
+Delta compression using up to <span class="m">8</span> threads.
+Compressing objects: <span class="m">100</span>% <span class="o">(</span><span class="m">5</span>/5<span class="o">)</span>, <span class="k">done</span>.
+Writing objects: <span class="m">100</span>% <span class="o">(</span><span class="m">7</span>/7<span class="o">)</span>, <span class="m">1</span>.44 KiB <span class="p">|</span> <span class="m">0</span> bytes/s, <span class="k">done</span>.
+Total <span class="m">7</span> <span class="o">(</span>delta <span class="m">0</span><span class="o">)</span>, reused <span class="m">0</span> <span class="o">(</span>delta <span class="m">0</span><span class="o">)</span>
+To https://github.com/username/jupyter.git
+ * <span class="o">[</span>new branch<span class="o">]</span>      master -&gt; master
+Branch master <span class="nb">set</span> up to track remote branch master from origin.
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Select <code class="docutils literal notranslate"><span class="pre">Create</span></code> &gt; <code class="docutils literal notranslate"><span class="pre">Create</span> <span class="pre">Automated</span> <span class="pre">Build</span></code> from Docker Hub.</p></li>
+</ol>
+<ul class="simple">
+<li><p>The system prompts you with a list of User/Organizations and code repositories.</p></li>
+<li><p>For now select your GitHub account from the User/Organizations list on the left. The list of repositories change.</p></li>
+<li><p>Pick the project to build. In this case <code class="docutils literal notranslate"><span class="pre">jupyter</span></code>. Type in “Container Camp Jupyter” in the Short Description box.</p></li>
+<li><p>If you have a long list of repos, use the filter box above the list to restrict the list. After you select the project, the system displays the Create Automated Build dialog.</p></li>
+</ul>
+<p><a class="reference internal" href="../_images/dockerhub_autobuilds.png"><img alt="dockerhub_autobuilds" src="../_images/dockerhub_autobuilds.png" style="width: 800px;" /></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The dialog assumes some defaults which you can customize. By default, Docker builds images for each branch in your repository. It assumes the Dockerfile lives at the root of your source. When it builds an image, Docker tags it with the branch name.</p>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Customize the automated build by pressing the <code class="docutils literal notranslate"><span class="pre">Click</span> <span class="pre">here</span> <span class="pre">to</span> <span class="pre">customize</span></code> behavior link.</p></li>
+</ol>
+<p><a class="reference internal" href="../_images/auto_build-2.1.png"><img alt="auto_build-2.1" src="../_images/auto_build-2.1.png" style="width: 500px;" /></a></p>
+<p>Specify which code branches or tags to build from. You can build by a code branch or by an image tag. You can enter a specific value or use a regex to select multiple values. To see examples of regex, press the Show More link on the right of the page.</p>
+<ul class="simple">
+<li><p>Enter the <code class="docutils literal notranslate"><span class="pre">master</span></code> (default) for the name of the branch.</p></li>
+<li><p>Leave the Dockerfile location as is.</p></li>
+<li><p>Recall the file is in the root of your code repository.</p></li>
+<li><p>Specify <code class="docutils literal notranslate"><span class="pre">1.0</span></code> for the Tag Name.</p></li>
+</ul>
+<ol class="arabic simple" start="6">
+<li><p>Click <code class="docutils literal notranslate"><span class="pre">Create</span></code>.</p></li>
+</ol>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>During the build process, Docker copies the contents of your Dockerfile to Docker Hub. The Docker community (for public repositories) or approved team members/orgs (for private repositories) can then view the Dockerfile on your repository page.</p>
+<p>The build process looks for a README.md in the same directory as your Dockerfile. If you have a README.md file in your repository, it is used in the repository as the full description. If you change the full description after a build, it’s overwritten the next time the Automated Build runs. To make changes, modify the README.md in your Git repository.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You can only trigger one build at a time and no more than one every five minutes. If you already have a build pending, or if you recently submitted a build request, Docker ignores new requests.</p>
+</div>
+<p>It can take a few minutes for your automated build job to be created. When the system is finished, it places you in the detail page for your Automated Build repository.</p>
+<ol class="arabic simple" start="7">
+<li><p>Manually Trigger a Build</p></li>
+</ol>
+<p>Before you trigger an automated build by pushing to your GitHub <code class="docutils literal notranslate"><span class="pre">jupyter</span></code> repo, you’ll trigger a manual build. Triggering a manual build ensures everything is working correctly.</p>
+<p>From your automated build page choose <code class="docutils literal notranslate"><span class="pre">Build</span> <span class="pre">Settings</span></code></p>
+<p><a class="reference internal" href="../_images/auto_build-5.png"><img alt="auto_build-5" src="../_images/auto_build-5.png" style="width: 500px;" /></a></p>
+<p>Press <code class="docutils literal notranslate"><span class="pre">Trigger</span></code> button and finally click <code class="docutils literal notranslate"><span class="pre">Save</span> <span class="pre">Changes</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Docker builds everything listed whenever a push is made to the code repository. If you specify a particular branch or tag, you can manually build that image by pressing the Trigger. If you use a regular expression syntax (regex) to define your build branch or tag, Docker does not give you the option to manually build.</p>
+</div>
+<p><a class="reference internal" href="../_images/auto_build-6.png"><img alt="auto_build-6" src="../_images/auto_build-6.png" style="width: 500px;" /></a></p>
+<ol class="arabic simple" start="8">
+<li><p>Review the build results</p></li>
+</ol>
+<p>The Build Details page shows a log of your build systems:</p>
+<p>Navigate to the <code class="docutils literal notranslate"><span class="pre">Build</span> <span class="pre">Details</span></code> page.</p>
+<p>Wait until your image build is done.</p>
+<p>You may have to manually refresh the page and your build may take several minutes to complete.</p>
+<p><a class="reference internal" href="../_images/auto_build-7.png"><img alt="auto_build-7" src="../_images/auto_build-7.png" style="width: 500px;" /></a></p>
+</div>
+<div class="section" id="exercise-1-5-10-mins-updating-and-automated-building">
+<h3>Exercise 1 (5-10 mins): Updating and automated building<a class="headerlink" href="#exercise-1-5-10-mins-updating-and-automated-building" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span></code>, <code class="docutils literal notranslate"><span class="pre">commit</span></code> and <code class="docutils literal notranslate"><span class="pre">push</span></code> to your GitHub or Gitlab repo</p></li>
+<li><p>Trigger automatic build with a new tag (2.0) on Docker Hub</p></li>
+<li><p>Pull your Docker image from Docker Hub to a new location.</p></li>
+<li><p>Run the instance to make sure it works</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="managing-data-in-docker">
+<h2>3. Managing Data in Docker<a class="headerlink" href="#managing-data-in-docker" title="Permalink to this headline">¶</a></h2>
+<p>It is possible to store data within the writable layer of a container, but there are some limitations:</p>
+<ul class="simple">
+<li><p>The data doesn’t persist when that container is no longer running, and it can be difficult to get the data out of the container if another process needs it.</p></li>
+<li><p>A container’s writable layer is tightly coupled to the host machine where the container is running. You can’t easily move the data somewhere else.</p></li>
+<li><p>Its better to put your data into the container <strong>AFTER</strong> it is build - this keeps the container size smaller and easier to move across networks.</p></li>
+</ul>
+<p>Docker offers three different ways to mount data into a container from the Docker host:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>volumes</strong>,</p></li>
+<li><p><strong>bind mounts</strong>,</p></li>
+<li><p><strong>tmpfs volumes</strong>.</p></li>
+</ul>
+</div></blockquote>
+<p>When in doubt, volumes are almost always the right choice.</p>
+<div class="section" id="volumes">
+<h3>3.1 Volumes<a class="headerlink" href="#volumes" title="Permalink to this headline">¶</a></h3>
+<p><strong>Volumes</strong> are created and managed by Docker. You can create a new volume explicitly using the <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">volume</span> <span class="pre">create</span></code> command, or Docker can create a volume in the container when the container is built.</p>
+<p>When you run a container, you can bring a directory from the host system into the container, and give it a new name and location using the <code class="docutils literal notranslate"><span class="pre">-v</span></code> or <code class="docutils literal notranslate"><span class="pre">--volume</span></code> flag.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker run -v /home/username/your_data_folder:/data username/jupyter:latest
+</pre></div>
+</div>
+<p>In the example above, you can mount a folder from your localhost, in your home user directory into the container as a new directory named <code class="docutils literal notranslate"><span class="pre">/data</span></code>.</p>
+<p>When you create a Docker volume, it is stored within a directory on the Docker Linux host (<code class="docutils literal notranslate"><span class="pre">/var/lib/docker/</span></code></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>File location on Mac OS X is a bit different. <a href="#id5"><span class="problematic" id="id6">`see here&lt;https://timonweb.com/posts/getting-path-and-accessing-persistent-volumes-in-docker-for-mac/&gt;`_</span></a>.</p>
+</div>
+<p>A given volume can be mounted into multiple containers simultaneously. When no running container is using a volume, the volume is still available to Docker and is not removed automatically. You can remove unused volumes using <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">volume</span> <span class="pre">prune</span></code> command.</p>
+<p><a class="reference internal" href="../_images/volumes.png"><img alt="volumes" src="../_images/volumes.png" style="width: 500px;" /></a></p>
+<p>Volumes are often a better choice than persisting data in a container’s writable layer, because using a volume does not increase the size of containers using it, and the volume’s contents exist outside the lifecycle of a given container. While bind mounts (which we will see later) are dependent on the directory structure of the host machine, volumes are completely managed by Docker. Volumes have several advantages over bind mounts:</p>
+<ul class="simple">
+<li><p>Volumes are easier to back up or migrate than bind mounts.</p></li>
+<li><p>You can manage volumes using Docker CLI commands or the Docker API.</p></li>
+<li><p>Volumes work on both Linux and Windows containers.</p></li>
+<li><p>Volumes can be more safely shared among multiple containers.</p></li>
+<li><p>A new volume’s contents can be pre-populated by a container.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If your container generates non-persistent state data, consider using a <code class="docutils literal notranslate"><span class="pre">tmpfs</span></code> mount to avoid storing the data anywhere permanently, and to increase the container’s performance by avoiding writing into the container’s writable layer.</p>
+</div>
+<div class="section" id="choose-the-v-or-mount-flag-for-mounting-volumes">
+<h4>3.1.1 Choose the -v or –mount flag for mounting volumes<a class="headerlink" href="#choose-the-v-or-mount-flag-for-mounting-volumes" title="Permalink to this headline">¶</a></h4>
+<p>Originally, the <code class="docutils literal notranslate"><span class="pre">-v</span></code> or <code class="docutils literal notranslate"><span class="pre">--volume</span></code> flag was used for standalone containers and the <code class="docutils literal notranslate"><span class="pre">--mount</span></code> flag was used for swarm services. However, starting with Docker 17.06, you can also use <code class="docutils literal notranslate"><span class="pre">--mount</span></code> with standalone containers. In general, <code class="docutils literal notranslate"><span class="pre">--mount</span></code> is more explicit and verbose. The biggest difference is that the <code class="docutils literal notranslate"><span class="pre">-v</span></code> syntax combines all the options together in one field, while the <code class="docutils literal notranslate"><span class="pre">--mount</span></code> syntax separates them. Here is a comparison of the syntax for each flag.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>New users should use the <code class="docutils literal notranslate"><span class="pre">--mount</span></code> syntax. Experienced users may be more familiar with the <code class="docutils literal notranslate"><span class="pre">-v</span></code> or <code class="docutils literal notranslate"><span class="pre">--volume</span></code> syntax, but are encouraged to use <code class="docutils literal notranslate"><span class="pre">--mount</span></code>, because research has shown it to be easier to use.</p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">-v</span></code> or <code class="docutils literal notranslate"><span class="pre">--volume</span></code>: Consists of three fields, separated by colon characters (:). The fields must be in the correct order, and the meaning of each field is not immediately obvious.</p>
+<ul class="simple">
+<li><p>In the case of named volumes, the first field is the name of the volume, and is unique on a given host machine.</p></li>
+<li><p>The second field is the path where the file or directory are mounted in the container.</p></li>
+<li><p>The third field is optional, and is a comma-separated list of options, such as <code class="docutils literal notranslate"><span class="pre">ro</span></code>.</p></li>
+</ul>
+</div>
+<div class="section" id="bind-mounts">
+<h4>3.2 Bind mounts<a class="headerlink" href="#bind-mounts" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">--mount</span></code>: Consists of multiple key-value pairs, separated by commas and each consisting of a <code class="docutils literal notranslate"><span class="pre">&lt;key&gt;=&lt;value&gt;</span></code> tuple. The <code class="docutils literal notranslate"><span class="pre">--mount</span></code> syntax is more verbose than <code class="docutils literal notranslate"><span class="pre">-v</span></code> or <code class="docutils literal notranslate"><span class="pre">--volume</span></code>, but the order of the keys is not significant, and the value of the flag is easier to understand.
+- The type of the mount, which can be <strong>bind</strong>, <strong>volume</strong>, or <strong>tmpfs</strong>.
+- The source of the mount. For named volumes, this is the name of the volume. For anonymous volumes, this field is omitted. May be specified as <strong>source</strong> or <strong>src</strong>.
+- The destination takes as its value the path where the file or directory is mounted in the container. May be specified as <strong>destination</strong>, <strong>dst</strong>, or <strong>target</strong>.
+- The readonly option, if present, causes the bind mount to be mounted into the container as read-only.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">--mount</span></code> and <code class="docutils literal notranslate"><span class="pre">-v</span></code> examples have the same end result.</p>
+</div>
+</div>
+<div class="section" id="create-and-manage-volumes">
+<h4>3.3 Create and manage volumes<a class="headerlink" href="#create-and-manage-volumes" title="Permalink to this headline">¶</a></h4>
+<p>Unlike a bind mount, you can create and manage volumes outside the scope of any container.</p>
+<p>Let’s create a volume</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker volume create my-vol
+</pre></div>
+</div>
+<p>List volumes:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker volume ls
+
+<span class="nb">local</span>               my-vol
+</pre></div>
+</div>
+<p>Inspect a volume by looking at the Mount section in the <cite>docker volume inspect</cite></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker volume inspect my-vol
+<span class="o">[</span>
+    <span class="o">{</span>
+        <span class="s2">&quot;Driver&quot;</span>: <span class="s2">&quot;local&quot;</span>,
+        <span class="s2">&quot;Labels&quot;</span>: <span class="o">{}</span>,
+        <span class="s2">&quot;Mountpoint&quot;</span>: <span class="s2">&quot;/var/lib/docker/volumes/my-vol/_data&quot;</span>,
+        <span class="s2">&quot;Name&quot;</span>: <span class="s2">&quot;my-vol&quot;</span>,
+        <span class="s2">&quot;Options&quot;</span>: <span class="o">{}</span>,
+        <span class="s2">&quot;Scope&quot;</span>: <span class="s2">&quot;local&quot;</span>
+    <span class="o">}</span>
+<span class="o">]</span>
+</pre></div>
+</div>
+<p>Remove a volume</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker volume rm my-vol
+</pre></div>
+</div>
+</div>
+<div class="section" id="populate-a-volume-using-a-container">
+<h4>3.3.1 Populate a volume using a container<a class="headerlink" href="#populate-a-volume-using-a-container" title="Permalink to this headline">¶</a></h4>
+<p>This example starts an <code class="docutils literal notranslate"><span class="pre">nginx</span></code> container and populates the new volume <code class="docutils literal notranslate"><span class="pre">nginx-vol</span></code> with the contents of the container’s <code class="docutils literal notranslate"><span class="pre">/var/log/nginx</span></code> directory, which is where Nginx stores its log files.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker run -d -p <span class="m">8889</span>:80 --name<span class="o">=</span>jupytertest --mount <span class="nv">source</span><span class="o">=</span>jupyter-vol,target<span class="o">=</span>/var/log/jupyter username/jupyter:latest
+</pre></div>
+</div>
+<p>So, we now have a copy of Jupyter volume running inside a Docker container on our machine, and our host machine’s port 5000 maps directly to that copy of Jupyter’s port 80. Let’s use curl to do a quick test request:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cat jupyter-vol/_data/access.log
+</pre></div>
+</div>
+<p>Use <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">inspect</span> <span class="pre">jupyter-vol</span></code> to verify that the volume was created and mounted correctly. Look for the Mounts section:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;Mounts&quot;</span>: <span class="o">[</span>
+            <span class="o">{</span>
+                <span class="s2">&quot;Type&quot;</span>: <span class="s2">&quot;volume&quot;</span>,
+                <span class="s2">&quot;Name&quot;</span>: <span class="s2">&quot;jupyter-vol&quot;</span>,
+                <span class="s2">&quot;Source&quot;</span>: <span class="s2">&quot;/var/lib/docker/volumes/jupyter-vol/_data&quot;</span>,
+                <span class="s2">&quot;Destination&quot;</span>: <span class="s2">&quot;/var/log/jupyter&quot;</span>,
+                <span class="s2">&quot;Driver&quot;</span>: <span class="s2">&quot;local&quot;</span>,
+                <span class="s2">&quot;Mode&quot;</span>: <span class="s2">&quot;z&quot;</span>,
+                <span class="s2">&quot;RW&quot;</span>: true,
+                <span class="s2">&quot;Propagation&quot;</span>: <span class="s2">&quot;&quot;</span>
+            <span class="o">}</span>
+        <span class="o">]</span>,
+</pre></div>
+</div>
+<p>This shows that the mount is a volume, it shows the correct source and destination, and that the mount is read-write.</p>
+<p>After running either of these examples, run the following commands to clean up the containers and volumes.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker stop jupytertest
+
+$ docker rm jupytertest
+
+$ docker volume rm jupyter-vol
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="id4">
+<h3>3.4 Bind mounts<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p><strong>Bind mounts:</strong> When you use a bind mount, a file or directory on the host machine is mounted into a container.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If you are developing new Docker applications, consider using named <strong>volumes</strong> instead. You can’t use Docker CLI commands to directly manage bind mounts.</p>
+</div>
+<p><a class="reference internal" href="../_images/bind_mount.png"><img alt="bind_mount" src="../_images/bind_mount.png" style="width: 500px;" /></a></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>One side effect of using bind mounts, for better or for worse, is that you can change the host filesystem via processes running in a container, including creating, modifying, or deleting important system files or directories. This is a powerful ability which can have security implications, including impacting non-Docker processes on the host system.</p>
+<p>If you use <code class="docutils literal notranslate"><span class="pre">--mount</span></code> to bind-mount a file or directory that does not yet exist on the Docker host, Docker does not automatically create it for you, but generates an error.</p>
+</div>
+<div class="section" id="start-a-container-with-a-bind-mount">
+<h4>3.2.1 Start a container with a bind mount<a class="headerlink" href="#start-a-container-with-a-bind-mount" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ mkdir data
+
+$ docker run -p <span class="m">8888</span>:8888 --name jupytertest --mount <span class="nv">type</span><span class="o">=</span>bind,source<span class="o">=</span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span>/data,target<span class="o">=</span>/var/log/jupyter username/jupyter:latest
+</pre></div>
+</div>
+<p>Use <cite>docker inspect jupytertest</cite> to verify that the bind mount was created correctly. Look for the “Mounts” section</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ docker inspect jupytertest
+</pre></div>
+</div>
+<p>This shows that the mount is a bind mount, it shows the correct source and target, it shows that the mount is read-write, and that the propagation is set to rprivate.</p>
+<p>Stop the container:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker rm -f juptertest
+</pre></div>
+</div>
+</div>
+<div class="section" id="use-a-read-only-bind-mount">
+<h4>3.4.1 Use a read-only bind mount<a class="headerlink" href="#use-a-read-only-bind-mount" title="Permalink to this headline">¶</a></h4>
+<p>For some development applications, the container needs to write into the bind mount, so changes are propagated back to the Docker host. At other times, the container only needs read access.</p>
+<p>This example modifies the one above but mounts the directory as a read-only bind mount, by adding <code class="docutils literal notranslate"><span class="pre">ro</span></code> to the (empty by default) list of options, after the mount point within the container. Where multiple options are present, separate them by commas.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker run -d -p <span class="m">8888</span>:8888 --name jupytertest --mount <span class="nv">type</span><span class="o">=</span>bind,source<span class="o">=</span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span>/data,target<span class="o">=</span>/var/log/jupyter,readonly username/jupyter:latest
+</pre></div>
+</div>
+<p>Use <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">inspect</span> <span class="pre">jupytertest</span></code> to verify that the bind mount was created correctly. Look for the Mounts section:</p>
+<p>Stop the container:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker rm -f jupytertest
+</pre></div>
+</div>
+<p>Remove the volume:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker volume rm jupytertest
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="tmpfs-mounts">
+<h3>3.3 tmpfs Mounts<a class="headerlink" href="#tmpfs-mounts" title="Permalink to this headline">¶</a></h3>
+<p><strong>tmpfs mounts:</strong> A tmpfs mount is not persisted on disk, either on the Docker host or within a container. It can be used by a container during the lifetime of the container, to store non-persistent state or sensitive information. For instance, internally, swarm services use tmpfs mounts to mount secrets into a service’s containers.</p>
+<p><a class="reference internal" href="../_images/tmpfs.png"><img alt="tmpfs" src="../_images/tmpfs.png" style="width: 500px;" /></a></p>
+<p><strong>Volumes</strong> and <strong>bind mounts</strong> are mounted into the container’s filesystem by default, and their contents are stored on the host machine. There may be cases where you do not want to store a container’s data on the host machine, but you also don’t want to write the data into the container’s writable layer, for performance or security reasons, or if the data relates to non-persistent application state. An example might be a temporary one-time password that the container’s application creates and uses as-needed. To give the container access to the data without writing it anywhere permanently, you can use a tmpfs mount, which is only stored in the host machine’s memory (or swap, if memory is low). When the container stops, the tmpfs mount is removed. If a container is committed, the tmpfs mount is not saved.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker run -d -p <span class="m">8888</span>:8888 --name jupytertest --mount <span class="nv">type</span><span class="o">=</span>tmpfs,target<span class="o">=</span>/var/log/jupyter username/jupyter:latest
+</pre></div>
+</div>
+<p>Use <cite>docker inspect jupytertest</cite> to verify that the bind mount was created correctly. Look for the Mounts section:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker inspect jupytertest
+</pre></div>
+</div>
+<p>You can see from the above output that the <code class="docutils literal notranslate"><span class="pre">Source</span></code> filed is empty which indicates that the contents are not avaible on Docker host or host file system.</p>
+<p>Stop the container:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker rm -f jupytertest
+</pre></div>
+</div>
+<p>Remove the volume:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker volume rm jupytertest
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="docker-compose-for-multi-container-apps">
+<h2>4. Docker Compose for multi-container apps<a class="headerlink" href="#docker-compose-for-multi-container-apps" title="Permalink to this headline">¶</a></h2>
+<p><strong>Docker Compose</strong> is a tool for defining and running your multi-container Docker applications.</p>
+<p>Main advantages of Docker compose include:</p>
+<ul class="simple">
+<li><p>Your applications can be defined in a YAML file where all the options that you used in <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">run</span></code> are now defined (Reproducibility).</p></li>
+<li><p>It allows you to manage your application as a single entity rather than dealing with individual containers (Simplicity).</p></li>
+</ul>
+<p>Let’s now create a simple web app with Docker Compose using Flask (which you already seen before) and Redis. We will end up with a Flask container and a Redis container all on one host.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The code for the above compose example is available <a class="reference external" href="https://github.com/upendrak/compose_flask">here</a></p>
+</div>
+<ol class="arabic simple">
+<li><p>You’ll need a directory for your project on your host machine:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ mkdir compose_flask <span class="o">&amp;&amp;</span> <span class="nb">cd</span> compose_flask
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Add the following to <cite>requirements.txt</cite> inside <cite>compose_flask</cite> directory:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>flask
+redis
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Copy and paste the following code into a new file called <cite>app.py</cite> inside <cite>compose_flask</cite> directory:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>from flask import Flask
+from redis import Redis
+
+<span class="nv">app</span> <span class="o">=</span> Flask<span class="o">(</span>__name__<span class="o">)</span>
+<span class="nv">redis</span> <span class="o">=</span> Redis<span class="o">(</span><span class="nv">host</span><span class="o">=</span><span class="s1">&#39;redis&#39;</span>, <span class="nv">port</span><span class="o">=</span><span class="m">6379</span><span class="o">)</span>
+
+@app.route<span class="o">(</span><span class="s1">&#39;/&#39;</span><span class="o">)</span>
+def hello<span class="o">()</span>:
+    redis.incr<span class="o">(</span><span class="s1">&#39;hits&#39;</span><span class="o">)</span>
+    <span class="k">return</span> <span class="s1">&#39;This Compose/Flask demo has been viewed %s time(s).&#39;</span> % redis.get<span class="o">(</span><span class="s1">&#39;hits&#39;</span><span class="o">)</span>
+
+<span class="k">if</span> <span class="nv">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span>:
+    app.run<span class="o">(</span><span class="nv">host</span><span class="o">=</span><span class="s2">&quot;0.0.0.0&quot;</span>, <span class="nv">debug</span><span class="o">=</span>True<span class="o">)</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Create a Dockerfile with the following code inside <code class="docutils literal notranslate"><span class="pre">compose_flask</span></code> directory:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>FROM python:2.7
+ADD . /code
+WORKDIR /code
+RUN pip install -r requirements.txt
+CMD python app.py
+</pre></div>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Add the following code to a new file, <code class="docutils literal notranslate"><span class="pre">docker-compose.yml</span></code>, in your project directory:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>version: <span class="s1">&#39;2&#39;</span>
+services:
+    web:
+        restart: always
+        build: .
+        ports:
+            - <span class="s2">&quot;8888:5000&quot;</span>
+        volumes:
+            - .:/code
+        depends_on:
+            - redis
+    redis:
+        restart: always
+        image: redis
+</pre></div>
+</div>
+<p>A brief explanation of <code class="docutils literal notranslate"><span class="pre">docker-compose.yml</span></code> is as below:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">restart:</span> <span class="pre">always</span></code> means that it will restart whenever it fails.</p></li>
+<li><p>We define two services, <strong>web</strong> and <strong>redis</strong>.</p></li>
+<li><p>The web service builds from the Dockerfile in the current directory.</p></li>
+<li><p>Forwards the container’s exposed port (5000) to port 8888 on the host.</p></li>
+<li><p>Mounts the project directory on the host to /code inside the container (allowing you to modify the code without having to rebuild the image).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">depends_on</span></code> links the web service to the Redis service.</p></li>
+<li><p>The redis service uses the latest Redis image from Docker Hub.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Docker for Mac and Docker Toolbox already include Compose along with other Docker apps, so Mac users do not need to install Compose separately.
+Docker for Windows and Docker Toolbox already include Compose along with other Docker apps, so most Windows users do not need to install Compose separately.</p>
+<p>For Linux users</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo curl -L https://github.com/docker/compose/releases/download/1.19.0/docker-compose-<span class="sb">`</span>uname -s<span class="sb">`</span>-<span class="sb">`</span>uname -m<span class="sb">`</span> -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+</pre></div>
+</div>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Build and Run with <code class="docutils literal notranslate"><span class="pre">docker-compose</span> <span class="pre">up</span> <span class="pre">-d</span></code> command</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker-compose up -d
+
+Building web
+Step <span class="m">1</span>/5 : FROM python:2.7
+<span class="m">2</span>.7: Pulling from library/python
+f49cf87b52c1: Already exists
+7b491c575b06: Already exists
+b313b08bab3b: Already exists
+51d6678c3f0e: Already exists
+09f35bd58db2: Already exists
+f7e0c30e74c6: Pull <span class="nb">complete</span>
+c308c099d654: Pull <span class="nb">complete</span>
+339478b61728: Pull <span class="nb">complete</span>
+Digest: sha256:8cb593cb9cd1834429f0b4953a25617a8457e2c79b3e111c0f70bffd21acc467
+Status: Downloaded newer image <span class="k">for</span> python:2.7
+ ---&gt; 9e92c8430ba0
+Step <span class="m">2</span>/5 : ADD . /code
+ ---&gt; 746bcecfc3c9
+Step <span class="m">3</span>/5 : WORKDIR /code
+ ---&gt; c4cf3d6cb147
+Removing intermediate container 84d850371a36
+Step <span class="m">4</span>/5 : RUN pip install -r requirements.txt
+ ---&gt; Running in d74c2e1cfbf7
+Collecting flask <span class="o">(</span>from -r requirements.txt <span class="o">(</span>line <span class="m">1</span><span class="o">))</span>
+  Downloading Flask-0.12.2-py2.py3-none-any.whl <span class="o">(</span>83kB<span class="o">)</span>
+Collecting redis <span class="o">(</span>from -r requirements.txt <span class="o">(</span>line <span class="m">2</span><span class="o">))</span>
+  Downloading redis-2.10.6-py2.py3-none-any.whl <span class="o">(</span>64kB<span class="o">)</span>
+Collecting itsdangerous&gt;<span class="o">=</span><span class="m">0</span>.21 <span class="o">(</span>from flask-&gt;-r requirements.txt <span class="o">(</span>line <span class="m">1</span><span class="o">))</span>
+  Downloading itsdangerous-0.24.tar.gz <span class="o">(</span>46kB<span class="o">)</span>
+Collecting Jinja2&gt;<span class="o">=</span><span class="m">2</span>.4 <span class="o">(</span>from flask-&gt;-r requirements.txt <span class="o">(</span>line <span class="m">1</span><span class="o">))</span>
+  Downloading Jinja2-2.10-py2.py3-none-any.whl <span class="o">(</span>126kB<span class="o">)</span>
+Collecting Werkzeug&gt;<span class="o">=</span><span class="m">0</span>.7 <span class="o">(</span>from flask-&gt;-r requirements.txt <span class="o">(</span>line <span class="m">1</span><span class="o">))</span>
+  Downloading Werkzeug-0.14.1-py2.py3-none-any.whl <span class="o">(</span>322kB<span class="o">)</span>
+Collecting click&gt;<span class="o">=</span><span class="m">2</span>.0 <span class="o">(</span>from flask-&gt;-r requirements.txt <span class="o">(</span>line <span class="m">1</span><span class="o">))</span>
+  Downloading click-6.7-py2.py3-none-any.whl <span class="o">(</span>71kB<span class="o">)</span>
+Collecting MarkupSafe&gt;<span class="o">=</span><span class="m">0</span>.23 <span class="o">(</span>from Jinja2&gt;<span class="o">=</span><span class="m">2</span>.4-&gt;flask-&gt;-r requirements.txt <span class="o">(</span>line <span class="m">1</span><span class="o">))</span>
+  Downloading MarkupSafe-1.0.tar.gz
+Building wheels <span class="k">for</span> collected packages: itsdangerous, MarkupSafe
+  Running setup.py bdist_wheel <span class="k">for</span> itsdangerous: started
+  Running setup.py bdist_wheel <span class="k">for</span> itsdangerous: finished with status <span class="s1">&#39;done&#39;</span>
+  Stored in directory: /root/.cache/pip/wheels/fc/a8/66/24d655233c757e178d45dea2de22a04c6d92766abfb741129a
+  Running setup.py bdist_wheel <span class="k">for</span> MarkupSafe: started
+  Running setup.py bdist_wheel <span class="k">for</span> MarkupSafe: finished with status <span class="s1">&#39;done&#39;</span>
+  Stored in directory: /root/.cache/pip/wheels/88/a7/30/e39a54a87bcbe25308fa3ca64e8ddc75d9b3e5afa21ee32d57
+Successfully built itsdangerous MarkupSafe
+Installing collected packages: itsdangerous, MarkupSafe, Jinja2, Werkzeug, click, flask, redis
+Successfully installed Jinja2-2.10 MarkupSafe-1.0 Werkzeug-0.14.1 click-6.7 flask-0.12.2 itsdangerous-0.24 redis-2.10.6
+ ---&gt; 5cc574ff32ed
+Removing intermediate container d74c2e1cfbf7
+Step <span class="m">5</span>/5 : CMD python app.py
+ ---&gt; Running in 3ddb7040e8be
+ ---&gt; e911b8e8979f
+Removing intermediate container 3ddb7040e8be
+Successfully built e911b8e8979f
+Successfully tagged composeflask_web:latest
+</pre></div>
+</div>
+<p>And that’s it! You should be able to see the Flask application running on <code class="docutils literal notranslate"><span class="pre">http://localhost:8888</span></code> or <code class="docutils literal notranslate"><span class="pre">&lt;ipaddress&gt;:8888</span></code></p>
+<p><a class="reference internal" href="../_images/dc-1.png"><img alt="docker-compose" src="../_images/dc-1.png" style="width: 500px; height: 450px;" /></a></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ cat output.txt
+Prediction of DecisionTreeClassifier:<span class="o">[</span><span class="s1">&#39;apple&#39;</span> <span class="s1">&#39;orange&#39;</span> <span class="s1">&#39;apple&#39;</span><span class="o">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="dockerintro.html" class="btn btn-neutral float-left" title="Introduction to Docker" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, CyVerse
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

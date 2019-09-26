@@ -1,0 +1,349 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>CyVerse Data Store &mdash; CyVerse Learning Institute Foundations of Open Science Skills 2019 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="../_static/cyverse.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/cyverse.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Discovery Environment" href="de.html" />
+    <link rel="prev" title="Introduction to CyVerse" href="intro_to_cyverse.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> CyVerse Learning Institute Foundations of Open Science Skills 2019
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">FOSS 2020 Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Before you Arrive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../before/main.html"><strong>Before you arrive</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/installation.html"><strong>Pre-Workshop Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/about_cyverse.html"><strong>About CyVerse</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/intro.html"><strong>FOSS 2020 Introduction</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/code_of_conduct.html"><strong>Code of Conduct</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/agenda.html"><strong>Agenda</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/open_sci_lab.html"><strong>Open Science Lab</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/colab_culture.html"><strong>Collaboration Culture and Roles</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/glossary.html"><strong>Glossary &amp; Acronyms</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">CyVerse</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro_to_cyverse.html"><strong>Introduction to CyVerse</strong></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>CyVerse Data Store</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#icommands">iCommands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cyberduck">CyberDuck</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cyverse-data-commons">CyVerse Data Commons</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#data-publication">Data Publication</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#additional-resources">Additional Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="de.html"><strong>Discovery Environment</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="de-data-manage.html"><strong>Discovery Environment - Data Management</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="de-data-analysis.html"><strong>Discovery Environment - Data Analysis</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="vice.html"><strong>VICE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="tool_integration_app_building_DE.html"><strong>Tool Integration into the DE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="workflow.html"><strong>Creating Workflows</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="atmo.html"><strong>Atmosphere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Software Essentials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/linux.html"><strong>Basics of Linux</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/commandline.html"><strong>Command Line and the Unix Shell</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/version_control.html"><strong>Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/communication.html"><strong>Lab Group Communication</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/websites.html"><strong>Websites &amp; Documentation</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/R_Studio.html"><strong>Introduction to R &amp; RStudio</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/RStudio_Git.html"><strong>RStudio with Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/continuous_integration.html"><strong>Continuous Integration</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Data Management</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/overview.html"><strong>Data Management Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/FAIR.html"><strong>FAIR Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/dmp.html"><strong>Data Management Plans (DMP)</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Moving On</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/xsede.html"><strong>Research Cyberinfrastructure associated with CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/cyberinfrastructure.html"><strong>Other Cyberinfrastructure Projects</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Containers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockeronatmo.html">Launching a Docker app on Atmosphere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/biocontainers.html"><strong>Introduction to BioContainers</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockerintro.html"><strong>Introduction to Docker</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockeradvanced.html"><strong>Advanced Docker</strong></a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CyVerse Learning Institute Foundations of Open Science Skills 2019</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li><strong>CyVerse Data Store</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/CyVerse/data_store.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p><a class="reference external" href="http://learning.cyverse.org/"><img alt="CyVerse_logo2" src="../_images/cyverse_cmyk1.png" style="width: 500px; height: 100px;" /></a></p>
+<p><a class="reference external" href="http://learning.cyverse.org/"><img alt="Home_Icon2" src="../_images/homeicon1.png" style="width: 25px; height: 25px;" /></a>
+<a class="reference external" href="http://learning.cyverse.org/">Learning Center Home</a></p>
+<div class="section" id="cyverse-data-store">
+<h1><strong>CyVerse Data Store</strong><a class="headerlink" href="#cyverse-data-store" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference internal" href="../_images/datastore-icon.png"><img alt="DS_icon" src="../_images/datastore-icon.png" style="width: 50px; height: 70px;" /></a></p>
+<p>The Data Store is more than  a place to save your files – it is a way to manage the life cycle of your data. From creation to publication to beyond, there are a number of practices to ensure that the integrity and value of your data are maintained.</p>
+<p>We have already covered accessing the Data Store using the Discovery Environment in the <a class="reference external" href="./de.rst">previous lesson</a>. In this lesson we will practice other ways of accessing the Data Store, plus how to make your data publicly available.</p>
+<div class="section" id="icommands">
+<h2>iCommands<a class="headerlink" href="#icommands" title="Permalink to this headline">¶</a></h2>
+<p>iCommands is a collection of tools developed by the <a class="reference external" href="https://irods.org/">iRODS project</a>, which is the technology that supports the CyVerse Data Store. Using iCommands is the most flexible way to interact with the Data Store.</p>
+<p>iCommands provides command line access to the Data Store, so it can be included in scripts to automate data upload and download. Unfortunately, the latest iCommands cannot be installed on most Windows operating systems, but participants with Windows computers can do this exercise using Atmosphere (which will be covered in tomorrow’s lessons). If you are running Window 10, you can <a class="reference external" href="https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-other">run iCommands on the Linus subsystem</a>.</p>
+<p>Follow along with the <a class="reference external" href="https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step2.html">Using iCommands</a> quick start to:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Install and configure iCommands</p></li>
+<li><p>Upload a file to your home folder (iput)</p></li>
+<li><p>Download a file to your desktop (iget)</p></li>
+</ul>
+</div></blockquote>
+<dl class="simple">
+<dt>In addition, we will use iCommands to:</dt><dd><ul class="simple">
+<li><p>Create a new folder in your home directory (imkdir)</p></li>
+<li><p>Move a file from your home directory to the new folder (imv)</p></li>
+<li><p>Navigate to a public folder (icd)</p></li>
+<li><p>Copy a public file to the newly created folder (icp)</p></li>
+</ul>
+</dd>
+</dl>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ imkdir newdir
+$ imv file_name newdir/file_name
+$ icd /iplant/home/shared/imicrobe/camera
+$ ils
+$ icp camera_projects/CAM_PROJ_AcidMine.csv /iplant/home/<span class="nv">$username</span>/newdir/CAM_PROJ_AcidMine.csv
+$ icd /iplant/home/<span class="nv">$username</span>/
+<span class="nv">$ils</span> newdir
+<span class="nv">$ils</span> -A newdir
+</pre></div>
+</div>
+<p>Here is the <a class="reference external" href="https://docs.irods.org/master/icommands/user/">full documentation of iCommands</a>.</p>
+</div>
+<div class="section" id="cyberduck">
+<h2>CyberDuck<a class="headerlink" href="#cyberduck" title="Permalink to this headline">¶</a></h2>
+<p>Cyberduck is a free 3rd party software tool that allows you to drag-and-drop files between your local computer (or a remote server) and the Data Store. Cyberduck can also be used to rename files, and browse other shared or public Data Store locations.</p>
+<p>Follow along with the <a class="reference external" href="https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step1.html">CyberDuck</a> quick start to:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Install and configure CyberDuck</p></li>
+<li><p>Upload a file to your CyVerse home directory</p></li>
+<li><p>Navigate to a public folder</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="cyverse-data-commons">
+<h2>CyVerse Data Commons<a class="headerlink" href="#cyverse-data-commons" title="Permalink to this headline">¶</a></h2>
+<p>The Data Commons provides services throughout CyVerse to manage, organize, preserve, publish, discover, and reuse data.</p>
+<div class="section" id="data-publication">
+<h3>Data Publication<a class="headerlink" href="#data-publication" title="Permalink to this headline">¶</a></h3>
+<p>Through the Data Commons, you can submit data directly to <a class="reference external" href="https://learning.cyverse.org/projects/sra_submission_quickstart/en/latest/index.html">NCBI’s SRA</a> or <a class="reference external" href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=34834057">WGS</a>, or <a class="reference external" href="https://cyverse-doi-request-quickstart.readthedocs-hosted.com/en/latest/">request a Digital Object Identifier (DOI)</a> for your dataset.</p>
+<p>For data that are not stable or permanent, you can request a <a class="reference external" href="https://wiki.cyverse.org/wiki/display/DC/Preparing+Community+Released+Data+Folders">Community Released Folder</a>.</p>
+<p>For an overview see <a class="reference external" href="https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons">Publishing data on the CyVerse Data Commons</a>.</p>
+</div>
+</div>
+<div class="section" id="additional-resources">
+<h2>Additional Resources<a class="headerlink" href="#additional-resources" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents">Data Store Manual</a></p>
+<p><a class="reference external" href="https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step4.html">Create a public link via the DE</a></p>
+<p><a class="reference external" href="https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step5.html">WebDav</a></p>
+<p><a class="reference external" href="https://learning.cyverse.org/projects/cyverse-doi-request-quickstart/en/latest/index.html">DOI request quick start</a></p>
+<hr class="docutils" />
+<p><strong>Fix or improve this documentation:</strong></p>
+<ul class="simple">
+<li><p>On Github: <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/CyVerse/data_store.rst" target="blank">Github Repo Link</a></p></li>
+<li><p>Send feedback: <a class="reference external" href="mailto:Tutorials&#37;&#52;&#48;CyVerse&#46;org">Tutorials<span>&#64;</span>CyVerse<span>&#46;</span>org</a></p></li>
+</ul>
+<hr class="docutils" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="de.html" class="btn btn-neutral float-right" title="Discovery Environment" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="intro_to_cyverse.html" class="btn btn-neutral float-left" title="Introduction to CyVerse" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, CyVerse
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,403 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Docker hands-on exercises &mdash; CyVerse Learning Institute Foundations of Open Science Skills 2019 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="../_static/cyverse.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/cyverse.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> CyVerse Learning Institute Foundations of Open Science Skills 2019
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">FOSS 2020 Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Before you Arrive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../before/main.html"><strong>Before you arrive</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/installation.html"><strong>Pre-Workshop Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/about_cyverse.html"><strong>About CyVerse</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/intro.html"><strong>FOSS 2020 Introduction</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/code_of_conduct.html"><strong>Code of Conduct</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/agenda.html"><strong>Agenda</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/open_sci_lab.html"><strong>Open Science Lab</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/colab_culture.html"><strong>Collaboration Culture and Roles</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/glossary.html"><strong>Glossary &amp; Acronyms</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">CyVerse</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/intro_to_cyverse.html"><strong>Introduction to CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/data_store.html"><strong>CyVerse Data Store</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de.html"><strong>Discovery Environment</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de-data-manage.html"><strong>Discovery Environment - Data Management</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de-data-analysis.html"><strong>Discovery Environment - Data Analysis</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/vice.html"><strong>VICE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/tool_integration_app_building_DE.html"><strong>Tool Integration into the DE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/workflow.html"><strong>Creating Workflows</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/atmo.html"><strong>Atmosphere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Software Essentials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/linux.html"><strong>Basics of Linux</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/commandline.html"><strong>Command Line and the Unix Shell</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/version_control.html"><strong>Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/communication.html"><strong>Lab Group Communication</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/websites.html"><strong>Websites &amp; Documentation</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/R_Studio.html"><strong>Introduction to R &amp; RStudio</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/RStudio_Git.html"><strong>RStudio with Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/continuous_integration.html"><strong>Continuous Integration</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Data Management</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/overview.html"><strong>Data Management Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/FAIR.html"><strong>FAIR Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/dmp.html"><strong>Data Management Plans (DMP)</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Moving On</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/xsede.html"><strong>Research Cyberinfrastructure associated with CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/cyberinfrastructure.html"><strong>Other Cyberinfrastructure Projects</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Containers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dockeronatmo.html">Launching a Docker app on Atmosphere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biocontainers.html"><strong>Introduction to BioContainers</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="dockerintro.html"><strong>Introduction to Docker</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="dockeradvanced.html"><strong>Advanced Docker</strong></a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CyVerse Learning Institute Foundations of Open Science Skills 2019</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li><strong>Docker hands-on exercises</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Containers/dockerhandson.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="docker-hands-on-exercises">
+<h1><strong>Docker hands-on exercises</strong><a class="headerlink" href="#docker-hands-on-exercises" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="use-case-1-deploy-a-custom-docker-image">
+<h2>Use case 1: Deploy a custom Docker image<a class="headerlink" href="#use-case-1-deploy-a-custom-docker-image" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Download the sample code from <a class="reference external" href="https://github.com/Azure-Samples/docker-django-webapp-linux.git">https://github.com/Azure-Samples/docker-django-webapp-linux.git</a></p></li>
+<li><p>Build the image using the Dockerfile in that repo using <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">build</span></code> command</p></li>
+<li><p>Run an instance from that image</p></li>
+<li><p>Verify the web app and container are functioning correctly</p></li>
+</ul>
+</div>
+<div class="section" id="use-case-2-simple-bioinformatics-example">
+<h2>Use case 2: Simple Bioinformatics example<a class="headerlink" href="#use-case-2-simple-bioinformatics-example" title="Permalink to this headline">¶</a></h2>
+<p>Let’s say if you find a cool tool/software and want to run it on your computer and as we found out in the morning session, it’s not always easy to install the tool onto your computer or on a server natively. Since this workshop is about containers, let’s containerize this tool.</p>
+<p>For this simple hands-on exercise, let’s containerize <code class="docutils literal notranslate"><span class="pre">fastqe</span></code> tool - <a class="reference external" href="https://github.com/lonsbio/fastqe">https://github.com/lonsbio/fastqe</a>. For those of you who are not from Bioinformatics, this tool generates read one or more FASTQ files, then it will compute quality stats for each file and print those stats as emoji… for some reason.</p>
+<p><a class="reference internal" href="../_images/fastqe.png"><img alt="fastqe" src="../_images/fastqe.png" style="width: 700px;" /></a></p>
+<p>Given a fastq file in Illumina 1.8+/Sanger format, calculate the mean (rounded) score for each position and print a corresponding emoji!</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Natively you would install this tool like <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">fastqe</span></code>. Now think of how you can dockerize this with appropriate base image and dependencies</p>
+</div>
+<p>After dockerizing the tool, for this exercise we don’t have to bind mount the volume but just print the <cite>fastqe</cite> help and make sure that it is actually working.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Natively you would print the help of the tool as <code class="docutils literal notranslate"><span class="pre">fastqe</span> <span class="pre">-h</span></code></p>
+</div>
+</div>
+<div class="section" id="data-management-hands-on">
+<h2>1. Data Management Hands-on<a class="headerlink" href="#data-management-hands-on" title="Permalink to this headline">¶</a></h2>
+<p>Form the “Introduction to Docker” session this morning, we learned that a running Docker container is an isolated environment created from a Docker image.  This means, although it is possible to store data within the “writable layer” of a container, there are some limitations:</p>
+<ul class="simple">
+<li><p>The data doesn’t persist when that container is no longer running, and it can be difficult to get the data out of the container if another process needs it.</p></li>
+<li><p>A container’s writable layer is tightly coupled to the host machine where the container is running. You can’t easily move the data somewhere else.</p></li>
+</ul>
+<p>Docker offers three different ways to mount data into a container from the Docker host: <strong>volumes</strong>, <strong>bind mounts</strong>, or <strong>tmpfs volumes</strong>.  For simplicity, we will only use bind mounts in our hands-on session, even though volumes is the more powerful and usable option for most use cases.</p>
+<div class="section" id="bind-mounts">
+<h3>1.1 Bind mounts<a class="headerlink" href="#bind-mounts" title="Permalink to this headline">¶</a></h3>
+<p><strong>Bind mounts:</strong> When you use a bind mount, a file or directory on the host machine is mounted into a container.</p>
+<a class="reference internal image-reference" href="../_images/bind_mount.png"><img alt="../_images/bind_mount.png" class="align-center" src="../_images/bind_mount.png" style="width: 502.0px; height: 256.0px;" /></a>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>A side effect of using bind mounts, for better or for worse, is that you can change the host filesystem via processes running in a container, including creating, modifying, or deleting important system files or directories.  This is a powerful ability which can have security implications, including impacting non-Docker processes on the host system.</p>
+<p>If you use <code class="docutils literal notranslate"><span class="pre">--mount</span></code> to bind-mount a file or directory that does not yet exist on the Docker host, Docker does not automatically create it for you, but generates an error.</p>
+</div>
+<p>Let’s clone a git repository to obtain our data sets:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git clone https://github.com/CyVerse-learning-materials/ccw-2019-astro.git
+</pre></div>
+</div>
+<p>We can <code class="docutils literal notranslate"><span class="pre">cd</span></code> into the HOPS work directory, and mount it to <code class="docutils literal notranslate"><span class="pre">/root</span></code> as we launch the <code class="docutils literal notranslate"><span class="pre">eventhorizontelescope/hops</span></code> container:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ccw-2019-astro/hops
+$ ls
+<span class="m">1234</span>
+$ docker run -it --rm --name hops -v <span class="nv">$PWD</span>:/root eventhorizontelescope/hops
+Setup HOPS v3.19 with <span class="nv">HOPS_ROOT</span><span class="o">=</span>/root <span class="k">for</span> x86_64-3.19
+</pre></div>
+</div>
+<p>You will start at the <code class="docutils literal notranslate"><span class="pre">/root</span></code> work directory and the host data <code class="docutils literal notranslate"><span class="pre">1234</span></code> is available in it:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">pwd</span>
+/root
+$ ls
+<span class="m">1234</span>
+</pre></div>
+</div>
+<p>You can open another terminal and use <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">inspect</span> <span class="pre">hops</span> <span class="pre">|</span> <span class="pre">grep</span> <span class="pre">-A9</span> <span class="pre">Mounts</span></code> to verify that the bind mount was created correctly.  Looking for the “Mounts” section,</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ docker inspect hops <span class="p">|</span> grep -A9 Mounts
+<span class="s2">&quot;Mounts&quot;</span>: <span class="o">[</span>
+    <span class="o">{</span>
+        <span class="s2">&quot;Type&quot;</span>: <span class="s2">&quot;bind&quot;</span>,
+        <span class="s2">&quot;Source&quot;</span>: <span class="s2">&quot;/Users/ckchan/ccw-2019-astro/hops&quot;</span>,
+        <span class="s2">&quot;Destination&quot;</span>: <span class="s2">&quot;/root&quot;</span>,
+        <span class="s2">&quot;Mode&quot;</span>: <span class="s2">&quot;&quot;</span>,
+        <span class="s2">&quot;RW&quot;</span>: true,
+        <span class="s2">&quot;Propagation&quot;</span>: <span class="s2">&quot;rprivate&quot;</span>
+    <span class="o">}</span>
+<span class="o">]</span>,
+</pre></div>
+</div>
+<p>This shows that the mount is a bind mount with correct source and target.  It also shows that the mount is read-write, and that the propagation is set to rprivate.</p>
+</div>
+<div class="section" id="use-case-1-processing-vlbi-data-with-hops-in-docker">
+<h3>Use case 1: Processing VLBI data with HOPS in Docker<a class="headerlink" href="#use-case-1-processing-vlbi-data-with-hops-in-docker" title="Permalink to this headline">¶</a></h3>
+<p>HOPS stands for the Haystack Observatory Postprocessing System.  It is a standard data analysis tool in Very-long-baseline interferometry (VLBI).  HOPS has a long history and it depends on legacy libraries.  This makes it difficult to compile on modern Unix/Linux systems.  Nevertheless, with Docker, you <strong>have</strong> already launched a HOPS envirnment that you can analysis VLBI data!</p>
+<p>The most basic step in analysis VLBI is called “fringe fitting”, which we will perform in the running HOPS container by</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ ls <span class="m">1234</span>/No0055/
+3C279.zxxerd  L..zxxerd  LL..zxxerd  LW..zxxerd  W..zxxerd  WW..zxxerd
+$ fourfit <span class="m">1234</span>
+fourfit: Warning: No valid data <span class="k">for</span> this pass <span class="k">for</span> pol <span class="m">2</span>
+fourfit: Warning: No valid data <span class="k">for</span> this pass <span class="k">for</span> pol <span class="m">3</span>
+$ ls <span class="m">1234</span>/No0055/
+3C279.zxxerd  LL..zxxerd     LL.B.2.zxxerd  LW.B.3.zxxerd  W..zxxerd   WW.B.5.zxxerd
+L..zxxerd     LL.B.1.zxxerd  LW..zxxerd     LW.B.4.zxxerd  WW..zxxerd
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">fourfit</span></code> reads in the correlated data and create the so called “fringe files”.  The warnings are normal because there are missing polarizations in the data.  In order to see the result of the fringe fitting, you can use <code class="docutils literal notranslate"><span class="pre">fplot</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ fplot -d %04d.ps <span class="m">1234</span>
+$ ls
+<span class="m">0000</span>.ps  <span class="m">0001</span>.ps  <span class="m">0002</span>.ps  <span class="m">0003</span>.ps  <span class="m">0004</span>.ps  <span class="m">1234</span>
+</pre></div>
+</div>
+<p>Congratulations!  You just created 4 fringe plots that show all important information of the VLBI experiment!  Now you can exit your HOPS container and open them on your host machine.</p>
+</div>
+</div>
+<div class="section" id="jupyter-notebook-hands-on">
+<h2>2. Jupyter Notebook Hands-on<a class="headerlink" href="#jupyter-notebook-hands-on" title="Permalink to this headline">¶</a></h2>
+<p>Mounting a host directory is one way to make a container connect with the outside work.  Another possible is through network by exposing a port.</p>
+<div class="section" id="use-case-2-processing-galaxy-simulation-with-jupyter-in-docker">
+<h3>Use case 2: Processing Galaxy Simulation with Jupyter in Docker<a class="headerlink" href="#use-case-2-processing-galaxy-simulation-with-jupyter-in-docker" title="Permalink to this headline">¶</a></h3>
+<p>In this second hands-on, we will use Docker to run a “ready to go” Jupyter notebook in a container.  We will expose the port 8888 from the container to the localhost so that you can connect to the notebook.</p>
+<p>Inside the <code class="docutils literal notranslate"><span class="pre">ccw-2019-astro</span></code> git repository that you downloaded earlier, there is a sample Galaxy simulation:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>    $ <span class="nb">pwd</span>
+    /Users/ckchan/ccw-2019-astro/hops
+    $ <span class="nb">cd</span> ../galaxy/
+    $ <span class="nb">pwd</span>
+    /Users/ckchan/ccw-2019-astro/galaxy
+
+    <span class="c1"># Specify the uid of the jovyan user.  Useful to mount host volumes with specific file ownership.  For this option to take effect, you must run the container with --user root</span>
+
+    $ docker run -it --rm -v <span class="nv">$PWD</span>:/home/jovyan/work -p <span class="m">8888</span>:8888 -e <span class="nv">NB_UID</span><span class="o">=</span><span class="k">$(</span>id -u<span class="k">)</span> --user root astrocontainers/jupyter
+    Set username to: jovyan
+    usermod: no changes
+    Set jovyan UID to: <span class="m">1329</span>
+    Executing the command: jupyter notebook
+    <span class="o">[</span>I <span class="m">23</span>:36:09.446 NotebookApp<span class="o">]</span> Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+    <span class="o">[</span>W <span class="m">23</span>:36:09.686 NotebookApp<span class="o">]</span> WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+    <span class="o">[</span>I <span class="m">23</span>:36:09.722 NotebookApp<span class="o">]</span> JupyterLab beta preview extension loaded from /opt/conda/lib/python3.6/site-packages/jupyterlab
+    <span class="o">[</span>I <span class="m">23</span>:36:09.722 NotebookApp<span class="o">]</span> JupyterLab application directory is /opt/conda/share/jupyter/lab
+    <span class="o">[</span>I <span class="m">23</span>:36:09.730 NotebookApp<span class="o">]</span> Serving notebooks from <span class="nb">local</span> directory: /home/jovyan
+    <span class="o">[</span>I <span class="m">23</span>:36:09.730 NotebookApp<span class="o">]</span> <span class="m">0</span> active kernels
+    <span class="o">[</span>I <span class="m">23</span>:36:09.730 NotebookApp<span class="o">]</span> The Jupyter Notebook is running at:
+    <span class="o">[</span>I <span class="m">23</span>:36:09.730 NotebookApp<span class="o">]</span> http://<span class="o">[</span>all ip addresses on your system<span class="o">]</span>:8888/?token<span class="o">=</span>a81dbeec92b286df393bb484fdf53efffab410fd64ec8702
+    <span class="o">[</span>I <span class="m">23</span>:36:09.730 NotebookApp<span class="o">]</span> Use Control-C to stop this server and shut down all kernels <span class="o">(</span>twice to skip confirmation<span class="o">)</span>.
+    <span class="o">[</span>C <span class="m">23</span>:36:09.731 NotebookApp<span class="o">]</span>
+    Copy/paste this URL into your browser when you connect <span class="k">for</span> the first time,
+to login with a token:
+    http://localhost:8888/?token<span class="o">=</span>dfb50de6c1da091fd62336ac52cdb88de5fe339eb0faf478
+</pre></div>
+</div>
+<p>The last line is a URL that we need to copy and paste into our browser to access our new Jupyter Notebook:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>http://localhost:8888/?token<span class="o">=</span>dfb50de6c1da091fd62336ac52cdb88de5fe339eb0faf478
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Do not copy and paste the above URL in your browser as this URL is specific to my environment.</p>
+</div>
+<a class="reference internal image-reference" href="../_images/jn_login.png"><img alt="../_images/jn_login.png" class="align-center" src="../_images/jn_login.png" style="width: 700px; height: 294px;" /></a>
+<p>You should be greeted by your own containerised Jupyter service!  Now open <code class="docutils literal notranslate"><span class="pre">galaxy/InClassLab7_Template_wSolutions.ipynb</span></code> and try analysis a Galaxy simulation!</p>
+<a class="reference internal image-reference" href="../_images/jn_galaxy.png"><img alt="../_images/jn_galaxy.png" class="align-center" src="../_images/jn_galaxy.png" style="width: 700px; height: 510px;" /></a>
+<p>To shut down the container, simply hit <code class="docutils literal notranslate"><span class="pre">Ctrl-C</span></code> in the terminal/command prompt twice.  Your work will all be saved on your actual machine in the path we set in our Docker compose file.  And there you have it—a quick and easy way to start using Jupyter notebooks with the magic of Docker.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, CyVerse
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,358 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Continuous Integration &mdash; CyVerse Learning Institute Foundations of Open Science Skills 2019 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="../_static/cyverse.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/cyverse.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Data Management Overview" href="../Data_management/overview.html" />
+    <link rel="prev" title="RStudio with Version Control" href="RStudio_Git.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> CyVerse Learning Institute Foundations of Open Science Skills 2019
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">FOSS 2020 Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Before you Arrive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../before/main.html"><strong>Before you arrive</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/installation.html"><strong>Pre-Workshop Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/about_cyverse.html"><strong>About CyVerse</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/intro.html"><strong>FOSS 2020 Introduction</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/code_of_conduct.html"><strong>Code of Conduct</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/agenda.html"><strong>Agenda</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/open_sci_lab.html"><strong>Open Science Lab</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/colab_culture.html"><strong>Collaboration Culture and Roles</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/glossary.html"><strong>Glossary &amp; Acronyms</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">CyVerse</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/intro_to_cyverse.html"><strong>Introduction to CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/data_store.html"><strong>CyVerse Data Store</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de.html"><strong>Discovery Environment</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de-data-manage.html"><strong>Discovery Environment - Data Management</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de-data-analysis.html"><strong>Discovery Environment - Data Analysis</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/vice.html"><strong>VICE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/tool_integration_app_building_DE.html"><strong>Tool Integration into the DE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/workflow.html"><strong>Creating Workflows</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/atmo.html"><strong>Atmosphere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Software Essentials</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="linux.html"><strong>Basics of Linux</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="commandline.html"><strong>Command Line and the Unix Shell</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="version_control.html"><strong>Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="communication.html"><strong>Lab Group Communication</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="websites.html"><strong>Websites &amp; Documentation</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="R_Studio.html"><strong>Introduction to R &amp; RStudio</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="RStudio_Git.html"><strong>RStudio with Version Control</strong></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>Continuous Integration</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1"><strong>Travis CI</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2"><strong>Circle CI</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4"><strong>Jenkins</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#badges"><strong>Badges</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#different-badge-styles"><em>Different Badge Styles</em></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#self-paced"><strong>Self paced</strong></a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Data Management</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/overview.html"><strong>Data Management Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/FAIR.html"><strong>FAIR Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/dmp.html"><strong>Data Management Plans (DMP)</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Moving On</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/xsede.html"><strong>Research Cyberinfrastructure associated with CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../moving_on/cyberinfrastructure.html"><strong>Other Cyberinfrastructure Projects</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Containers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockeronatmo.html">Launching a Docker app on Atmosphere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/biocontainers.html"><strong>Introduction to BioContainers</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockerintro.html"><strong>Introduction to Docker</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockeradvanced.html"><strong>Advanced Docker</strong></a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CyVerse Learning Institute Foundations of Open Science Skills 2019</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li><strong>Continuous Integration</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/software_essentials/continuous_integration.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p><a class="reference external" href="http://learning.cyverse.org/"><img alt="CyVerse_logo2" src="../_images/cyverse_cmyk6.png" style="width: 500px; height: 100px;" /></a></p>
+<p><a class="reference external" href="http://learning.cyverse.org/"><img alt="Home_Icon2" src="../_images/homeicon6.png" style="width: 25px; height: 25px;" /></a>
+<a class="reference external" href="http://learning.cyverse.org/">Learning Center Home</a></p>
+<div class="section" id="continuous-integration">
+<h1><strong>Continuous Integration</strong><a class="headerlink" href="#continuous-integration" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Continuous_integration">Continous Integration (CI)</a> is a practice of checking code repositories (typically a few times a day) to test for changes which may cause failures.</p>
+<p>CI can be integrated into either scientific programming workflows or into code development</p>
+<p>The most popular CI tools are:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference external" href="https://travis-ci.org/">Travis CI</a> - fast, easy to set up, cloud based</p></li>
+<li><p><a class="reference external" href="https://circleci.com/">Circle CI</a> - fast, easy to set up, cloud based</p></li>
+<li><p><a class="reference external" href="https://jenkins.io/">Jenkins</a> - free, can be hosted internally (requires server), highly customizable (plugins)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>When to use CI?</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>building or hosting services to a community</p></li>
+<li><p>developing versioned copies of containers for public consumption</p></li>
+<li><p>DevOps + Data Science</p></li>
+</ul>
+</div></blockquote>
+<div class="section" id="id1">
+<h2><strong>Travis CI</strong><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://docs.travis-ci.com/user/tutorial/">Setup</a></p>
+</div>
+<div class="section" id="id2">
+<h2><strong>Circle CI</strong><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://circleci.com/docs/enterprise/quick-start/">Setup</a></p>
+</div>
+<div class="section" id="id4">
+<h2><strong>Jenkins</strong><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>Jenkins is a bit harder to set up because you need a dedicated server</p>
+<p><a class="reference external" href="https://jenkins.io/doc/book/installing/">Setup</a></p>
+</div>
+<div class="section" id="badges">
+<h2><strong>Badges</strong><a class="headerlink" href="#badges" title="Permalink to this headline">¶</a></h2>
+<p>Status badges can be embedded in a README.md. Badges let you show the state of code or documentation.</p>
+<p>You can view a diverse list of different badges on <a class="reference external" href="https://shields.io/">Shields.io</a></p>
+<div class="section" id="different-badge-styles">
+<h3><em>Different Badge Styles</em><a class="headerlink" href="#different-badge-styles" title="Permalink to this headline">¶</a></h3>
+<p>Now you can pass the <code class="docutils literal notranslate"><span class="pre">style</span></code> GET argument,
+to get custom styled badges same as you would for shields.io.
+If no argument is passed, <code class="docutils literal notranslate"><span class="pre">flat</span></code> is used as default.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 58%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>STYLE</p></th>
+<th class="head"><p>BADGE</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>flat</p></td>
+<td><p><img alt="Flat Badge" src="https://readthedocs.org/projects/pip/badge/?version=latest&amp;style=flat" /></p></td>
+</tr>
+<tr class="row-odd"><td><p>flat-square</p></td>
+<td><p><img alt="Flat-Square Badge" src="https://readthedocs.org/projects/pip/badge/?version=latest&amp;style=flat-square" /></p></td>
+</tr>
+<tr class="row-even"><td><p>for-the-badge</p></td>
+<td><p><img alt="Badge" src="https://readthedocs.org/projects/pip/badge/?version=latest&amp;style=for-the-badge" /></p></td>
+</tr>
+<tr class="row-odd"><td><p>plastic</p></td>
+<td><p><img alt="Plastic Badge" src="https://readthedocs.org/projects/pip/badge/?version=latest&amp;style=plastic" /></p></td>
+</tr>
+<tr class="row-even"><td><p>social</p></td>
+<td><p><img alt="Social Badge" src="https://readthedocs.org/projects/pip/badge/?version=latest&amp;style=social" /></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="self-paced">
+<h2><strong>Self paced</strong><a class="headerlink" href="#self-paced" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://stackshare.io/stackups/circleci-vs-jenkins-vs-travis-ci">Circle vs Jenkins vs Travis</a></p>
+<hr class="docutils" />
+<p><strong>Fix or improve this documentation:</strong></p>
+<ul class="simple">
+<li><p>On Github: <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/getting_started/intro.rst" target="blank">Github Repo Link</a></p></li>
+<li><p>Send feedback: <a class="reference external" href="mailto:Tutorials&#37;&#52;&#48;CyVerse&#46;org">Tutorials<span>&#64;</span>CyVerse<span>&#46;</span>org</a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Data_management/overview.html" class="btn btn-neutral float-right" title="Data Management Overview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="RStudio_Git.html" class="btn btn-neutral float-left" title="RStudio with Version Control" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, CyVerse
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
