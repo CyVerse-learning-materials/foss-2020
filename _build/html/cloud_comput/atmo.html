@@ -1,0 +1,717 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Atmosphere &mdash; CyVerse Learning Institute Foundations of Open Science Skills 2019 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script type="text/javascript" src="../_static/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="../_static/cyverse.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/cyverse.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Research Cyberinfrastructure associated with CyVerse" href="xsede.html" />
+    <link rel="prev" title="Introduction to Reproducible Science" href="intro.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> CyVerse Learning Institute Foundations of Open Science Skills 2019
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">FOSS 2020 Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Before you Arrive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../before/main.html"><strong>Before you arrive</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/installation.html"><strong>Pre-Workshop Setup</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../before/about_cyverse.html"><strong>About CyVerse</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/intro.html"><strong>FOSS 2020 Introduction</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/code_of_conduct.html"><strong>Code of Conduct</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/agenda.html"><strong>Agenda</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/open_sci_lab.html"><strong>Open Science Lab</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/colab_culture.html"><strong>Collaboration Culture and Roles</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/glossary.html"><strong>Glossary &amp; Acronyms</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">CyVerse</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/intro_to_cyverse.html"><strong>Introduction to CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/data_store.html"><strong>CyVerse Data Store</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de.html"><strong>Discovery Environment</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de-data-manage.html"><strong>Discovery Environment - Data Management</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/de-data-analysis.html"><strong>Discovery Environment - Data Analysis</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/vice.html"><strong>VICE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/tool_integration_app_building_DE.html"><strong>Tool Integration into the DE</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CyVerse/workflow.html"><strong>Creating Workflows</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Reproducible Science</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reproducible_science/intro.html"><strong>Introduction to Cloud Computing</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reproducible_science/communication.html"><strong>Lab Group Communication</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reproducible_science/websites.html"><strong>Websites &amp; Documentation</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reproducible_science/version_control.html"><strong>Version Control</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Cloud Computing</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html"><strong>Introduction to Reproducible Science</strong></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><strong>Atmosphere</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#virtual-machines-on-atmosphere-or-jetstream"><strong>Virtual Machines on Atmosphere or Jetstream</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#provision-vm"><em>Provision VM</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#login"><em>Login</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#create-a-project"><em>Create a Project</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#start-a-new-instance"><em>Start a new Instance</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#accessing-the-shell"><em>Accessing the Shell</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ez-installation-of-project-jupyter"><em>EZ Installation of Project Jupyter</em></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#installing-rstudio-server"><em>Installing RStudio-Server</em></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#hands-on"><strong>Hands On</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#establishing-a-secure-connection"><em>Establishing a Secure Connection</em></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="xsede.html"><strong>Research Cyberinfrastructure associated with CyVerse</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="cyberinfrastructure.html"><strong>Other Cyberinfrastructure Projects</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Data Management</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/overview.html"><strong>Data Management Overview</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/FAIR.html"><strong>FAIR Data</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Data_management/dmp.html"><strong>Data Management Plans (DMP)</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Software Essentials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/linux.html"><strong>Basics of Linux</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/commandline.html"><strong>Command Line and the Unix Shell</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/R_Studio.html"><strong>Introduction to R &amp; RStudio</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/RStudio_Git.html"><strong>RStudio with Version Control</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software_essentials/continuous_integration.html"><strong>Continuous Integration</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">Containers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockeronatmo.html">Launching a Docker app on Atmosphere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/biocontainers.html"><strong>Introduction to BioContainers</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockerintro.html"><strong>Introduction to Docker</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Containers/dockeradvanced.html"><strong>Advanced Docker</strong></a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CyVerse Learning Institute Foundations of Open Science Skills 2019</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li><strong>Atmosphere</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/cloud_comput/atmo.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p><a class="reference external" href="http://learning.cyverse.org/"><img alt="CyVerse_logo2" src="../_images/cyverse_cmyk5.png" style="width: 500px; height: 100px;" /></a></p>
+<p><a class="reference external" href="http://learning.cyverse.org/"><img alt="Home_Icon2" src="../_images/homeicon5.png" style="width: 25px; height: 25px;" /></a>
+<a class="reference external" href="http://learning.cyverse.org/">Learning Center Home</a></p>
+<div class="section" id="atmosphere">
+<h1><strong>Atmosphere</strong><a class="headerlink" href="#atmosphere" title="Permalink to this headline">¶</a></h1>
+<p>CyVerse operates a cloud service called <a class="reference external" href="http://www.cyverse.org/atmosphere">Atmosphere</a>. Users can request up to 5,000 allocation units [units are hours (hr)] per month. E.g. a 1-core instance uses 1 AU/hr, a 4-core instance uses 4 AU/hr, and a 16-core instance uses 16 AU/hr. Allocations are automatically reset to 128 AU on the 1st of each month.</p>
+<p><em>Some things to remember about the platform</em></p>
+<ul class="simple">
+<li><p>Allocation Units can be requested each month, but expire at the end of the month. Users can request more AU by clicking the Request More Resources button in the Atmosphere UI. You can also get help by asking questions in the Intercom (blue button in the lower right of the CyVerse website pages).</p></li>
+<li><p>Don’t leave VMs running that aren’t being used (be a good data science neighbor and free resources for others).</p></li>
+</ul>
+<div class="section" id="virtual-machines-on-atmosphere-or-jetstream">
+<h2><strong>Virtual Machines on Atmosphere or Jetstream</strong><a class="headerlink" href="#virtual-machines-on-atmosphere-or-jetstream" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="provision-vm">
+<h3><em>Provision VM</em><a class="headerlink" href="#provision-vm" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="../_images/atmo_resources.png"><img alt="atmo_resources" src="../_images/atmo_resources.png" style="width: 750px;" /></a></p>
+<p><a class="reference internal" href="../_images/atmo_request.png"><img alt="atmo_request" src="../_images/atmo_request.png" style="width: 750px;" /></a></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="login">
+<h3><em>Login</em><a class="headerlink" href="#login" title="Permalink to this headline">¶</a></h3>
+<p>Log into <a class="reference external" href="http://atmo.cyverse.org/">CyVerse Atmosphere</a></p>
+<p><a class="reference external" href="https://cyverse.github.io/atmosphere-guides/">Atmosphere Manual</a></p>
+<p>Alternately, log into <a class="reference external" href="https://use.jetstream-cloud.org/application">XSEDE Jetstream</a></p>
+<p>Fill in your <code class="docutils literal notranslate"><span class="pre">username</span></code> and <code class="docutils literal notranslate"><span class="pre">password</span></code> and click “LOGIN”</p>
+</div>
+<div class="section" id="create-a-project">
+<h3><em>Create a Project</em><a class="headerlink" href="#create-a-project" title="Permalink to this headline">¶</a></h3>
+<p>This is something you only need to do once.</p>
+<ul class="simple">
+<li><p>Click on the “Projects” tab on the top and then click “CREATE NEW PROJECT”</p></li>
+<li><p>Enter a name, e.g. “FOSS2019” into the Project Name field.</p></li>
+<li><p>the Description can be something complex and long (like an extended abstract, or tutorial), or something short like “CyVerse FOSS 2019”.</p></li>
+<li><p>Select the newly created project</p></li>
+</ul>
+</div>
+<div class="section" id="start-a-new-instance">
+<h3><em>Start a new Instance</em><a class="headerlink" href="#start-a-new-instance" title="Permalink to this headline">¶</a></h3>
+<p>From your Project folder, you can select “New” and “Instance”</p>
+<ol class="arabic simple">
+<li><p>Suggest you select a featured image with a Graphic User Interface (GUI).</p></li>
+</ol>
+<p><strong>Suggested Atmosphere Image(s):</strong></p>
+<p><strong>Atmosphere Image(s):</strong></p>
+<p>Here are the tested Ubuntu images.</p>
+<p><strong>Warning:</strong> The latest version of Ubuntu (18.04) may not have current packages for some software.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Image Name</p></th>
+<th class="head"><p>Version</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Link</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Ubuntu 18.04 GUI</p></td>
+<td><p>1.0</p></td>
+<td><p>Ubuntu 18.04 GUI XFCE Base</p></td>
+<td><p><a class="reference external" href="https://atmo.cyverse.org/application/images/1556">Image</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Ubuntu 18.04 non-GUI</p></td>
+<td><p>1.0</p></td>
+<td><p>Ubuntu 18.04 non-GUI Base</p></td>
+<td><p><a class="reference external" href="https://atmo.cyverse.org/application/images/1552">Image</a></p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>Find the “Ubuntu 18.04” image, click on it</p></li>
+<li><p>Give it a short name that is distinct “my_first_vm”</p></li>
+<li><p>Select ‘tiny1 (CPU: 1, Mem: 4GB, Disk: 30GB)’. Because this is your first attempt at provisioning a virtual machine it doesn’t need to be a workhorse (yet).</p></li>
+<li><p>Leave rest of the fields as default.</p></li>
+<li><p>Wait for it to become active</p></li>
+<li><p>Be Patient (but not too patient - if it takes &gt;10 minutes the system may be at capacity, if you’re trying to launch a large or extra large VM, try something smaller).</p></li>
+<li><p>You can click on your new instance to get more information.</p></li>
+</ul>
+</div>
+<div class="section" id="accessing-the-shell">
+<h3><em>Accessing the Shell</em><a class="headerlink" href="#accessing-the-shell" title="Permalink to this headline">¶</a></h3>
+<p>Once the instance is <cite>active</cite>, you can access it via <code class="docutils literal notranslate"><span class="pre">ssh</span></code> or by using the Web Shell provided by Atmosphere.</p>
+<ul class="simple">
+<li><p>Click “Open Web Shell”, <em>or</em>, if you know how to use ssh,</p></li>
+</ul>
+<p>you can ssh in with your CyVerse username on the IP address of the machine</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh CyVerseUserName@&lt;INSTANCE-IP-ADDRESS&gt;
+</pre></div>
+</div>
+<p>You should see something like this</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Welcome to Ubuntu <span class="m">18</span>.04.2 LTS <span class="o">(</span>GNU/Linux <span class="m">4</span>.4.0-81-generic x86_64<span class="o">)</span>
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+<span class="m">155</span> packages can be updated.
+<span class="m">0</span> updates are security updates.
+
+
+*** System restart required ***
+Welcome to
+    _   _                             _
+   / <span class="se">\ </span><span class="p">|</span> <span class="p">|</span>_ _ __ ___   ___  ___ _ __ <span class="p">|</span> <span class="p">|</span>__   ___ _ __ ___
+  / _ <span class="se">\|</span> __<span class="p">|</span> <span class="s1">&#39;_ ` _`  \ / _ \/ __| &#39;</span>_ <span class="se">\|</span> <span class="s1">&#39;_ \ / _ \ &#39;</span>__/ _ <span class="se">\</span>
+ / ___ <span class="se">\ </span><span class="p">|</span>_<span class="p">|</span> <span class="p">|</span> <span class="p">|</span> <span class="p">|</span> <span class="p">|</span> <span class="p">|</span> <span class="o">(</span>_<span class="o">)</span> <span class="se">\_</span>_ <span class="se">\ </span><span class="p">|</span>_<span class="o">)</span> <span class="p">|</span> <span class="p">|</span> <span class="p">|</span> <span class="p">|</span>  __/ <span class="p">|</span> <span class="p">|</span>  __/
+/_/   <span class="se">\_\_</span>_<span class="p">|</span>_<span class="p">|</span> <span class="p">|</span>_<span class="p">|</span> <span class="p">|</span>_<span class="p">|</span><span class="se">\_</span>__/<span class="p">|</span>___/ .__/<span class="p">|</span>_<span class="p">|</span> <span class="p">|</span>_<span class="p">|</span><span class="se">\_</span>__<span class="p">|</span>_<span class="p">|</span>  <span class="se">\_</span>__<span class="p">|</span>
+
+cyverse_username@vm142-39:~$
+</pre></div>
+</div>
+<p>Note, this instance is running an older version of Ubuntu 18.</p>
+<p>A good practice before installing any new software is to run:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo apt-get update <span class="o">&amp;&amp;</span> sudo apt-get upgrade
+</pre></div>
+</div>
+<p>After the new updates are installed you can reboot the machine from terminal or from the Atmosphere UI</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo reboot
+</pre></div>
+</div>
+<p>If you’re using the Web Shell, the instance will exit. Wait a few minutes for the instance to reboot and refresh the screen.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To access the Clipboard in an Apache Guacamole Web Shell:</p>
+<ul class="simple">
+<li><p>Open Clipboard and virtual keyboard
+- On a standard keyboard: <cite>ctrl</cite> + <cite>alt</cite> + <cite>shift</cite> key
+- On a MAC OS X keyboard: <cite>control</cite> + <cite>command ⌘</cite> + <cite>shift</cite> key</p></li>
+<li><p>Select your text or paste text into the clipboard window.</p></li>
+<li><p>Close the Clipboard window by selecting <cite>control</cite> + <cite>command ⌘</cite> + <cite>shift</cite> keys again</p></li>
+<li><p>Right click with your mouse or double tap fingers on touchpad to paste in the web shell or Desktop</p></li>
+</ul>
+</div>
+<p><strong>Suspending an instance</strong></p>
+<ul class="simple">
+<li><p>When you’re done using an instance it is wise to ‘Suspend’ the instance in the Actions.</p></li>
+<li><p>This will kill any process that is still running.</p></li>
+<li><p>Your data and all of your programs will be fine. It is however wise to move your data back onto your DataStore or back it up somewhere else so it will be available.</p></li>
+<li><p>Suspending the instance will leave it ready for reuse when you want to “resume” working on it.</p></li>
+<li><p>You will not be charged any AU while the instance is suspended.</p></li>
+</ul>
+<p><strong>Deleting your instance</strong></p>
+<ul class="simple">
+<li><p>To completely remove your instance, you can select the “delete” buttom from the instance details page.</p></li>
+<li><p>This will open up a dialogue window. Select the “Yes, delete this instance” button.</p></li>
+<li><p>It may take Atmosphere a few minutes to process your request. The instance should disappear from the project when it has been successfully deleted.</p></li>
+</ul>
+<p><strong>Imaging an instance</strong></p>
+<p>The use of Docker and Singularity take a lot of the problems out of building unique software stacks on cloud - but sometimes these cannot be avoided.</p>
+<ul class="simple">
+<li><p>Have you created a unique software stack that you need to launch on a larger number of future instances?</p></li>
+<li><p>Does it take a long time to compile your software stack each time you launch a new instance?</p></li>
+<li><p>Only create images from the smallest possible versions of your instance. A larger imaged instance cannot be run on a smaller instance.</p></li>
+</ul>
+<p>To request that your instance be imaged click the “Image” button from Actions.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is advisable to delete the machine if you are not planning to use it in future to save valuable resources. However if you want to use it in future, you can suspend it.</p>
+<p>If you want to keep the instance for a future project, you can also “shelve” the instance. It will take a longer period of time to resume a shelved instance.</p>
+</div>
+</div>
+<div class="section" id="ez-installation-of-project-jupyter">
+<h3><em>EZ Installation of Project Jupyter</em><a class="headerlink" href="#ez-installation-of-project-jupyter" title="Permalink to this headline">¶</a></h3>
+<p>We install Project Jupyter (Notebooks and Lab) using the <a class="reference external" href="https://www.anaconda.com/">Anaconda distribution</a>. Within the Anaconda distribution is the <code class="docutils literal notranslate"><span class="pre">conda</span></code> package manager which can be used to both build and install software.</p>
+<p>Anaconda is different than a basic Python installation. It serves as both a package manager and an environment. While this has many benefits, it also adds some complexity to running your Python environments. Still confused? Read about the <a class="reference external" href="http://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/">myths and misconceptions of Anaconda</a>.</p>
+<p>For more details about installing software on Atmosphere visit the CyVerse <a class="reference external" href="https://cyverse-ez-quickstart.readthedocs-hosted.com/en/latest/">Data Science Quickstart Tutorial</a> or the <a class="reference external" href="https://iujetstream.atlassian.net/wiki/spaces/JWT/pages/348586006/Jetstream+Atmosphere+EZ+tools">Jetstream EZ Tutorial</a>. There are instructions for <code class="docutils literal notranslate"><span class="pre">ez</span></code> installation of Docker, Singularity, and Anaconda.</p>
+<p>If you’re on an instance which already has Anaconda installed, you’ll still need to re-run <code class="docutils literal notranslate"><span class="pre">ez</span></code> to restart the Anaconda virtual environment.</p>
+<ol class="arabic">
+<li><p>Install Anaconda with Python3 (<code class="docutils literal notranslate"><span class="pre">ez</span></code> comes preloaded on featured instances on Atmosphere and Jetstream) by typing:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ezj
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>Once the installation completes, you’re done! A Jupyter Notebook should now be running on the VM.</p></li>
+</ol>
+<p><a class="reference internal" href="cloud_comput/../img/notebook_terminal.png"><img alt="notebook_terminal" src="cloud_comput/../img/notebook_terminal.png" style="width: 750px;" /></a></p>
+<ol class="arabic simple" start="3">
+<li><p>Click the link showing the notebook URL (notice this is not the localhost:8888).</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To install your own packages you’ll need to change ownership of the Anaconda installation:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo chown <span class="k">$(</span>id -u<span class="k">)</span>:<span class="k">$(</span>id -g<span class="k">)</span> /opt/anaconda3 -R
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>Down version Python 3.6 to 3.5</strong></p>
+<p>To use GDAL you may need to reverse version Python to an earlier version</p>
+<p><a class="reference external" href="https://ipython.readthedocs.io/en/stable/install/kernel_install.html/">Kernel installation instructions</a></p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python -m pip install ipykernel
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda create -n ipykernel_py35 <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.5 ipykernel
+<span class="nb">source</span> activate ipykernel_py35    <span class="c1"># On Windows, remove the word &#39;source&#39;</span>
+python -m ipykernel install --user
+</pre></div>
+</div>
+</div></blockquote>
+<p><a class="reference external" href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels/">List of Jupyter Kernels</a></p>
+<p><strong>R</strong></p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install -c r irkernel
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>JavaScript</strong></p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo apt-get install nodejs-legacy npm ipython ipython-notebook
+sudo npm install -g ijavascript
+ijsinstall
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>Ruby</strong></p>
+<blockquote>
+<div><p>Add Jupyter PPA</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo add-apt-repository ppa:chronitis/jupyter -y
+sudo apt-get update
+sudo apt-get install -y iruby
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>Python2 Kernel</strong></p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda create -n ipykernel_py2 <span class="nv">python</span><span class="o">=</span><span class="m">2</span> ipykernel
+<span class="nb">source</span> activate ipykernel_py2
+python -m ipykernel install --user
+<span class="nb">source</span> deactivate ipykernel_py2
+conda activate base <span class="c1"># switch back to base Python3 environment</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>Julia Kernel</strong></p>
+<blockquote>
+<div><p>First, install <a class="reference external" href="https://julialang.org/downloads/">Julia</a>, here we are installing v0.6.</p>
+<p>Once Julia as been installed, run <code class="docutils literal notranslate"><span class="pre">julia</span></code> from the prompt.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>wget https://julialang-s3.julialang.org/bin/linux/x64/0.6/julia-0.6.3-linux-x86_64.tar.gz
+tar xvzf julia-0.6.3-linux-x86_64.tar.gz
+sudo mv julia-d55cadc350/ /opt/julia
+rm -rf julia-0.6.3-linux-x86_64.tar.gz
+sudo ln -s /opt/julia/bin/julia /usr/local/bin/julia
+julia
+</pre></div>
+</div>
+<p>Now, from Julia prompt install the iJulia Kernel.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Pkg.add<span class="o">(</span><span class="s2">&quot;IJulia&quot;</span><span class="o">)</span>
+ENV<span class="o">[</span><span class="s2">&quot;JUPYTER&quot;</span><span class="o">]</span> <span class="o">=</span> <span class="s2">&quot;/opt/anaconda3/bin/jupyter&quot;</span>
+Pkg.add<span class="o">(</span><span class="s2">&quot;Feather&quot;</span><span class="o">)</span>
+Pkg.add<span class="o">(</span><span class="s2">&quot;DataFrames&quot;</span><span class="o">)</span>
+Pkg.add<span class="o">(</span><span class="s2">&quot;NamedArrays&quot;</span><span class="o">)</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>Bash Kernel</strong></p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install bash_kernel
+python -m bash_kernel.install
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>Geospatial dependencies</strong></p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge gdal
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo add-apt-repository -y ppa:ubuntugis/ubuntugis-unstable
+sudo apt update
+sudo apt install gdal-bin python-gdal python3-gdal libgdal1-dev
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>Script of Scripts</strong></p>
+<blockquote>
+<div><p><a class="reference external" href="https://vatlab.github.io/sos-docs/#runningsos">Official documentation</a></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install sos
+pip install sos-notebook
+python -m sos_notebook.install
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="installing-rstudio-server">
+<h3><em>Installing RStudio-Server</em><a class="headerlink" href="#installing-rstudio-server" title="Permalink to this headline">¶</a></h3>
+<p>RStudio can be installed in several ways.</p>
+<p>First, you can follow the RStudio-Server <a class="reference external" href="https://www.rstudio.com/products/rstudio/download-server/">instructions for Linux</a></p>
+<p>Second, you can use Docker (following the same <code class="docutils literal notranslate"><span class="pre">ez</span></code> <a class="reference external" href="https://cyverse-ez-quickstart.readthedocs-hosted.com/en/latest/index.html">documentation</a> as for Anaconda). We suggest using containers from Docker Hub <a class="reference external" href="https://hub.docker.com/r/rocker/geospatial/">Rocker</a> on the instance.</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ezd
+sudo usermod -aG docker <span class="nv">$USER</span>
+<span class="nb">exit</span>
+docker pull rocker/geospatial
+docker run -d -p <span class="m">8787</span>:8787 rocker/geospatial
+</pre></div>
+</div>
+</div></blockquote>
+<p>Third, you can use <a class="reference external" href="https://cyverse-ez-quickstart.readthedocs-hosted.com/en/latest/rstudio.html">Anaconda</a></p>
+<p>Here we use <code class="docutils literal notranslate"><span class="pre">ezj</span></code> to install both Anaconda (Jupyter) and R</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ezj -R
+</pre></div>
+</div>
+</div></blockquote>
+<p>This will trigger the Ansible playbook to install <code class="docutils literal notranslate"><span class="pre">r-base</span></code>, <code class="docutils literal notranslate"><span class="pre">r-essentials</span></code>, and a few other commonly used R Data Science packages.</p>
+<p>After <code class="docutils literal notranslate"><span class="pre">ezj</span> <span class="pre">-R</span></code> has finished, you can install RStudio-Server</p>
+<p>Install these misc. dependencies</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&quot;/opt/anaconda3/bin&quot;</span>:<span class="nv">$PATH</span>
+sudo chown <span class="k">$(</span>id -u<span class="k">)</span>:<span class="k">$(</span>id -g<span class="k">)</span> /opt/anaconda3/ -R
+conda update conda
+conda install gxx_linux-64
+conda install gcc_linux-64
+</pre></div>
+</div>
+</div></blockquote>
+<p>Set Path and install <code class="docutils literal notranslate"><span class="pre">gdebi</span></code></p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo apt-get install gdebi-core
+</pre></div>
+</div>
+</div></blockquote>
+<p>Install RStudio-Server with <code class="docutils literal notranslate"><span class="pre">gdebi</span></code>:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;export RSTUDIO_WHICH_R=&#39;/opt/anaconda3/bin/R&#39;&quot;</span> &gt;&gt; ~/.bash_profile
+wget https://download2.rstudio.org/rstudio-server-1.1.447-amd64.deb
+sudo gdebi --non-interactive rstudio-server-1.1.447-amd64.deb
+</pre></div>
+</div>
+</div></blockquote>
+<p>The installation of RStudio-Server is going to fail because we haven’t told it which R to use. Because we are using Anaconda’s installation of R, and not the basic installation of R, we have to reassign RStudio to look for Anaconda</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo sh -c <span class="s1">&#39;echo &quot;rsession-which-r=/opt/anaconda3/bin/R&quot; &gt;&gt; /etc/rstudio/rserver.conf&#39;</span>
+<span class="c1"># export RSTUDIO_WHICH_R=&#39;/opt/anaconda/lib/R/bin/R&#39;</span>
+<span class="c1"># sudo sh -c &#39;echo &quot;launchctl setenv RSTUDIO_WHICH_R $RSTUDIO_WHICH_R&quot; &gt;&gt; ~/.bash_profile&#39;</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>Restart the server</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo rstudio-server start
+</pre></div>
+</div>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p>You can launch Jupyter Lab by exiting the notebook and typing <cite>jupyter lab</cite> - but this will allow Lab to only be available on the localhost, with no way to connect from a remote terminal. Exit the notebook by pressing <cite>ctrl + c</cite> twice, and then start a <a class="reference external" href="https://github.com/jupyterlab/jupyterlab">Jupyter Lab</a>.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="hands-on">
+<h2><strong>Hands On</strong><a class="headerlink" href="#hands-on" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://snakemake2019.readthedocs.io/en/latest/Atmosphere_Cloud.html">Sateesh’s Atmosphere Exercises</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To ensure your session doesn’t die when you close your terminal use <cite>tmux</cite> or <cite>screen</cite> to start your remote sessions and to detach the screen before exiting.</p>
+<ul class="simple">
+<li><p>detach screen: <cite>ctrl + b</cite> then <cite>d</cite></p></li>
+<li><p>list tmux sessions: <code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">ls</span></code></p></li>
+<li><p>re-attach screen: <code class="docutils literal notranslate"><span class="pre">tmux</span> <span class="pre">attach</span> <span class="pre">-t</span> <span class="pre">&lt;session</span> <span class="pre">id</span> <span class="pre">#&gt;</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="establishing-a-secure-connection">
+<h3><em>Establishing a Secure Connection</em><a class="headerlink" href="#establishing-a-secure-connection" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>On the VM start the Lab in terminal (don’t forget to use <cite>tmux</cite>)</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter lab --no-browser --ip<span class="o">=</span>* --port<span class="o">=</span><span class="m">8888</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ol>
+<p><strong>Option 1: SSH tunnel</strong></p>
+<p>You must have the ability to use <code class="docutils literal notranslate"><span class="pre">ssh</span></code> on your localhost to use this method.</p>
+<ol class="arabic">
+<li><p>Start Jupyter</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter lab --no-browser --ip<span class="o">=</span><span class="m">127</span>.0.0.1 --port<span class="o">=</span><span class="m">8888</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>Open a new terminal on your localhost.</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh -nNT -L <span class="m">8888</span>:localhost:8888 CyVerseUserName@&lt;IPADDRESS&gt;
+</pre></div>
+</div>
+<p>Enter your password when prompted.</p>
+<p>The terminal should stop responding after this.</p>
+</div></blockquote>
+</li>
+<li><p>In your browser, open a new tab and go to <code class="docutils literal notranslate"><span class="pre">http://localhost:8888</span></code></p></li>
+</ol>
+<p><strong>Option 2: Caddy</strong></p>
+<p>You can use this method with <code class="docutils literal notranslate"><span class="pre">tmux</span></code> in the Web Shell</p>
+<ol class="arabic">
+<li><p>Follow the same step #1 above</p></li>
+<li><p>In the terminal start a new <code class="docutils literal notranslate"><span class="pre">tmux</span></code> session. Then copy/paste the following:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;</span><span class="k">$(</span>hostname<span class="k">)</span><span class="s2"></span>
+<span class="s2">proxy / 127.0.0.1:8888 {</span>
+<span class="s2">    websocket</span>
+<span class="s2">    transparent</span>
+<span class="s2">}</span>
+<span class="s2">&quot;</span> &gt; Caddyfile
+curl https://getcaddy.com <span class="p">|</span> bash -s personal http.nobots
+caddy
+</pre></div>
+</div>
+<p>The <a class="reference external" href="https://caddyserver.com/">Caddyserver</a> will output a secure URL <cite>https://</cite> for the Atmosphere VM which you can then connect in a new browser tab.</p>
+</div></blockquote>
+</li>
+<li><p>Copy / Paste the URL <code class="docutils literal notranslate"><span class="pre">https://vm142-xx.cyverse.org</span></code> into a new browser tab.</p></li>
+</ol>
+<p><strong>Description of output and results</strong></p>
+<p>Congratulations - you’ve got a Virtual Machine ready to do some serious data science!</p>
+<p><a class="reference external" href="http://learning.cyverse.org/"><img alt="Home_Icon" src="../_images/homeicon5.png" style="width: 25px;" /></a>
+<a class="reference external" href="http://learning.cyverse.org/">Learning Center Home</a></p>
+<hr class="docutils" />
+<p><strong>Fix or improve this documentation:</strong></p>
+<ul class="simple">
+<li><p>On Github: <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/cloud_comput/atmo.rst" target="blank">Github Repo Link</a></p></li>
+<li><p>Send feedback: <a class="reference external" href="mailto:Tutorials&#37;&#52;&#48;CyVerse&#46;org">Tutorials<span>&#64;</span>CyVerse<span>&#46;</span>org</a></p></li>
+</ul>
+<hr class="docutils" />
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="xsede.html" class="btn btn-neutral float-right" title="Research Cyberinfrastructure associated with CyVerse" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="intro.html" class="btn btn-neutral float-left" title="Introduction to Reproducible Science" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, CyVerse
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
