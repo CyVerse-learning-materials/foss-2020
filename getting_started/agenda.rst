@@ -46,48 +46,25 @@ By working through an example project  relevant to their interests, participants
 
 * Introduction to CyVerse
 	- Platform overview
-	- Discovery Environment (DE)
+	- Data Store
+		+ Data Store Access
+			* iCommands, WebDav, CyberDuck	
 		+ Data management
 			* Data organization
 			* Data sharing
-			* Metadata
-		+ Data analysis
+			* Metadata			
+	- Discovery Environment (DE)
+		+ Walkthough & Terminology
+		+ Data Analysis
 			* running apps in batch mode (DE apps)
 			* VICE: Visual Interactive Computing Environment 
-		+ Creating new tools and apps - overview
-		+ Creating workflows
-		+ Data Store Access
-			* iCommands, WebDav, CyberDuck
-			
+		+ Creating tools and apps - overview		
 			
 **Day 2**
 ---------
 
 **AM**
 
-*Introduction to reproducible science
-	- Tools for collaboration
-		+ Slack, GitHub, ReadTheDocs, Gitter, Stack Overflow, etc.
-	- Hands on GitHub
-		+ In a web-browser, command line
-		
-		
-**PM**
-
-* Introduction to cloud computing
-	- Atmosphere
-		+ Launching an instance
-		+ Mounting a volume
-		+ Creating images
-	- OpenScienceGrid, XSEDE HPC
-	- Jetstream - Atmosphere for XSEDE (scale up your analyses)
-	- Commercial cloud providers
-	
-	
-**Day 3**
---------
-
-**AM**
 
 * Data Management 
 	- FAIR data principle (Findable, Accessible, Interoperable, and Reusable)
@@ -105,13 +82,39 @@ By working through an example project  relevant to their interests, participants
 
 **PM**
 
+*Introduction to reproducible science
+	- The Research Object
+	- Tools for collaboration
+		+ Version Control: GitHub, 
+		+ Documentation: ReadTheDocs, Bookdown
+		+ Communication: Slack, Gitter, Microsoft Teams 
+		+ How to Google: Stack Overflow, etc.
+	- Hands on GitHub
+		+ In a web-browser, command line
+
+**Day 3**
+--------
+
+**AM**
+
+* Project Pitches
+
+* Introduction to cloud computing
+	- Atmosphere - Jetstream for XSEDE (scale up your analyses)
+		+ Launching an instance
+		+ Mounting a volume
+		
+	- OpenScienceGrid, XSEDE HPC
+	- Commercial Cloud Providers
+
+**PM**
+
 * Computational Notebooks
-	- Jupyter Notebooks with R or Python (in VICE)
+	- Jupyter Lab Notebooks with R or Python 
 	- Connecting Notebooks and VICE to GitHub
-	
+* Optional Project time	
 
 *Evening: Happy hour at 1702! No trip to UA’s north campus is complete without a visit to 1702 for pizza and beer. It’s a local institution.*
-
 
 **Day 4**
 ---------
@@ -119,32 +122,29 @@ By working through an example project  relevant to their interests, participants
 **AM**
 
 * Introduction to Containers
-	- Intro to BioContainers, Docker, and Singularity
-	- Install Docker on Atmosphere and run a container
+	- Intro to BioContainers, Docker, Kubernetes, and Singularity
+	- Install Docker 
+		+ Atmosphere 
+	- Run a container in Docker
 	
 **PM**
 
-* Bio5 Tour
 * Work on projects, practice specific skills
 
 *Group Dinner in Downtown Tucson - take the streetcar!*
-
 
 **Day 5**
 ---------
 
 **AM**
 
-* Introduction to workflow managers
-* Collaboration culture, recap
+* Work on Projects, practice specific skills
 
 **PM**
 
 * Project presentations
 * Planning for continued involvement
 * Course assessment
-
-
    
 ----
 
