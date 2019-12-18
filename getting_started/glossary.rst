@@ -19,7 +19,7 @@
 
 **C**
 
--**CLI:** the UNIX shell command line interface, most typically  BASH (the Bourne-Again Shell)
+- **CLI:** the UNIX shell command line interface, most typically  BASH (the Bourne-Again Shell)
 - **container:** A virtualization of an operating system run within an isolated user space. A running instance of and image.
 - **continuous integration (CI):** automated integration of code into a repository. Used as a means of version & quality control.
 - **continuous development (CD):** production of software on short time schedules
