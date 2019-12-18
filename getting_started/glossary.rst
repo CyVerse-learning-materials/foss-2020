@@ -16,10 +16,11 @@
 **B**
 
 - **beta:** a software version which is not yet ready for publication but is being tested (symbol in CyVerse apps)
+- **bash:** the Bourne-Again Shell
 
 **C**
 
-- **CLI:** the UNIX shell command line interface, most typically  BASH (the Bourne-Again Shell)
+- **CLI:** (1) the UNIX shell command line interface, most typically  BASH (2) CyVerse Learning Institute
 - **container:** A virtualization of an operating system run within an isolated user space. A running instance of and image.
 - **continuous integration (CI):** automated integration of code into a repository. Used as a means of version & quality control.
 - **continuous development (CD):** production of software on short time schedules
@@ -29,6 +30,7 @@
 **D**
 
 - **DevOps** Software *Dev*elopment and information techology *Op*erations techniques for shortening the time to change software in relation to CI/CD.
+- **Discovery Environment (DE):** a data science workbench for running executable, interactive, and high throughput applications in CyVerse
 - **Docker:** is an open source software platform to create, deploy and manage virtualized application containers on a common operating system (OS), with an ecosystem of allied tools. A program that runs and handles life-cycle of containers and images
 - **DockerHub:** official registry of docker containers, operated by Docker
 - **DOI:** digital object identifier
@@ -39,7 +41,7 @@
 
 **F**
 
-- **FOSS:**  Free or Open Source Software - also, the homage of this workshop 
+- **FOSS:**  (1) Free or Open Source Software, (2) Foundational Open Science Skills 
 - **function:** 
 
 **G**
@@ -117,6 +119,7 @@
 **S**
 
 - **shell:** is a command line interface program that runs other programs (may be complex, technical programs or very simple programs such as making a directory). These simple, stand-alone programs are called commands.
+- **Singularity:** a container software, used widely on HPC
 - **SLACK:** Searchable Log of All Conversation and Knowledge, a team communication tool
 - **sprint:** set period of time during which specific work has to be completed and made ready for review
 
@@ -124,7 +127,8 @@
 
 - **tar:**  software utility for collecting many files into one archive file, often referred to as a tarball
 - **tensor:** algebraic object that describes a linear mapping from one set of algebraic objects to another
-- **thread:** a CPU process or a series of linked messages in a discussion board.
+- **terminal:** a windowed emulator for directly enterinc commands to a computer 
+- **thread:** a CPU process or a series of linked messages in a discussion board
 - **tool:** In the context of CyVerse Discovery Environment, a Docker Container 
 - **TPU:** tensor processing unit
 
@@ -134,6 +138,7 @@
 
 **V**
 
+- **VICE:** Visual Interactive Computing Environment
 - **virtual machine:** is a software computer that, like a physical computer, runs an operating system and applications
 
 **W**
