@@ -48,7 +48,7 @@
 
 - **git:** software program for working with version control system
 - **gitter:** a Github based messaging service that uses markdown
-- **GitHub:** a website for hosting ``git`` repositories -- owned by Microsoft
+- **Github:** a website for hosting ``git`` repositories -- owned by Microsoft
 - **GitLab:** a website for hosting ``git`` repositories
 - **GPU:** graphic processing unit
 - **GUI:** graphical user interface
