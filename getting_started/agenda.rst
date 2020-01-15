@@ -25,8 +25,13 @@ Last year’s syllabus as a chart (for reference): https://docs.google.com/sprea
 ------------------
 By working through an example project  relevant to their interests, participants will practice open science skills using CyVerse, GitHub, R or Python, and other resources. At the end of the week, students will present a plan for how to integrate open science into their labs.
 
+*Location*
+------------------
+FOSS will be held in the new Health Sciences Innovation Building (HSIB)(UA Building #216), located at 1670 E Drachmann St. Nearest parking is the Highland Garage, about 3 blocks west of HSIB or you can take the Purple or Green CatTran shuttle to the northern terminus (the AHSL Library stop). HSIB is an approximately 10 minute walk from The Aloft Hotel.
+UArizona Campus Map: https://map.arizona.edu/
+CatTran Route Map: https://parking.arizona.edu/cattran/cat-tran-routes/
 
-**Day 1** (Location: Health Sciences Innovation Building Rm 567)
+**Day 1** (HSIB Rm 567)
 ---------
 
 **AM**
