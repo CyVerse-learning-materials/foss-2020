@@ -26,7 +26,7 @@ Last year’s syllabus as a chart (for reference): https://docs.google.com/sprea
 By working through an example project  relevant to their interests, participants will practice open science skills using CyVerse, GitHub, R or Python, and other resources. At the end of the week, students will present a plan for how to integrate open science into their labs.
 
 
-**Day 1**
+**Day 1** (Location: Health Sciences Innovation Building Rm 567)
 ---------
 
 **AM**
@@ -60,7 +60,7 @@ By working through an example project  relevant to their interests, participants
 			* VICE: Visual Interactive Computing Environment 
 		+ Creating tools and apps - overview		
 			
-**Day 2**
+**Day 2** (HSIB 640)
 ---------
 
 **AM**
@@ -92,7 +92,7 @@ By working through an example project  relevant to their interests, participants
 	- Hands on GitHub
 		+ In a web-browser, command line
 
-**Day 3**
+**Day 3** (HSIB 567)
 --------
 
 **AM**
@@ -116,7 +116,7 @@ By working through an example project  relevant to their interests, participants
 
 *Evening: Happy hour at 1702! No trip to UA’s north campus is complete without a visit to 1702 for pizza and beer. It’s a local institution.*
 
-**Day 4**
+**Day 4** (HSIB 640)
 ---------
 
 **AM**
@@ -133,7 +133,7 @@ By working through an example project  relevant to their interests, participants
 
 *Group Dinner in Downtown Tucson - take the streetcar!*
 
-**Day 5**
+**Day 5** (HSIB 640)
 ---------
 
 **AM**
