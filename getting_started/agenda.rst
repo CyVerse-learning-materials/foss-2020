@@ -249,7 +249,7 @@ CatTran Route Map: https://parking.arizona.edu/cattran/cat-tran-routes/
       - Activity (Instructor)
       - Content
       - Expected Outcomes      
-    * - Wednesday (2/19/2020)
+    * - Thursday (2/19/2020)
       - 08:30-09:00
       - Instructor pre-briefing
       -
