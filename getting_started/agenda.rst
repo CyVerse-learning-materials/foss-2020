@@ -31,6 +31,20 @@ FOSS will be held in the new Health Sciences Innovation Building (HSIB)(UA Build
 UArizona Campus Map: https://map.arizona.edu/
 CatTran Route Map: https://parking.arizona.edu/cattran/cat-tran-routes/
 
+.. list-table::
+    :header-rows: 1
+    
+    * - Day
+      - Time
+      - Activity (Instructor)
+      - Content
+      - Expected Outcomes
+    * -
+      -
+      -
+      -
+      -
+
 **Day 1** (HSIB Rm 567)
 ---------
 
