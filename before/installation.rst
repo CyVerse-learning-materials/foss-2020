@@ -8,7 +8,7 @@
 **Pre-Workshop Setup**
 ======================
 
-Please complete the minimum Setup Instructions to prepare for the FOSS Camp at CyVerse, The University of Arizona, which will run from June 3-7, 2019.
+Please complete the minimum Setup Instructions to prepare for the FOSS Camp at CyVerse, The University of Arizona, which will run from February 17-21, 2020.
 
 .. list-table::
     :header-rows: 1
