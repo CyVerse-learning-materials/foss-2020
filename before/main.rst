@@ -8,9 +8,9 @@
 **Before you arrive**
 ==========
 
-FOSS will take place in Tucson AZ at the University of Arizona `Bioscience Research Lab <https://bsrl.arizona.edu/welcome>`_.
+FOSS 2020 will take place in Tucson AZ at the University of Arizona `Health Sciences Innovation Building <https://opa.uahs.arizona.edu/sites/opa.uahs.arizona.edu/files/hsib_tour_brochure.pdf>`_.
 
-This is a restricted entry building. Please assemble in the lobby of the building, near the elevators, at 8:45 on the first morning.
+Please assemble in the lobby of the building, near the elevators, at 8:45 on the first morning.
 
 The workshop will be run under a `Code of Conduct <../getting_started/code_of_conduct.html>`_. Please respect it and be excellent to each other!
 
@@ -28,7 +28,7 @@ The workshop will cover key concepts about open science:
 **FOSS Camp Goes Green**
 --------
 
-We encourage all FOSS Camp participants to help minimize our waste footprint. If possible, bring your own reusable beverage containers, such as coffee mugs and water bottles, to use during snack breaks. Public transportation from the venue to the 4th Ave. and Downtown districts is easy with Tuscson's modern street car. TuGo bike rentals are available outside the building. Thanks in advance!
+We encourage all FOSS Camp participants to help minimize our waste footprint. If possible, bring your own reusable beverage containers, such as coffee mugs and water bottles, to use during breaks. Public transportation from the venue to the 4th Ave. and Downtown districts is easy with Tuscson's modern street car. TuGo bike rentals are available outside the building. Thanks in advance!
 
 **Who should attend?**
 --------
