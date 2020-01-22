@@ -22,14 +22,40 @@ Instructors will review the agenda at the end of each day, and adjust based on p
 Last year’s syllabus as a chart (for reference): https://docs.google.com/spreadsheets/d/1n5zCJlT9g_vyWx6z-5vmT300ZH-vC6AP4TYKFeJIMZo/edit#gid=0
 
 *Expected Outcomes*
-------------------
+-------------------
 By working through an example project  relevant to their interests, participants will practice open science skills using CyVerse, GitHub, R or Python, and other resources. At the end of the week, students will present a plan for how to integrate open science into their labs.
 
 *Location*
-------------------
-FOSS will be held in the new Health Sciences Innovation Building (HSIB)(UA Building #216), located at 1670 E Drachmann St. Nearest parking is the Highland Garage, about 3 blocks west of HSIB or you can take the Purple or Green CatTran shuttle to the northern terminus (the AHSL Library stop). HSIB is an approximately 10 minute walk from The Aloft Hotel.
+----------
+
+FOSS will be held in the new Health Sciences Innovation Building (HSIB)(UA Building #216), located at 1670 E Drachmann St. 
+
+Nearest parking is the Highland Garage, about 3 blocks west of HSIB or you can take the Purple or Green CatTran shuttle to the northern terminus (the AHSL Library stop). 
+
+HSIB is an approximately 10 minute walk from The Aloft Hotel.
+
 UArizona Campus Map: https://map.arizona.edu/
+
 CatTran Route Map: https://parking.arizona.edu/cattran/cat-tran-routes/
+
+Due to scheduling conflicts with other courses, we will be switching rooms and floors in the HSIB building each day.
+
+.. list-table::
+    :header-rows: 1
+    
+    * - Day
+      - Room Number
+    * - Monday
+      - Room 567
+    * - Tuesday  
+      - Room 640
+    * - Wednesday
+      - Room 567
+    * - Thursday
+      - Room 640
+    * - Friday 
+      - Room 640
+----
 
 .. list-table::
     :header-rows: 1
@@ -41,59 +67,59 @@ CatTran Route Map: https://parking.arizona.edu/cattran/cat-tran-routes/
       - Expected Outcomes
     * - Monday (2/17/2020)
       - 08:30-09:00
-      - Instructor pre-briefing
+      - Instructor pre-briefing (all instructors)
       -
       -
     * - 
-      - 09:00-10:00
-      - Welcome
-      -
-      -
+      - 09:00-09:30
+      - Welcome & Introductions (Swetnam)
+      - Overview of Code of Conduct, Course Materials, and logistics
+      - 
+    * - 
+      - 09:30-10:00
+      - Discussion: What is Open Science? (Merchant)
+      - Overview of what CyVerse mission is
+      - 
     * - 
       - 10:00-10:20
-      - Lesson 1
-      -
-      -
+      - Break
+      - 
+      - 
     * - 
-      - 10:20-11:00
-      - Lesson 2
-      -
-      -
-    * - 
-      - 11:00-12:00
-      - Lesson 3
-      -
-      -
+      - 10:20-12:00
+      - Collaboration Culture and Roles (Mandel, Eller College of Management)
+      - 
+      - a better understanding of yourself & others
     * - 
       - 12:00-13:00
-      - Lesson 4
-      -
-      -
+      - Lunch
+      - 
+      - 
     * - 
       - 13:00-14:00
-      - Lesson 5
+      - Data Management Overview (Walls)
+      - Organization, Sharing, Metadata
+      - 
+    * - 
+      - 14:00-15:00
+      - Intro to CyVerse: Data Management (Tujeta)
+      - Data Store Access: iCommands, WebDav, CyberDuck
+      - 
+    * - 
+      - 15:00-15:20
+      - Break
       -
       -
     * - 
-      - 14:00-14:30
-      - Lesson 6
-      -
-      -
+      - 15:20-16:20
+      - Intro to Cyverse: Discovery Environment (Cooksey)
+      - Data Science Workbench: Tools & Apps, OSG HTC
+      - Laumnch non-interactive jobs
     * - 
-      - 14:30-15:00
-      - Lesson 7
-      -
-      -
-    * - 
-      - 15:00-16:00
-      - Lesson 8
-      -
-      -
-    * - 
-      - 16:00-17:00
-      - Lesson 9
-      -
-      -     
+      - 16:20-17:00
+      - Intro to Cyverse: Discovery Environment (Swetnam)
+      - Data Science Workbench: Visual Interactive Computing
+      - Launching RStudio, Shiny Jupyter Lab, & Remote Desktops    
     * - 
       - 17:00-17:30
       - Instructor Debrief
@@ -116,52 +142,52 @@ CatTran Route Map: https://parking.arizona.edu/cattran/cat-tran-routes/
       -
     * - 
       - 09:00-10:00
-      - Welcome
-      -
-      -
+      - FAIR Data Principles (Walls)
+      - Metadata, standards, licensing, legal, and ethics
+      - 
     * - 
       - 10:00-10:20
-      - Lesson 1
+      - Break 
       -
       -
     * - 
       - 10:20-11:00
-      - Lesson 2
-      -
+      - FAIR Data Principles cont. (Walls)
+      - Writing Data Management Plans
       -
     * - 
       - 11:00-12:00
-      - Lesson 3
-      -
+      - Data Management Tools (Walls)
+      - Open Science Framework, Protocols.io, CyVerse DataCommons
       -
     * - 
       - 12:00-13:00
-      - Lesson 4
+      - Lunch
       -
       -
     * - 
       - 13:00-14:00
-      - Lesson 5
-      -
+      - The Research Object: Introduction to GitHub (Balk)
+      - 
+      - basic understanding of `git`
+    * - 
+      - 14:00-15:00
+      - The Research Object: Documentation
+      - ReadTheDocs, Bookdown, etc
       -
     * - 
-      - 14:00-14:30
-      - Lesson 6
-      -
-      -
-    * - 
-      - 14:30-15:00
-      - Lesson 7
+      - 15:00-15:20
+      - Break
       -
       -
     * - 
       - 15:00-16:00
-      - Lesson 8
+      - The Research Object: 
       -
       -
     * - 
       - 16:00-17:00
-      - Lesson 9
+      - The Research Object: 
       -
       -     
     * - 
@@ -186,48 +212,48 @@ CatTran Route Map: https://parking.arizona.edu/cattran/cat-tran-routes/
       -
     * - 
       - 09:00-10:00
-      - Welcome
-      -
-      -
+      - Introduction to Cloud and HPC (Swetnam)
+      - OpenScienceGrid, XSEDE, HPC, Commercial Services
+      - 
     * - 
       - 10:00-10:20
-      - Lesson 1
+      - Break
       -
       -
     * - 
       - 10:20-11:00
-      - Lesson 2
-      -
+      - The Research Object: Launching VMs (Williams) 
+      - Launch a virtual machine in Atmosphere and provision it
       -
     * - 
       - 11:00-12:00
-      - Lesson 3
+      - The Research Object: Provisioning, Conda, Docker
       -
       -
     * - 
       - 12:00-13:00
-      - Lesson 4
+      - Lunch
       -
       -
     * - 
       - 13:00-14:00
-      - Lesson 5
+      - The Research Object:
       -
       -
     * - 
-      - 14:00-14:30
-      - Lesson 6
-      -
+      - 14:00-15:00
+      - The Research Object: Computational Notebooks
+      - Jupyter Lab, RStudio
       -
     * - 
-      - 14:30-15:00
-      - Lesson 7
+      - 15:00-15:20
+      - Break
       -
       -
     * - 
       - 15:00-16:00
-      - Lesson 8
-      -
+      - The Research Object: Computational Notebooks
+      - Connecting your work in CyVerse VICE
       -
     * - 
       - 16:00-17:00
@@ -256,54 +282,30 @@ CatTran Route Map: https://parking.arizona.edu/cattran/cat-tran-routes/
       -
     * - 
       - 09:00-10:00
-      - Welcome
-      -
+      - Build your own Containers (Williams, Swetnam)
+      - Basics of Docker
       -
     * - 
       - 10:00-10:20
-      - Lesson 1
+      - Break
       -
       -
     * - 
       - 10:20-11:00
-      - Lesson 2
+      - Build your own Containers cont. 
       -
       -
     * - 
       - 11:00-12:00
-      - Lesson 3
+      - Lunch
       -
       -
     * - 
-      - 12:00-13:00
-      - Lesson 4
-      -
-      -
-    * - 
-      - 13:00-14:00
-      - Lesson 5
-      -
-      -
-    * - 
-      - 14:00-14:30
-      - Lesson 6
-      -
-      -
-    * - 
-      - 14:30-15:00
-      - Lesson 7
-      -
-      -
-    * - 
-      - 15:00-16:00
-      - Lesson 8
-      -
-      -
-    * - 
-      - 16:00-17:00
-      - Lesson 9
-      -
-      -     
+      - 12:00-17:00
+      - Project Development
+      - Breakout Session to work on your own project 
+      - Begin creating your own website, docker containers, workflows alone or in small groups
+
     * - 
       - 17:00-17:30
       - Instructor Debrief
@@ -325,9 +327,9 @@ CatTran Route Map: https://parking.arizona.edu/cattran/cat-tran-routes/
       -
       -
     * - 
-      - 09:00-10:00
-      - Welcome
-      -
+      - 09:00-11:00
+      - Project Development cont.
+      - Breakout Session to work on your own project 
       -
     * - 
       - 10:00-10:20
@@ -346,32 +348,32 @@ CatTran Route Map: https://parking.arizona.edu/cattran/cat-tran-routes/
       -
     * - 
       - 12:00-13:00
-      - Lesson 4
+      - Lunch
       -
       -
     * - 
-      - 13:00-14:00
-      - Lesson 5
+      - 13:00-15:00
+      - Presentations
       -
       -
     * - 
-      - 14:00-14:30
-      - Lesson 6
+      - 15:00-15:30
+      - Break
       -
       -
     * - 
-      - 14:30-15:00
-      - Lesson 7
+      - 15:30-16:00
+      - Presentations
       -
       -
     * - 
-      - 15:00-16:00
-      - Lesson 8
+      - 16:00-16:30
+      - Closing Remarks
       -
       -
     * - 
-      - 16:00-17:00
-      - Lesson 9
+      - 16:30-17:00
+      - Course Evaluations
       -
       -     
     * - 
