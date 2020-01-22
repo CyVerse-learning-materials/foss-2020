@@ -283,7 +283,7 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
     * - 
       - 09:00-10:00
       - Build your own Containers (Williams, Swetnam)
-      - Basics of Docker
+      - Basics of Docker, creating your own containers
       -
     * - 
       - 10:00-10:20
@@ -291,12 +291,12 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       -
       -
     * - 
-      - 10:20-11:00
-      - Build your own Containers cont. 
+      - 10:20-12:00
+      - Build your own Containers cont. (Williams, Swetnam)
       -
       -
     * - 
-      - 11:00-12:00
+      - 12:00-13:00
       - Lunch
       -
       -
