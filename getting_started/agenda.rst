@@ -58,6 +58,9 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - Room 640
 ----
 
+**Daily Lessons**
+=================
+
 .. list-table::
     :header-rows: 1
     
@@ -87,40 +90,44 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - 
       - 
     * - 
-      - 10:20-12:00
-      - Collaboration Culture and Roles (Mandel, Eller College of Management)
-      - 
-      - a better understanding of yourself & others
-    * - 
-      - 12:00-13:00
-      - Lunch
-      - 
-      - 
-    * - 
-      - 13:00-14:00
+      - 10:20-11:00
       - Data Management Overview (Walls)
       - Organization, Sharing, Metadata
       - 
-    * - 
-      - 14:00-15:00
-      - Intro to CyVerse: Data Management (Tujeta)
+    * - 11:00-12:00
+      - Intro to CyVerse I: Data Management (Tujeta)
       - Data Store Access: iCommands, WebDav, CyberDuck
       - 
     * - 
-      - 15:00-15:20
+      - 12:00-13:00
+      - Lunch
+      - Optional: Command Line Refresher
+      - 
+    * - 
+      - 13:00-14:00
+      - Intro to Cyverse II: Discovery Environment (Cooksey)
+      - Launching Apps in DE
+      - 
+    * - 
+      - 14:00-14:20
+      - Basics of Linux (Swetnam)
+      - Use of the linux OS in cloud, hpc, containers. Distributions
+      - 
+    * -
+      - 14:20-14:40
+      - Basic Science Communication & Strategies
+      - Using Slack, Gitter, Twitter, Websites, Blogs, & Community forums
+      -
+    * - 
+      - 14:40-15:00
       - Break
       -
       -
     * - 
-      - 15:20-16:20
-      - Intro to Cyverse: Discovery Environment (Cooksey)
-      - Data Science Workbench: Tools & Apps, OSG HTC
-      - Laumnch non-interactive jobs
-    * - 
-      - 16:20-17:00
-      - Intro to Cyverse: Discovery Environment (Swetnam)
-      - Data Science Workbench: Visual Interactive Computing
-      - Launching RStudio, Shiny Jupyter Lab, & Remote Desktops    
+      - 15:00-17:00
+      - Collaboration Culture and Roles I (Mandel, Eller College of Management)
+      -
+      - Learn about yourself, and others 
     * - 
       - 17:00-17:30
       - Instructor Debrief
@@ -154,8 +161,8 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
     * - 
       - 10:20-11:00
       - FAIR Data Principles cont. (Walls)
-      - Writing Data Management Plans
-      -
+      - Writing a Data Management Plan
+      - Learn how to write an excellent DMP! 
     * - 
       - 11:00-12:00
       - Data Management Tools (Walls)
@@ -170,12 +177,12 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - 13:00-14:00
       - The Research Object: Introduction to GitHub (Balk)
       - 
-      - basic understanding of `git`
+      - a basic understanding of `git`
     * - 
       - 14:00-15:00
-      - The Research Object: Documentation
-      - ReadTheDocs, Bookdown, etc
-      -
+      - The Research Object I: Documentation (Swetnam)
+      - Wikis, ReadTheDocs, Bookdown, etc.
+      - Create public facing documentation for internal and external use
     * - 
       - 15:00-15:20
       - Break
@@ -183,12 +190,12 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       -
     * - 
       - 15:00-16:00
-      - The Research Object: 
+      - The Research Object I: 
       -
       -
     * - 
       - 16:00-17:00
-      - The Research Object: 
+      - The Research Object I: 
       -
       -     
     * - 
@@ -228,7 +235,7 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       -
     * - 
       - 11:00-12:00
-      - The Research Object: Provisioning, Conda, Docker
+      - The Research Object: Provisioning, Conda, Docker (Williams)
       -
       -
     * - 
@@ -258,8 +265,8 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       -
     * - 
       - 16:00-17:00
-      - Lesson 9
-      -
+      - Project Pitches
+      - 5 minute presentation on what your FOSS project will be
       -     
     * - 
       - 17:00-17:30
@@ -304,8 +311,8 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
     * - 
       - 12:00-17:00
       - Project Development
-      - Breakout Session to work on your own project 
-      - Begin creating your own website, docker containers, workflows alone or in small groups
+      - Breakout Session to work on your own projects 
+      - Creating your own website, docker containers, workflows alone or in small groups
 
     * - 
       - 17:00-17:30
@@ -333,19 +340,9 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - Breakout Session to work on your own project 
       -
     * - 
-      - 10:00-10:20
-      - Lesson 1
-      -
-      -
-    * - 
-      - 10:20-11:00
-      - Lesson 2
-      -
-      -
-    * - 
       - 11:00-12:00
-      - Lesson 3
-      -
+      - Presentations
+      - 
       -
     * - 
       - 12:00-13:00
@@ -353,18 +350,18 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       -
       -
     * - 
-      - 13:00-15:00
+      - 13:00-14:40
       - Presentations
       -
       -
     * - 
-      - 15:00-15:30
+      - 14:40-15:00
       - Break
       -
       -
     * - 
-      - 15:30-16:00
-      - Presentations
+      - 15:00-16:00
+      - Collaboration Culture and Roles II (Mandel, Eller College of Management)
       -
       -
     * - 
