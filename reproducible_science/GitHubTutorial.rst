@@ -1,26 +1,3 @@
-
-Take any of the bits you like out of the version_control.rst  and repurpose them -- if there are things in there that you're not going to teach, but you think are useful, append them at the end of your .rst -- when you're ready, unlink the version_control.rst  from the index.rst that is rendering it in the RTD pages, and change it to your new named .rst
-
-
-
-
-
-Organization
-	For projects in lab
-	Add people to it
-Repo - for one project
-Clone locally
-Add files from atmo
-Commit
-Push
-Branch - for lab members
-Pull request
-
-Git-r + git-terminal and git-jupyter integration?
-
-
-
-
 .. include:: ../cyverse_rst_defined_substitutions.txt
 
 |CyVerse_logo2|_
