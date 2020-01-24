@@ -108,7 +108,7 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - 13:00-14:00
       - Intro to Cyverse II: Discovery Environment (Cooksey)
       - Launching Apps in DE Walkthrough and terminology
-      - Launch executable and interactive apps. Add a tool and app.
+      - Launch executable and interactive apps. Add a tool and app
     * - 
       - 14:00-14:20
       - Basics of Linux (Swetnam)
