@@ -61,7 +61,6 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
 **Daily Lessons**
 =================
 
-
 .. list-table::
     :header-rows: 1
     
@@ -95,7 +94,8 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - Data Management Overview (Walls)
       - Organization, Sharing, Metadata
       - 
-    * - 11:00-12:00
+    * - 
+      - 11:00-12:00
       - Intro to CyVerse I: Data Management (Tujeta)
       - Data Store Access: iCommands, WebDav, CyberDuck
       - 
