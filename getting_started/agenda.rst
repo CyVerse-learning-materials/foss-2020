@@ -104,12 +104,12 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - Lunch
       - Optional: Command Line Refresher
       - Basic navigation and file manipulation
-    * - Move, copy, delete files. Use text editor in terminal.
+    * - 
       - 13:00-14:00
       - Intro to Cyverse II: Discovery Environment (Cooksey)
-      - Launching Apps in DE
-      - Walkthrough and terminology
-    * - Launch executable and interactive apps. Add a tool and app.
+      - Launching Apps in DE Walkthrough and terminology
+      - Launch executable and interactive apps. Add a tool and app.
+    * - 
       - 14:00-14:20
       - Basics of Linux (Swetnam)
       - Use of the linux OS in cloud, hpc, containers. Distributions
