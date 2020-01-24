@@ -60,7 +60,6 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
 
 **Daily Lessons**
 =================
-
 .. list-table::
     :header-rows: 1
     
