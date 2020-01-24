@@ -69,11 +69,6 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - Activity (Instructor)
       - Content
       - Expected Outcomes
- ----
-
-.. list-table::
-    :header-rows: 1
-    
     * - Monday (2/17/2020)
       - 08:30-09:00
       - Instructor pre-briefing (all instructors)
