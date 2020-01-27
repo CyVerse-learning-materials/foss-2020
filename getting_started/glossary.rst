@@ -12,6 +12,7 @@
 - **allocation:** a portion of a resource assigned to a particular recipient
 - **Anaconda:** open source data science platform. `Anaconda.com <https://www.anaconda.com/>`_
 - **application:** also called an 'app', a software designed to help the user to perform specific task
+- **awesome:** a curated set of lists that provide insight into `awesome software projects on GitHub <https://github.com/topics/awesome-list>`_
 - **AVU:** Attribute-Value-Unit a components for `iRODS metadata <https://docs.irods.org/4.1.9/icommands/metadata/>`_.
 
 **B**
