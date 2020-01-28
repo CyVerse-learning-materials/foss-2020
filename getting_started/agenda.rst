@@ -274,6 +274,11 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - Instructor Debrief
       -
       - 
+    * - 
+      - 18:30 - whenever 
+      - Optional Tour `UA Main Library CATalyst Studios <https://new.library.arizona.edu/catalyst>`_
+      - Maker Space, VR, 3D printing 
+      - 
 ----
 
 .. list-table::
