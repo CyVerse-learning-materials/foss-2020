@@ -14,7 +14,7 @@
 
 The Data Store is more than  a place to save your files -- it is a way to manage the life cycle of your data. From creation to publication to beyond, there are a number of practices to ensure that the integrity and value of your data are maintained. 
 
-We have already covered accessing the Data Store using the Discovery Environment in the `previous lesson <./de.rst>`_. In this lesson we will practice other ways of accessing the Data Store, plus how to make your data publicly available.
+We have already covered accessing the Data Store using the Discovery Environment in the `previous lesson <./intro_to_cyverse.rst>`_. In this lesson we will practice other ways of accessing the Data Store, plus how to make your data publicly available.
 
 iCommands
 ===========
