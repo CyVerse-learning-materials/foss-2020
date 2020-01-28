@@ -20,7 +20,7 @@ iCommands
 ===========
 iCommands is a collection of tools developed by the `iRODS project <https://irods.org/>`_, which is the technology that supports the CyVerse Data Store. Using iCommands is the most flexible way to interact with the Data Store.
 
-iCommands provides command line access to the Data Store, so it can be included in scripts to automate data upload and download. Unfortunately, the latest iCommands cannot be installed on most Windows operating systems, but participants with Windows computers can do this exercise using Atmosphere (which will be covered in tomorrow's lessons). If you are running Window 10, you can `run iCommands on the Linus subsystem <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-other>`_.
+iCommands provides command line access to the Data Store, so it can be included in scripts to automate data upload and download. Unfortunately, the latest iCommands cannot be installed on most Windows operating systems, but participants with Windows computers can do this exercise using Atmosphere (which will be covered in tomorrow's lessons). If you are running Window 10, you can `run iCommands on the Linux subsystem <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-other>`_.
 
 .. #### Comment: Instructers launch Atmosphere for anyone with a Windows computer
 
