@@ -263,7 +263,7 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - 15:00-16:00
       - The Research Object: Computational Notebooks
       - Connecting your work in CyVerse VICE
-      -
+      - Learn to create a VICE app
     * - 
       - 16:00-17:00
       - Project Pitches
