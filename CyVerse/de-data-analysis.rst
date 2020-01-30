@@ -23,12 +23,15 @@
 ^^^^^^^^^^^^^^^^
 
 **Find an app by** `searching <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+an+App,+Workflow,+or+Tool>`_
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 **Browse by operation**
+""""""""""""""""""""""""
 
 |DE_apps_operation|
 
 **Find apps by community**
+""""""""""""""""""""""""""
 
 When adding new apps to the DE, developers have the option of adding the app to a community. Users can join a community in the 'communities' menu under the person icon in the top right corner of the DE window. A new category will then be added to the left pane of the 'Apps' window called 'My Communities'. This can be an easy way to find apps related to a specific project and to see when new apps have been added to that project.
 
