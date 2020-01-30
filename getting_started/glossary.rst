@@ -66,22 +66,23 @@
 
 **I**
 
+- **iCommands:** command line application for accessing an iRODS Data Store
 - **IDE:** integrated development environment
 - **instance:** a single virtul machine 
 - **image:** self-contained, read-only ‘snapshot’ of your applications and packages, with all their dependencies
-- **iRODS:** integrated Rule-Oriented Data management System, an Open Source Data Management Software
+- **iRODS:** an open source integrated Rule-Oriented Data Management System, `iRODS.org <https://irods.org/>`_ 
 
 **J**
 
 - **Java:** programming language, class-based, object-oriented
 - **JavaScript:** programming language
 - **JSON:** Java Script Object Notation, data interchange format that uses human-readable text
-- **Jupyter(Hub,Lab,Notebooks):** an IDE, originally the iPythonNotebook, operates in the browser
+- **Jupyter(Hub,Lab,Notebooks):** an IDE, originally the iPythonNotebook, operates in the browser. `Project Jupyter <https://jupyter.org/>`_
 
 **K**
 
 - **kernel:**  central component of most operating systems (OS)
-- **Kubernetes:** a container orchestration platform created by Google
+- **Kubernetes:** an open source container orchestration platform created by Google. `Kubernetes <https://kubernetes.io/>`_ is often referred to as ``K8s``
 
 **L**
 
@@ -99,33 +100,34 @@
 
 **O**
 
+- **organization:** a group, in the context of GitHub a place where developers contribute code to repositories
 - **Operating System (OS):** software that manages computer hardware, software resources, and provides common services for computer programs
-- **Open Science Grid (OSG):** national, distributed computing partnership for data-intensive research
-- **ORCID:** Open Researcher and Contributor ID, a persistent digital identifier that distinguishes you from every other researcher
+- **Open Science Grid (OSG):** national, distributed computing partnership for data-intensive research `opensciencegrid.org <https://opensciencegrid.org/>`_
+- **ORCID:** Open Researcher and Contributor ID (`ORCiD<https://orcid.org/>`_), a persistent digital identifier that distinguishes you from every other researcher
 
 **P**
 
-- **package:** an app designed for a particular langauge, e.g. R or `Python <https://www.python.org/>`_
-- **Python:**  interpreted, high-level, general-purpose programming language
+- **package:** an app designed for a particular langauge
+- **Python:**  interpreted, high-level, general-purpose programming language `Python.org <https://www.python.org/>`_
 
 **Q**
 
-- **QUAY.io:** private Docker registry 
+- **QUAY.io:** private Docker registry `QUAY.io <https://quay.io>`_
 
 **R**
 
-- **R:** data science programming language `R <https://cran.r-project.org/>`_
-- **recipe file:** a file with installation scripts used for building software such as containers 
-- **registry:** a storage and content delivery system, such as that used by Docker
+- **R:** data science programming language `R Project <https://cran.r-project.org/>`_
+- **recipe file:** a file with installation scripts used for building software such as containers, e.g. Dockerfile 
+- **registry:** a storage and content delivery system, such as that used by Docker 
 - **repo(sitory):** a directory structure for hosting code and data
 - **RST:** ReStructuredText, a markdown type file
-- **ReadTheDocs:** a web service for rendering documentation (that this website uses)
+- **ReadTheDocs:** a web service for rendering documentation (that this website uses) `readthedocs.org <https://readthedocs.org>`_ and `readthedocs.com <https://readthedocs.com/>`_
 
 **S**
 
 - **shell:** is a command line interface program that runs other programs (may be complex, technical programs or very simple programs such as making a directory). These simple, stand-alone programs are called commands.
-- **Singularity:** a container software, used widely on HPC
-- **SLACK:** Searchable Log of All Conversation and Knowledge, a team communication tool
+- **Singularity:** a container software, used widely on HPC, created by `SyLabs <https://sylabs.io/>`_
+- **SLACK:** Searchable Log of All Conversation and Knowledge, a team communication tool `slack.com <https://slack.com/>`_
 - **sprint:** set period of time during which specific work has to be completed and made ready for review
 
 **T**
@@ -143,7 +145,7 @@
 
 **V**
 
-- **VICE:** Visual Interactive Computing Environment
+- **VICE:** `Visual Interactive Computing Environment <https://learning.cyverse.org/projects/vice/en/latest/>`_ - Cyverse Data Science Workbench 
 - **virtual machine:** is a software computer that, like a physical computer, runs an operating system and applications
 
 **W**
@@ -162,7 +164,8 @@
 **Z**
 
 - **Zenodo:** general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN
-- **ZenHub:** team collaboration solution built directly into GitHub that uses kanban style boards 
+- **ZenHub:** team collaboration solution built directly into GitHub that uses kanban style boards
+- **zip:** a compressed file format
 
 ----
 

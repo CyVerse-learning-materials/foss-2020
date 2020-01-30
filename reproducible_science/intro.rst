@@ -6,7 +6,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**Introduction to Cloud Computing** 
+**Introduction to Reproducible Science** 
 ===================
 
 CONTENT GOES HERE

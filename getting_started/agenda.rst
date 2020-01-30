@@ -98,7 +98,7 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - 11:00-12:00
       - Intro to CyVerse I: Data Management (Tujeta)
       - Data Store Access: iCommands, WebDav, CyberDuck
-      - Learn Data Store data transfer methods 
+      - Learn to communicate with the Data Store
     * - 
       - 12:00-13:00
       - Lunch
@@ -263,7 +263,7 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - 15:00-16:00
       - The Research Object: Computational Notebooks
       - Connecting your work in CyVerse VICE
-      -
+      - Learn to create a VICE app
     * - 
       - 16:00-17:00
       - Project Pitches

@@ -6,7 +6,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**Introduction to Reproducible Science** 
+**Introduction to Cloud Computing** 
 ===================
 
 RAMONA SLIDES HERE
