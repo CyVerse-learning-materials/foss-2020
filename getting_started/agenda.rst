@@ -98,7 +98,7 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - 11:00-12:00
       - Intro to CyVerse I: Data Management (Tujeta)
       - Data Store Access: iCommands, WebDav, CyberDuck
-      - Learn Data Store data transfer methods 
+      - Learn to communicate with the Data Store
     * - 
       - 12:00-13:00
       - Lunch
