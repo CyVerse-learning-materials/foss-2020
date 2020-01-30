@@ -95,29 +95,26 @@ Additional resources
     :height: 50
 
 .. |DE_analyses| image:: ../img/de/DE_analyses.png
-    :height: 600
+    :width: 750
 
 .. |DE_switch_view| image:: ../img/de/DE_switch_view.png
-    :height: 600
+    :width: 750
 
 .. |DE_apps_operation| image:: ../img/de/DE_apps_operation.png
-    :height: 600
+    :width: 750
     
 .. |DE_blank| image:: ../img/de/DE_blank.png
-    :height: 600
+    :width: 750
     
 .. |DE_dots_menu| image:: ../img/de/DE_dots_menu.png
-    :height: 600
+    :width: 750
     
 .. |DE_word_count| image:: ../img/de/DE_word_count.png
-    :height: 600
+    :width: 750
 
 .. |DE_communities| image:: ../img/de/DE_communities.png
-    :height: 600
+    :width: 750
 
-    
-.. |DE_search| image:: ../img/de/DE_search.png
-    :height: 600
     
 .. Comment: Place URLS Below This Line
 
