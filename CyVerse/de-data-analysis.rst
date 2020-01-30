@@ -7,46 +7,74 @@
 
 
 **Discovery Environment - Data Analysis**
--------------
+=========================================
 .. #### Comment: Overview of the DE and hands on of basic features
+
 |DE_icon|
  
-Apps Window
-~~~~~~~~~~~~~~
+`Apps Window <https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Apps+Window+and+Submitting+an+Analysis>`_
+---------------------------------------------------------------------------------------------------------------------
 
- - Find an app by browsing:
+**Customizing the Apps window view**
+
+|DE_switch_view|
+
+**Finding Apps**
+^^^^^^^^^^^^^^^^
+
+**Find an app by** `searching <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+an+App,+Workflow,+or+Tool>`_
+
+**Browse by operation**
 
 |DE_apps_operation|
 
- - Find an app by `searching <https://wiki.cyverse.org/wiki/display/DEmanual/Searching+for+an+App,+Workflow,+or+Tool>`_
- - `Launch an analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Apps>`_ using the word count app
- 
+**Find apps by community**
+
+When adding new apps to the DE, developers have the option of adding the app to a community. Users can join a community in the 'communities' menu under the person icon in the top right corner of the DE window. A new category will then be added to the left pane of the 'Apps' window called 'My Communities'. This can be an easy way to find apps related to a specific project and to see when new apps have been added to that project.
+
+|DE_communities|
+
+**Types of apps**
+^^^^^^^^^^^^^^^^^^
+ - **Executable**: user starts an analysis and when the analysis finishes they can find the output files in their 'Analyses' folder
+
+    - **DE**: run locally on our cluster
+    - **HPC**: labeled as 'Agave' in the DE. Run on XSEDE resources at Texas Advanced Computing Center (TACC)
+    - **OSG**: run on the Open Science Grid
+
+ - **Interactive**: also called Visual and Interative Computing Environment (VICE). Allows users to open Integrated Development Environments (IDEs) including RStudio, Project Jupyter and RShiny and work interactively within them.
+
+
+`Launch an executable analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Apps>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 |DE_word_count|
 
-Analyses Window
-~~~~~~~~~~~~~~
+`Analyses window <https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Analyses+Window>`_
+-----------------------------------------------------------------------------------------------
 
- - Open the `Analyses window <https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Analyses+Window>`_ and view analysis status:
+The analysis window provides the status (submitted, running, failed, completed) of each of your analyses. 
 
 |DE_analyses|
 
+A variety of information and tasks related to an analysis can be found in the 'three dots' menu at the right.
+
  - `Relaunch or cancel <https://wiki.cyverse.org/wiki/display/DEmanual/Relaunching%2C+Canceling%2C+and+Deleting+Analyses%2C+Viewing+Analysis+Outputs+and+Info>`_ an analysis
- -  `Share an analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+an+Analysis>`_ with a collaborator.
+ - `Troubleshoot an analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Relaunching%2C+Canceling%2C+and+Deleting+Analyses%2C+Viewing+Analysis+Outputs+and+Info>`_
+ - `Share an analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+an+Analysis>`_ with a collaborator.
 
-VICE
-~~~~
+`Launch an interactive analysis (VICE) <https://learning.cyverse.org/projects/vice/en/latest/>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Discovery Environment includes a feature called `VICE (Visual Interactive Computing Environment) <https://learning.cyverse.org/projects/vice/en/latest/>`_, which allows users to interact with their data using Jupyter Notebooks, RStudio, or Ubuntu Desktop.
-
-`VICE walkthrough <https://github.com/CyVerse-learning-materials/foss-2020/tree/master/CyVerse/vice.rst>`_
+Visual Interactive Computing Environment VICE introduces graphic user interfaces (GUIs) and common Integrated Development Environments (IDEs) such as Project Jupyter Notebooks & Lab, RStudio, Shiny Apps and Linux Desktop
 
 Additional resources
 =========================
 
  - `DE Guide <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/>`_
  - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
+ - `VICE Manual <https://learning.cyverse.org/projects/vice/en/latest/>`_
  - `Using CyVerse for a shared project <https://learning.cyverse.org/projects/cyverse-group-project-quickstart/en/latest/index.html?highlight=group%20project>`_
-
 ----
 
 **Fix or improve this documentation:**
@@ -64,21 +92,30 @@ Additional resources
     :height: 50
 
 .. |DE_analyses| image:: ../img/de/DE_analyses.png
+    :height: 600
+
+.. |DE_switch_view| image:: ../img/de/DE_switch_view.png
+    :height: 600
 
 .. |DE_apps_operation| image:: ../img/de/DE_apps_operation.png
-
+    :height: 600
+    
 .. |DE_blank| image:: ../img/de/DE_blank.png
-
-.. |DE_data_upload| image:: ../img/de/DE_data_upload.png
-
+    :height: 600
+    
 .. |DE_dots_menu| image:: ../img/de/DE_dots_menu.png
-
+    :height: 600
+    
 .. |DE_word_count| image:: ../img/de/DE_word_count.png
+    :height: 600
 
-.. |DE_metadata| image:: ../img/de/DE_metadata.png
+.. |DE_communities| image:: ../img/de/DE_communities.png
+    :height: 600
 
+    
 .. |DE_search| image:: ../img/de/DE_search.png
-
+    :height: 600
+    
 .. Comment: Place URLS Below This Line
 
    # Use this example to ensure that links open in new tabs, avoiding
