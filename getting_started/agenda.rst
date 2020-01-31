@@ -82,7 +82,7 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
     * - 
       - 09:30-10:00
       - Discussion: What is Open Science? (Merchant)
-      - Overview of what CyVerse mission is
+      - Overview of CyVerse mission
       - 
     * - 
       - 10:00-10:20
@@ -93,7 +93,7 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - 10:20-11:00
       - Data Management Overview (Walls)
       - Organization, Sharing, Metadata
-      - 
+      - Understand why you need data management what the basic tools are
     * - 
       - 11:00-12:00
       - Intro to CyVerse I: Data Management (Tujeta)
@@ -150,10 +150,15 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       -
       -
     * - 
-      - 09:00-10:00
+      - 09:00-9:20
+      - FOSS aluma story (Graf)
+      - "What I got from FOSS"
+      - Think about what you will take home from FOSS
+    * - 
+      - 09:20-10:00
       - FAIR Data Principles (Walls)
       - Metadata, standards, licensing, legal, and ethics
-      - 
+      - Be able to find standards for your data, choose a license
     * - 
       - 10:00-10:20
       - Break 
@@ -168,7 +173,7 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - 11:00-12:00
       - Data Management Tools (Walls)
       - Open Science Framework, Protocols.io, CyVerse DataCommons
-      -
+      - Be able to work with data management tools
     * - 
       - 12:00-13:00
       - Lunch
