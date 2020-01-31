@@ -151,7 +151,7 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       -
     * - 
       - 09:00-9:20
-      - FOSS aluma story (Graf)
+      - FOSS alumna story (Graf)
       - "What I got from FOSS"
       - Think about what you will take home from FOSS
     * - 
