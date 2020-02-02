@@ -5,8 +5,10 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-*Location*
-----------
+**Agenda**
+==========
+
+## Location ##
 
 FOSS will be held in the new `Health Sciences Innovation Building (HSIB)(UA Building #216) <https://goo.gl/maps/mEMjXTBcfKRbexiu9>`_, located at 1670 E Drachmann St. 
 
@@ -37,35 +39,24 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - 640
 ----
 
-**Agenda**
-==========
-
-This workshop runs under a `Code of Conduct <code_of_conduct.html>`_. Please respect it and be excellent to each other!
-
-Twitter hash tag: #cyverse_foss
-
-Agenda subject to change.
-
-Instructors will review the agenda at the end of each day, and adjust based on participant input.
-
 
 **Syllabus (draft, subject to change)**
 =======================================
 
 .. Comment: Last year’s syllabus as a chart (for reference): https://docs.google.com/spreadsheets/d/1n5zCJlT9g_vyWx6z-5vmT300ZH-vC6AP4TYKFeJIMZo/edit#gid=0
 
-*Activity*
-----------
+## Activity
+
 
 Scheduled lessons with approximate times. Lessons are flexible and we will accomodate changes and suggestions from the participants as needed.
 
-*Content*
----------
+## Content
+
 
 Materials and subject areas covered.
 
-*Expected Outcomes*
--------------------
+## Expected Outcomes
+
 
 By working through an example project  relevant to their interests, participants will practice open science skills using CyVerse, GitHub, and other resources. 
 
