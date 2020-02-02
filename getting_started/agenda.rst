@@ -5,27 +5,6 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Agenda**
-==========
-This workshop runs under a `Code of Conduct <code_of_conduct.html>`_. Please respect it and be excellent to each other!
-
-Twitter hash tag: #cyverse_foss
-
-Agenda subject to change.
-
-Instructors will review the agenda at the end of each day, and adjust based on participant input.
-
-
-**Syllabus (draft, subject to change)**
-=======================================
-
-Last year’s syllabus as a chart (for reference): https://docs.google.com/spreadsheets/d/1n5zCJlT9g_vyWx6z-5vmT300ZH-vC6AP4TYKFeJIMZo/edit#gid=0
-
-*Expected Outcomes*
--------------------
-
-By working through an example project  relevant to their interests, participants will practice open science skills using CyVerse, GitHub, R or Python, and other resources. At the end of the week, students will present a plan for how to integrate open science into their labs.
-
 *Location*
 ----------
 
@@ -45,18 +24,52 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
     :header-rows: 1
     
     * - Day
-      - Room Number
-    * - Monday
-      - Room 567
-    * - Tuesday  
-      - Room 640
-    * - Wednesday
-      - Room 567
-    * - Thursday
-      - Room 640
-    * - Friday 
-      - Room 640
+      - Monday
+      - Tuesday
+      - Wednesday
+      - Thursday
+      - Friday
+    * - **Room #**
+      - 567
+      - 640
+      - 567
+      - 640
+      - 640
 ----
+
+**Agenda**
+==========
+
+This workshop runs under a `Code of Conduct <code_of_conduct.html>`_. Please respect it and be excellent to each other!
+
+Twitter hash tag: #cyverse_foss
+
+Agenda subject to change.
+
+Instructors will review the agenda at the end of each day, and adjust based on participant input.
+
+
+**Syllabus (draft, subject to change)**
+=======================================
+
+.. Comment: Last year’s syllabus as a chart (for reference): https://docs.google.com/spreadsheets/d/1n5zCJlT9g_vyWx6z-5vmT300ZH-vC6AP4TYKFeJIMZo/edit#gid=0
+
+*Activity*
+----------
+
+Scheduled lessons with approximate times. Lessons are flexible and we will accomodate changes and suggestions from the participants as needed.
+
+*Content*
+---------
+
+Materials and subject areas covered.
+
+*Expected Outcomes*
+-------------------
+
+By working through an example project  relevant to their interests, participants will practice open science skills using CyVerse, GitHub, and other resources. 
+
+By the end of the week, students will present a plan for how to integrate open science into their labs.
 
 **Daily Lessons**
 =================
@@ -111,14 +124,14 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - Launch executable and interactive apps. Add a tool and app 
     * -
       - 14:00-14:20
-      - Basics of Linux (Swetnam)
-      - Use of the linux OS in cloud, hpc, containers. Distributions
-      - 
+      - `Basics of Linux <https://learning.cyverse.org/projects/foss-2020/en/latest/software_essentials/linux.html>`_ 
+      - Why Linux, Version Control, Containers
+      - Understanding what open source sofware means to open science
     * -
       - 14:20-14:40
-      - Basic Science Communication & Strategies
-      - Using Slack, Gitter, Twitter, Websites, Blogs, & Community forums
-      -
+      - `Lab Communication <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/communication.html>`_ & `Documentation <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/websites.html>`_
+      - Slack, Twitter, ReadTheDocs, Wikis, Kan Ban Boards
+      - Project management tools, and public relations with social media.
     * - 
       - 14:40-15:00
       - Break
