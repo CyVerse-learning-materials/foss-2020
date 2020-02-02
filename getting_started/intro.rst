@@ -5,15 +5,11 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-
 **FOSS 2020 Introduction**
 -------------
 
-Welcome and staff introductions
-===========================
-
-Stuff to get out of the way
-===========================
+Welcome and staff introduction
+==============================
 
 - `Code of Conduct <code_of_conduct.html>`_
 - Logistics
@@ -23,11 +19,43 @@ Stuff to get out of the way
 	- Meals
 - `Pre-workshop Set Up <../before/installation.html>`_
 
+## Course Location 
+
+FOSS will be held in the `Health Sciences Innovation Building (HSIB)(UA Building #216) <https://goo.gl/maps/mEMjXTBcfKRbexiu9>`_, located at 1670 E Drachmann St. 
+
+Due to scheduling conflicts with other courses, we will be switching rooms and floors in the HSIB building each day.
+
+.. list-table::
+    :header-rows: 1
+    
+    * - Day
+      - Monday
+      - Tuesday
+      - Wednesday
+      - Thursday
+      - Friday
+    * - **Room #**
+      - 567
+      - 640
+      - 567
+      - 640
+      - 640
+
+Nearest parking is the Highland Garage, about 3 blocks west of HSIB or you can take the Purple or Green CatTran shuttle to the northern terminus (the AHSL Library stop). 
+
+HSIB is an approximate 10 minute walk from The Aloft Hotel.
+
+UArizona Campus Map: https://map.arizona.edu/
+
+CatTran Route Map: https://parking.arizona.edu/cattran/cat-tran-routes/
+
 ----
 Course Overview
 ----------------
+
 Learning Objectives
 ====================
+
 By the end of week one, participants should have the basic skills needed to:
   - Communicate and collaborate with other scientists and developers
   - Manipulate files on the command line
@@ -42,6 +70,7 @@ Our goal is to have each participant leave with a solid plan for how they will s
 
 Approach
 =========
+
 FOSS camp focuses on hands on activities -- participants should learn skills by practicing them. Most of the skill taught in this course are interdepent, and lessons are designed to reinforce skills learned earlier in the week. Some material may be completely new to you, and some may be familiar. If you have experience with a subject, please help your less-experienced neighbor. 
 
 During this week, we will introduce many new tools and technologies, but these are just a sample of what is available for you to use in your own Open Science Lab. Before choosing which technologies to adopt, you should look around and see what others in your community are using. This is a case where fitting in with your peers can make you more productive. For example, if everyone you know is already on Google Chat, you may have a hard time convincing them to use Slack or Gitter, and vice versa. 
@@ -51,38 +80,7 @@ We don't expect anyone to be experts at these skills after one week. Instead, we
 For up to one year following FOSS camp, CyVerse will provide concierge service to participants, to ensure that they are able to take full advantage of CyVerse infrastructure for their open science projects. 
 
 
-`Agenda <agenda.html>`_
-============================
-
-Each day will start with an overview of the days activites and end with an assessment and discussion. Please speak up and let us know if we should go faster, slower, or do something different. Participants should feel free to drive the agenda to suit their needs.
-
-.. list-table::
-    :header-rows: 1
-    
-    * - Day
-      - Activity 
-    * - Monday AM
-      - Open Science, Collaboration
-    * - Monday PM
-      - Tools for Collaboration
-    * - Tuesday AM
-      - Software essentials (command line, R)
-    * - Tuesday PM
-      - Software essentials (R)
-    * - Wednesday AM
-      - CyVerse (Discovery Environment)
-    * - Wednesday PM
-      - CyVerse (Data Store, VICE)
-    * - Thursday AM
-      - Data Management
-    * - Thursday PM
-      - Cloud computing
-    * - Friday AM
-      - Containers, Apps
-    * - Friday PM
-      - Open Science, Wrap up
-
-
+`See the Agenda <agenda.html>`_
 
 ----
 
