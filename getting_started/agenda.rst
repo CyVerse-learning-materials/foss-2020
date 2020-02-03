@@ -144,7 +144,7 @@ By the end of the week, students will present a plan for how to integrate open s
       -
     * - 
       - 13:00-14:00
-      - The Research Object: Introduction to GitHub (Balk)
+      - The Research Object I: Introduction to GitHub (Balk)
       - 
       - a basic understanding of `git`
     * - 
@@ -158,15 +158,10 @@ By the end of the week, students will present a plan for how to integrate open s
       -
       -
     * - 
-      - 15:00-16:00
+      - 15:00-17:00
       - The Research Object I: Introduction to Containers (Cooksey)
-      - Intro to BioContainers, Docker, Singularity and Kubernetes
-      - Find and run BioContainers on any machine
-    * - 
-      - 16:00-17:00
-      - The Research Object I: 
-      -
-      -     
+      - Intro to BioContainers, Docker, Singularity, and Kubernetes
+      - Search for, locate, and launch a container anywhere
     * - 
       - 17:00-17:30
       - Instructor Debrief
@@ -199,12 +194,12 @@ By the end of the week, students will present a plan for how to integrate open s
       -
     * - 
       - 10:20-11:00
-      - The Research Object: Launching VMs (Williams) 
+      - The Research Object II: Launching VMs (Williams) 
       - Launch a virtual machine in Atmosphere and provision it
       -
     * - 
       - 11:00-12:00
-      - The Research Object: Provisioning, Conda, Docker (Williams)
+      - The Research Object II: Provisioning, Conda, Docker (Williams)
       -
       -
     * - 
@@ -213,14 +208,9 @@ By the end of the week, students will present a plan for how to integrate open s
       -
       -
     * - 
-      - 13:00-14:00
-      - The Research Object:
+      - 13:00-15:00
+      - The Research Object II: Writing Computational Notebooks
       -
-      -
-    * - 
-      - 14:00-15:00
-      - The Research Object: Computational Notebooks
-      - Jupyter Lab, RStudio
       -
     * - 
       - 15:00-15:20
@@ -229,7 +219,7 @@ By the end of the week, students will present a plan for how to integrate open s
       -
     * - 
       - 15:00-16:00
-      - The Research Object: Computational Notebooks
+      - The Research Object II: Computational Notebooks in CyVerse
       - Connecting your work in CyVerse VICE
       - Learn to create a VICE app
     * - 
@@ -264,7 +254,7 @@ By the end of the week, students will present a plan for how to integrate open s
       -
     * - 
       - 09:00-10:00
-      - Build your own Containers (Williams, Swetnam)
+      - The Research Object III: Build your own Containers (Williams, Swetnam)
       - Basics of Docker, creating your own containers
       -
     * - 
@@ -274,7 +264,7 @@ By the end of the week, students will present a plan for how to integrate open s
       -
     * - 
       - 10:20-12:00
-      - Build your own Containers cont. (Williams, Swetnam)
+      - Continous Integration (Williams, Swetnam)
       -
       -
     * - 
@@ -285,9 +275,8 @@ By the end of the week, students will present a plan for how to integrate open s
     * - 
       - 12:00-17:00
       - Project Development
-      - Breakout Session to work on your own projects 
-      - Creating your own website, docker containers, workflows alone or in small groups
-
+      - Breakout Session to work on your project 
+      - Examples: Design and launch your own website, Container 
     * - 
       - 17:00-17:30
       - Instructor Debrief
@@ -336,7 +325,7 @@ By the end of the week, students will present a plan for how to integrate open s
     * - 
       - 15:00-16:00
       - Collaboration Culture and Roles II (Mandel, Eller College of Management)
-      -
+      - 
       -
     * - 
       - 16:00-16:30
