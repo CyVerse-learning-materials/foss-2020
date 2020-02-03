@@ -12,7 +12,7 @@
 
 |DS_icon|
 
-The Data Store is more than  a place to save your files -- it is a way to manage the life cycle of your data. From creation to publication to beyond, there are a number of practices to ensure that the integrity and value of your data are maintained. 
+The Data Store is more than a place to save your files -- it is a way to manage the life cycle of your data. From creation to publication to beyond, there are a number of practices to ensure that the integrity and value of your data are maintained. 
 
 We have already covered accessing the Data Store using the Discovery Environment in the `previous lesson <./intro_to_cyverse.rst>`_. In this lesson we will practice other ways of accessing the Data Store, plus how to make your data publicly available.
 
@@ -31,17 +31,33 @@ Follow along with the `Using iCommands <https://cyverse-data-store-guide.readthe
  - Download a file to your desktop (iget)
  
 In addition, we will use iCommands to:
- - Create a new folder in your home directory (imkdir) 
- - Move a file from your home directory to the new folder (imv)
- - Navigate to a public folder (icd)
- - Copy a public file to the newly created folder (icp)
 
+- Create a new folder in your home directory (imkdir) 
 .. code-block:: bash
 
     $ imkdir newdir
+
+- Move a file from your home directory to the new folder (imv)
+.. code-block:: bash
+
     $ imv file_name newdir/file_name
+
+- Navigate to a public folder (icd)
+
+.. code-block:: bash
+
     $ icd /iplant/home/shared/imicrobe/camera
+
+- List files in a directory
+
+.. code-block:: bash
+
     $ ils
+
+- Copy a public file to the newly created folder (icp)
+
+.. code-block:: bash
+
     $ icp camera_projects/CAM_PROJ_AcidMine.csv /iplant/home/$username/newdir/CAM_PROJ_AcidMine.csv
     $ icd /iplant/home/$username/
     $ils newdir
@@ -58,6 +74,48 @@ Follow along with the `CyberDuck <https://cyverse-data-store-guide.readthedocs-h
  - Install and configure CyberDuck
  - Upload a file to your CyVerse home directory
  - Navigate to a public folder
+
+Which method to choose?
+========================
+.. list-table::
+    :header-rows: 1
+
+    * - Criteria
+      - Cyberduck
+      - iCommands
+      - DE Interface
+      - DE WebDAV
+    * - Ease of use
+      - 2
+      - 4
+      - 1
+      - 3
+    * - Setup required?
+      - Yes
+      - Yes
+      - No
+      - No
+    * - Works best for?
+      - Multiple small files
+      - Large files
+      - Small files < 2GB
+      - Small files < 1GB
+    * - GUI support?
+      - Yes
+      - No
+      - Yes
+      - Yes
+    * - Command-line support
+      - Yes
+      - Yes
+      - No
+      - Yes
+    * - Allows to open/edit files?
+      - No
+      - No
+      - Yes
+      - Yes
+----
 
 CyVerse Data Commons
 ========================
