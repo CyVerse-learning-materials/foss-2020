@@ -5,55 +5,21 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**FOSS 2020 Introduction**
--------------
+**About FOSS**
+----------
 
-Welcome and staff introduction
-==============================
+Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
 
-- `Code of Conduct <code_of_conduct.html>`_
-- Logistics
-	- Building access
-	- Bathrooms, fountains, kitchen
-	- Wifi
-	- Meals
-- `Pre-workshop Set Up <../before/installation.html>`_
-
-## Course Location 
-
-FOSS will be held in the `Health Sciences Innovation Building (HSIB)(UA Building #216) <https://goo.gl/maps/mEMjXTBcfKRbexiu9>`_, located at 1670 E Drachmann St. 
-
-Due to scheduling conflicts with other courses, we will be switching rooms and floors in the HSIB building each day.
-
-.. list-table::
-    :header-rows: 1
-    
-    * - Day
-      - Monday
-      - Tuesday
-      - Wednesday
-      - Thursday
-      - Friday
-    * - **Room #**
-      - 567
-      - 640
-      - 567
-      - 640
-      - 640
-
-Nearest parking is the Highland Garage, about 3 blocks west of HSIB or you can take the Purple or Green CatTran shuttle to the northern terminus (the AHSL Library stop). 
-
-HSIB is an approximate 10 minute walk from The Aloft Hotel.
-
-UArizona Campus Map: https://map.arizona.edu/
-
-CatTran Route Map: https://parking.arizona.edu/cattran/cat-tran-routes/
+The workshop will cover key concepts about open science:
+- Collaboration culture
+- Software essentials
+- Using CyVerse cyberinfrastructure
+- Data management
+- Cloud computing
 
 ----
-Course Overview
-----------------
 
-Learning Objectives
+**Learning Objectives**
 ====================
 
 By the end of week one, participants should have the basic skills needed to:
@@ -68,8 +34,8 @@ Our goal is to have each participant leave with a solid plan for how they will s
   - data management
   - scaling analyses
 
-Approach
-=========
+**Approach**
+~~~~~
 
 FOSS camp focuses on hands on activities -- participants should learn skills by practicing them. Most of the skill taught in this course are interdepent, and lessons are designed to reinforce skills learned earlier in the week. Some material may be completely new to you, and some may be familiar. If you have experience with a subject, please help your less-experienced neighbor. 
 
@@ -106,7 +72,6 @@ For up to one year following FOSS camp, CyVerse will provide concierge service t
  .. |Static image| image:: ./img/IMAGENAME.png
     :width: 25
     :height: 25
-
 
 
 .. Comment: Place URLS Below This Line
