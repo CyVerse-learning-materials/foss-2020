@@ -32,7 +32,7 @@ By the end of the week, students will present a plan for how to integrate open s
       - Activity (Instructor)
       - Content
       - Expected Outcomes
-    * - Monday (2/17/2020)
+    * - Monday (2/17/2020) HSIB 567
       - 08:30-09:00
       - Instructor pre-briefing (all instructors)
       -
@@ -107,7 +107,7 @@ By the end of the week, students will present a plan for how to integrate open s
       - Activity (Instructor)
       - Content
       - Expected Outcomes
-    * - Tuesday (2/18/2020)
+    * - Tuesday (2/18/2020) HSIB 640
       - 08:30-09:00
       - Instructor pre-briefing
       -
@@ -177,7 +177,7 @@ By the end of the week, students will present a plan for how to integrate open s
       - Activity (Instructor)
       - Content
       - Expected Outcomes      
-    * - Wednesday (2/19/2020)
+    * - Wednesday (2/19/2020) HSIB 567
       - 08:30-09:00
       - Instructor pre-briefing
       -
@@ -247,7 +247,7 @@ By the end of the week, students will present a plan for how to integrate open s
       - Activity (Instructor)
       - Content
       - Expected Outcomes      
-    * - Thursday (2/19/2020)
+    * - Thursday (2/19/2020) HSIB 640
       - 08:30-09:00
       - Instructor pre-briefing
       -
@@ -292,7 +292,7 @@ By the end of the week, students will present a plan for how to integrate open s
       - Activity (Instructor)
       - Content
       - Expected Outcomes
-    * - Friday (2/21/2020)
+    * - Friday (2/21/2020) HSIB 640
       - 08:30-09:00
       - Instructor pre-briefing
       -
