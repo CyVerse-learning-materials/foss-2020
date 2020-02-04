@@ -346,21 +346,37 @@ These are *Online only*
 ~~~~~~~~~~~~~~~
 
 *Git* - tool for version control.
+
 *GitHub* - hosted server that is also interactive.
+
 *repo* - short for repository; GitHub lets you create a remote repository online.
+
 *local* - on your personal computer.
+
 *clone* - copy of a repository that lives locally on your computer. Pushing changes will affect the repository online.
+
 *fetch* - getting latest changes to the repository on your local computer.
+
 *branch* - parallel to the master branch; allows you to make changes without affecting the master branch. Changes made on a branch can be merged back to the master.
+
 *fork* - copy of someone else's repository stored locally on your account. From forks, you can make pull requests to the master branch.
+
 *upstream* - primary or master branch of original repository.
+
 *downstream* - branch or fork of repository.
+
 *untracked* - changes made locally but not yet commited or pushed to the online repo.
+
 *staged* - item added to the repo.
+
 *commit* - finalize a change.
+
 *push* - add changes back to the remote repository.
+
 *merge* - takes changes from a branch or fork and applies them to the master.
+
 *pull request* - proposed changes to/within a repository.
+
 *issue* - suggestions or tasks needed for the repository. Allows you to track decisions, bugs with the repository, etc.
 
 
