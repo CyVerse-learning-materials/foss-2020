@@ -99,6 +99,7 @@ The basic layout includes:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *Online*
+
 1. Go to your dasboard
 2. Click "New"
 3. Name the repository
@@ -111,6 +112,7 @@ Can delete repo under "Settings" -> "Options"
 
 
 *Command Line*
+
 1. Locate local folder / directory titled "Lab"
 
 .. code-block:: 
@@ -125,6 +127,7 @@ Can delete repo under "Settings" -> "Options"
 ~~~~~~~~~~~~~~~~~~~~~~
 
 *Online only*
+
 1. Go to your Organization
 2. Click "people"
 3. Invite someone!
@@ -137,9 +140,11 @@ OR
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Create an Issue**
+
 Issues are great for tracking decisions made or to-do lists
 
 *Online only*
+
 1. Click on the repository you just created.
 2. Click on "Issues"
 3. Click on "New issue"
@@ -156,12 +161,14 @@ Issues are great for tracking decisions made or to-do lists
 This is used to work *locally* rather than online.
 
 *Online*
+
 1. Click the down arrow "Clone or download"
 2. Click "Open in Desktop"
 3. Select where to save it
 	- Create a folder for GitHub repos on your computer locally
 
 *Command Line*
+
 .. code-block:: 
 	git clone <url> rename
 	#URL of thte repository on GitHub
@@ -170,6 +177,7 @@ This is used to work *locally* rather than online.
 **Commit**
 
 *Online*
+
 1. Create a file  by clicking "Create a new file"
 2. Name file (/name)
 3. Write commit message
@@ -177,12 +185,19 @@ This is used to work *locally* rather than online.
 
 OR
 
-1. Click "Upload files"
-2. Select file(s) within a folder
+1. Create a file *locally*
+2. Click "Upload files"
+3. Select file(s) within a folder
 	To create a folder click on "New File", then type FileName/
 	Add .gitkeep (convention to create an *empty* folder)
 
 *Command Line*
+
+1. Create a file
+.. code-block:: 
+	touch file.txt
+
+2. Add file(s)
 .. code-block:: 
 	git add -A #adds all the new files
 	git push
@@ -194,15 +209,19 @@ OR
 *You are doing this for you 6 months from now*
 
 *Online*
+
 1. Click on file
 2. Click "History"
 
 *Command Line*
+
 .. code-block:: 
 	git log
 	git log --stat #gives abbreviated stats for each commit
 	git log --pretty=oneline #can also add options: short, full, fuller
 	git log --pretty=format:"%h - %an, %ar : %s #lots of options for pretty=format
+	
+	:q #to quit
 
 **Advanced**
 ~~~~~~~~~~~~
@@ -211,6 +230,7 @@ OR
 Branches are useful to working on code etc. without disturbing the *master branch*.
 
 *Online*
+
 1. Select the down arrow on the repository page that says "Branch:master"
 2. Create a new branch name
 
@@ -221,11 +241,20 @@ OR
 3. Select "Create a **new branch**"
 
 *Command Line*
+
 .. code-block:: 
 	git pull
 	git checkout -b new-branch #see which branch you are on
 	git branch new-branch #create a new branch
+
+.. code-block:: 
 	<edit files>
+	vi path/to/file
+	:q #to quit
+	
+	nano path/to/file
+
+.. code-block:: 	
 	git push origin new-branch
 
 	git branch -a #see all branches 
@@ -237,6 +266,7 @@ OR
 Pull requests are useful to have another set of eyes to review changes  before merging them with the master branch.
 
 *Online*
+
 1. From your branch, create a new file
 2. Commit file to your branch
 3. Hit "Compare & pull request"
@@ -246,6 +276,7 @@ Pull requests are useful to have another set of eyes to review changes  before m
 7. Set it on the master branch
 
 *Command Line*
+
 .. code-block:: 
 	git pull
 	git status
@@ -254,11 +285,11 @@ Pull requests are useful to have another set of eyes to review changes  before m
 	git add -A #"A" add all the files
 	git push --set-upstream origin new-branch
 	git commit - m "did some things"
-	git pull-request
 
 **Merge**
 
 *Online*
+
 1. Go to "Pull requests"
 2. Select down arrow of "Merge pull request"
 3. Merge, Squash, or Rebase OR ignore
@@ -266,15 +297,17 @@ Pull requests are useful to have another set of eyes to review changes  before m
 5. Close pull request
 
 *Command Line*
+
 .. code-block:: 
 	git pull
 	git checkout master
 	git merge new-branch
-	git brnach -d new-branch
+	git branch -d new-branch
 
 **Fork**
 
 *Online*
+
 1. Go to a new repository
 2. Click fork
 3. Save to personal repository.
@@ -283,6 +316,7 @@ Pull requests are useful to have another set of eyes to review changes  before m
 6. If want to make suggestions, can create a pull request.
 
 *Command Line*
+
 .. code-block:: 
 	git close <github-repo>
 	cd <new-folder>
