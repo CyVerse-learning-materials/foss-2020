@@ -25,17 +25,15 @@ Given the limited amount of time we have this week, we are only going to cover `
 
    - `GitHub <https://github.com/>`_
 
-
 2. Create an *organization* on GitHub.
 
    - `GitHub Organization <https://help.github.com/en/enterprise/2.19/admin/user-management/creating-organizations>`_
 
+3. Create a folder on your computer titled "GitHub"
 
- 3. Create a folder on your computer titled "GitHub"
+4. Create a subfolder on your computer titled "Lab"
 
- 4. Create a subfolder on your computer titled "Lab"
-
- 5. Install Git
+5. Install Git
  	- `Download <https://git-scm.com/downloads>`_
 
 **Introduction**
