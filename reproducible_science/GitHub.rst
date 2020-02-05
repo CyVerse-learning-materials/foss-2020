@@ -42,8 +42,8 @@ Given the limited amount of time we have this week, we are only going to cover `
 We will learn how to:
 
 - Interact with the GitHub environment
-   - Using the web interface
-   - Using command line
+  - Using the web interface
+  - Using command line
 - Best practices
 - Add collaborators
 - Create a repository
@@ -54,8 +54,8 @@ We will learn how to:
 - Pull requests
 - Merging
 - Advanced GitHub
-   - Fork
-   - Releases
+  - Fork
+  - Releases
 
 Goals:
 - Learn the importance of Version Control
@@ -86,6 +86,7 @@ Basic Layout
 |GitHub|
 
 The basic layout includes:
+
 - Profile
 - Organizations
    - These are larger groups that may have multiple repositories
@@ -136,10 +137,10 @@ Can delete repo under "Settings" -> "Options"
 
 2. Add to GitHub
 .. code-block:: 
-	git init
-	git add *.c
-	git add .gitignore
-	git commit -m "initial project"
+   git init
+   git add *.c
+   git add .gitignore
+   git commit -m "initial project"
 
 **NOTE** Documentation is vital. *You are doing this for you 6 months from now*
 
@@ -159,10 +160,10 @@ This is used to work *locally* rather than online.
 *Command Line*
 
 .. code-block:: 
-	cd path/to/location
-	git clone <url> rename
-	#URL of thte repository on GitHub
-	#rename the directory (optional)
+   cd path/to/location
+   git clone <url> rename
+   #URL of thte repository on GitHub
+   #rename the directory (optional)
 
 **Commit**
 
@@ -178,21 +179,21 @@ OR
 1. Create a file *locally*
 2. Click "Upload files"
 3. Select file(s) within a folder
-	To create a folder click on "New File", then type FileName/
-	Add .gitkeep (convention to create an *empty* folder)
+   To create a folder click on "New File", then type FileName/
+   Add .gitkeep (convention to create an *empty* folder)
 
 *Command Line*
 
 1. Create a file
 .. code-block:: 
-	cd path/to/repo
-	touch file.txt
+   cd path/to/repo
+   touch file.txt
 
 2. Add file(s)
 .. code-block:: 
-	git add -A #adds all the new files
-	git push
-	git commit -m "added file" #-m initiates a message
+   git add -A #adds all the new files
+   git push
+   git commit -m "added file" #-m initiates a message
 
 **tip** It is good practice to write commmit messages to remember what you added or fixed.
 
@@ -206,13 +207,13 @@ Issues are great for tracking decisions made or to-do lists
 2. Click on "Issues"
 3. Click on "New issue"
 4. Create a title
-	- this will have a hastag (#) and issue number that you can refer to later in the comments
+   - this will have a hastag (#) and issue number that you can refer to later in the comments
 5. Assign to someone, or create a label
 6. Submit new issue
 7. Close issue
 
 **Exercise:**
-1. Create a new issue and relate it back to the issue you just created.
+   Create a new issue and relate it back to the issue you just created.
 
 
 **Version Control**
@@ -226,12 +227,11 @@ Issues are great for tracking decisions made or to-do lists
 *Command Line*
 
 .. code-block:: 
-	git log
-	git log --stat #gives abbreviated stats for each commit
-	git log --pretty=oneline #can also add options: short, full, fuller
-	git log --pretty=format:"%h - %an, %ar : %s #lots of options for pretty=format
-	
-	:q #to quit
+   git log
+   git log --stat #gives abbreviated stats for each commit
+   git log --pretty=oneline #can also add options: short, full, fuller
+   git log --pretty=format:"%h - %an, %ar : %s #lots of options for pretty=format
+   :q #to quit
 
 **Create a branch**
 Branches are useful to working on code etc. without disturbing the *master branch*.
@@ -250,28 +250,27 @@ OR
 *Command Line*
 
 .. code-block:: 
-	cd path/to/repo
-	git fetch
-	git pull
-	git checkout -b new-branch #see which branch you are on
-	git branch new-branch #create a new branch
+   cd path/to/repo
+   git fetch
+   git pull
+   git checkout -b new-branch #see which branch you are on
+   git branch new-branch #create a new branch
 
 .. code-block:: 
-	<edit files>
-	vi path/to/file
-	:q #to quit
+   <edit files>
+   vi path/to/file
+   :q #to quit
 
 OR
+
 .. code-block:: 
-	nano path/to/file
+   nano path/to/file
 
 .. code-block:: 	
-	git push origin new-branch
-
-	git branch -a #see all branches 
-
-	git branch -d new-branch #delete branch locally
-	git branch origin :'new-branch #delte branch on GitHub
+   git push origin new-branch
+   git branch -a #see all branches 
+   git branch -d new-branch #delete branch locally
+   git branch origin :'new-branch #delte branch on GitHub
 
 **Make a pull request**
 Pull requests are useful to have another set of eyes to review changes  before merging them with the master branch.
@@ -289,14 +288,14 @@ Pull requests are useful to have another set of eyes to review changes  before m
 *Command Line*
 
 .. code-block:: 
-	cd path/to/repo
-	git pull
-	git status
-	git checkout -b new-branch
-	<edit files>
-	git add -A #"A" add all the files
-	git push --set-upstream origin new-branch
-	git commit - m "did some things"
+   cd path/to/repo
+   git pull
+   git status
+   git checkout -b new-branch
+   <edit files>
+   git add -A #"A" add all the files
+   git push --set-upstream origin new-branch
+   git commit - m "did some things"
 
 **Merge**
 
@@ -310,14 +309,14 @@ Pull requests are useful to have another set of eyes to review changes  before m
 
 *Command Line*
 
-.. code-block:: 
-	cd path/to/repo
-	git pull
-	git checkout master
-	git merge new-branch
-	git branch -d new-branch
+.. code-block::
+   cd path/to/repo
+   git pull
+   git checkout master
+   git merge new-branch
+   git branch -d new-branch
 
-**Advanced**
+**_Advanced_**
 ~~~~~~~~~~~~
 
 **Fork**
@@ -334,9 +333,9 @@ Pull requests are useful to have another set of eyes to review changes  before m
 *Command Line*
 
 .. code-block:: 
-	git close <github-repo>
-	cd <new-folder>
-	git fork
+   git close <github-repo>
+   cd <new-folder>
+   git fork
 
 **Etc.**
 ~~~~~~~~
