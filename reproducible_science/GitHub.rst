@@ -44,16 +44,19 @@ We will learn how to:
 - Interact with the GitHub environment
 	- Using the web interface
 	- Using command line
+
 - Create a repository
 - Best practices
 - Create an issue
 - Push/pull files
 - Commit to GitHub
 - Add collaborators
+- Branching
+- Pull requests
+- Merging
+
 - Advanced GitHub
-	- Branching
-	- Pull requests
-	- Merging
+	- Fork
 	- Releases
 
 Goals:
@@ -96,6 +99,19 @@ The basic layout includes:
 - Contributions
 - Watch / Unwatch repos
 
+**Add a Collaborator**
+~~~~~~~~~~~~~~~~~~~~~~
+
+*Online only*
+
+1. Go to your Organization
+2. Click "people"
+3. Invite someone!
+
+OR
+
+1. Can add collaborators under "Settings" -> "Collaborators"
+
 **Create a Repo Online & Locally**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -115,7 +131,12 @@ Can delete repo under "Settings" -> "Options"
 *Command Line*
 
 1. Locate local folder / directory titled "Lab"
+.. code-block:: 
+	cd path/to/location
+	mkdir <folder_name>
+	cd <folder_name>
 
+2. Add to GitHub
 .. code-block:: 
 	git init
 	git add *.c
@@ -124,39 +145,8 @@ Can delete repo under "Settings" -> "Options"
 
 **NOTE** Documentation is vital. *You are doing this for you 6 months from now*
 
-**Add a Collaborator**
-~~~~~~~~~~~~~~~~~~~~~~
-
-*Online only*
-
-1. Go to your Organization
-2. Click "people"
-3. Invite someone!
-
-OR
-
-1. Can add collaborators under "Settings" -> "Collaborators"
-
 **Interact with GitHub**
 ~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Create an Issue**
-
-Issues are great for tracking decisions made or to-do lists
-
-*Online only*
-
-1. Click on the repository you just created.
-2. Click on "Issues"
-3. Click on "New issue"
-4. Create a title
-	- this will have a hastag (#) and issue number that you can refer to later in the comments
-5. Assign to someone, or create a label
-6. Submit new issue
-7. Close issue
-
-**Exercise:**
-1. Create a new issue and relate it back to the issue you just created.
 
 **Clone a repo**
 This is used to work *locally* rather than online.
@@ -171,6 +161,7 @@ This is used to work *locally* rather than online.
 *Command Line*
 
 .. code-block:: 
+	cd path/to/location
 	git clone <url> rename
 	#URL of thte repository on GitHub
 	#rename the directory (optional)
@@ -196,15 +187,35 @@ OR
 
 1. Create a file
 .. code-block:: 
+	cd path/to/repo
 	touch file.txt
 
 2. Add file(s)
 .. code-block:: 
 	git add -A #adds all the new files
 	git push
-	git commit -m "MESSAGE" #-m initiates a message
+	git commit -m "added file" #-m initiates a message
 
 **tip** It is good practice to write commmit messages to remember what you added or fixed.
+
+**Create an Issue**
+
+Issues are great for tracking decisions made or to-do lists
+
+*Online only*
+
+1. Click on the repository you just created.
+2. Click on "Issues"
+3. Click on "New issue"
+4. Create a title
+	- this will have a hastag (#) and issue number that you can refer to later in the comments
+5. Assign to someone, or create a label
+6. Submit new issue
+7. Close issue
+
+**Exercise:**
+1. Create a new issue and relate it back to the issue you just created.
+
 
 **Version Control**
 *You are doing this for you 6 months from now*
@@ -224,9 +235,6 @@ OR
 	
 	:q #to quit
 
-**Advanced**
-~~~~~~~~~~~~
-
 **Create a branch**
 Branches are useful to working on code etc. without disturbing the *master branch*.
 
@@ -244,6 +252,8 @@ OR
 *Command Line*
 
 .. code-block:: 
+	cd path/to/repo
+	git fetch
 	git pull
 	git checkout -b new-branch #see which branch you are on
 	git branch new-branch #create a new branch
@@ -252,7 +262,9 @@ OR
 	<edit files>
 	vi path/to/file
 	:q #to quit
-	
+
+OR
+.. code-block:: 
 	nano path/to/file
 
 .. code-block:: 	
@@ -279,6 +291,7 @@ Pull requests are useful to have another set of eyes to review changes  before m
 *Command Line*
 
 .. code-block:: 
+	cd path/to/repo
 	git pull
 	git status
 	git checkout -b new-branch
@@ -300,10 +313,14 @@ Pull requests are useful to have another set of eyes to review changes  before m
 *Command Line*
 
 .. code-block:: 
+	cd path/to/repo
 	git pull
 	git checkout master
 	git merge new-branch
 	git branch -d new-branch
+
+**Advanced**
+~~~~~~~~~~~~
 
 **Fork**
 
