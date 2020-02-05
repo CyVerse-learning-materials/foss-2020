@@ -25,9 +25,11 @@ Given the limited amount of time we have this week, we are only going to cover `
 
    - `GitHub <https://github.com/>`_
 
+
 2. Create an *organization* on GitHub.
 
    - `GitHub Organization <https://help.github.com/en/enterprise/2.19/admin/user-management/creating-organizations>`_
+
 
  3. Create a folder on your computer titled "GitHub"
 
