@@ -4,7 +4,8 @@
 
 |Home_Icon|_ `Learning Center Home <http://learning.cyverse.org/>`_
 
-
+**Tool integration and app building**
+=====================================
 
 `Tool Integration into the DE <https://cyverse-de-tool-integration-quickstart.readthedocs-hosted.com/en/latest/index.html>`_
 -----------------------------------------------------------------------------------------------------------------------------
