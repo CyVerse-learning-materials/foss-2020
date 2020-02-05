@@ -135,6 +135,7 @@
 - **Singularity:** a container software, used widely on HPC, created by `SyLabs <https://sylabs.io/>`_
 - **SLACK:** Searchable Log of All Conversation and Knowledge, a team communication tool `slack.com <https://slack.com/>`_
 - **sprint:** set period of time during which specific work has to be completed and made ready for review
+- **Singularity def file:** (definition file) recipe for building a Singualrity container
 
 **T**
 
