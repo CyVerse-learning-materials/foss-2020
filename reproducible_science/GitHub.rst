@@ -130,9 +130,9 @@ Can delete repo under "Settings" -> "Options"
 
 1. Locate local folder / directory titled "Lab"
 .. code-block:: 
-	cd path/to/location
-	mkdir <folder_name>
-	cd <folder_name>
+   cd path/to/location
+   mkdir <folder_name>
+   cd <folder_name>
 
 2. Add to GitHub
 .. code-block:: 
