@@ -49,7 +49,7 @@ When adding new apps to the DE, developers have the option of adding the app to 
 
 
 `Launch an executable analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Apps>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------------------------------------------------------------
 
 |DE_word_count|
 
@@ -67,12 +67,12 @@ A variety of information and tasks related to an analysis can be found in the 't
  - `Share an analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+and+Unsharing+an+Analysis>`_ with a collaborator.
 
 `Launch an interactive analysis (VICE) <https://learning.cyverse.org/projects/vice/en/latest/>`_
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------------------------------------------------------------
 
 Visual Interactive Computing Environment VICE introduces graphic user interfaces (GUIs) and common Integrated Development Environments (IDEs) such as Project Jupyter Notebooks & Lab, RStudio, Shiny Apps and Linux Desktop
 
 Additional resources
-=========================
+^^^^^^^^^^^^^^^^^^^^
 
  - `DE Guide <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/>`_
  - `DE Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
