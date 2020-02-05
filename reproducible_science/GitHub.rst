@@ -34,7 +34,7 @@ Given the limited amount of time we have this week, we are only going to cover `
 4. Create a subfolder on your computer titled "Lab"
 
 5. Install Git
- 	- `Download <https://git-scm.com/downloads>`_
+   - `Download <https://git-scm.com/downloads>`_
 
 **Introduction**
 ----------------
@@ -42,22 +42,20 @@ Given the limited amount of time we have this week, we are only going to cover `
 We will learn how to:
 
 - Interact with the GitHub environment
-	- Using the web interface
-	- Using command line
-
-- Create a repository
+   - Using the web interface
+   - Using command line
 - Best practices
-- Create an issue
+- Add collaborators
+- Create a repository
 - Push/pull files
 - Commit to GitHub
-- Add collaborators
+- Create an issue
 - Branching
 - Pull requests
 - Merging
-
 - Advanced GitHub
-	- Fork
-	- Releases
+   - Fork
+   - Releases
 
 Goals:
 - Learn the importance of Version Control
@@ -90,9 +88,9 @@ Basic Layout
 The basic layout includes:
 - Profile
 - Organizations
-	- These are larger groups that may have multiple repositories
+   - These are larger groups that may have multiple repositories
 - Teams
-	- These are groups within Organizations
+   - These are groups within Organizations
 - Repositories
 - `Projects <https://help.github.com/en/articles/about-project-boards>`_
 - Followers
@@ -121,8 +119,8 @@ OR
 2. Click "New"
 3. Name the repository
 4. Initialize with "README"
-	- form of metadata
-	- this tells you and the those looking at the repository what it is about
+   - form of metadata
+   - this tells you and the those looking at the repository what it is about
 5. Go to "Clone or Download" and clone to local folder / directory titled "Lab"
 
 Can delete repo under "Settings" -> "Options"
