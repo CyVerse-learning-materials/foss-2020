@@ -41,10 +41,12 @@
 - **Docker:** `Docker <https://www.docker.com/>`_ is an open source software platform to create, deploy and manage virtualized application containers on a common operating system (OS), with an ecosystem of allied tools. A program that runs and handles life-cycle of containers and images
 - **DockerHub:** an official registry of docker containers, operated by Docker. `DockerHub <https://hub.docker.com/>`_
 - **DOI:** a digital object identifier. A persistant identifier number, managed by the `doi.org <https://www.doi.org/>`_
+- **Dockerfile:** a text document that contains all the commands you would normally execute manually in order to build a Docker image. Docker can build images automatically by reading the instructions from a Dockerfile.
 
 **E**
 
 - **environment:** software that includes operating system, database system, specific tools for analysis.
+- **entrypoint:** In a Dockerfile, an ENTRYPOINT is an optional definition for the first part of the command to be run.
 
 **F**
 
