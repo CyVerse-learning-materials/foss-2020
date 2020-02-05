@@ -40,14 +40,15 @@ Given the limited amount of time we have this week, we are only going to cover `
 ----------------
 
 We will learn how to:
+
 - Interact with the GitHub environment
 	- Using the web interface
 	- Using command line
 - Create a repository
-	- Best practices
-	- Create an issue
-	- Push/pull files
-	- Commit to GitHub
+- Best practices
+- Create an issue
+- Push/pull files
+- Commit to GitHub
 - Add collaborators
 - Advanced GitHub
 	- Branching
@@ -86,9 +87,9 @@ Basic Layout
 The basic layout includes:
 - Profile
 - Organizations
-	These are larger groups that may have multiple repositories
+	- These are larger groups that may have multiple repositories
 - Teams
-	These are groups within Organizations
+	- These are groups within Organizations
 - Repositories
 - `Projects <https://help.github.com/en/articles/about-project-boards>`_
 - Followers
