@@ -11,8 +11,13 @@
 
 **Building an App for Your Tool**
 ---------------------------------
+You can build an app for any tool that:
 
-In the 'Manage Tools' window select 'Only my tools' from the dropdown box at the top of the window. Select the tool you just integrated and select 'Use in App' from the 'Tools' menu
+1. is private to you
+2. is shared with you
+3. is public
+
+In the 'Manage Tools' window search for 'porechop' in the search bar at the top of the window. Select the porechop public tool and choose 'Use in App' from the 'Tools' menu
 
 |useinapp|
 
