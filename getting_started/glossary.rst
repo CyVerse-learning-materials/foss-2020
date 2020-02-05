@@ -55,10 +55,11 @@
 
 **G**
 
-- **git:** software program for working with version control system
+- **git:** a version control system software
 - **gitter:** a Github based messaging service that uses markdown `gitter.im <https://gitter.im>`_
-- **Github:** a website for hosting ``git`` repositories -- owned by Microsoft `GitHub <https://github.com>`_
+- **GitHub:** a website for hosting ``git`` repositories -- owned by Microsoft `GitHub <https://github.com>`_
 - **GitLab:** a website for hosting ``git`` repositories `GitLab <https://gitlab.com>`_
+- **GitOps:** using ``git`` framework as a means of deploying infrastructure on cloud using Kubernetes 
 - **GPU:** graphic processing unit
 - **GUI:** graphical user interface
 

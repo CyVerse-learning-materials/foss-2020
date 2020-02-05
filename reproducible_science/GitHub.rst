@@ -29,33 +29,37 @@ Given the limited amount of time we have this week, we are only going to cover `
 
    - `GitHub Organization <https://help.github.com/en/enterprise/2.19/admin/user-management/creating-organizations>`_
 
- 3. Create a folder on your computer titled "GitHub"
+3. Create a folder on your computer titled "GitHub"
 
- 4. Create a subfolder on your computer titled "Lab"
+4. Create a subfolder on your computer titled "Lab"
 
- 5. Install Git
- 	- `Download <https://git-scm.com/downloads>`_
+5. Install Git
+
+   - `Download <https://git-scm.com/downloads>`_
 
 **Introduction**
 ----------------
 
 We will learn how to:
+
 - Interact with the GitHub environment
-	- Using the web interface
-	- Using command line
-- Create a repository
-	- Best practices
-	- Create an issue
-	- Push/pull files
-	- Commit to GitHub
+  - Using the web interface
+  - Using command line
+- Best practices
 - Add collaborators
+- Create a repository
+- Push/pull files
+- Commit to GitHub
+- Create an issue
+- Branching
+- Pull requests
+- Merging
 - Advanced GitHub
-	- Branching
-	- Pull requests
-	- Merging
-	- Releases
+  - Fork
+  - Releases
 
 Goals:
+
 - Learn the importance of Version Control
 - Feel comfortable using the GitHub environment
 - Integrate at least one research project on GitHub
@@ -84,47 +88,23 @@ Basic Layout
 |GitHub|
 
 The basic layout includes:
+
 - Profile
 - Organizations
-	These are larger groups that may have multiple repositories
+   - These are larger groups that may have multiple repositories
 - Teams
-	These are groups within Organizations
+   - These are groups within Organizations
 - Repositories
 - `Projects <https://help.github.com/en/articles/about-project-boards>`_
 - Followers
 - Contributions
 - Watch / Unwatch repos
 
-**Create a Repo Online & Locally**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-*Online*
-1. Go to your dasboard
-2. Click "New"
-3. Name the repository
-4. Initialize with "README"
-	- form of metadata
-	- this tells you and the those looking at the repository what it is about
-5. Go to "Clone or Download" and clone to local folder / directory titled "Lab"
-
-Can delete repo under "Settings" -> "Options"
-
-
-*Command Line*
-1. Locate local folder / directory titled "Lab"
-
-.. code-block:: 
-	git init
-	git add *.c
-	git add .gitignore
-	git commit -m "initial project"
-
-**NOTE** Documentation is vital. *You are doing this for you 6 months from now*
-
 **Add a Collaborator**
 ~~~~~~~~~~~~~~~~~~~~~~
 
 *Online only*
+
 1. Go to your Organization
 2. Click "people"
 3. Invite someone!
@@ -133,43 +113,66 @@ OR
 
 1. Can add collaborators under "Settings" -> "Collaborators"
 
+**Create a Repo Online & Locally**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Online*
+
+1. Go to your dasboard
+2. Click "New"
+3. Name the repository
+4. Initialize with "README"
+   - form of metadata
+   - this tells you and the those looking at the repository what it is about
+5. Go to "Clone or Download" and clone to local folder / directory titled "Lab"
+
+Can delete repo under "Settings" -> "Options"
+
+
+*Command Line*
+
+1. Locate local folder / directory titled "Lab"
+
+.. code-block:: 
+   cd path/to/location
+   mkdir <folder_name>
+   cd <folder_name>
+
+2. Add to GitHub
+
+.. code-block:: 
+   git init
+   git add *.c
+   git add .gitignore
+   git commit -m "initial project"
+
+**NOTE** Documentation is vital. *You are doing this for you 6 months from now*
+
 **Interact with GitHub**
 ~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Create an Issue**
-Issues are great for tracking decisions made or to-do lists
-
-*Online only*
-1. Click on the repository you just created.
-2. Click on "Issues"
-3. Click on "New issue"
-4. Create a title
-	- this will have a hastag (#) and issue number that you can refer to later in the comments
-5. Assign to someone, or create a label
-6. Submit new issue
-7. Close issue
-
-**Exercise:**
-1. Create a new issue and relate it back to the issue you just created.
 
 **Clone a repo**
 This is used to work *locally* rather than online.
 
 *Online*
+
 1. Click the down arrow "Clone or download"
 2. Click "Open in Desktop"
 3. Select where to save it
 	- Create a folder for GitHub repos on your computer locally
 
 *Command Line*
+
 .. code-block:: 
-	git clone <url> rename
-	#URL of thte repository on GitHub
-	#rename the directory (optional)
+   cd path/to/location
+   git clone <url> rename
+   #URL of thte repository on GitHub
+   #rename the directory (optional)
 
 **Commit**
 
 *Online*
+
 1. Create a file  by clicking "Create a new file"
 2. Name file (/name)
 3. Write commit message
@@ -177,40 +180,69 @@ This is used to work *locally* rather than online.
 
 OR
 
-1. Click "Upload files"
-2. Select file(s) within a folder
-	To create a folder click on "New File", then type FileName/
-	Add .gitkeep (convention to create an *empty* folder)
+1. Create a file *locally*
+2. Click "Upload files"
+3. Select file(s) within a folder
+   To create a folder click on "New File", then type FileName/
+   Add .gitkeep (convention to create an *empty* folder)
 
 *Command Line*
+
+1. Create a file
 .. code-block:: 
-	git add -A #adds all the new files
-	git push
-	git commit -m "MESSAGE" #-m initiates a message
+   cd path/to/repo
+   touch file.txt
+
+2. Add file(s)
+.. code-block:: 
+   git add -A #adds all the new files
+   git push
+   git commit -m "added file" #-m initiates a message
 
 **tip** It is good practice to write commmit messages to remember what you added or fixed.
+
+**Create an Issue**
+
+Issues are great for tracking decisions made or to-do lists
+
+*Online only*
+
+1. Click on the repository you just created.
+2. Click on "Issues"
+3. Click on "New issue"
+4. Create a title
+   - this will have a hastag (#) and issue number that you can refer to later in the comments
+5. Assign to someone, or create a label
+6. Submit new issue
+7. Close issue
+
+**Exercise:**
+   Create a new issue and relate it back to the issue you just created.
+
 
 **Version Control**
 *You are doing this for you 6 months from now*
 
 *Online*
+
 1. Click on file
 2. Click "History"
 
 *Command Line*
-.. code-block:: 
-	git log
-	git log --stat #gives abbreviated stats for each commit
-	git log --pretty=oneline #can also add options: short, full, fuller
-	git log --pretty=format:"%h - %an, %ar : %s #lots of options for pretty=format
 
-**Advanced**
-~~~~~~~~~~~~
+.. code-block:: 
+   git log
+   git log --stat #gives abbreviated stats for each commit
+   git log --pretty=oneline #can also add options: short, full, fuller
+   git log --pretty=format:"%h - %an, %ar : %s #lots of options for pretty=format
+   :q #to quit
 
 **Create a branch**
+
 Branches are useful to working on code etc. without disturbing the *master branch*.
 
 *Online*
+
 1. Select the down arrow on the repository page that says "Branch:master"
 2. Create a new branch name
 
@@ -221,22 +253,35 @@ OR
 3. Select "Create a **new branch**"
 
 *Command Line*
+
 .. code-block:: 
-	git pull
-	git checkout -b new-branch #see which branch you are on
-	git branch new-branch #create a new branch
-	<edit files>
-	git push origin new-branch
+   cd path/to/repo
+   git fetch
+   git pull
+   git checkout -b new-branch #see which branch you are on
+   git branch new-branch #create a new branch
 
-	git branch -a #see all branches 
+.. code-block:: 
+   <edit files>
+   vi path/to/file
+   :q #to quit
 
-	git branch -d new-branch #delete branch locally
-	git branch origin :'new-branch #delte branch on GitHub
+OR
+
+.. code-block:: 
+   nano path/to/file
+
+.. code-block:: 	
+   git push origin new-branch
+   git branch -a #see all branches 
+   git branch -d new-branch #delete branch locally
+   git branch origin :'new-branch #delte branch on GitHub
 
 **Make a pull request**
 Pull requests are useful to have another set of eyes to review changes  before merging them with the master branch.
 
 *Online*
+
 1. From your branch, create a new file
 2. Commit file to your branch
 3. Hit "Compare & pull request"
@@ -246,19 +291,21 @@ Pull requests are useful to have another set of eyes to review changes  before m
 7. Set it on the master branch
 
 *Command Line*
+
 .. code-block:: 
-	git pull
-	git status
-	git checkout -b new-branch
-	<edit files>
-	git add -A #"A" add all the files
-	git push --set-upstream origin new-branch
-	git commit - m "did some things"
-	git pull-request
+   cd path/to/repo
+   git pull
+   git status
+   git checkout -b new-branch
+   <edit files>
+   git add -A #"A" add all the files
+   git push --set-upstream origin new-branch
+   git commit - m "did some things"
 
 **Merge**
 
 *Online*
+
 1. Go to "Pull requests"
 2. Select down arrow of "Merge pull request"
 3. Merge, Squash, or Rebase OR ignore
@@ -266,15 +313,21 @@ Pull requests are useful to have another set of eyes to review changes  before m
 5. Close pull request
 
 *Command Line*
-.. code-block:: 
-	git pull
-	git checkout master
-	git merge new-branch
-	git brnach -d new-branch
+
+.. code-block::
+   cd path/to/repo
+   git pull
+   git checkout master
+   git merge new-branch
+   git branch -d new-branch
+
+**Advanced**
+~~~~~~~~~~~~
 
 **Fork**
 
 *Online*
+
 1. Go to a new repository
 2. Click fork
 3. Save to personal repository.
@@ -283,10 +336,11 @@ Pull requests are useful to have another set of eyes to review changes  before m
 6. If want to make suggestions, can create a pull request.
 
 *Command Line*
+
 .. code-block:: 
-	git close <github-repo>
-	cd <new-folder>
-	git fork
+   git close <github-repo>
+   cd <new-folder>
+   git fork
 
 **Etc.**
 ~~~~~~~~
@@ -312,21 +366,37 @@ These are *Online only*
 ~~~~~~~~~~~~~~~
 
 *Git* - tool for version control.
+
 *GitHub* - hosted server that is also interactive.
+
 *repo* - short for repository; GitHub lets you create a remote repository online.
+
 *local* - on your personal computer.
+
 *clone* - copy of a repository that lives locally on your computer. Pushing changes will affect the repository online.
+
 *fetch* - getting latest changes to the repository on your local computer.
+
 *branch* - parallel to the master branch; allows you to make changes without affecting the master branch. Changes made on a branch can be merged back to the master.
+
 *fork* - copy of someone else's repository stored locally on your account. From forks, you can make pull requests to the master branch.
+
 *upstream* - primary or master branch of original repository.
+
 *downstream* - branch or fork of repository.
+
 *untracked* - changes made locally but not yet commited or pushed to the online repo.
+
 *staged* - item added to the repo.
+
 *commit* - finalize a change.
+
 *push* - add changes back to the remote repository.
+
 *merge* - takes changes from a branch or fork and applies them to the master.
+
 *pull request* - proposed changes to/within a repository.
+
 *issue* - suggestions or tasks needed for the repository. Allows you to track decisions, bugs with the repository, etc.
 
 

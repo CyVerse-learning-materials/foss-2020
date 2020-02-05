@@ -41,9 +41,10 @@ By working through an example project relevant to their interests, participants 
 .. toctree::
    :maxdepth: 1
    :caption: Getting Started
-
-   getting_started/intro
+   
    getting_started/code_of_conduct
+   getting_started/intro
+   getting_started/location
    getting_started/agenda
    getting_started/open_sci_lab
    getting_started/colab_culture
