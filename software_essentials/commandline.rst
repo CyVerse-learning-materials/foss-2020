@@ -509,6 +509,24 @@ Wildcards can be used in combination with each other e.g. ???ane.pdb matches thr
 
 **Other Useful Tools and Commands**
 -----------------------------------
+**sudo**
+^^^^^^^^
+**allows users to run programs with the security privileges of the superuser**
+
+This command is used as a prefix to other commands that you need elevated permissions to run. Which commands you will need this for will vary depending on the computer you are using at the time. If you receive a **permission denied** error it is likely that you will need 'sudo' to run the command. 
+
+.. code-block:: bash
+
+    $ docker run hello-world:latest
+
+.. code-block:: bash
+
+    $ sudo docker run hello-world:latest
+
+.. NOTE:: 
+
+    Use 'sudo' with caution. Sometimes important files restrict permission because they are very senstive and it is un-wise to change them unless you know what you are doing.
+
 
 **head**
 ^^^^^^^^
