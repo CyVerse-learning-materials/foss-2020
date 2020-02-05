@@ -34,6 +34,7 @@ Given the limited amount of time we have this week, we are only going to cover `
 4. Create a subfolder on your computer titled "Lab"
 
 5. Install Git
+
    - `Download <https://git-scm.com/downloads>`_
 
 **Introduction**
@@ -58,6 +59,7 @@ We will learn how to:
   - Releases
 
 Goals:
+
 - Learn the importance of Version Control
 - Feel comfortable using the GitHub environment
 - Integrate at least one research project on GitHub
@@ -130,12 +132,14 @@ Can delete repo under "Settings" -> "Options"
 *Command Line*
 
 1. Locate local folder / directory titled "Lab"
+
 .. code-block:: 
    cd path/to/location
    mkdir <folder_name>
    cd <folder_name>
 
 2. Add to GitHub
+
 .. code-block:: 
    git init
    git add *.c
@@ -234,6 +238,7 @@ Issues are great for tracking decisions made or to-do lists
    :q #to quit
 
 **Create a branch**
+
 Branches are useful to working on code etc. without disturbing the *master branch*.
 
 *Online*
@@ -316,7 +321,7 @@ Pull requests are useful to have another set of eyes to review changes  before m
    git merge new-branch
    git branch -d new-branch
 
-**_Advanced_**
+**Advanced**
 ~~~~~~~~~~~~
 
 **Fork**
