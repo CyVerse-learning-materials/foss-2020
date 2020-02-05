@@ -19,6 +19,8 @@
 
 - **beta:** :math:`\beta`, a software version which is not yet ready for publication but is being tested.
 - **bash:** Bash is the GNU Project's shell, the `Bourne-Again Shell <https://www.gnu.org/software/bash/>`_
+-  **biocontainer:** a community-driven project that provides the infrastructure and basic guidelines to create, manage and distribute bioinformatics packages (e.g conda) and containers (e.g docker, singularity). 
+-  **bioconda:** a channel for the conda package manager specializing in bioinformatics software
 
 **C**
 
@@ -93,6 +95,7 @@
 
 - **markdown:** a lightweight markup language with plain text formatting syntax
 - **multi-thread:** a process which runs on more than one CPU or GPU core at the same time
+- **master node:** responsible for deciding what runs on all of the cluster's nodes. This can include scheduling workloads, like containerized applications, and managing the workloads' lifecycle, scaling, and upgrades. The master also manages network and storage resources for those workloads.
 
 **N**
 
@@ -108,6 +111,7 @@
 **P**
 
 - **package:** an app designed for a particular langauge
+- **package manager:** a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner
 - **Python:**  interpreted, high-level, general-purpose programming language `Python.org <https://www.python.org/>`_
 
 **Q**
@@ -152,6 +156,7 @@
 
 - **waterfall:** software development broken into linear sequential phases.
 - **workspace:** (vs. repo)
+- **worker node:** A cluster typically has one or more nodes, which are the worker machines that run your containerized applications and other workloads. Each node is managed from the master, which receives updates on each node's self-reported status.
 
 **X**
 
