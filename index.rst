@@ -60,8 +60,8 @@ By working through an example project relevant to their interests, participants 
    CyVerse/de
    CyVerse/de-data-manage
    CyVerse/de-data-analysis
-   CyVerse/vice
-   CyVerse/tool_integration_app_building_DE 
+   CyVerse/tool_integration_app_building_DE
+   CyVerse/vice 
    CyVerse/workflow 
 
 
@@ -97,9 +97,9 @@ By working through an example project relevant to their interests, participants 
 .. toctree::
    :maxdepth: 1
    :caption: Software Essentials
-   
-   software_essentials/linux
+
    software_essentials/commandline
+   software_essentials/linux
    software_essentials/R_Studio
    software_essentials/RStudio_Git
    software_essentials/continuous_integration
@@ -109,8 +109,8 @@ By working through an example project relevant to their interests, participants 
    :maxdepth: 1
    :caption: Containers
 
+   Containers/introtocontainers
    Containers/dockeronatmo
-   Containers/biocontainers
    Containers/dockerintro
    Containers/dockeradvanced
 
