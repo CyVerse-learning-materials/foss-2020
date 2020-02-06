@@ -233,9 +233,9 @@ By the end of the week, students will present a plan for how to integrate open s
       -
       - 
     * - 
-      - 18:30 - whenever 
-      - Optional Tour `UA Main Library CATalyst Studios <https://new.library.arizona.edu/catalyst>`_
-      - Maker Space, VR, 3D printing 
+      - 18:30 - 20:00 
+      - Optional: `UA Main Library CATalyst Studios <https://new.library.arizona.edu/catalyst>`_
+      - Maker Space, VR, 3D printing, lasercuts, greenscreen photography, and more! 
       - 
 ----
 
