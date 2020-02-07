@@ -55,8 +55,11 @@ We will learn how to:
 - Pull requests
 - Merging
 - Advanced GitHub
+  - Amend
   - Fork
+  - Revert
   - Releases
+  - Badges
 
 Goals:
 
