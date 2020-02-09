@@ -77,6 +77,17 @@ By working through an example project relevant to their interests, participants 
 
 .. toctree::
    :maxdepth: 1
+   :caption: Software Essentials
+
+   software_essentials/commandline
+   software_essentials/linux
+   software_essentials/R_Studio
+   software_essentials/RStudio_Git
+   software_essentials/continuous_integration
+   
+   
+.. toctree::
+   :maxdepth: 1
    :caption: Cloud Computing
 
    cloud_comput/intro
@@ -93,17 +104,6 @@ By working through an example project relevant to their interests, participants 
    Data_management/FAIR
    Data_management/dmp
 
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Software Essentials
-
-   software_essentials/commandline
-   software_essentials/linux
-   software_essentials/R_Studio
-   software_essentials/RStudio_Git
-   software_essentials/continuous_integration
-   
    
 .. toctree::
    :maxdepth: 1
