@@ -36,7 +36,7 @@ By working through an example project relevant to their interests, participants 
 
    before/main
    before/installation
-   before/about_cyverse
+   
    
 .. toctree::
    :maxdepth: 1
