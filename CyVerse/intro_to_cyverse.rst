@@ -12,7 +12,9 @@
 
 **CyVerse Mission:** Design, deploy, and expand a national
 cyberinfrastructure for life sciences research and train scientists in
-its use. CyVerse provides life scientists with powerful computational
+its use. 
+
+CyVerse provides life scientists with powerful computational
 infrastructure to handle huge datasets and complex analyses, thus
 enabling data-driven discovery. Our powerful extensible platforms
 provide data storage, bioinformatics tools, image analyses, cloud
