@@ -8,11 +8,11 @@
 **Lab Group Communication**
 ===========================
 
-Choosing which software to use for your lab's primary digital communication can be complicated by the sheer number of platforms that are out there.
+Choosing which software to use for your internal lab communication can be complicated by the cost of setting up, the cost of maintaining, and simply by the sheer number of platforms that are out there.
 
-For this workshop, we are going to cover a popular platform with free/paid access, `SLACK <https://slack.com/>`_ (Searchable Log of All Conversation & Knowledge), and `Gitter <https://gitter.im/home>`_  
+For this workshop, we are use `SLACK <https://slack.com/>`_ (Searchable Log of All Conversation & Knowledge).
 
-Remember, the intention of these platforms are to **improve productivity** not become a distraction.
+Remember, the intention of these platforms are to **improve productivity** & not become a distraction.
 
 *Some things to remember*
 ------------------------
@@ -21,7 +21,12 @@ Remember, the intention of these platforms are to **improve productivity** not b
 ~~~~~~~
 
 - Slack has `plenty of apps <https://slack.com/apps>`_ for coordinating multiple services, i.e. Calendars, Github, GoogleDrive, Box, etc.
-- Slack can be limiting unless you're willing to pay for the professional support. 
+- Slack is limiting unless you're willing to pay for the professional support. 
+
+*Microsoft Teams*
+~~~~~~~~~~~~~~~~
+
+- Microsoft's competitor to SLACK is `Microsoft Teams <https://teams.microsoft.com/start>`_. Teams is used by many R1 research universities as part of their campus wide license agreement for Office 365 Business and Education.
 
 *Gitter*
 ~~~~~~~~
@@ -32,15 +37,18 @@ Remember, the intention of these platforms are to **improve productivity** not b
 *Other popular alternatives*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+  - `BaseCamp <https://basecamp.com/>`_
+  
   - `Discord <https://discordapp.com/>`_
+  
+  - `Mastodon <https://joinmastodon.org/>`_
+  
   - `Mattermost <https://mattermost.com/>`_
+ 
 
 ----
 
-*Setting up*
-------------
-
-*Slack*
+*Create a SLACK Workspace*
 ~~~~~~~
 
   1. `Create a new Workspace <https://get.slack.help/hc/en-us/articles/206845317-Create-a-Slack-workspace>`_
@@ -48,7 +56,7 @@ Remember, the intention of these platforms are to **improve productivity** not b
   2. `Create channels, add apps & tools <https://get.slack.help/hc/en-us/articles/217626298-tips-for-team-creators-and-admins>`_
     
 
-*Gitter*
+*Create a Gitter*
 ~~~~~~~~
 
    1. `Create a Workspace <https://gitter.im>`_
@@ -64,7 +72,7 @@ Remember, the intention of these platforms are to **improve productivity** not b
 	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
 	####
 
-**Networking**
+**Social Networking**
 --------------
 
 Although we didn't cover it explicitly in the announcement for the workshop, communicating with the public and other members of your science community is one of the most important parts of your science!
@@ -82,7 +90,7 @@ There are many ways scientists use social media and the web to share their data 
 
    You decide what you post on the internet. Your scientist identity may be a part of your personal identity on social media, it might be separate. A future employer or current employer can see your old posts. What you post in your personal accounts can be considered a reflection of the organization you work for and may be used in decisions about hiring or dismissal. 
 
-*Self-Paced Materials*
+*Self-Paced Material*
 ----------------------
 
 `15 Data Science Communities to Join <https://towardsdatascience.com/15-data-science-slack-communities-to-join-8fac301bd6ce>`_
@@ -94,7 +102,6 @@ There are many ways scientists use social media and the web to share their data 
 `Gitter Services <https://gitlab.com/gitlab-org/gitter/services>`_
 
 `Meetups <https://www.meetup.com/>`_
-
 
 ----
 
