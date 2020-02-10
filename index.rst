@@ -47,6 +47,7 @@ By working through an example project relevant to their interests, participants 
    getting_started/intro
    getting_started/location
    getting_started/agenda
+   getting_started/instructors
    getting_started/open_sci_lab
    getting_started/colab_culture
    getting_started/glossary
