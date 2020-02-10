@@ -19,7 +19,7 @@ Some cloud services are free, like `Google's Earth Engine <https://earthengine.g
 
 There are also options where your institution can stand up a cloud service on its own hardware: `Open Stack <https://www.openstack.org/>`_ and `VMWare <https://www.vmware.com/>`_. CyVerse and XSEDE operate multiple OpenStack clouds which they provide as a service called `Atmosphere (CyVerse) <https://atmo.cyverse.org/>`_ and `Jetstream (XSEDE) <https://use.jetstream-cloud.org/>`_ free to researchers. 
 
-We will be focusing the workshop time on the applications of 'containers' like `Docker <https://www.docker.com/>`_ and `Singularity <https://sylabs.io>`_ which are a way of taking your research and runnning analyses on ANY cloud providor. The rapid development of containers and container orchestration is due to the rise of the cloud. The utility of containers to researchers in the areas of sharing and reproducible research are fortunate benefits.
+We will be focusing the workshop time on the applications of 'containers' like `Docker <https://www.docker.com/>`_ and `Singularity <https://sylabs.io>`_ which are a way of taking your research and running analyses on ANY cloud providor. The rapid development of containers and container orchestration is due to the rise of the cloud. The utility of containers to researchers in the areas of sharing and reproducible research are fortunate benefits.
 
 ----
 
