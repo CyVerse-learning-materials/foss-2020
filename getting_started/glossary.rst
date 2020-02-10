@@ -71,6 +71,7 @@
 
 **I**
 
+- **IaaS:** `Infrastructure as a Service <https://en.wikipedia.org/wiki/Infrastructure_as_a_service>`_. online services that provide APIs
 - **iCommands:** command line application for accessing an iRODS Data Store
 - **IDE:** integrated development environment
 - **instance:** a single virtul machine 
@@ -113,6 +114,7 @@
 
 **P**
 
+- **PaaS:** `Platform as a Service <https://en.wikipedia.org/wiki/Platform_as_a_service>`_. Run and manage applications in cloud without complexity of developing it yourself.
 - **package:** an app designed for a particular langauge
 - **package manager:** a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner
 - **Python:**  interpreted, high-level, general-purpose programming language `Python.org <https://www.python.org/>`_
@@ -132,6 +134,7 @@
 
 **S**
 
+- **SaaS:** `Software as a Service <https://en.wikipedia.org/wiki/Software_as_a_service>`_. Web based platform for using software.  
 - **shell:** is a command line interface program that runs other programs (may be complex, technical programs or very simple programs such as making a directory). These simple, stand-alone programs are called commands.
 - **Singularity:** a container software, used widely on HPC, created by `SyLabs <https://sylabs.io/>`_
 - **SLACK:** Searchable Log of All Conversation and Knowledge, a team communication tool `slack.com <https://slack.com/>`_
