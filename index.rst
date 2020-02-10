@@ -126,40 +126,6 @@ By working through an example project relevant to their interests, participants 
 
 ----
 
-Course Instructors
----------------------
-- Amanda Cooksey
-- Tina Lee
-- Tyson Swetnam
-- Ramona Walls
-
-Guest instructors:
-+++++++++++++++++++++
-- Fernando Rios (UA Libraries)
-- Michael Mandel (UA Eller College of Management)
-
-About CyVerse
--------------
-
-**CyVerse Vision:** Transforming science through data-driven discovery.
-
-**CyVerse Mission:** Design, deploy, and expand a national
-cyberinfrastructure for life sciences research and train scientists in
-its use. 
-
-CyVerse provides life scientists with powerful computational
-infrastructure to handle huge datasets and complex analyses, thus
-enabling data-driven discovery. Our powerful extensible platforms
-provide data storage, bioinformatics tools, image analyses, cloud
-services, APIs, and more.
-
-While originally created with the name iPlant Collaborative to serve
-U.S. plant science communities, CyVerse cyberinfrastructure is germane
-to all life sciences disciplines and works equally well on data from
-plants, animals, or microbes. By democratizing access to supercomputing
-capabilities, we provide a crucial resource to enable scientists to find
-solutions for the future.
-
 **CyVerse Homepage:** `http://www.cyverse.org <http://www.cyverse.org>`_
 
 Funding and Citations
