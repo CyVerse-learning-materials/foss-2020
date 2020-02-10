@@ -23,16 +23,18 @@ The workshop will cover key concepts about open science:
 ====================
 
 By the end of week one, participants should have the basic skills needed to:
-  - Communicate and collaborate with other scientists and developers
-  - Manipulate files on the command line
-  - Write basic R scripts
+  - Work on the command line
+  - Write basic scripts in Python, R, and the shell 
   - Manage, share, and analyze data on CyVerse
-  - Understand high performance and cloud-based computing
+  - Submit and run jobs in high performance and cloud computing environments
+  - Communicate and collaborate on data science projects with other scientists and software developers
 
-Our goal is to have each participant leave with a solid plan for how they will set up their own lab to conduct open science. This master plan will include plans for:
+Our goals are to have each participant leave with a plan for how they will set up their own data science lab to conduct open science. This master plan will include features such as:
   - intra- and inter-lab communication and collaboration
-  - data management
-  - scaling analyses
+  - workflow management systems
+  - data management systems
+  - task management
+  - documentation
 
 **Approach**
 ~~~~~
@@ -44,7 +46,6 @@ During this week, we will introduce many new tools and technologies, but these a
 We don't expect anyone to be experts at these skills after one week. Instead, we aim to give you enough hands on experience to confidently continue with your own self-pased learning. Each lesson includes links to addtional learning materials that can enhance or expand on what you have learned at FOSS camp.
 
 For up to one year following FOSS camp, CyVerse will provide concierge service to participants, to ensure that they are able to take full advantage of CyVerse infrastructure for their open science projects. 
-
 
 `See the Agenda <agenda.html>`_
 
