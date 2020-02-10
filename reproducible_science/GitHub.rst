@@ -14,10 +14,6 @@ The `most commmon version control software <https://en.wikipedia.org/wiki/List_o
 
 Given the limited amount of time we have this week, we are only going to cover `Git <https://git-scm.com/>`_ and one web-based hosting service (`GitHub <https://github.com/>`_) in this camp.
 
-
-**GitHub**
-==========
-
 **Setup**
 ---------
 
