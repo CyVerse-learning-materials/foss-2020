@@ -14,7 +14,13 @@
 
 The Data Store is more than a place to save your files -- it is a way to manage the life cycle of your data. From creation to publication to beyond, there are a number of practices to ensure that the integrity and value of your data are maintained. 
 
-We have already covered accessing the Data Store using the Discovery Environment in the `previous lesson <./intro_to_cyverse.rst>`_. In this lesson we will practice other ways of accessing the Data Store, plus how to make your data publicly available.
+We have already covered accessing the Data Store using the Discovery Environment in the `previous lesson <./de.html>`_. In this lesson we will practice other ways of accessing the Data Store, plus how to make your data publicly available.
+
+Discovery Environment Interface
+================================
+DE interface allows uploading and downloading one file at a time. It only allows transfer of small files < 2GB.
+
+From the DE interface, go to "Upload -> Simple Upload from Desktop" to upload a file. For downloading a file go to "Download -> Simple Download".
 
 iCommands
 ===========
@@ -74,6 +80,13 @@ Follow along with the `CyberDuck <https://cyverse-data-store-guide.readthedocs-h
  - Install and configure CyberDuck
  - Upload a file to your CyVerse home directory
  - Navigate to a public folder
+
+WebDAV
+=======
+
+WebDAV is an extension to the HTTP protocol that allows users to remotely edit and manage files. CyVerse has added support for WebDAV to the Data Store. This means users can access their home and public folders in the CyVerse Data Store from their local computers using web browsers and other WebDAV enabled applications such as common operating system file managers. With WebDAV, users can copy files between local computer and the Data Store as easily as if they were copying them between two folders on their computer.
+
+Follow along with the `WebDAV <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step5.html>`_ quick start to access CyVerse data via WebDAV services.
 
 Which method to choose?
 ========================
@@ -138,8 +151,6 @@ Additional Resources
 `Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents>`_
 
 `Create a public link via the DE <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step4.html>`_
-
-`WebDav <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step5.html>`_
 
 .. #### Comment: Scripting with iCommands
 
