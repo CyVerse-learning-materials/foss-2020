@@ -10,6 +10,12 @@
 
 FOSS will be held in the `Health Sciences Innovation Building (HSIB)(UA Building #216) <https://goo.gl/maps/mEMjXTBcfKRbexiu9>`_, located at 1670 E Drachmann St. 
 
+.. raw:: html
+
+    <embed>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1889.6186880817738!2d-110.9476590265029!3d32.23908245351655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x67880bc15138eb29!2sHealth%20Sciences%20Innovation%20Building%20(HSIB)!5e0!3m2!1sen!2sus!4v1581356659451!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </embed>
+
 Due to scheduling conflicts with other courses, we will be switching rooms and floors in the HSIB building each day.
 
 .. list-table::
