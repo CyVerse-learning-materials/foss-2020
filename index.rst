@@ -1,8 +1,8 @@
 .. include:: ./cyverse_rst_defined_substitutions.txt
 
-|CyVerse_logo2|_
+|CyVerse_logo|_
 
-|Home_Icon2|_
+|Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) 2020
@@ -147,9 +147,14 @@ Please cite CyVerse appropriately when you make use of our resources,
 
 ----
 
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png
-	:width: 500
-	:height: 100
+
+.. |CyVerse_logo| image:: ./img/cyverse_cmyk.png
+    :width: 500
+    :height: 100
+	
+.. |Home_Icon| image:: ./img/homeicon.png
+    :width: 25
+    :height: 25
 
 .. |foss-main| image:: ./img/foss-main.png
-  :width: 800
+    :width: 800
