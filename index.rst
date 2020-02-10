@@ -2,7 +2,8 @@
 
 |CyVerse_logo2|_
 
-|Home_Icon2|_ Learning Center Home 
+|Home_Icon2|_
+`Learning Center Home <http://learning.cyverse.org/>`_
 
 CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) 2020
 ------------------------------------
