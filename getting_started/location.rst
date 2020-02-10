@@ -22,9 +22,9 @@ Due to scheduling conflicts with other courses, we will be switching rooms and f
       - Thursday
       - Friday
     * - **Room #**
-      - 567
-      - 640
-      - 567
+      - 642
+      - 531
+      - 642
       - 640
       - 640
 
