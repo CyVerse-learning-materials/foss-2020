@@ -145,7 +145,9 @@ Can delete repo under "Settings" -> "Options"
    git add . #add all the files
    git commit -m "initial project"
 
-**NOTE** Documentation is vital. *You are doing this for you 6 months from now*
+.. **NOTE**::
+
+   Documentation is vital. *You are doing this for you 6 months from now*
 
 **Interact with GitHub**
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -221,11 +223,13 @@ Issues are great for tracking decisions made or to-do lists
 6. Submit new issue
 7. Close issue
 
-**Exercise:**
+.. **Exercise:**::
+
    Create a new issue and relate it back to the issue you just created.
 
 
 **Version Control**
+
 *You are doing this for you 6 months from now*
 
 *Online*
@@ -290,6 +294,7 @@ OR
 
 
 **Make a pull request**
+
 Pull requests are useful to have another set of eyes to review changes  before merging them with the master branch.
 
 *Online Only*
