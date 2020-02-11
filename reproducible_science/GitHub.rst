@@ -76,7 +76,9 @@ GitHub Uses
 - Software development
 - Code development
 
-**NOTE** Not really for storing or manipulating data
+.. **NOTE**::
+
+   Not really for storing or manipulating data
 
 **Navigating & Interacting with GitHub**
 ------------------------------------------
@@ -90,9 +92,7 @@ The basic layout includes:
 
 - Profile
 - Organizations
-   - These are larger groups that may have multiple repositories
 - Teams
-   - These are groups within Organizations
 - Repositories
 - `Projects <https://help.github.com/en/articles/about-project-boards>`_
 - Followers
@@ -133,6 +133,7 @@ Can delete repo under "Settings" -> "Options"
 1. Locate local folder / directory titled "Lab"
 
 .. code-block:: 
+
    cd path/to/location
    mkdir <folder_name>
    cd <folder_name>
@@ -140,17 +141,21 @@ Can delete repo under "Settings" -> "Options"
 2. Add to GitHub
 
 .. code-block:: 
+
    git init
-   git add *.c
-   git add .gitignore
+   echo "This is a test repo" >> README.md #append to file
+   git add . #add all the files
    git commit -m "initial project"
 
-**NOTE** Documentation is vital. *You are doing this for you 6 months from now*
+.. **NOTE**::
+
+   Documentation is vital. *You are doing this for you 6 months from now*
 
 **Interact with GitHub**
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Clone a repo**
+
 This is used to work *locally* rather than online.
 
 *Online*
@@ -158,13 +163,14 @@ This is used to work *locally* rather than online.
 1. Click the down arrow "Clone or download"
 2. Click "Open in Desktop"
 3. Select where to save it
-	- Create a folder for GitHub repos on your computer locally
+   - Create a folder for GitHub repos on your computer locally
 
 *Command Line*
 
 .. code-block:: 
+
    cd path/to/location
-   git clone <url> rename
+   git clone <url> [rename]
    #URL of thte repository on GitHub
    #rename the directory (optional)
 
@@ -182,23 +188,28 @@ OR
 1. Create a file *locally*
 2. Click "Upload files"
 3. Select file(s) within a folder
-   To create a folder click on "New File", then type FileName/
-   Add .gitkeep (convention to create an *empty* folder)
 
 *Command Line*
 
 1. Create a file
+
 .. code-block:: 
+
    cd path/to/repo
    touch file.txt
 
 2. Add file(s)
+
 .. code-block:: 
+
    git add -A #adds all the new files
    git push
    git commit -m "added file" #-m initiates a message
 
-**tip** It is good practice to write commmit messages to remember what you added or fixed.
+
+.. tip::
+
+    It is good practice to write commmit messages to remember what you added or fixed.
 
 **Create an Issue**
 
@@ -209,17 +220,18 @@ Issues are great for tracking decisions made or to-do lists
 1. Click on the repository you just created.
 2. Click on "Issues"
 3. Click on "New issue"
-4. Create a title
-   - this will have a hastag (#) and issue number that you can refer to later in the comments
+4. Create a title (# and issue number for reference)
 5. Assign to someone, or create a label
 6. Submit new issue
 7. Close issue
 
-**Exercise:**
+.. **Exercise:**::
+
    Create a new issue and relate it back to the issue you just created.
 
 
 **Version Control**
+
 *You are doing this for you 6 months from now*
 
 *Online*
@@ -230,11 +242,12 @@ Issues are great for tracking decisions made or to-do lists
 *Command Line*
 
 .. code-block:: 
+
    git log
    git log --stat #gives abbreviated stats for each commit
    git log --pretty=oneline #can also add options: short, full, fuller
    git log --pretty=format:"%h - %an, %ar : %s #lots of options for pretty=format
-   :q #to quit
+   q #to quit
 
 **Create a branch**
 
@@ -253,72 +266,81 @@ OR
 
 *Command Line*
 
+1. Create a new branch
+
 .. code-block:: 
+
    cd path/to/repo
-   git fetch
-   git pull
-   git checkout -b new-branch #see which branch you are on
-   git branch new-branch #create a new branch
+   #common practice to pull before commiting anything
+   git pull #does a fetch for you 
+   git checkout -b new-branch #creates a new branch and puts you on that branch
+   #set new branch upstream
+   git push --set-upstream origin new-branch
+
+2. Edit some files
 
 .. code-block:: 
-   <edit files>
+
+   #edit files
    vi path/to/file
-   :q #to quit
+   q #to quit
 
-OR
+3. Commit changes
 
 .. code-block:: 
-   nano path/to/file
 
-.. code-block:: 	
-   git push origin new-branch
-   git branch -a #see all branches 
-   git branch -d new-branch #delete branch locally
-   git branch origin :'new-branch #delte branch on GitHub
+   git pull
+   git add 
+   commit -am "changed a file" #stage changes and write a message
+   git push
+
 
 **Make a pull request**
+
 Pull requests are useful to have another set of eyes to review changes  before merging them with the master branch.
 
-*Online*
+*Online Only*
 
 1. From your branch, create a new file
 2. Commit file to your branch
 3. Hit "Compare & pull request"
 4. Go to pull requests
-5. "Merge pull request"
-6. Delete branch
-7. Set it on the master branch
-
-*Command Line*
-
-.. code-block:: 
-   cd path/to/repo
-   git pull
-   git status
-   git checkout -b new-branch
-   <edit files>
-   git add -A #"A" add all the files
-   git push --set-upstream origin new-branch
-   git commit - m "did some things"
+5. Set it on the master branch
 
 **Merge**
 
 *Online*
 
 1. Go to "Pull requests"
-2. Select down arrow of "Merge pull request"
-3. Merge, Squash, or Rebase OR ignore
+2. Select down arrow of "Merge pull request" (if no conflicts)
+6. Delete branch
 4. Leave comment if need be
 5. Close pull request
 
 *Command Line*
 
 .. code-block::
+
    cd path/to/repo
    git pull
+   git checkout new-branch
+   git merge master #testing to see if merging breaks anythin
    git checkout master
-   git merge new-branch
-   git branch -d new-branch
+   git merge new-branch #now repull it all into master
+
+**Revert**
+
+*Command Line*
+
+.. code-block::
+
+   git log
+   #copy tag for last working commit
+   git revert <tag to last working commit>
+   #will make it look like a new commit
+   git add -A
+   git commit -m "changed things back to <commit tag>"
+   git push
 
 **Advanced**
 ~~~~~~~~~~~~
@@ -337,6 +359,7 @@ Pull requests are useful to have another set of eyes to review changes  before m
 *Command Line*
 
 .. code-block:: 
+
    git close <github-repo>
    cd <new-folder>
    git fork
@@ -361,42 +384,42 @@ These are *Online only*
 
 
 
-**Definitions**
+.. **Definitions**::
 ~~~~~~~~~~~~~~~
 
-*Git* - tool for version control.
-
-*GitHub* - hosted server that is also interactive.
-
-*repo* - short for repository; GitHub lets you create a remote repository online.
-
-*local* - on your personal computer.
-
-*clone* - copy of a repository that lives locally on your computer. Pushing changes will affect the repository online.
-
-*fetch* - getting latest changes to the repository on your local computer.
-
-*branch* - parallel to the master branch; allows you to make changes without affecting the master branch. Changes made on a branch can be merged back to the master.
-
-*fork* - copy of someone else's repository stored locally on your account. From forks, you can make pull requests to the master branch.
-
-*upstream* - primary or master branch of original repository.
-
-*downstream* - branch or fork of repository.
-
-*untracked* - changes made locally but not yet commited or pushed to the online repo.
-
-*staged* - item added to the repo.
-
-*commit* - finalize a change.
-
-*push* - add changes back to the remote repository.
-
-*merge* - takes changes from a branch or fork and applies them to the master.
-
-*pull request* - proposed changes to/within a repository.
-
-*issue* - suggestions or tasks needed for the repository. Allows you to track decisions, bugs with the repository, etc.
+   *Git* - tool for version control.
+   
+   *GitHub* - hosted server that is also interactive.
+   
+   *repo* - short for repository; GitHub lets you create a remote repository online.
+   
+   *local* - on your personal computer.
+   
+   *clone* - copy of a repository that lives locally on your computer. Pushing changes will affect the repository online.
+   
+   *fetch* - getting latest changes to the repository on your local computer.
+   
+   *branch* - parallel to the master branch; allows you to make changes without affecting the master branch. Changes made on a branch can be merged back to the master.
+   
+   *fork* - copy of someone else's repository stored locally on your account. From forks, you can make pull requests to the master branch.
+   
+   *upstream* - primary or master branch of original repository.
+   
+   *downstream* - branch or fork of repository.
+   
+   *untracked* - changes made locally but not yet commited or pushed to the online repo.
+   
+   *staged* - item added to the repo.
+   
+   *commit* - finalize a change.
+   
+   *push* - add changes back to the remote repository.
+   
+   *merge* - takes changes from a branch or fork and applies them to the master.
+   
+   *pull request* - proposed changes to/within a repository.
+   
+   *issue* - suggestions or tasks needed for the repository. Allows you to track decisions, bugs with the repository, etc.
 
 
 **Git cheat sheet**
@@ -543,3 +566,7 @@ Here is a list of the most important commands in Git:
     * - 
       - ``git diff [source branch] [target branch]`` 
       - Preview changes before merging
+
+.. |GitHub| image:: ./img/git-logo.png
+    :width: 50
+    :height: 50

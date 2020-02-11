@@ -18,7 +18,7 @@ In this lesson we will practice other ways of accessing the Data Store, plus how
 
 Discovery Environment Interface
 ================================
-DE interface allows uploading and downloading one file at a time. It only allows transfer of small files < 2GB.
+DE interface allows uploading and downloading one file at a time. It works best for transfer of small files < 2GB.
 
 From the DE interface, go to "Upload -> Simple Upload from Desktop" to upload a file. For downloading a file go to "Download -> Simple Download".
 

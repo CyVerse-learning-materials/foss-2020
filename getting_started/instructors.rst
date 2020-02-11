@@ -7,11 +7,11 @@
 
 
 **Instructors**
---------------
+===============
 
 .. #### Comment: This is a placeholder
 
-`Meghan Balk <https://github.com/megbalk>`_, Postdoctoral Researcher, BIO5 Institute | 
+`Meghan Balk <https://github.com/megbalk>`_, Postdoctoral Researcher, BIO5 Institute | balkm@email.arizona.edu
 
 `Amanda Cooksey <https://cyverse.org/Amanda-Cooksey>`_, Science Informatician, CyVerse | amcooksey@cyverse.org
 
@@ -31,18 +31,25 @@
 
 `Jason Williams <https://jasonjwilliamsny.github.io/profile/>`_, Training Lead, Cold Spring Harbor Laboratory | williams@cshl.edu
 
-*Helpers*
---------
+
+**Helpers**
+---------
+
+TJ Lippincott
 
 Ryan Bartleme
 
 Alex Bigelow
 
-TJ Lippincott
+Alise Ponsero
+
+Gustavo de Oliveira Almeida
 
 
-*CyVerse Staff*
--------
+
+
+**CyVerse Staff**
+---------------
 
 Shelley Littin Coordinator, Marketing & Communications | littin@cyverse.org
 

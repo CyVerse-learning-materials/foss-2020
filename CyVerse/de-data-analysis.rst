@@ -45,7 +45,7 @@ When adding new apps to the DE, developers have the option of adding the app to 
     - **HPC**: labeled as 'Agave' in the DE. Run on XSEDE resources at Texas Advanced Computing Center (TACC)
     - **OSG**: run on the Open Science Grid
 
- - **Interactive**: also called Visual and Interative Computing Environment (VICE). Allows users to open Integrated Development Environments (IDEs) including RStudio, Project Jupyter and RShiny and work interactively within them.
+ - **Interactive**: also called Visual and Interactive Computing Environment (VICE). Allows users to open Integrated Development Environments (IDEs) including RStudio, Project Jupyter and RShiny and work interactively within them.
 
 
 `Launch an executable analysis <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Apps>`_
