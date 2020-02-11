@@ -202,7 +202,10 @@ OR
    git push
    git commit -m "added file" #-m initiates a message
 
-**tip** It is good practice to write commmit messages to remember what you added or fixed.
+
+.. tip::
+
+    It is good practice to write commmit messages to remember what you added or fixed.
 
 **Create an Issue**
 
@@ -558,3 +561,7 @@ Here is a list of the most important commands in Git:
     * - 
       - ``git diff [source branch] [target branch]`` 
       - Preview changes before merging
+
+.. |GitHub| image:: ./img/git-logo.png
+    :width: 50
+    :height: 50
