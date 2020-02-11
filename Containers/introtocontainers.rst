@@ -268,7 +268,7 @@ At this point you can run your container on any system with Docker installed. To
 
 
 Useful Links
-------------
+^^^^^^^^^^^^
 - `BioContainers <https://biocontainers.pro/#/>`_
 - `Bioconda <https://bioconda.github.io/>`_
 - `Request a BioContainer <http://github.com/BioContainers/containers/issues>`_
