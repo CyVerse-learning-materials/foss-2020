@@ -151,6 +151,7 @@ Can delete repo under "Settings" -> "Options"
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Clone a repo**
+
 This is used to work *locally* rather than online.
 
 *Online*
@@ -158,7 +159,7 @@ This is used to work *locally* rather than online.
 1. Click the down arrow "Clone or download"
 2. Click "Open in Desktop"
 3. Select where to save it
-	- Create a folder for GitHub repos on your computer locally
+   - Create a folder for GitHub repos on your computer locally
 
 *Command Line*
 
