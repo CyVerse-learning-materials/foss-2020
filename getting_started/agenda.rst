@@ -38,15 +38,20 @@ By the end of the week, students will present a plan for how to integrate open s
       -
       -
     * - 
-      - 09:00-09:30
+      - 09:00-09:10
       - Welcome & Introductions (Swetnam)
       - Overview of Code of Conduct, Course Materials, and logistics
       - 
     * - 
-      - 09:30-10:00
+      - 09:10-09:40
       - Discussion: What is Open Science? (Merchant)
       - Overview of CyVerse mission
       - 
+    * - 
+      - 09:40-10:00
+      - Group Activity
+      - Introduce someone 
+      - Meet one another, draw a picture of their science      
     * - 
       - 10:00-10:20
       - Break
@@ -233,9 +238,9 @@ By the end of the week, students will present a plan for how to integrate open s
       -
       - 
     * - 
-      - 18:30 - whenever 
-      - Optional Tour `UA Main Library CATalyst Studios <https://new.library.arizona.edu/catalyst>`_
-      - Maker Space, VR, 3D printing 
+      - 18:30 - 20:00 
+      - Optional: `UA Main Library CATalyst Studios <https://new.library.arizona.edu/catalyst>`_
+      - Maker Space, VR, 3D printing, lasercuts, greenscreen photography, and more! 
       - 
 ----
 

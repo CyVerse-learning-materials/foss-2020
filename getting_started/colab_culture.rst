@@ -11,6 +11,10 @@
 
 .. #### Comment: This is a placeholder
 
+Instructor: `Michael Mandel <https://eller.arizona.edu/people/michael-mandel>`_, Eller College of Business
+
+Mike's `Personal Website <http://www.m2powered.com/>`_
+
 ----
 
 **Fix or improve this documentation:**

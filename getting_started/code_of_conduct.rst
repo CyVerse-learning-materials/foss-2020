@@ -22,7 +22,7 @@ If you are being harassed, or notice that someone else is being harassed, or hav
 
 We expect participants to follow these rules at conference and workshop venues and conference-related social events.
 
-See http://www.ashedryden.com/blog/codes-of-conduct-101-faq for more information on codes of conduct.
+See http://www.ashedryden.com/blog/codes-of-conduct-101-faq or The Carpentries https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html for more information on Codes of Conduct.
 
 ----
 

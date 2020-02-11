@@ -8,9 +8,10 @@
 **Before you arrive**
 ==========
 
-The workshop will be run under a `Code of Conduct <../getting_started/code_of_conduct.html>`_.
-
 Please endeavor to complete the `pre-workshop setup <../before/installation.html>`_ before arriving at FOSS.
+
+
+The workshop will be run under a `Code of Conduct <../getting_started/code_of_conduct.html>`_. Please familiarize yourself with it prior to your arrival.
 
 There will be a webinar one week before camp to help answer questions about the setup, logistics, and materials. 
 

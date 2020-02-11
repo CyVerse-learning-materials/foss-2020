@@ -1,16 +1,20 @@
-|foss-main|
+.. include:: ./cyverse_rst_defined_substitutions.txt
+
+|CyVerse_logo2|_
+
+|Home_Icon|_
+`Learning Center Home <http://learning.cyverse.org/>`_
 
 CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) 2020
 ------------------------------------
 
 Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
 
-Prior to the workshop, please visit the `Before you arrive <before/main.html>`_ page.
-
-
 **Workshop Level**
 
 There are no pre-requisites for FOSS, but the course will cover a lot of material in a short time. Participants who have limited computational experience should try to view the `Software Carpentry Core Lessons <https://software-carpentry.org/lessons/>`_ before attending.
+
+|foss-main|
 
 -----
 
@@ -36,7 +40,7 @@ By working through an example project relevant to their interests, participants 
 
    before/main
    before/installation
-   before/about_cyverse
+   
    
 .. toctree::
    :maxdepth: 1
@@ -46,6 +50,7 @@ By working through an example project relevant to their interests, participants 
    getting_started/intro
    getting_started/location
    getting_started/agenda
+   getting_started/instructors
    getting_started/open_sci_lab
    getting_started/colab_culture
    getting_started/glossary
@@ -77,6 +82,17 @@ By working through an example project relevant to their interests, participants 
 
 .. toctree::
    :maxdepth: 1
+   :caption: Software Essentials
+
+   software_essentials/commandline
+   software_essentials/linux
+   software_essentials/R_Studio
+   software_essentials/RStudio_Git
+   software_essentials/continuous_integration
+   
+   
+.. toctree::
+   :maxdepth: 1
    :caption: Cloud Computing
 
    cloud_comput/intro
@@ -93,17 +109,6 @@ By working through an example project relevant to their interests, participants 
    Data_management/FAIR
    Data_management/dmp
 
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Software Essentials
-
-   software_essentials/commandline
-   software_essentials/linux
-   software_essentials/R_Studio
-   software_essentials/RStudio_Git
-   software_essentials/continuous_integration
-   
    
 .. toctree::
    :maxdepth: 1
@@ -120,40 +125,6 @@ By working through an example project relevant to their interests, participants 
 
 
 ----
-
-Course Instructors
----------------------
-- Amanda Cooksey
-- Tina Lee
-- Tyson Swetnam
-- Ramona Walls
-
-Guest instructors:
-+++++++++++++++++++++
-- Fernando Rios (UA Libraries)
-- Michael Mandel (UA Eller College of Management)
-
-About CyVerse
--------------
-
-**CyVerse Vision:** Transforming science through data-driven discovery.
-
-**CyVerse Mission:** Design, deploy, and expand a national
-cyberinfrastructure for life sciences research and train scientists in
-its use. 
-
-CyVerse provides life scientists with powerful computational
-infrastructure to handle huge datasets and complex analyses, thus
-enabling data-driven discovery. Our powerful extensible platforms
-provide data storage, bioinformatics tools, image analyses, cloud
-services, APIs, and more.
-
-While originally created with the name iPlant Collaborative to serve
-U.S. plant science communities, CyVerse cyberinfrastructure is germane
-to all life sciences disciplines and works equally well on data from
-plants, animals, or microbes. By democratizing access to supercomputing
-capabilities, we provide a crucial resource to enable scientists to find
-solutions for the future.
 
 **CyVerse Homepage:** `http://www.cyverse.org <http://www.cyverse.org>`_
 
@@ -176,9 +147,15 @@ Please cite CyVerse appropriately when you make use of our resources,
 
 ----
 
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png
-	:width: 500
-	:height: 100
+
+.. |CyVerse_logo2| image:: ./img/cyverse_cmyk.png
+    :width: 500
+    :height: 100
+.. _CyVerse_logo2: http://learning.cyverse.org/
+	
+.. |Home_Icon| image:: ./img/homeicon.png
+    :width: 25
+    :height: 25
 
 .. |foss-main| image:: ./img/foss-main.png
-  :width: 800
+    :width: 800
