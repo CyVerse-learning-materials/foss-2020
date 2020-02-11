@@ -224,7 +224,7 @@ By the end of the week, students will present a plan for how to integrate open s
       -
     * - 
       - 15:00-16:00
-      - The Research Object II: Computational Notebooks in CyVerse
+      - The Research Object II: Computational Notebooks in CyVerse (Tuteja)
       - Connecting your work in CyVerse VICE
       - Learn to create a VICE app
     * - 
