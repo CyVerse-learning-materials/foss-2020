@@ -86,7 +86,7 @@ GitHub Uses
 Basic Layout
 ~~~~~~~~~~~~
 
-|GitHub|_
+|Git_Hub|_
 
 The basic layout includes:
 
@@ -564,6 +564,6 @@ Here is a list of the most important commands in Git:
       - ``git diff [source branch] [target branch]`` 
       - Preview changes before merging
 
-.. |GitHub| image:: ./img/git-logo.png
+.. |Git_Hub| image:: ./img/git-logo.png
     :width: 50
     :height: 50
