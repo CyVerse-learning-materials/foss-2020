@@ -112,7 +112,7 @@
 - **organization:** a group, in the context of GitHub a place where developers contribute code to repositories
 - **Operating System (OS):** software that manages computer hardware, software resources, and provides common services for computer programs
 - **Open Science Grid (OSG):** national, distributed computing partnership for data-intensive research `opensciencegrid.org <https://opensciencegrid.org/>`_
-- **ORCID:** Open Researcher and Contributor ID (`ORCiD<https://orcid.org/>`_), a persistent digital identifier that distinguishes you from every other researcher
+- **ORCID:** Open Researcher and Contributor ID (`ORCiD <https://orcid.org/>`_), a persistent digital identifier that distinguishes you from every other researcher
 
 **P**
 

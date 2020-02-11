@@ -76,8 +76,8 @@ By working through an example project relevant to their interests, participants 
 
    reproducible_science/intro
    reproducible_science/communication
-   reproducible_science/websites
    reproducible_science/GitHub
+   reproducible_science/websites
 
 
 .. toctree::

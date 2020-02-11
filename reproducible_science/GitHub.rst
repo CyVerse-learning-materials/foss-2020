@@ -76,7 +76,9 @@ GitHub Uses
 - Software development
 - Code development
 
-**NOTE** Not really for storing or manipulating data
+.. **NOTE**::
+
+   Not really for storing or manipulating data
 
 **Navigating & Interacting with GitHub**
 ------------------------------------------
@@ -145,7 +147,9 @@ Can delete repo under "Settings" -> "Options"
    git add . #add all the files
    git commit -m "initial project"
 
-**NOTE** Documentation is vital. *You are doing this for you 6 months from now*
+.. **NOTE**::
+
+   Documentation is vital. *You are doing this for you 6 months from now*
 
 **Interact with GitHub**
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -202,7 +206,10 @@ OR
    git push
    git commit -m "added file" #-m initiates a message
 
-**tip** It is good practice to write commmit messages to remember what you added or fixed.
+
+.. tip::
+
+    It is good practice to write commmit messages to remember what you added or fixed.
 
 **Create an Issue**
 
@@ -218,11 +225,13 @@ Issues are great for tracking decisions made or to-do lists
 6. Submit new issue
 7. Close issue
 
-**Exercise:**
+.. **Exercise:**::
+
    Create a new issue and relate it back to the issue you just created.
 
 
 **Version Control**
+
 *You are doing this for you 6 months from now*
 
 *Online*
@@ -287,6 +296,7 @@ OR
 
 
 **Make a pull request**
+
 Pull requests are useful to have another set of eyes to review changes  before merging them with the master branch.
 
 *Online Only*
@@ -319,8 +329,6 @@ Pull requests are useful to have another set of eyes to review changes  before m
    git merge new-branch #now repull it all into master
 
 **Revert**
-
-*Online*
 
 *Command Line*
 
@@ -376,42 +384,42 @@ These are *Online only*
 
 
 
-**Definitions**
+.. **Definitions**::
 ~~~~~~~~~~~~~~~
 
-*Git* - tool for version control.
-
-*GitHub* - hosted server that is also interactive.
-
-*repo* - short for repository; GitHub lets you create a remote repository online.
-
-*local* - on your personal computer.
-
-*clone* - copy of a repository that lives locally on your computer. Pushing changes will affect the repository online.
-
-*fetch* - getting latest changes to the repository on your local computer.
-
-*branch* - parallel to the master branch; allows you to make changes without affecting the master branch. Changes made on a branch can be merged back to the master.
-
-*fork* - copy of someone else's repository stored locally on your account. From forks, you can make pull requests to the master branch.
-
-*upstream* - primary or master branch of original repository.
-
-*downstream* - branch or fork of repository.
-
-*untracked* - changes made locally but not yet commited or pushed to the online repo.
-
-*staged* - item added to the repo.
-
-*commit* - finalize a change.
-
-*push* - add changes back to the remote repository.
-
-*merge* - takes changes from a branch or fork and applies them to the master.
-
-*pull request* - proposed changes to/within a repository.
-
-*issue* - suggestions or tasks needed for the repository. Allows you to track decisions, bugs with the repository, etc.
+   *Git* - tool for version control.
+   
+   *GitHub* - hosted server that is also interactive.
+   
+   *repo* - short for repository; GitHub lets you create a remote repository online.
+   
+   *local* - on your personal computer.
+   
+   *clone* - copy of a repository that lives locally on your computer. Pushing changes will affect the repository online.
+   
+   *fetch* - getting latest changes to the repository on your local computer.
+   
+   *branch* - parallel to the master branch; allows you to make changes without affecting the master branch. Changes made on a branch can be merged back to the master.
+   
+   *fork* - copy of someone else's repository stored locally on your account. From forks, you can make pull requests to the master branch.
+   
+   *upstream* - primary or master branch of original repository.
+   
+   *downstream* - branch or fork of repository.
+   
+   *untracked* - changes made locally but not yet commited or pushed to the online repo.
+   
+   *staged* - item added to the repo.
+   
+   *commit* - finalize a change.
+   
+   *push* - add changes back to the remote repository.
+   
+   *merge* - takes changes from a branch or fork and applies them to the master.
+   
+   *pull request* - proposed changes to/within a repository.
+   
+   *issue* - suggestions or tasks needed for the repository. Allows you to track decisions, bugs with the repository, etc.
 
 
 **Git cheat sheet**
@@ -558,3 +566,7 @@ Here is a list of the most important commands in Git:
     * - 
       - ``git diff [source branch] [target branch]`` 
       - Preview changes before merging
+
+.. |GitHub| image:: ./img/git-logo.png
+    :width: 50
+    :height: 50
