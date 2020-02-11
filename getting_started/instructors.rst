@@ -35,11 +35,17 @@
 **Helpers**
 ---------
 
+TJ Lippincott
+
 Ryan Bartleme
 
 Alex Bigelow
 
-TJ Lippincott
+Alise Ponsero
+
+Gustavo de Oliveira Almeida
+
+
 
 
 **CyVerse Staff**
