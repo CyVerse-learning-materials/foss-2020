@@ -20,7 +20,7 @@
 
 **Planning your own Open Science lab**
 
-- Everyone please create a copy of the `template <https://docs.google.com/document/d/1whE6sQP4xszo9qRNA-ED63YwT3U_Rf3Fk8TFj7z7xbQ/edit#>`_ and save it in the same directory.
+- Everyone please create a copy of the `template <https://github.com/CyVerse-learning-materials/foss-2020/raw/master/getting_started/open_lab_plan.docx>`_ and save it in the same directory.
 - Rename the file replacing "template" with your name.
 
 .. Comment: Instructor makes a copy to demonstrate
@@ -65,4 +65,4 @@
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/getting_started/open_sci_lab.rst" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/getting_started/open_sci_lab.rst" target="blank">Github Repo Link</a>

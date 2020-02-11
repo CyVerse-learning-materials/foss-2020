@@ -16,7 +16,7 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
 
 `GitHub Pages <https://pages.github.com/>`_ using `Jekyll <https://jekyllrb.com/>`_, are another popular way of hosting websites on GitHub.
 
-`Confluence Wiki (CyVerse) <https://wiki.cyverse.org>`_ are another tool for documenting your workflow. 
+`Confluence Wikis (CyVerse) <https://wiki.cyverse.org>`_ are another tool for documenting your workflow. 
 
 .. #### Comment: short description
 
@@ -87,7 +87,7 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
    
    4. Push it back to GitHub
 
-*CyVerse Wiki*
+*CyVerse Confluence Wiki*
 ~~~~~~~~~~~~~~
 
    1. Create a CyVerse Account and log into https://wiki.cyverse.org 

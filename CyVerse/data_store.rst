@@ -12,15 +12,21 @@
 
 |DS_icon|
 
-The Data Store is more than  a place to save your files -- it is a way to manage the life cycle of your data. From creation to publication to beyond, there are a number of practices to ensure that the integrity and value of your data are maintained. 
+The Data Store is more than a place to save your files -- it is a way to manage the life cycle of your data. From creation to publication to beyond, there are a number of practices to ensure that the integrity and value of your data are maintained. 
 
-We have already covered accessing the Data Store using the Discovery Environment in the `previous lesson <./de.rst>`_. In this lesson we will practice other ways of accessing the Data Store, plus how to make your data publicly available.
+In this lesson we will practice other ways of accessing the Data Store, plus how to make your data publicly available.
+
+Discovery Environment Interface
+================================
+DE interface allows uploading and downloading one file at a time. It works best for transfer of small files < 2GB.
+
+From the DE interface, go to "Upload -> Simple Upload from Desktop" to upload a file. For downloading a file go to "Download -> Simple Download".
 
 iCommands
 ===========
 iCommands is a collection of tools developed by the `iRODS project <https://irods.org/>`_, which is the technology that supports the CyVerse Data Store. Using iCommands is the most flexible way to interact with the Data Store.
 
-iCommands provides command line access to the Data Store, so it can be included in scripts to automate data upload and download. Unfortunately, the latest iCommands cannot be installed on most Windows operating systems, but participants with Windows computers can do this exercise using Atmosphere (which will be covered in tomorrow's lessons). If you are running Window 10, you can `run iCommands on the Linus subsystem <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-other>`_.
+iCommands provides command line access to the Data Store, so it can be included in scripts to automate data upload and download. Unfortunately, the latest iCommands cannot be installed on most Windows operating systems, but participants with Windows computers can do this exercise using Atmosphere (which will be covered in tomorrow's lessons). If you are running Window 10, you can `run iCommands on the Linux subsystem <https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands#SettingUpiCommands-other>`_.
 
 .. #### Comment: Instructers launch Atmosphere for anyone with a Windows computer
 
@@ -31,17 +37,33 @@ Follow along with the `Using iCommands <https://cyverse-data-store-guide.readthe
  - Download a file to your desktop (iget)
  
 In addition, we will use iCommands to:
- - Create a new folder in your home directory (imkdir) 
- - Move a file from your home directory to the new folder (imv)
- - Navigate to a public folder (icd)
- - Copy a public file to the newly created folder (icp)
 
+- Create a new folder in your home directory (imkdir) 
 .. code-block:: bash
 
     $ imkdir newdir
+
+- Move a file from your home directory to the new folder (imv)
+.. code-block:: bash
+
     $ imv file_name newdir/file_name
+
+- Navigate to a public folder (icd)
+
+.. code-block:: bash
+
     $ icd /iplant/home/shared/imicrobe/camera
+
+- List files in a directory
+
+.. code-block:: bash
+
     $ ils
+
+- Copy a public file to the newly created folder (icp)
+
+.. code-block:: bash
+
     $ icp camera_projects/CAM_PROJ_AcidMine.csv /iplant/home/$username/newdir/CAM_PROJ_AcidMine.csv
     $ icd /iplant/home/$username/
     $ils newdir
@@ -58,6 +80,55 @@ Follow along with the `CyberDuck <https://cyverse-data-store-guide.readthedocs-h
  - Install and configure CyberDuck
  - Upload a file to your CyVerse home directory
  - Navigate to a public folder
+
+WebDAV
+=======
+
+WebDAV is an extension to the HTTP protocol that allows users to remotely edit and manage files. CyVerse has added support for WebDAV to the Data Store. This means users can access their home and public folders in the CyVerse Data Store from their local computers using web browsers and other WebDAV enabled applications such as common operating system file managers. With WebDAV, users can copy files between local computer and the Data Store as easily as if they were copying them between two folders on their computer.
+
+Follow along with the `WebDAV <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step5.html>`_ quick start to access CyVerse data via WebDAV services.
+
+Which method to choose?
+========================
+.. list-table::
+    :header-rows: 1
+
+    * - Criteria
+      - Cyberduck
+      - iCommands
+      - DE Interface
+      - DE WebDAV
+    * - Ease of use
+      - 2
+      - 4
+      - 1
+      - 3
+    * - Setup required?
+      - Yes
+      - Yes
+      - No
+      - No
+    * - Works best for?
+      - Multiple small files
+      - Large files
+      - Small files < 2GB
+      - Small files < 2GB
+    * - GUI support?
+      - Yes
+      - No
+      - Yes
+      - Yes
+    * - Command-line support
+      - Yes
+      - Yes
+      - No
+      - Yes
+    * - Allows to open/edit files?
+      - No
+      - No
+      - Yes
+      - Yes
+----
 
 CyVerse Data Commons
 ========================
@@ -80,8 +151,6 @@ Additional Resources
 `Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents>`_
 
 `Create a public link via the DE <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step4.html>`_
-
-`WebDav <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/step5.html>`_
 
 .. #### Comment: Scripting with iCommands
 

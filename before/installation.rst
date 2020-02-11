@@ -54,8 +54,7 @@ Listed below are some extra downloads that are not required for the workshop, bu
         IT administrators, and anybody is looking to manage system remotely
       - - `Download PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_
         - `Download mobaXterm <https://mobaxterm.mobatek.net>`_
-        - `Install Windows Subsystem for Linux (WSL) <https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/>`_ 
-        - `Coming Soon: WSL 2 <https://devblogs.microsoft.com/commandline/announcing-wsl-2/>`_
+        - `Install Windows Subsystem for Linux (WSL) 2 <https://docs.microsoft.com/en-us/windows/wsl/wsl2-install>`_
     * - Text Editors
       - There is no 'best' text editor, but some are easier to use than others. Do some reading and pick one.
       - - `Atom <https://atom.io/>`_

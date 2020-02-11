@@ -6,11 +6,12 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**Introduction to Cloud Computing** 
+**Introduction to Reproducible Science** 
 ===================
 
-CONTENT GOES HERE
+The so-called reproducibility crisis (`1 <https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970>`_, `2 <https://www.nature.com/collections/prbfkwmwvz>`_, `3 <https://blogs.scientificamerican.com/observations/to-fix-the-reproducibility-crisis-rethink-how-we-do-experiments/>`_) in science has led to fundamental changes in how we approach research. 
 
+Today, scientists need to consider how they are going to manage their data, analysis code, and software from before they ever start their project.
 
 
 ----

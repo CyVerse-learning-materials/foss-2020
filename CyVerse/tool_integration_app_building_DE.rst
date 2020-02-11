@@ -1,65 +1,35 @@
 .. include:: ../cyverse_rst_defined_substitutions.txt
 
-|CyVerse|_
+|CyVerse_logo2|_
 
-|Home_Icon|_ `Learning Center Home <http://learning.cyverse.org/>`_
+|Home_Icon2|_ `Learning Center Home <http://learning.cyverse.org/>`_
+
+**Tool integration and app building**
+=====================================
 
 
-**Tool Integration into the DE**
-=======================================================
-The CyVerse Discovery Environment provides a graphic user interface for bioinformatics tools
-
-**Glossary**
-^^^^^^^^^^^^
-- **Image:** self-contained, read-only ‘snapshot’ of your applications and packages, with all their dependencies
-- **Container:** a running instance of your image
-- **Image registry:** a storage and content delivery system, holding named images, available in different tagged versions
-- **Docker:** a program that runs and handles life-cycle of containers and images
 - **CyVerse tool:** Software program that is integrated into the back end of the DE for use in DE apps
+- 
 - **CyVerse app:** graphic interface of a tool made available for use in the DE
 
-**Tool Integration of a BioContainer**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Log in to the `Discovery Environment <https://de.cyverse.org/de/>`_ (DE) using your CyVerse credentials
+The (containerized) tool must be integrated into the Cyverse DE first. Then an app (interface) can be built for that tool.
 
-|DElogin|
-
-Open the 'Apps' window
-
-|Appswindowbutton|
-
-Open the 'Manage Tools' window from within the 'Apps' window
-
-|magagetoolsbutton|
-
-Select 'Add Tool' from the 'Tools' menu
-
-|addtool|
-
-Fill in the form
-
-|addtoolinfo|
-
-- Give your tool an informative name (eg. tool name and version).
-- Although description is not a required field adding a description is recommended. If you make your tool public other users can build apps with it as well. A description helps everyone to know what is available.
-- Enter the name of your image as it was copied from the image registry. In this case the 'name' is the portion before the colon
-- Enter the tag for your image as it was copied from the image registry. The tag is the portion after the colon
-- Under tool type, selet 'executable', which should be selected by default. 
-
-
-.. Important::
-
-    Although it is not a required field, **you must enter an entrypoint when integrating a BioContainer**. BioContainers do NOT have entrypoints built in.
-
-Click OK to complete the form. You should get a message that your tool has been integrated successfully.
-
-|success|
-
+|Toolintegration|
+---------------------
 
 **Building an App for Your Tool**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------
+You can build an app for any tool that:
 
-In the 'Manage Tools' window select 'Only my tools' from the dropdown box at the top of the window. Select the tool you just integrated and select 'Use in App' from the 'Tools' menu
+- is private to you
+- is shared with you
+- is public
+
+.. Note:: 
+
+    It is a good idea to check to see if the tool you want is already integrated before you start. The tool my be there already and you can build an app using it.
+
+In the 'Manage Tools' window search for 'porechop' in the search bar at the top of the window. Select the porechop public tool and choose 'Use in App' from the 'Tools' menu
 
 |useinapp|
 
@@ -121,29 +91,15 @@ To publish your app click on 'Share' at the top of the 'Apps' window and select 
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
 
+.. |Toolintegration| raw:: html
+
+    <a href="https://cyverse-de-tool-integration-quickstart.readthedocs-hosted.com/en/latest/index.html" target="blank">Tool Integration into the DE</a>
+
 .. |Github Repo Link|  raw:: html
 
    <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/CyVerse/tool_integration_app_building_DE.rst" target="blank">Github Repo Link</a>
 
-.. |DElogin| image:: ../img/toolintegration1.png
-  :width: 750
-
-.. |Appswindowbutton| image:: ../img/toolintegration10.png
-  :width: 750
-
-.. |magagetoolsbutton| image:: ../img/toolintegration9.png
-  :width: 750
-
-.. |addtool| image:: ../img/toolintegration3.png
-  :width: 750
-
-.. |addtoolinfo| image:: ../img/toolintegration6.png
-  :width: 750
-
-.. |success| image:: ../img/toolintegration4.png
-  :width: 750
-
-.. |useinapp| image:: ../img/toolintegration7.png
+.. |useinapp| image:: ../img/toolintegration3.png
   :width: 750
 
 .. |draglefttocenter|  image:: ../img/toolintegration14.png

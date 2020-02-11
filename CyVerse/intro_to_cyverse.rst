@@ -5,17 +5,32 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Introduction to CyVerse**
-===========================
+**About CyVerse**
+=================
 
+**CyVerse Vision:** Transforming science through data-driven discovery.
 
-**Vision:** 
-Transforming Science through Data-Driven Discovery.
+**CyVerse Mission:** Design, deploy, and expand a national
+cyberinfrastructure for life sciences research and train scientists in
+its use. 
 
+CyVerse provides life scientists with powerful computational
+infrastructure to handle huge datasets and complex analyses, thus
+enabling data-driven discovery. Our powerful extensible platforms
+provide data storage, bioinformatics tools, image analyses, cloud
+services, APIs, and more.
 
-**Mission:** 
-To design, deploy, and expand a national Cyberinfrastructure for Life Sciences research, and to train scientists in its use.
+Originally created as the iPlant Collaborative to serve
+U.S. plant science communities, the cyberinfrastructure we have built is germane
+to all life sciences disciplines and works equally well on data from
+plants, animals, or microbes. Thus, iPlant was renamed CyVerse to reflect the broader community now served by our infrastructure. By democratizing access to supercomputing
+capabilities, we provide a crucial resource to enable scientists to find
+solutions for the future. CyVerse is of, by, and for the community, and community-driven needs
+shape our mission. We rely on your feedback to provide the
+infrastructure you need most to advance your science, development, and
+educational agenda.
 
+**CyVerse Homepage:** `http://www.cyverse.org <http://www.cyverse.org>`_
 
 **Evolution of CyVerse**
 
@@ -228,6 +243,16 @@ Intercom
 |intercomlogo|
 
 Intercom is our live-chat user support app. You will find the Intercom 'smiley' logo in the bottom right corner of the Discovery Environment, Atmosphere, the Wiki and the user portal.
+
+
+**Funding and Citations**
+
+CyVerse is funded entirely by the National Science Foundation under
+Award Numbers DBI-0735191, DBI-1265383 and DBI-1743442.
+
+Please cite CyVerse appropriately when you make use of our resources,
+`CyVerse citation
+policy <http://www.cyverse.org/acknowledge-and-cite-cyverse>`__
 
 ----
 
