@@ -16,6 +16,6 @@ version = '0.2.0'
 release = '0.2.0'
 
 epub_title = 'CyVerse Learning Institute Foundations of Open Science Skills 2020'
-epub_author = ' Meghan Balk, Amanda Cooksey, Mary Margaret Sprinkle, Tyson L. Swetnam, Ramona L. Walls'
+epub_author = ' Meghan Balk, Amanda Cooksey, Sateesh Peri, Mary Margaret Sprinkle, Tyson L. Swetnam, Ramona L. Walls, Jason Williams'
 epub_publisher = 'CyVerse'
 epub_copyright = 'CC0 - Open Source'
