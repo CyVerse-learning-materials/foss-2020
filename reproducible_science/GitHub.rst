@@ -131,6 +131,7 @@ Can delete repo under "Settings" -> "Options"
 1. Locate local folder / directory titled "Lab"
 
 .. code-block:: 
+
    cd path/to/location
    mkdir <folder_name>
    cd <folder_name>
@@ -138,6 +139,7 @@ Can delete repo under "Settings" -> "Options"
 2. Add to GitHub
 
 .. code-block:: 
+
    git init
    echo "This is a test repo" >> README.md #append to file
    git add . #add all the files
@@ -162,6 +164,7 @@ This is used to work *locally* rather than online.
 *Command Line*
 
 .. code-block:: 
+
    cd path/to/location
    git clone <url> [rename]
    #URL of thte repository on GitHub
@@ -187,12 +190,14 @@ OR
 1. Create a file
 
 .. code-block:: 
+
    cd path/to/repo
    touch file.txt
 
 2. Add file(s)
 
 .. code-block:: 
+
    git add -A #adds all the new files
    git push
    git commit -m "added file" #-m initiates a message
