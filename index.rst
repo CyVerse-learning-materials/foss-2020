@@ -64,6 +64,14 @@ By working through an example project relevant to their interests, participants 
 
 .. toctree::
    :maxdepth: 1
+   :caption: Essential Skills
+
+   software_essentials/commandline
+   software_essentials/linux
+   
+   
+.. toctree::
+   :maxdepth: 1
    :caption: Reproducible Science
 
    reproducible_science/intro
@@ -71,14 +79,6 @@ By working through an example project relevant to their interests, participants 
    reproducible_science/GitHub
    reproducible_science/websites
 
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Essential Skills
-
-   software_essentials/commandline
-   software_essentials/linux
-   software_essentials/continuous_integration
 
 .. toctree::
    :maxdepth: 1
@@ -119,6 +119,7 @@ By working through an example project relevant to their interests, participants 
    Containers/dockeronatmo
    Containers/dockerintro
    Containers/dockeradvanced
+   software_essentials/continuous_integration
 
 .. toctree::
    :maxdepth: 1
