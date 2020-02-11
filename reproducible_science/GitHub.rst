@@ -189,11 +189,13 @@ OR
 *Command Line*
 
 1. Create a file
+
 .. code-block:: 
    cd path/to/repo
    touch file.txt
 
 2. Add file(s)
+
 .. code-block:: 
    git add -A #adds all the new files
    git push
