@@ -7,7 +7,7 @@
 
 
 **Instructors**
---------------
+===============
 
 .. #### Comment: This is a placeholder
 
@@ -32,8 +32,8 @@
 `Jason Williams <https://jasonjwilliamsny.github.io/profile/>`_, Training Lead, Cold Spring Harbor Laboratory | williams@cshl.edu
 
 
-*Helpers*
-^^^^^^^^
+**Helpers**
+---------
 
 Ryan Bartleme
 
@@ -42,8 +42,8 @@ Alex Bigelow
 TJ Lippincott
 
 
-*CyVerse Staff*
-^^^^^^^^^^
+**CyVerse Staff**
+---------------
 
 Shelley Littin Coordinator, Marketing & Communications | littin@cyverse.org
 
