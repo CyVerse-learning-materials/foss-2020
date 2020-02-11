@@ -90,9 +90,7 @@ The basic layout includes:
 
 - Profile
 - Organizations
-   - These are larger groups that may have multiple repositories
 - Teams
-   - These are groups within Organizations
 - Repositories
 - `Projects <https://help.github.com/en/articles/about-project-boards>`_
 - Followers
@@ -210,8 +208,7 @@ Issues are great for tracking decisions made or to-do lists
 1. Click on the repository you just created.
 2. Click on "Issues"
 3. Click on "New issue"
-4. Create a title
-   - this will have a hastag (#) and issue number that you can refer to later in the comments
+4. Create a title (# and issue number for reference)
 5. Assign to someone, or create a label
 6. Submit new issue
 7. Close issue
@@ -231,6 +228,7 @@ Issues are great for tracking decisions made or to-do lists
 *Command Line*
 
 .. code-block:: 
+
    git log
    git log --stat #gives abbreviated stats for each commit
    git log --pretty=oneline #can also add options: short, full, fuller
@@ -257,6 +255,7 @@ OR
 1. Create a new branch
 
 .. code-block:: 
+
    cd path/to/repo
    #common practice to pull before commiting anything
    git pull #does a fetch for you 
@@ -267,13 +266,15 @@ OR
 2. Edit some files
 
 .. code-block:: 
+
    #edit files
    vi path/to/file
    q #to quit
 
 3. Commit changes
 
-.. code-block:: 	
+.. code-block:: 
+
    git pull
    git add 
    commit -am "changed a file" #stage changes and write a message
@@ -304,6 +305,7 @@ Pull requests are useful to have another set of eyes to review changes  before m
 *Command Line*
 
 .. code-block::
+
    cd path/to/repo
    git pull
    git checkout new-branch
@@ -318,6 +320,7 @@ Pull requests are useful to have another set of eyes to review changes  before m
 *Command Line*
 
 .. code-block::
+
    git log
    #copy tag for last working commit
    git revert <tag to last working commit>
@@ -343,6 +346,7 @@ Pull requests are useful to have another set of eyes to review changes  before m
 *Command Line*
 
 .. code-block:: 
+
    git close <github-repo>
    cd <new-folder>
    git fork
