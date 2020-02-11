@@ -5,15 +5,18 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
+**Introduction to containers**
+==============================
+
 
 **What is a container?**
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
 
 **Why use containers?**
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 - **Flexible:** Even the most complex applications can be containerized.
 
@@ -350,6 +353,10 @@ Some examples of public/private registries to consider for your research needs:
 .. |windowsdocker|  raw:: html
 
    <a href="https://docs.docker.com/docker-for-windows/install" target="blank">Windows</a>
+   
+.. |setupicommands|  raw:: html
+
+    <a href="https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Windows</a>
 
 .. |docker| image:: ../img/docker.png
   :width: 250
