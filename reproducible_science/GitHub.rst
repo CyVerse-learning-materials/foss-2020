@@ -141,8 +141,8 @@ Can delete repo under "Settings" -> "Options"
 
 .. code-block:: 
    git init
-   git add *.c
-   git add .gitignore
+   echo "This is a test repo" >> README.md #append to file
+   git add . #add all the files
    git commit -m "initial project"
 
 **NOTE** Documentation is vital. *You are doing this for you 6 months from now*
@@ -165,7 +165,7 @@ This is used to work *locally* rather than online.
 
 .. code-block:: 
    cd path/to/location
-   git clone <url> rename
+   git clone <url> [rename]
    #URL of thte repository on GitHub
    #rename the directory (optional)
 
@@ -183,8 +183,6 @@ OR
 1. Create a file *locally*
 2. Click "Upload files"
 3. Select file(s) within a folder
-   To create a folder click on "New File", then type FileName/
-   Add .gitkeep (convention to create an *empty* folder)
 
 *Command Line*
 
@@ -237,7 +235,7 @@ Issues are great for tracking decisions made or to-do lists
    git log --stat #gives abbreviated stats for each commit
    git log --pretty=oneline #can also add options: short, full, fuller
    git log --pretty=format:"%h - %an, %ar : %s #lots of options for pretty=format
-   :q #to quit
+   q #to quit
 
 **Create a branch**
 
@@ -256,61 +254,50 @@ OR
 
 *Command Line*
 
+1. Create a new branch
+
 .. code-block:: 
    cd path/to/repo
-   git fetch
-   git pull
-   git checkout -b new-branch #see which branch you are on
-   git branch new-branch #create a new branch
+   #common practice to pull before commiting anything
+   git pull #does a fetch for you 
+   git checkout -b new-branch #creates a new branch and puts you on that branch
+   #set new branch upstream
+   git push --set-upstream origin new-branch
+
+2. Edit some files
 
 .. code-block:: 
-   <edit files>
+   #edit files
    vi path/to/file
-   :q #to quit
+   q #to quit
 
-OR
-
-.. code-block:: 
-   nano path/to/file
+3. Commit changes
 
 .. code-block:: 	
-   git push origin new-branch
-   git branch -a #see all branches 
-   git branch -d new-branch #delete branch locally
-   git branch origin :'new-branch #delte branch on GitHub
+   git pull
+   git add 
+   commit -am "changed a file" #stage changes and write a message
+   git push
+
 
 **Make a pull request**
 Pull requests are useful to have another set of eyes to review changes  before merging them with the master branch.
 
-*Online*
+*Online Only*
 
 1. From your branch, create a new file
 2. Commit file to your branch
 3. Hit "Compare & pull request"
 4. Go to pull requests
-5. "Merge pull request"
-6. Delete branch
-7. Set it on the master branch
-
-*Command Line*
-
-.. code-block:: 
-   cd path/to/repo
-   git pull
-   git status
-   git checkout -b new-branch
-   <edit files>
-   git add -A #"A" add all the files
-   git push --set-upstream origin new-branch
-   git commit - m "did some things"
+5. Set it on the master branch
 
 **Merge**
 
 *Online*
 
 1. Go to "Pull requests"
-2. Select down arrow of "Merge pull request"
-3. Merge, Squash, or Rebase OR ignore
+2. Select down arrow of "Merge pull request" (if no conflicts)
+6. Delete branch
 4. Leave comment if need be
 5. Close pull request
 
@@ -319,9 +306,25 @@ Pull requests are useful to have another set of eyes to review changes  before m
 .. code-block::
    cd path/to/repo
    git pull
+   git checkout new-branch
+   git merge master #testing to see if merging breaks anythin
    git checkout master
-   git merge new-branch
-   git branch -d new-branch
+   git merge new-branch #now repull it all into master
+
+**Revert**
+
+*Online*
+
+*Command Line*
+
+.. code-block::
+   git log
+   #copy tag for last working commit
+   git revert <tag to last working commit>
+   #will make it look like a new commit
+   git add -A
+   git commit -m "changed things back to <commit tag>"
+   git push
 
 **Advanced**
 ~~~~~~~~~~~~
