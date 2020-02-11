@@ -149,9 +149,9 @@ By the end of the week, students will present a plan for how to integrate open s
       -
     * - 
       - 13:00-14:00
-      - The Research Object I: Introduction to GitHub (Balk)
+      - The Research Object I: `Introduction to GitHub <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/reproducible_science/GitHub.html>`_(Balk)
       - 
-      - a basic understanding of `git`
+      - a basic understanding of `git <https://git-scm.com/>`_
     * - 
       - 14:00-15:00
       - The Research Object I: Documentation (Swetnam)
