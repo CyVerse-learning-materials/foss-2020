@@ -7,16 +7,27 @@
 **Tool integration and app building**
 =====================================
 
-`Tool Integration into the DE <https://cyverse-de-tool-integration-quickstart.readthedocs-hosted.com/en/latest/index.html>`_
------------------------------------------------------------------------------------------------------------------------------
+
+- **CyVerse tool:** Software program that is integrated into the back end of the DE for use in DE apps
+- 
+- **CyVerse app:** graphic interface of a tool made available for use in the DE
+
+The (containerized) tool must be integrated into the Cyverse DE first. Then an app (interface) can be built for that tool.
+
+|Toolintegration|
+---------------------
 
 **Building an App for Your Tool**
 ---------------------------------
 You can build an app for any tool that:
 
-1. is private to you
-2. is shared with you
-3. is public
+- is private to you
+- is shared with you
+- is public
+
+.. Note:: 
+
+    It is a good idea to check to see if the tool you want is already integrated before you start. The tool my be there already and you can build an app using it.
 
 In the 'Manage Tools' window search for 'porechop' in the search bar at the top of the window. Select the porechop public tool and choose 'Use in App' from the 'Tools' menu
 
@@ -79,6 +90,10 @@ To publish your app click on 'Share' at the top of the 'Apps' window and select 
    .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
+
+.. |Toolintegration| raw:: html
+
+    <a href="https://cyverse-de-tool-integration-quickstart.readthedocs-hosted.com/en/latest/index.html" target="blank">Tool Integration into the DE</a>
 
 .. |Github Repo Link|  raw:: html
 
