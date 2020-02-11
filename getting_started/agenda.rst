@@ -64,7 +64,7 @@ By the end of the week, students will present a plan for how to integrate open s
       - Understand why you need data management what the basic tools are
     * - 
       - 11:00-12:00
-      - Intro to CyVerse I: Data Management (Tujeta)
+      - Intro to CyVerse I: `Data Management <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/data_store.html>`_ (Tuteja)
       - Data Store Access: iCommands, WebDav, CyberDuck
       - Learn to communicate with the Data Store
     * - 
