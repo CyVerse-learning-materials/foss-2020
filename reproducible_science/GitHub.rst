@@ -76,9 +76,9 @@ GitHub Uses
 - Software development
 - Code development
 
-.. **NOTE**::
+.. NOTE::
 
-   Not really for storing or manipulating data
+   GitHub is not really intended for storing or manipulating data
 
 **Navigating & Interacting with GitHub**
 ------------------------------------------
@@ -86,7 +86,7 @@ GitHub Uses
 Basic Layout
 ~~~~~~~~~~~~
 
-|GitHub|
+|GitHub|_
 
 The basic layout includes:
 
@@ -147,9 +147,9 @@ Can delete repo under "Settings" -> "Options"
    git add . #add all the files
    git commit -m "initial project"
 
-.. **NOTE**::
+.. NOTE::
 
-   Documentation is vital. *You are doing this for you 6 months from now*
+   **Documentation is vital** *You will be doing this for YOU 6 months from now*
 
 **Interact with GitHub**
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -225,14 +225,12 @@ Issues are great for tracking decisions made or to-do lists
 6. Submit new issue
 7. Close issue
 
-.. **Exercise:**::
+.. Exercise::
 
    Create a new issue and relate it back to the issue you just created.
 
 
 **Version Control**
-
-*You are doing this for you 6 months from now*
 
 *Online*
 
@@ -384,8 +382,7 @@ These are *Online only*
 
 
 
-.. **Definitions**::
-~~~~~~~~~~~~~~~
+.. Definitions::
 
    *Git* - tool for version control.
    
