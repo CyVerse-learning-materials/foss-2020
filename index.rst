@@ -32,7 +32,7 @@ By working through an example project relevant to their interests, participants 
 .. toctree::
    :maxdepth: 1
    
-   FOSS 2020 Home <self>
+   Home <self>
 
 .. toctree::
    :maxdepth: 1
@@ -40,34 +40,26 @@ By working through an example project relevant to their interests, participants 
 
    before/main
    before/installation
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Key Information
    
-   
+   getting_started/location
+   getting_started/agenda
+   getting_started/instructors
+   getting_started/glossary
+
+
 .. toctree::
    :maxdepth: 1
    :caption: Getting Started
    
+   getting_started/intro   
    getting_started/code_of_conduct
-   getting_started/intro
-   getting_started/location
-   getting_started/agenda
-   getting_started/instructors
    getting_started/open_sci_lab
    getting_started/colab_culture
-   getting_started/glossary
-   
-   
-.. toctree::
-   :maxdepth: 1
-   :caption: CyVerse
-
-   CyVerse/intro_to_cyverse
-   CyVerse/data_store
-   CyVerse/de
-   CyVerse/de-data-manage
-   CyVerse/de-data-analysis
-   CyVerse/tool_integration_app_building_DE
-   CyVerse/vice 
-   CyVerse/workflow 
 
 
 .. toctree::
@@ -82,24 +74,11 @@ By working through an example project relevant to their interests, participants 
 
 .. toctree::
    :maxdepth: 1
-   :caption: Software Essentials
+   :caption: Essential Skills
 
    software_essentials/commandline
    software_essentials/linux
-   software_essentials/R_Studio
-   software_essentials/RStudio_Git
    software_essentials/continuous_integration
-   
-   
-.. toctree::
-   :maxdepth: 1
-   :caption: Cloud Computing
-
-   cloud_comput/intro
-   cloud_comput/atmo
-   cloud_comput/xsede
-   cloud_comput/cyberinfrastructure
-
 
 .. toctree::
    :maxdepth: 1
@@ -108,6 +87,28 @@ By working through an example project relevant to their interests, participants 
    Data_management/overview
    Data_management/FAIR
    Data_management/dmp
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Using CyVerse
+
+   CyVerse/intro_to_cyverse
+   CyVerse/data_store
+   CyVerse/de
+   CyVerse/de-data-manage
+   CyVerse/de-data-analysis
+   CyVerse/tool_integration_app_building_DE
+   CyVerse/vice 
+   CyVerse/workflow   
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Cyberinfrastructure
+
+   cloud_comput/intro
+   cloud_comput/atmo
+   cloud_comput/xsede
+   cloud_comput/cyberinfrastructure
 
    
 .. toctree::
@@ -118,6 +119,13 @@ By working through an example project relevant to their interests, participants 
    Containers/dockeronatmo
    Containers/dockerintro
    Containers/dockeradvanced
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Using RStudio
+   
+   software_essentials/R_Studio
+   software_essentials/RStudio_Git
 
 .. toctree::
    :maxdepth: 1

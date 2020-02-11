@@ -5,6 +5,9 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
+**Introduction to containers**
+==============================
+
 
 **What is a container?**
 ------------------------
@@ -13,7 +16,7 @@ A container is a standard unit of software that packages up code and all its dep
 
 
 **Why use containers?**
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 - **Flexible:** Even the most complex applications can be containerized.
 
@@ -265,7 +268,7 @@ At this point you can run your container on any system with Docker installed. To
 
 
 Useful Links
-------------
+^^^^^^^^^^^^
 - `BioContainers <https://biocontainers.pro/#/>`_
 - `Bioconda <https://bioconda.github.io/>`_
 - `Request a BioContainer <http://github.com/BioContainers/containers/issues>`_
@@ -350,6 +353,10 @@ Some examples of public/private registries to consider for your research needs:
 .. |windowsdocker|  raw:: html
 
    <a href="https://docs.docker.com/docker-for-windows/install" target="blank">Windows</a>
+   
+.. |setupicommands|  raw:: html
+
+    <a href="https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Windows</a>
 
 .. |docker| image:: ../img/docker.png
   :width: 250
