@@ -36,7 +36,7 @@ FOSS will be held in the `Health Sciences Innovation Building (HSIB)(UA Building
           - 640
           - 640
 
-Nearest parking is the Highland Garage, about 3 blocks west of HSIB or you can take the Purple or Green CatTran shuttle to the northern terminus (the AHSL Library stop). 
+Nearest public parking is the Highland Garage, about 3 blocks west of HSIB ($1/hr with $8/day max) or you can take the Purple or Green CatTran shuttle to the northern terminus (the AHSL Library stop). 
 
 HSIB is an approximate 10 minute walk from The Aloft Hotel.
 
