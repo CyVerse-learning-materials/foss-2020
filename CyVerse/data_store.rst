@@ -5,7 +5,7 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**CyVerse Data Store**
+**Accessing Data Store**
 -------------
 
 .. #### Comment: Data Store usage outside the DE and Data Commons

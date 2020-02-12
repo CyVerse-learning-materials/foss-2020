@@ -4,7 +4,7 @@
 
 |Home_Icon2|_ `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Tool integration and app building**
+**Discovery Environment - Tools & Apps**
 =====================================
 
 

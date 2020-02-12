@@ -69,7 +69,7 @@ Listed below are some extra downloads that are not required for the workshop, bu
         to download Cyberduck and the connection profile. We will go through
         configuration and installation at the workshop.
       - - `Download Cyberduck <https://cyberduck.io/>`_
-        - `Download CyVerse Cyberduck connection profile <https://wiki.cyverse.org/wiki/download/attachments/18188197/iPlant%20Data%20Store.cyberduckprofile?version=1&modificationDate=1436557522000&api=v2>`_
+        - `Installation for CyVerse <https://learning.cyverse.org/projects/data_store_guide/en/latest/step1.html#download-and-first-time-configuration-of-cyberduck>`_
     * - iCommands
       - iCommands are third-party software for command-line connection to the
         CyVerse Data Store.

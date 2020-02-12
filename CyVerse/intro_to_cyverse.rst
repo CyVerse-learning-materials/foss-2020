@@ -284,7 +284,7 @@ policy <http://www.cyverse.org/acknowledge-and-cite-cyverse>`__
   :width: 750
   :height: 175
 
-.. |layer cake| image:: ../img/Layer_Cake_Updated.png
+.. |layer cake| image:: ../img/layercake.png
   :width: 750
   :height: 600
 

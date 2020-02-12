@@ -11,6 +11,7 @@
 Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
 
 The workshop will cover key concepts about open science:
+
 - Collaboration culture
 - Software essentials
 - Using CyVerse cyberinfrastructure

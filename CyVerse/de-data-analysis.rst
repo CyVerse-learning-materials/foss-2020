@@ -12,6 +12,18 @@
 
 |DE_icon|
  
+**Why use the DE?**
+^^^^^^^^^^^^^^^^^^^
+
+- Use hundreds of bioinformatics Apps without the command line
+- Executable and interactive modes
+- Seamlessly integrated with data and high performance computing – not dependent on your hardware
+- Create and publish Apps and workflows so anyone can use them
+- Analysis history and provenance – “avoid forensic bioinformatics”
+- Securely and easily manage, share, and publish data
+
+
+
 `Apps Window <https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Apps+Window+and+Submitting+an+Analysis>`_
 ---------------------------------------------------------------------------------------------------------------------
 

@@ -10,20 +10,6 @@
 
 .. Comment: Last year’s syllabus as a chart (for reference): https://docs.google.com/spreadsheets/d/1n5zCJlT9g_vyWx6z-5vmT300ZH-vC6AP4TYKFeJIMZo/edit#gid=0
 
-**Activity**
-
-Scheduled lessons with approximate times. Lessons are flexible and we will accomodate changes and suggestions from the participants as needed.
-
-**Content**
-
-Materials and subject areas covered.
-
-**Expected Outcomes**
-
-By working through an example project  relevant to their interests, participants will practice open science skills using CyVerse, GitHub, and other resources. 
-
-By the end of the week, students will present a plan for how to integrate open science into their labs.
-
 .. list-table::
     :header-rows: 1
     
@@ -64,7 +50,7 @@ By the end of the week, students will present a plan for how to integrate open s
       - Understand why you need data management what the basic tools are
     * - 
       - 11:00-12:00
-      - Intro to CyVerse I: Data Management (Tujeta)
+      - Intro to CyVerse I: `Data Management <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/data_store.html>`_ (Tuteja)
       - Data Store Access: iCommands, WebDav, CyberDuck
       - Learn to communicate with the Data Store
     * - 
@@ -149,9 +135,9 @@ By the end of the week, students will present a plan for how to integrate open s
       -
     * - 
       - 13:00-14:00
-      - The Research Object I: Introduction to GitHub (Balk)
+      - The Research Object I: `Introduction to GitHub <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/reproducible_science/GitHub.html>`_ (Balk)
       - 
-      - a basic understanding of `git`
+      - a basic understanding of `git <https://git-scm.com/>`_ 
     * - 
       - 14:00-15:00
       - The Research Object I: Documentation (Swetnam)
@@ -224,7 +210,7 @@ By the end of the week, students will present a plan for how to integrate open s
       -
     * - 
       - 15:00-16:00
-      - The Research Object II: Computational Notebooks in CyVerse
+      - The Research Object II: Computational Notebooks in CyVerse (Tuteja)
       - Connecting your work in CyVerse VICE
       - Learn to create a VICE app
     * - 

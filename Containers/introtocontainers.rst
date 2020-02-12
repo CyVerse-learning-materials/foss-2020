@@ -5,15 +5,18 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
+**Introduction to containers**
+==============================
+
 
 **What is a container?**
 ------------------------
 
-A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A container image includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
 
 **Why use containers?**
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 - **Flexible:** Even the most complex applications can be containerized.
 
@@ -27,31 +30,34 @@ A container is a standard unit of software that packages up code and all its dep
 
 - **Secure:** Containers apply aggressive constraints and isolations to processes without any configuration required on the part of the user.
 
-The portability and reproducibility of a containerized process mean we have an opportunity to move and scale our containerized applications across clouds and datacenters; containers effectively guarantee that those applications will run the same way anywhere, allowing us to quickly and easily take advantage of all these environments.
+We can move and scale our containerized applications; containers effectively guarantee that those applications will run the same way anywhere, allowing us to quickly and easily take advantage of all these environments.
 
 
 **Working with containers**
 ---------------------------
 
+- **Image:** self-contained, read-only ‘snapshot’ of your applications and packages, with all their dependencies
+- **Container:** A virtualization of an operating system run within an isolated user space. A running instance of an image.
+
 |docker|
 
 |dockerdocs|
 ^^^^^^^^^^^^
-- **Image:** self-contained, read-only ‘snapshot’ of your applications and packages, with all their dependencies
-- **Container:** A virtualization of an operating system run within an isolated user space. A running instance of and image.
 
-Docker is a platform for developers and sysadmins to build, share, and run applications with containers. Docker Engine is available on a variety of |linuxdocker| , |macdocker| and |windowsdocker| through Docker Desktop. 
+Docker is a platform  to build, share, and run applications with containers. Docker Engine is available on a variety of |linuxdocker| , |macdocker| and |windowsdocker| through Docker Desktop. 
 
 Docker images are built from Dockerfiles. A **Dockerfile** is a text document that contains all the commands you would normally execute manually in order to build a Docker image. Docker can build images automatically by reading the instructions from a Dockerfile.
 
 |builddocker|
 
-Once you have a Docker image you can
-- run it as a container
+Once you have a Docker image you can:
+
+- run it as a container (anywhere)
 - push it to a registry (make it available to others)
 - link it to GitHub with automated builds
 
 Other things to note about Docker:
+
 - Docker **always runs as root**. This makes it unsuitable for use on large computing systems with many users such as HPC.
 - Docker images and containers are **stored in the Docker directory** (where Docker is installed) so you won't see them in a list of your files. There are special Docker commands you can use to list/remove them.
 
@@ -167,9 +173,9 @@ Get data to use with your container
  
 .. code-block:: bash
 
-   $ iget /iplant/home/shared/iplantcollaborative/example_data/porechop/SRR6059710.fastq
-   $ mv SRR6059710.fastq Desktop
    $ cd Desktop
+   $ iget /iplant/home/shared/iplantcollaborative/example_data/porechop/SRR6059710.fastq
+
 
 Use 'docker pull' to get the image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -265,7 +271,7 @@ At this point you can run your container on any system with Docker installed. To
 
 
 Useful Links
-------------
+^^^^^^^^^^^^
 - `BioContainers <https://biocontainers.pro/#/>`_
 - `Bioconda <https://bioconda.github.io/>`_
 - `Request a BioContainer <http://github.com/BioContainers/containers/issues>`_
@@ -350,6 +356,10 @@ Some examples of public/private registries to consider for your research needs:
 .. |windowsdocker|  raw:: html
 
    <a href="https://docs.docker.com/docker-for-windows/install" target="blank">Windows</a>
+   
+.. |setupicommands|  raw:: html
+
+    <a href="https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Install iCommands</a>
 
 .. |docker| image:: ../img/docker.png
   :width: 250
