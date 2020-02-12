@@ -18,8 +18,6 @@ The workshop will cover key concepts about open science:
 - Data management
 - Cloud computing
 
-|comic|_
-
 ----
 
 **Learning Objectives**
@@ -88,8 +86,6 @@ For up to one year following FOSS camp, CyVerse will provide concierge service t
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
 
-.. |comic| image:: ../img/comic.png
-    :height: 100
 
 .. |Github Repo Link|  raw:: html
 
