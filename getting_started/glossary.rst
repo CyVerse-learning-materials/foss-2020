@@ -134,6 +134,7 @@
 - **repo(sitory):** a directory structure for hosting code and data
 - **RST:** ReStructuredText, a markdown type file
 - **ReadTheDocs:** a web service for rendering documentation (that this website uses) `readthedocs.org <https://readthedocs.org>`_ and `readthedocs.com <https://readthedocs.com/>`_
+- **root:** the administrative user on a linux kernel - use your powers wisely
 
 **S**
 
@@ -157,6 +158,7 @@
 **U**
 
 - **UNIX:** operating system 
+- **user:** the profile under which applications are started and run, ``root`` is the most powerful system administrator
 
 **V**
 
@@ -180,8 +182,8 @@
 
 **Z**
 
-- **Zenodo:** general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN
 - **ZenHub:** team collaboration solution built directly into GitHub that uses kanban style boards
+- **Zenodo:** general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN
 - **zip:** a compressed file format
 
 ----
