@@ -11,11 +11,14 @@
 Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
 
 The workshop will cover key concepts about open science:
+
 - Collaboration culture
 - Software essentials
 - Using CyVerse cyberinfrastructure
 - Data management
 - Cloud computing
+
+|comic|_
 
 ----
 
@@ -85,6 +88,8 @@ For up to one year following FOSS camp, CyVerse will provide concierge service t
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
 
+.. |comic| image:: ../img/comic.png
+    :height: 100
 
 .. |Github Repo Link|  raw:: html
 
