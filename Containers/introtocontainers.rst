@@ -12,7 +12,7 @@
 **What is a container?**
 ------------------------
 
-A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A container image includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
 
 **Why use containers?**
@@ -30,20 +30,21 @@ A container is a standard unit of software that packages up code and all its dep
 
 - **Secure:** Containers apply aggressive constraints and isolations to processes without any configuration required on the part of the user.
 
-The portability and reproducibility of a containerized process mean we have an opportunity to move and scale our containerized applications across clouds and datacenters; containers effectively guarantee that those applications will run the same way anywhere, allowing us to quickly and easily take advantage of all these environments.
+We can move and scale our containerized applications; containers effectively guarantee that those applications will run the same way anywhere, allowing us to quickly and easily take advantage of all these environments.
 
 
 **Working with containers**
 ---------------------------
 
+- **Image:** self-contained, read-only ‘snapshot’ of your applications and packages, with all their dependencies
+- **Container:** A virtualization of an operating system run within an isolated user space. A running instance of an image.
+
 |docker|
 
 |dockerdocs|
 ^^^^^^^^^^^^
-- **Image:** self-contained, read-only ‘snapshot’ of your applications and packages, with all their dependencies
-- **Container:** A virtualization of an operating system run within an isolated user space. A running instance of and image.
 
-Docker is a platform for developers and sysadmins to build, share, and run applications with containers. Docker Engine is available on a variety of |linuxdocker| , |macdocker| and |windowsdocker| through Docker Desktop. 
+Docker is a platform  to build, share, and run applications with containers. Docker Engine is available on a variety of |linuxdocker| , |macdocker| and |windowsdocker| through Docker Desktop. 
 
 Docker images are built from Dockerfiles. A **Dockerfile** is a text document that contains all the commands you would normally execute manually in order to build a Docker image. Docker can build images automatically by reading the instructions from a Dockerfile.
 
@@ -51,7 +52,7 @@ Docker images are built from Dockerfiles. A **Dockerfile** is a text document th
 
 Once you have a Docker image you can:
 
-- run it as a container
+- run it as a container (anywhere)
 - push it to a registry (make it available to others)
 - link it to GitHub with automated builds
 
