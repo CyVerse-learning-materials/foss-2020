@@ -359,7 +359,7 @@ Some examples of public/private registries to consider for your research needs:
    
 .. |setupicommands|  raw:: html
 
-    <a href="https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Windows</a>
+    <a href="https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Install iCommands</a>
 
 .. |docker| image:: ../img/docker.png
   :width: 250
