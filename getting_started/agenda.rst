@@ -150,7 +150,7 @@
       -
     * -
       - 15:00-17:00
-      - The Research Object I: `Introduction to Containers <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/Containers/introtocontainers.html>`_(Cooksey)
+      - The Research Object I: `Introduction to Containers <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/Containers/introtocontainers.html>`_ (Cooksey)
       - Intro to BioContainers, Docker, Singularity, and Kubernetes
       - Search for, locate, and launch a container anywhere
     * -
