@@ -99,7 +99,7 @@ generate a well-documented research project.
 
 .. |spectrum| image:: ../img/reproducibility-spectrum.png
     :width: 600
-    :height: 300
+    :height: 200
 
 .. |Github Repo Link|  raw:: html
 
