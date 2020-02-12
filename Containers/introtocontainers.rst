@@ -49,12 +49,14 @@ Docker images are built from Dockerfiles. A **Dockerfile** is a text document th
 
 |builddocker|
 
-Once you have a Docker image you can
+Once you have a Docker image you can:
+
 - run it as a container
 - push it to a registry (make it available to others)
 - link it to GitHub with automated builds
 
 Other things to note about Docker:
+
 - Docker **always runs as root**. This makes it unsuitable for use on large computing systems with many users such as HPC.
 - Docker images and containers are **stored in the Docker directory** (where Docker is installed) so you won't see them in a list of your files. There are special Docker commands you can use to list/remove them.
 
