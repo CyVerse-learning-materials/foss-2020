@@ -10,20 +10,6 @@
 
 .. Comment: Last year’s syllabus as a chart (for reference): https://docs.google.com/spreadsheets/d/1n5zCJlT9g_vyWx6z-5vmT300ZH-vC6AP4TYKFeJIMZo/edit#gid=0
 
-**Activity**
-
-Scheduled lessons with approximate times. Lessons are flexible and we will accomodate changes and suggestions from the participants as needed.
-
-**Content**
-
-Materials and subject areas covered.
-
-**Expected Outcomes**
-
-By working through an example project  relevant to their interests, participants will practice open science skills using CyVerse, GitHub, and other resources. 
-
-By the end of the week, students will present a plan for how to integrate open science into their labs.
-
 .. list-table::
     :header-rows: 1
     
