@@ -6,12 +6,86 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**Introduction to Reproducible Science** 
-===================
+**Introduction to Reproducible Science**
+============================================
 
-The so-called reproducibility crisis (`1 <https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970>`_, `2 <https://www.nature.com/collections/prbfkwmwvz>`_, `3 <https://blogs.scientificamerican.com/observations/to-fix-the-reproducibility-crisis-rethink-how-we-do-experiments/>`_) in science has led to fundamental changes in how we approach research. 
+The so-called reproducibility crisis (see |1| , |2| , |3|) is something you have
+probably heard about (and maybe one of the reasons you have come to FOSS).
+Headlines in the media (such as |Most scientists can't replicate studies by their peers|)
+definitely give pause to us as researchers and as ordinary citizens who hope
+that the science used to recommend a course of medical treatment or design
+self-driving cars is sound.
 
-Today, scientists need to consider how they are going to manage their data, analysis code, and software from before they ever start their project.
+Before we go further, it's actually important to ask a few questions:
+
+  .. admonition:: Question
+
+    How do you define reproducible science?
+
+      .. admonition:: Answer
+
+        In |Reproducibility vs. Replicability|, Hans Plesser gives the following
+        useful definitions:
+
+        - **Repeatability** (Same team, same experimental setup): The measurement
+          can be obtained with stated precision by the same team using the same
+          measurement procedure, the same measuring system, under the same operating
+          conditions, in the same location on multiple trials. For computational
+          experiments, this means that a researcher can reliably repeat her own
+          computation.
+        - **Replicability** (Different team, same experimental setup): The
+          measurement can be obtained with stated precision by a different team
+          using the same measurement procedure, the same measuring system, under the
+          same operating conditions, in the same or a different location on multiple
+          trials. For computational experiments, this means that an independent group
+          can obtain the same result using the author's own artifacts.
+        - **Reproducibility** (Different team, different experimental setup): The
+          measurement can be obtained with stated precision by a different team,
+          a different measuring system, in a different location on multiple trials.
+          For computational experiments, this means that an independent group can
+          obtain the same result using artifacts which they develop completely
+          independently.
+
+        The paper goes on to further simplify:
+
+        - **Methods reproducibility**: provide sufficient detail about procedures
+          and data so that the same procedures could be exactly repeated.
+        - **Results reproducibility**: obtain the same results from an independent
+          study with procedures as closely matched to the original study as
+          possible.
+        - **Inferential reproducibility**: draw the same conclusions from either an
+          independent replication of a study or a reanalysis of the original study.
+
+  .. admonition:: Discussion Question
+    :class: admonition-question
+
+    How do these definitions apply to your research/teaching?
+
+Often, when we say "reproducibility" we mean all or at least several of the
+concepts the proceeding discussion encompasses. Really, reproducibility can be
+a set values such as some laboratories express in a code of conduct,
+(see for example |Ross-Ibarra Lab code of conduct| or |Bahlai Lab Policies|),
+a sense that we want to work ethically, honestly, and with confidence that the
+data and knowledge we produce is done so with integrity. Reproducibility is also
+a "spectrum of practices", not one single step. (See figure below from |Peng 2011|).
+
+
+    |spectrum|
+
+Assuming you have taken in the potentially anxiety inducing information above,
+the most important thing to know is that there is a lot of help to make
+reproducibility a foundation of all of your research.
+
+Reproducibility Tutorial
+----------------------------------------------
+
+In the following tutorial, we will introduce some of the software introduced at
+FOSS in the context of creating a reproducible experiment. The goal will be
+to give an example of how connecting various software pieces and practices can
+generate a well-documented research project.
+
+- |Reproducibility Tutorial|
+
 
 
 ----
@@ -23,25 +97,107 @@ Today, scientists need to consider how they are going to manage their data, anal
 
 ----
 
-
-.. Comment: Place Images Below This Line
-   use :width: to give a desired width for your image
-   use :height: to give a desired height for your image
-   replace the image name/location and URL if hyperlinked
-
-
-
-.. Comment: Place URLS Below This Line
-
-   # Use this example to ensure that links open in new tabs, avoiding
-   # forcing users to leave the document, and making it easy to update links
-   # In a single place in this document
-
-   .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
-
-      <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
-
+.. |spectrum| image:: ../img/reproducibility-spectrum.png
+    :width: 600
+    :height: 300
 
 .. |Github Repo Link|  raw:: html
 
    <a href="https://github.com/CyVerse-learning-materials/foss-2020/tree/master/cloud_comput/intro.rst" target="blank">Github Repo Link</a>
+
+
+.. |1|  raw:: html
+
+   <a href="https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970" target="blank">1</a>
+
+.. |2|  raw:: html
+
+   <a href="https://www.nature.com/collections/prbfkwmwvz" target="blank">2</a>
+
+.. |3|  raw:: html
+
+   <a href="https://blogs.scientificamerican.com/observations/to-fix-the-reproducibility-crisis-rethink-how-we-do-experiments/" target="blank">3</a>
+
+.. |Most scientists 'can't replicate studies by their peers'|  raw:: html
+
+   <a href="https://www.bbc.com/news/science-environment-39054778" target="blank">Most scientists 'can't replicate studies by their peers'</a>
+
+.. |Reproducibility vs. Replicability|  raw:: html
+
+   <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778115/" target="blank">Reproducibility vs. Replicability</a>
+
+.. |Ross-Ibarra Lab code of conduct|  raw:: html
+
+   <a href="http://www.rilab.org/expectations.html" target="blank">Ross-Ibarra Lab code of conduct</a>
+
+.. |Bahlai Lab Policies|  raw:: html
+
+   <a href="https://github.com/BahlaiLab/Policies/blob/master/Project_completion.md" target="blank">Bahlai Lab Policies</a>
+
+.. |NSF Biological Sciences Guidance on Data Management Plans|  raw:: html
+
+   <a href="https://www.nsf.gov/bio/biodmp.jsp" target="blank">NSF Biological Sciences Guidance on Data Management Plans</a>
+
+.. |Reproducibility Tutorial|  raw:: html
+
+   <a href="https://learning.cyverse.org/projects/cyverse-cyverse-reproducbility-tutorial/en/latest/index.html" target="blank">Reproducibility Tutorial</a>
+
+.. |Peng 2011|  raw:: html
+
+   <a href="https://science.sciencemag.org/content/334/6060/1226" target="blank">Peng 2011</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
+
+.. |TITLE|  raw:: html
+
+   <a href="URL" target="blank">TITLE</a>
