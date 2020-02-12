@@ -12,11 +12,11 @@
 The so-called reproducibility crisis (see |1| , |2| , |3|) is something you have
 probably heard about (and maybe one of the reasons you have come to FOSS).
 Headlines in the media (such as |Most scientists can't replicate studies by their peers|)
-definitely give pause to us as researchers and as ordinary citizens who hope
+definitely give pause to researchers and ordinary citizens who hope
 that the science used to recommend a course of medical treatment or design
 self-driving cars is sound.
 
-Before we go further, it's actually important to ask a few questions:
+Before we go further, it's actually important to ask what is reproducibility?
 
   .. admonition:: Question
 
@@ -61,13 +61,18 @@ Before we go further, it's actually important to ask a few questions:
 
     How do these definitions apply to your research/teaching?
 
+    Work with your fellow learners to develop a shortlist of ways reproducibility
+    relates to your work. Try to identify challenges and even successes you'd
+    like to share.
+
 Often, when we say "reproducibility" we mean all or at least several of the
 concepts the proceeding discussion encompasses. Really, reproducibility can be
-a set values such as some laboratories express in a code of conduct,
-(see for example |Ross-Ibarra Lab code of conduct| or |Bahlai Lab Policies|),
-a sense that we want to work ethically, honestly, and with confidence that the
-data and knowledge we produce is done so with integrity. Reproducibility is also
-a "spectrum of practices", not one single step. (See figure below from |Peng 2011|).
+thought of as set values such as some laboratories express in a code of conduct,
+(see for example |Ross-Ibarra Lab code of conduct| or |Bahlai Lab Policies|).
+Reproducibility comes from our obligations and desires to work ethically,
+honestly, and with confidence that the data and knowledge we produce is done
+has integrity. Reproducibility is also a "spectrum of practices", not a
+single step. (See figure below from |Peng 2011|).
 
 
     |spectrum|
@@ -82,7 +87,9 @@ Reproducibility Tutorial
 In the following tutorial, we will introduce some of the software introduced at
 FOSS in the context of creating a reproducible experiment. The goal will be
 to give an example of how connecting various software pieces and practices can
-generate a well-documented research project.
+generate a well-documented research project. Though the example will be drawn
+from a biological example, the ideas an approaches apply to the sciences in
+general. 
 
 - |Reproducibility Tutorial|
 
@@ -120,7 +127,7 @@ generate a well-documented research project.
 
 .. |Most scientists 'can't replicate studies by their peers'|  raw:: html
 
-   <a href="https://www.bbc.com/news/science-environment-39054778" target="blank">Most scientists 'can't replicate studies by their peers'</a>
+   <a href="https://www.bbc.com/news/science-environment-39054778" target="blank">Most scientists can't replicate studies by their peers</a>
 
 .. |Reproducibility vs. Replicability|  raw:: html
 
@@ -145,59 +152,3 @@ generate a well-documented research project.
 .. |Peng 2011|  raw:: html
 
    <a href="https://science.sciencemag.org/content/334/6060/1226" target="blank">Peng 2011</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
-
-.. |TITLE|  raw:: html
-
-   <a href="URL" target="blank">TITLE</a>
