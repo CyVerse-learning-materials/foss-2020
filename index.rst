@@ -98,7 +98,7 @@ By working through an example project relevant to their interests, participants 
    CyVerse/de-data-analysis
    CyVerse/tool_integration_app_building_DE
    CyVerse/vice 
-   CyVerse/workflow   
+ 
    
 .. toctree::
    :maxdepth: 1
