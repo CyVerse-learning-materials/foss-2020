@@ -15,12 +15,12 @@
 **Why use the DE?**
 ^^^^^^^^^^^^^^^^^^^
 
-- Use hundreds of bioinformatics Apps without the command line (or with, if you prefer)
-- Batch and interactive modes
+- Use hundreds of bioinformatics Apps without the command line
+- Executable and interactive modes
 - Seamlessly integrated with data and high performance computing – not dependent on your hardware
 - Create and publish Apps and workflows so anyone can use them
 - Analysis history and provenance – “avoid forensic bioinformatics”
-- Securetly and easily manage, share, and publish data
+- Securely and easily manage, share, and publish data
 
 
 
