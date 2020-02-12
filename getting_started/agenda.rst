@@ -56,13 +56,13 @@
     * -
       - 12:00-13:00
       - Lunch
-      - Optional: Command Line Refresher
+      - Optional: `Command Line Refresher <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/software_essentials/commandline.html>`_
       - Basic navigation and file manipulation
     * -
       - 13:00-14:00
-      - Intro to Cyverse II: Discovery Environment (Cooksey)
+      - Intro to Cyverse II: `Discovery Environment <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/de-data-analysis.html>`_ (Cooksey)
       - Launching Apps in DE Walkthrough and terminology
-      - Launch executable and interactive apps. Add a tool and app
+      - Launch executable and interactive apps. `Add a tool and app <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/tool_integration_app_building_DE.html>`_
     * -
       - 14:00-14:20
       - `Basics of Linux <https://learning.cyverse.org/projects/foss-2020/en/latest/software_essentials/linux.html>`_
@@ -150,7 +150,7 @@
       -
     * -
       - 15:00-17:00
-      - The Research Object I: Introduction to Containers (Cooksey)
+      - The Research Object I: `Introduction to Containers <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/Containers/introtocontainers.html>`_(Cooksey)
       - Intro to BioContainers, Docker, Singularity, and Kubernetes
       - Search for, locate, and launch a container anywhere
     * -
