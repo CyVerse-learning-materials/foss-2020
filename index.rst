@@ -94,7 +94,6 @@ By working through an example project relevant to their interests, participants 
 
    CyVerse/intro_to_cyverse
    CyVerse/data_store
-   CyVerse/de
    CyVerse/de-data-manage
    CyVerse/de-data-analysis
    CyVerse/tool_integration_app_building_DE
