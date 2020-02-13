@@ -65,13 +65,13 @@
       - Launch executable and interactive apps. `Add a tool and app <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/tool_integration_app_building_DE.html>`_
     * -
       - 14:00-14:20
-      - `Basics of Linux <https://learning.cyverse.org/projects/foss-2020/en/latest/software_essentials/linux.html>`_
+      - `Key Concepts: Linux <https://learning.cyverse.org/projects/foss-2020/en/latest/software_essentials/linux.html>`_ (Swetnam)
       - Why Linux, Version Control, Containers
       - Understanding what open source sofware means to open science
     * -
       - 14:20-14:40
-      - `Lab Communication <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/communication.html>`_ & `Documentation <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/websites.html>`_
-      - Slack, Twitter, ReadTheDocs, Wikis, Kan Ban Boards
+      - `Key Concepts: Communication <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/communication.html>`_ & `Documentation <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/websites.html>`_ (Swetnam)
+      - Using tools like Slack, Medium, Twitter
       - Project management tools, and public relations with social media.
     * -
       - 14:40-15:00
@@ -140,9 +140,9 @@
       - a basic understanding of `git <https://git-scm.com/>`_
     * -
       - 14:00-15:00
-      - The Research Object I: Documentation (Swetnam)
-      - Wikis, ReadTheDocs, Bookdown, etc.
-      - Create public facing documentation for internal and external use
+      - Key Concepts: Documentation (Swetnam)
+      -  ReadTheDocs, Bookdown, Wikis
+      - Create documentation for internal and public use
     * -
       - 15:00-15:20
       - Break
