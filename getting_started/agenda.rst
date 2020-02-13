@@ -45,9 +45,9 @@
       -
     * -
       - 10:20-11:00
-      - Data Management Overview (Walls)
+      - `Data Management Overview <../Data_management/overview.html>`_ (Walls)
       - Organization, Sharing, Metadata
-      - Understand why you need data management what the basic tools are
+      - Understand why you need data management 
     * -
       - 11:00-12:00
       - Intro to CyVerse I: `Data Management <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/data_store.html>`_ (Tuteja)
@@ -110,7 +110,7 @@
       - Think about what you will take home from FOSS
     * -
       - 09:20-10:00
-      - FAIR Data Principles (Walls)
+      - `FAIR Data Principles <../Data_management/FAIR.html>`_  (Walls)
       - Metadata, standards, licensing, legal, and ethics
       - Be able to find standards for your data, choose a license
     * -
@@ -120,7 +120,7 @@
       -
     * -
       - 10:20-11:00
-      - FAIR Data Principles cont. (Walls)
+      - `FAIR Data Principles cont. <../Data_management/dmp.html>`_ (Walls)
       - Writing a Data Management Plan
       - Learn how to write an excellent DMP!
     * -
