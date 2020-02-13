@@ -87,6 +87,7 @@ By working through an example project relevant to their interests, participants 
    Data_management/overview
    Data_management/FAIR
    Data_management/dmp
+   Data_managment/dmtools
    
 .. toctree::
    :maxdepth: 1
