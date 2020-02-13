@@ -170,13 +170,6 @@ References and Resources
  - `Open Data Commons <https://opendatacommons.org/licenses/index.html>`- 
  - `Creative Commons <https://creativecommons.org/>`_ 
  - - https://choosealicense.com/
- 
- 
- **Data Management Tools:**
- 
-- `KNB tools <https://knb.ecoinformatics.org/tools>`_
-- `Open Science Framework <https://osf.io/>`_
-
 
 ----
 
