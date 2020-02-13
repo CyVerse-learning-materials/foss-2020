@@ -125,7 +125,7 @@
       - Learn how to write an excellent DMP!
     * -
       - 11:00-12:00
-      - Data Management Tools (Walls)
+      - `Data Management Tools <../Data_management/dmtools.html>`_ (Walls)
       - Open Science Framework, Protocols.io, CyVerse DataCommons
       - Be able to work with data management tools
     * -
