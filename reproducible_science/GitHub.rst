@@ -86,7 +86,7 @@ GitHub Uses
 Basic Layout
 ~~~~~~~~~~~~
 
-|Git_Hub|_
+|Git_Hub|
 
 The basic layout includes:
 
