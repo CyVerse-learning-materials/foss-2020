@@ -103,6 +103,7 @@ Metadata standards and ontologies are invaluable for supporting data reuse.
       - `DataCite <https://schema.datacite.org/>`_ (for publishing data)
       - `Dublin Core <http://www.dublincore.org/specifications/dublin-core/dcmi-terms/>`_ (for sharing data on the web)
       - Minimum Information for any (x) Sequence (`MIxS <https://press3.mcs.anl.gov/gensc/mixs/>`_)
+      - `OGC standards <https://www.opengeospatial.org/docs/is>`_ for geospatial data
  - Ontologies provide standardization for metadata values
       - Example: `Environment Ontology <http://environmentontology.org/>`_ terms for the MIxS standards
       - Example: `Plant Ontology <http://planteome.org/>`_ for plant tissue types or development stages
@@ -117,7 +118,7 @@ The CyVerse Data Commons supports good data description through
 **Preserve:** 
  - To be FAIR data must be preserved in an appropriate long-term archive (i.e. data center).
       - Sequence data should go to INSDC (usually `NCBI <https://www.ncbi.nlm.nih.gov/>`_
- - Identifie data with value -- it may not be necessary to preserve all data from a project
+ - Identify data with value -- it may not be necessary to preserve all data from a project
  - The `CyVerse Data Commons <http://datacommons.cyverse.org/>`_ provides a place to publish and preserve data that was generated on or can be used in CyVerse, where no other repository exists.
  - See lists of repositories at `FAIRSharing.org <https://fairsharing.org/>`_.
  - Github repos can get DOIs through `Zenodo <https://guides.github.com/activities/citable-code/>`_.
