@@ -248,7 +248,7 @@
       - FOSS alumna story (Quinn)
       - "What I got from FOSS"
       - 
-     * -
+    * -
       - 09:20-10:00
       - Reproducible Research V: Build your own Containers (Williams, Swetnam)
       - Basics of Docker, creating your own containers
