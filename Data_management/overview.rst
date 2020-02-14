@@ -38,10 +38,12 @@ The Data Life Cycle
 
 Image from `Strasser et al. <https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf>`_.
 
+----
+
 Data Types
 ~~~~~~~~~~~~~~~~
 
-Different types of data require different management practices. What are some of the condiserations for managing:
+Different types of data require different management practices. What are some of the considerations for managing:
  - tabular data
  - images
  - sound or video recordings
@@ -50,20 +52,8 @@ Different types of data require different management practices. What are some of
  - raw versus processed data
  - files versus datasets
  
-FAIR data
-~~~~~~~~~~~~~~~~~~~~~
+----
 
-How to make data findable, accessible, interoperable, and reusable. 
-
-See the `FAIR data page <./FAIR.html>`_. 
-
-Open versus Public versus FAIR:
-
-One definition of open: http://opendefinition.org/
-
-FAIR does not demand that data be open.
-
- 
 Best practices for the data life cycle
 ~~~~~~~~~~~~~~~~~~~~~
 The summary below is adapted from the excellent `DataONE best practices primer <https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf>`_.
@@ -156,7 +146,22 @@ The CyVerse Data Commons supports good data description through
  - Follow open science principles for reproducible analyses (CyVerse, RStudio, notebooks, IDEs)
  - State your hypotheses and analysis workflow before collecting data. Tools like `OSF <https://osf.io/>`_ allow you to make this public.
  - Record all software, parameters, inputs, etc.
+
+----
  
+FAIR data
+~~~~~~~~~~~~~~~~~~~~~
+
+How to make data findable, accessible, interoperable, and reusable. 
+
+See the `FAIR data page <./FAIR.html>`_. 
+
+Open versus Public versus FAIR:
+
+One definition of open: http://opendefinition.org/
+
+FAIR does not demand that data be open.
+
 ----
 
 References and Resources
