@@ -99,6 +99,7 @@
 
 **M**
 
+- **makefile:** a file containing a set of directives used by a `make build automation tool<https://www.gnu.org/software/make/>`_
 - **markdown:** a lightweight markup language with plain text formatting syntax
 - **multi-thread:** a process which runs on more than one CPU or GPU core at the same time
 - **master node:** responsible for deciding what runs on all of the cluster's nodes. Can include scheduling workloads, like containerized applications, and managing the workloads' lifecycle, scaling, and upgrades. The master also manages network and storage resources for those workloads
@@ -154,6 +155,7 @@
 - **thread:** a CPU process or a series of linked messages in a discussion board
 - **tool:** In the context of CyVerse Discovery Environment, a Docker Container 
 - **TPU:** tensor processing unit
+- **Travis:** `Travis-CI <https://travis-ci.org/>`_, a continuous integration software
 
 **U**
 
