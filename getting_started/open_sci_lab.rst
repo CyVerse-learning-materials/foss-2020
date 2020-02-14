@@ -66,10 +66,11 @@
 **Day 2**
 
 .. admonition:: Question - Project Management
+   :class: admonition-question
 
      How could you combine R and GitHub to manage your project?
      
-   .. admonition:: Hint
+   .. admonition:: Answer
    
      `Using Git & RStudio <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/software_essentials/RStudio_Git.html>`_
 
@@ -79,20 +80,20 @@
         
 .. admonition:: Discussion - Data Management
  
-     List two specific ways (i.e. related to an actual project you are working on) in which you could use command line skills to improve your productivity. 
-    
+     List two specific ways (i.e. related to an actual project you are working on) in which you could use command line skills to improve your productivity.
 
 **Day 3**
 
 .. admonition:: Question - Collaboration
+    :class: admonition-question
   
       Which CyVerse features would make collaboration easier for you?
 
-   .. admonition:: Hint
+   .. admonition:: Answer
    
       `CyVerse Features <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/intro_to_cyverse.html>`_
 
-.. admonition:: Question - Cloud Computing
+.. admonition:: Discussion - Cloud Computing
 
    Describe a situation in which you would use cloud computing or HPC to scale your research? 
    
@@ -106,14 +107,20 @@
 **Day 4**
 
 .. admonition:: Question - Data Management
-
+   :class: admonition-question
+    
    How would you use the CyVerse Data Store to manage the data for a complex, distributed project?
+   
+   .. admonition:: Answer
+   
+      `CyVerse Data Store <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/de-data-manage.html>`_
 
 .. admonition:: Question - Data Management
-
+   :class: admonition-question
+    
    What is some element of a data management plan that you had not thought of before today? How would you make a plan for this element?
 
-      .. admonition:: Answer
+   .. admonition:: Answer
       
          `Data Management Overview <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/Data_management/overview.html>`_
          
