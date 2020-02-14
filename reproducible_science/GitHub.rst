@@ -128,11 +128,11 @@ OR
 Can delete repo under "Settings" -> "Options"
 
 
-*Command Line*
+**Command Line**
 
 1. Locate local folder / directory titled "Lab"
 
-.. code-block:: 
+.. code-block:: bash
 
    cd path/to/location
    mkdir <folder_name>
@@ -140,7 +140,7 @@ Can delete repo under "Settings" -> "Options"
 
 2. Add to GitHub
 
-.. code-block:: 
+.. code-block:: bash
 
    git init
    echo "This is a test repo" >> README.md #append to file
@@ -167,7 +167,7 @@ This is used to work *locally* rather than online.
 
 *Command Line*
 
-.. code-block:: 
+.. code-block:: bash
 
    cd path/to/location
    git clone <url> [rename]
@@ -193,14 +193,14 @@ OR
 
 1. Create a file
 
-.. code-block:: 
+.. code-block:: bash
 
    cd path/to/repo
    touch file.txt
 
 2. Add file(s)
 
-.. code-block:: 
+.. code-block:: bash
 
    git add -A #adds all the new files
    git push
@@ -239,7 +239,7 @@ Issues are great for tracking decisions made or to-do lists
 
 *Command Line*
 
-.. code-block:: 
+.. code-block:: bash
 
    git log
    git log --stat #gives abbreviated stats for each commit
@@ -266,7 +266,7 @@ OR
 
 1. Create a new branch
 
-.. code-block:: 
+.. code-block:: bash
 
    cd path/to/repo
    #common practice to pull before commiting anything
@@ -277,7 +277,7 @@ OR
 
 2. Edit some files
 
-.. code-block:: 
+.. code-block:: bash
 
    #edit files
    vi path/to/file
@@ -285,7 +285,7 @@ OR
 
 3. Commit changes
 
-.. code-block:: 
+.. code-block:: bash
 
    git pull
    git add 
@@ -317,7 +317,7 @@ Pull requests are useful to have another set of eyes to review changes  before m
 
 *Command Line*
 
-.. code-block::
+.. code-block:: bash
 
    cd path/to/repo
    git pull
@@ -330,7 +330,7 @@ Pull requests are useful to have another set of eyes to review changes  before m
 
 *Command Line*
 
-.. code-block::
+.. code-block:: bash
 
    git log
    #copy tag for last working commit
@@ -356,7 +356,7 @@ Pull requests are useful to have another set of eyes to review changes  before m
 
 *Command Line*
 
-.. code-block:: 
+.. code-block:: bash
 
    git close <github-repo>
    cd <new-folder>
@@ -384,39 +384,39 @@ These are *Online only*
 
 .. Definitions::
 
-   *Git* - tool for version control.
+   **Git** - tool for version control.
    
-   *GitHub* - hosted server that is also interactive.
+   **GitHub** - hosted server that is also interactive.
    
-   *repo* - short for repository; GitHub lets you create a remote repository online.
+   **repo** - short for repository; GitHub lets you create a remote repository online.
    
-   *local* - on your personal computer.
+   **local** - on your personal computer.
    
-   *clone* - copy of a repository that lives locally on your computer. Pushing changes will affect the repository online.
+   **clone** - copy of a repository that lives locally on your computer. Pushing changes will affect the repository online.
    
-   *fetch* - getting latest changes to the repository on your local computer.
+   **fetch** - getting latest changes to the repository on your local computer.
    
-   *branch* - parallel to the master branch; allows you to make changes without affecting the master branch. Changes made on a branch can be merged back to the master.
+   **branch** - parallel to the master branch; allows you to make changes without affecting the master branch. Changes made on a branch can be merged back to the master.
    
-   *fork* - copy of someone else's repository stored locally on your account. From forks, you can make pull requests to the master branch.
+   **fork** - copy of someone else's repository stored locally on your account. From forks, you can make pull requests to the master branch.
    
-   *upstream* - primary or master branch of original repository.
+   **upstream** - primary or master branch of original repository.
    
-   *downstream* - branch or fork of repository.
+   **downstream** - branch or fork of repository.
    
-   *untracked* - changes made locally but not yet commited or pushed to the online repo.
+   **untracked** - changes made locally but not yet commited or pushed to the online repo.
    
-   *staged* - item added to the repo.
+   **staged** - item added to the repo.
    
-   *commit* - finalize a change.
+   **commit** - finalize a change.
    
-   *push* - add changes back to the remote repository.
+   **push** - add changes back to the remote repository.
    
-   *merge* - takes changes from a branch or fork and applies them to the master.
+   **merge** - takes changes from a branch or fork and applies them to the master.
    
-   *pull request* - proposed changes to/within a repository.
+   **pull request** - proposed changes to/within a repository.
    
-   *issue* - suggestions or tasks needed for the repository. Allows you to track decisions, bugs with the repository, etc.
+   **issue** - suggestions or tasks needed for the repository. Allows you to track decisions, bugs with the repository, etc.
 
 
 **Git cheat sheet**
