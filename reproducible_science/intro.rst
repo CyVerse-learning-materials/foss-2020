@@ -125,7 +125,7 @@ general.
 
    <a href="https://blogs.scientificamerican.com/observations/to-fix-the-reproducibility-crisis-rethink-how-we-do-experiments/" target="blank">3</a>
 
-.. |Most scientists 'can't replicate studies by their peers'|  raw:: html
+.. |Most scientists can't replicate studies by their peers|  raw:: html
 
    <a href="https://www.bbc.com/news/science-environment-39054778" target="blank">Most scientists can't replicate studies by their peers</a>
 
