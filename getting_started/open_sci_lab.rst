@@ -6,7 +6,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-**Open Science Lab**
+**Open Science Introductory Activity**
 -----------------
 
 .. #### Comment: material for an ongoing activity during FOSS 2019
@@ -19,9 +19,102 @@
 - Describe your work or research area and draw a picture of the other person's research.
 
 **Planning your own Open Science lab**
+""""""""""""""""""
 
-- Everyone please create a copy of the `template <https://github.com/CyVerse-learning-materials/foss-2020/raw/master/getting_started/open_lab_plan.docx>`_ and save it in the same directory.
+- Download a copy of the `template <https://github.com/CyVerse-learning-materials/foss-2020/raw/master/getting_started/open_lab_plan.docx>`_ 
 - Rename the file replacing "template" with your name.
+
+**Day 1**
+
+.. admonition:: Question - Communication
+
+   Knowing your work style, how do you think you will be most productive in a team?
+   
+      .. admonition:: Hints
+      
+      `Communication <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/reproducible_science/communication.html>`_
+
+.. admonition:: Question - Collaboration
+  
+   How might you use a team charter in your work?
+   
+      .. admonition:: Ideas
+      
+         Create a Charter that has:
+         
+            - Start and End Dates
+            - Project Description
+            - Roles and Responsibilities
+            - Project Justification
+            - List of Deliverables
+            - Approach
+            - Success Criteria
+            - Key Assumptions           
+        
+.. admonition:: Discussion - Project Management
+
+   Imagine you are managing a medium-sized project with collaborators in three different locations. Describe how you would use technologies like GitHub, Gitter, Slack, Wikis, or Jira to manage your project.
+   
+   .. admonition:: Hints
+   
+      `Version Control with GitHub <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/reproducible_science/GitHub.html>`_
+      `Documentation <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/reproducible_science/websites.html>`_
+
+
+**Day 2**
+
+.. admonition:: Question - Project Management
+
+     How could you combine R and GitHub to manage your project?
+     
+   .. admonition:: Hint
+   
+     `Using Git & RStudio <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/software_essentials/RStudio_Git.html>`_
+
+.. admonition:: Discussion - Project Management
+
+     Describe how you could use R to make your research more reproducible. Include specific examples from a project you are working on.
+        
+.. admonition:: Discussion - Data Management
+ 
+     List two specific ways (i.e. related to an actual project you are working on) in which you could use command line skills to improve your productivity. 
+    
+
+**Day 3**
+
+.. admonition:: Question - Collaboration
+  
+      Which CyVerse features would make collaboration easier for you?
+
+   .. admonition:: Hint
+   
+      `CyVerse Features <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/intro_to_cyverse.html>`_
+
+.. admonition:: Question - Cloud Computing
+
+   Describe a situation in which you would use cloud computing or HPC to scale your research? 
+   
+   How would you go about setting up the solution? 
+   
+      .. admonition:: Hint
+      
+         `Use Free Research Cyberinfrastructure <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/cloud_comput/xsede.html>`_
+
+
+**Day 4**
+
+.. admonition:: Question - Data Management
+
+   How would you use the CyVerse Data Store to manage the data for a complex, distributed project?
+
+.. admonition:: Question - Data Management
+
+   What is some element of a data management plan that you had not thought of before today? How would you make a plan for this element?
+
+      .. admonition:: Answer
+      
+         `Data Management Overview <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/Data_management/overview.html>`_
+         
 
 .. Comment: Instructor makes a copy to demonstrate
 
