@@ -89,8 +89,7 @@ OR
    - form of metadata
    - this tells you and the those looking at the repository what it is about
 5. Go to "Clone or Download" and clone to local folder / directory titled "Lab"
-
-Can delete repo under "Settings" -> "Options"
+6. Can delete repo under "Settings" -> "Options"
 
 **Command Line**
 
@@ -276,7 +275,7 @@ Pull requests are useful to have another set of eyes to review changes  before m
 
 1. Go to "Pull requests"
 2. Select down arrow of "Merge pull request" (if no conflicts)
-6. Delete branch
+3. Delete branch
 4. Leave comment if need be
 5. Close pull request
 
