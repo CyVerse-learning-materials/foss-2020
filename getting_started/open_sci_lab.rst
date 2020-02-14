@@ -68,7 +68,7 @@
 .. admonition:: Question - Project Management
    :class: admonition-question
 
-     How could you combine R and GitHub to manage your project?
+   How could you combine R and GitHub to manage your project?
      
    .. admonition:: Answer
    
