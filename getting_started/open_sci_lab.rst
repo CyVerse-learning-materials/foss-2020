@@ -27,18 +27,20 @@
 **Day 1**
 
 .. admonition:: Question - Communication
+   :class: admonition-question
 
    Knowing your work style, how do you think you will be most productive in a team?
    
-      .. admonition:: Hints
+   .. admonition:: Answer
       
       `Communication <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/reproducible_science/communication.html>`_
 
 .. admonition:: Question - Collaboration
+   :class: admonition-question
   
    How might you use a team charter in your work?
    
-      .. admonition:: Ideas
+   .. admonition:: Answer
       
          Create a Charter that has:
          
