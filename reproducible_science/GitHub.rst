@@ -437,96 +437,68 @@ Here is a list of the most important commands in Git:
     :header-rows: 1
 
     * - Branching & Merging
-      - Command
       - Description 
-    * -
-      - ``git branch`` 
+    * - ``git branch`` 
       - List branches (the asterisk denotes the current branch) 
-    * -
-      - ``git branch -a`` 
+    * - ``git branch -a`` 
       - List all branches (local and remote) 
-    * -
-      - ``git branch [branch name]`` 
+    * - ``git branch [branch name]`` 
       - Create a new branch 
-    * -
-      - ``git branch -d [branch name]`` 
+    * - ``git branch -d [branch name]`` 
       - Delete a branch 
-    * - 
-      - ``git push origin --delete [branch name]``
+    * - ``git push origin --delete [branch name]``
       - Delete a remote branch 
-    * - 
-      - ``git checkout -b [branch name]`` 
+    * - ``git checkout -b [branch name]`` 
       - Create a new branch and switch to it 
-    * - 
-      - ``git checkout -b [branch name] origin/[branch name]`` 
+    * - ``git checkout -b [branch name] origin/[branch name]`` 
       - Clone a remote branch and switch to it 
-    * - 
-      - ``git checkout [branch name]`` 
+    * - ``git checkout [branch name]`` 
       - Switch to a branch 
-    * - 
-      - ``git checkout -`` 
+    * - ``git checkout -`` 
       - Switch to the branch last checked out 
-    * -  
-      - ``git checkout -- [file-name.txt]`` 
+    * - ``git checkout -- [file-name.txt]`` 
       - Discard changes to a file 
-    * - 
-      - ``git merge [branch name]`` 
+    * - ``git merge [branch name]`` 
       - Merge a branch into the active branch 
-    * - 
-      - ``git merge [source branch] [target branch]`` 
+    * - ``git merge [source branch] [target branch]`` 
       - Merge a branch into a target branch 
-    * - 
-      - ``git stash`` 
+    * - ``git stash`` 
       - Stash changes in a dirty working directory 
-    * - 
-      - ``git stash clear`` 
+    * - ``git stash clear`` 
       - Remove all stashed entries 
 
 .. list-table::
     :header-rows: 1
 
     * - Sharing & Updating Projects
-      - Command
       - Description 
-    * -       
-      - ``git push origin [branch name]`` 
+    * - ``git push origin [branch name]`` 
       - Push a branch to your remote repository 
-    * -       
-      - ``git push -u origin [branch name]`` 
+    * - ``git push -u origin [branch name]`` 
       - Push changes to remote repository (and remember the branch)
-    * - 
-      - ``git push`` 
+    * - ``git push`` 
       - Push changes to remote repository (remembered branch)
-    * - 
-      - ``git push origin --delete [branch name]`` 
+    * - ``git push origin --delete [branch name]`` 
       - Delete a remote branch
-    * - 
-      - ``git pull`` 
+    * - ``git pull`` 
       - Update local repository to the newest commit
-    * - 
-      - ``git pull origin [branch name]`` 
+    * - ``git pull origin [branch name]`` 
       - Pull changes from remote repository 
-    * - 
-      - ``git remote add origin ssh://git@github.com/[username]/[repository-name].git`` 
+    * - ``git remote add origin ssh://git@github.com/[username]/[repository-name].git`` 
       - Add a remote repository 
-    * - 
-      - ``git remote set-url origin ssh://git@github.com/[username]/[repository-name].git`` 
+    * - ``git remote set-url origin ssh://git@github.com/[username]/[repository-name].git`` 
       - Set a repository's origin branch to SSH 
 
 .. list-table::
     :header-rows: 1
 
     * - Inspection & Comparison
-      - Command
       - Description 
-    * - 
-      - ``git log`` 
+    * - ``git log`` 
       - View changes
-    * - 
-      - ``git log --summary`` 
+    * - ``git log --summary`` 
       - View changes (detailed)
-    * - 
-      - ``git diff [source branch] [target branch]`` 
+    * - ``git diff [source branch] [target branch]`` 
       - Preview changes before merging
 
 .. |Git_Hub| image:: ../img/git-logo.png
