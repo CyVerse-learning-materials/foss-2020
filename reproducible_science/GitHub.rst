@@ -14,69 +14,34 @@ The `most commmon version control software <https://en.wikipedia.org/wiki/List_o
 
 Given the limited amount of time we have this week, we are only going to cover `Git <https://git-scm.com/>`_ and one web-based hosting service (`GitHub <https://github.com/>`_) in this camp.
 
-**Setup**
----------
+In this lesson you will learn how to:
 
-1. Create an account on GitHub:
+- Interact with ``git`` via GitHub
+	- Using a browser
+  	- Using the command line
+- Add collaborators to your organization
+- Initialize a ``git`` repository on the command line and push it to GitHub
+	- Push/pull files
+	- Commit to GitHub
+- Learn about versions
+	- Forks
+	- Branches
+	- Merges
+	- Revert
+	- Releases
+	- Badging
 
-   - `GitHub <https://github.com/>`_
+.. Goals::
 
-2. Create an *organization* on GitHub.
+	- Feel comfortable using the GitHub environment
+	- Integrate at least one repository onto GitHub
 
-   - `GitHub Organization <https://help.github.com/en/enterprise/2.19/admin/user-management/creating-organizations>`_
 
-3. Create a folder on your computer titled "GitHub"
+.. Prerequisites::
+	
+   In order to complete this exercise you should have already installed ``git`` for the command line (`instructions <https://git-scm.com/downloads>`_) & created an account on the `GitHub <https://github.com/>`_
 
-4. Create a subfolder on your computer titled "Lab"
-
-5. Install Git
-
-   - `Download <https://git-scm.com/downloads>`_
-
-**Introduction**
-----------------
-
-We will learn how to:
-
-- Interact with the GitHub environment
-  - Using the web interface
-  - Using command line
-- Best practices
-- Add collaborators
-- Create a repository
-- Push/pull files
-- Commit to GitHub
-- Create an issue
-- Branching
-- Pull requests
-- Merging
-- Advanced GitHub
-  - Amend
-  - Fork
-  - Revert
-  - Releases
-  - Badges
-
-Goals:
-
-- Learn the importance of Version Control
-- Feel comfortable using the GitHub environment
-- Integrate at least one research project on GitHub
-
-**Background**
---------------
-
-GitHub Uses
-~~~~~~~~~~~
-
-- Version control
-- Collaborative projects
-- Creating websites
-- Teaching tools
-- Software development
-- Code development
-
-.. NOTE::
+.. Important::
 
    GitHub is not really intended for storing or manipulating data
 
@@ -127,24 +92,24 @@ OR
 
 Can delete repo under "Settings" -> "Options"
 
-
 **Command Line**
 
-1. Locate local folder / directory titled "Lab"
+1. Locate or create a local folder / directory structure titled "Lab"
 
 .. code-block:: bash
 
-   cd path/to/location
-   mkdir <folder_name>
-   cd <folder_name>
+   cd
+   mkdir -p github/lab
+   cd github/lab
+   
 
-2. Add to GitHub
+2. Initialize folder as a repository with ``git``
 
 .. code-block:: bash
 
    git init
    echo "This is a test repo" >> README.md #append to file
-   git add . #add all the files
+   git add . #add all the files in the current directory
    git commit -m "initial project"
 
 .. NOTE::
@@ -565,5 +530,4 @@ Here is a list of the most important commands in Git:
       - Preview changes before merging
 
 .. |Git_Hub| image:: ../img/git-logo.png
-    :width: 50
-    :height: 50
+    :width: 150
