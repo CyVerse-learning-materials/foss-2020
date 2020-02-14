@@ -120,7 +120,7 @@
       -
     * -
       - 10:20-11:00
-      - `FAIR Data Principles cont. <../Data_management/dmp.html>`_ (Walls)
+      - `Data Management Plans <../Data_management/dmp.html>`_ (Walls)
       - Writing a Data Management Plan
       - Learn how to write an excellent DMP!
     * -
