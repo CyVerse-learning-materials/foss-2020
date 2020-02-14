@@ -42,6 +42,11 @@ Jenkins is a bit harder to set up because you need a dedicated server
 
 `Setup <https://jenkins.io/doc/book/installing/>`_
 
+**GitHub Actions**
+~~~~~~~~~~~~
+
+GitHub now offers 'actions' which serve as an `integrated CI for your repositories <https://help.github.com/en/actions/building-and-testing-code-with-continuous-integration/setting-up-continuous-integration-using-github-actions>`_
+
 
 **Badges**
 ~~~~~~~~~
