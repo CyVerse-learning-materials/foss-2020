@@ -31,7 +31,7 @@
 - **conda:** an installation type of the Anaconda data science platform. Command line application for managing packages and environments 
 - **container:** virtualization of an operating system run within an isolated user space
 - **continuous integration (CI):** automated integration of code into a repository. Used as a means of version & quality control
-- **continuous development (CD):** production of software on short time schedules
+- **continuous delivery/development (CD):** production of software on short time schedules
 - **CRAN:** The `Comprehensive R Archive Network <https://cran.r-project.org/>`_
 - **CyVerse tool:** Software program that is integrated into the back end of the DE for use in DE apps
 - **CyVerse app:** graphic interface of a tool made available for use in the DE
