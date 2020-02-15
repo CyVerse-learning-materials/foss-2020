@@ -77,6 +77,7 @@ By working through an example project relevant to their interests, participants 
    reproducible_science/intro
    reproducible_science/communication
    reproducible_science/GitHub
+   reproducible_science/cicd
    reproducible_science/websites
 
 
@@ -119,7 +120,6 @@ By working through an example project relevant to their interests, participants 
    Containers/dockeronatmo
    Containers/dockerintro
    Containers/dockeradvanced
-   software_essentials/continuous_integration
 
 .. toctree::
    :maxdepth: 1
