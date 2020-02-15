@@ -30,14 +30,18 @@
 - **command:** a set of instructions sent to the computer, typically in a typed interface 
 - **conda:** an installation type of the Anaconda data science platform. Command line application for managing packages and environments 
 - **container:** virtualization of an operating system run within an isolated user space
-- **continuous integration (CI):** automated integration of code into a repository. Used as a means of version & quality control
-- **continuous delivery/development (CD):** production of software on short time schedules
+- **Continuous Integration:** (CI) is testing automation to check that the application is not broken whenever new commits are integrated into the main branch
+- **Continuous Delivery:** (CD) is an extension of 'continuous integration' to make sure that you can release new changes in a sustainable way
+- **Continuous Deployment:** a step further than 'continuous delivery', every change that passes all stages of your production pipeline is released
+- **Continuous Development:** a process for iterative software development and is an umbrella over several other processes including 'continuous integration', 'continuous testing', 'continuous delivery' and 'continuous deployment'
+- **Continuous Testing:** a process of testing and automating software development.
 - **CRAN:** The `Comprehensive R Archive Network <https://cran.r-project.org/>`_
 - **CyVerse tool:** Software program that is integrated into the back end of the DE for use in DE apps
 - **CyVerse app:** graphic interface of a tool made available for use in the DE
 
 **D**
 
+- **Development:** the environment on your computer where you write code
 - **DevOps** Software *Dev*elopment and information techology *Op*erations techniques for shortening the time to change software in relation to CI/CD
 - **Discovery Environment (DE):** a data science workbench for running executable, interactive, and high throughput applications in `CyVerse DE <https://de.cyverse.org>`_
 - **Docker:** `Docker <https://www.docker.com/>`_ is an open source software platform to create, deploy and manage virtualized application containers on a common operating system (OS), with an ecosystem of allied tools. A program that runs and handles life-cycle of containers and images
@@ -120,6 +124,7 @@
 - **PaaS:** `Platform as a Service <https://en.wikipedia.org/wiki/Platform_as_a_service>`_ run and manage applications in cloud without complexity of developing it yourself
 - **package:** an app designed for a particular langauge
 - **package manager:** a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner
+- **Production:** environment where users access the final code after all of the updates and testing
 - **Python:**  interpreted, high-level, general-purpose programming language `Python.org <https://www.python.org/>`_
 
 **Q**
@@ -146,6 +151,7 @@
 - **SLACK:** Searchable Log of All Conversation and Knowledge, a team communication tool `slack.com <https://slack.com/>`_
 - **sprint:** set period of time during which specific work has to be completed and made ready for review
 - **Singularity def file:** (definition file) recipe for building a Singualrity container
+- **Stage:**  environment that is as similar to the production environment as can be for final testing
 
 **T**
 
