@@ -7,6 +7,7 @@
 
 **Glossary & Acronyms**
 ^^^^^^^^^^^^
+
 **A**
 
 - **action:** automate a workflow in the context of CI/CD, see `GitHub Actions <https://github.com/features/actions>`_
@@ -21,7 +22,7 @@
 
 - **beta:** :math:`\beta`, a software version which is not yet ready for publication but is being tested
 - **bash:** Bash is the GNU Project's shell, the `Bourne-Again Shell <https://www.gnu.org/software/bash/>`_
--  **biocontainer:** a community-driven project that provides the infrastructure and basic guidelines to create, manage and distribute bioinformatics packages (e.g conda) and containers (e.g docker, singularity) 
+- **biocontainer:** a community-driven project that provides the infrastructure and basic guidelines to create, manage and distribute bioinformatics packages (e.g conda) and containers (e.g docker, singularity) 
 -  **bioconda:** a channel for the conda package manager specializing in bioinformatics software
 
 **C**
@@ -41,9 +42,11 @@
 
 **D**
 
+- **Debian:** `a free OS <https://www.debian.org/>`_, base of other Linux distributions such as Ubuntu
 - **Development:** the environment on your computer where you write code
 - **DevOps** Software *Dev*elopment and information techology *Op*erations techniques for shortening the time to change software in relation to CI/CD
 - **Discovery Environment (DE):** a data science workbench for running executable, interactive, and high throughput applications in `CyVerse DE <https://de.cyverse.org>`_
+- **distribution:** abbreviated as 'distro', an operating system made from a software collection based upon the Linux kernel
 - **Docker:** `Docker <https://www.docker.com/>`_ is an open source software platform to create, deploy and manage virtualized application containers on a common operating system (OS), with an ecosystem of allied tools. A program that runs and handles life-cycle of containers and images
 - **DockerHub:** an official registry of docker containers, operated by Docker. `DockerHub <https://hub.docker.com/>`_
 - **DOI:** a digital object identifier. A persistant identifier number, managed by the `doi.org <https://www.doi.org/>`_
@@ -107,6 +110,7 @@
 - **markdown:** a lightweight markup language with plain text formatting syntax
 - **multi-thread:** a process which runs on more than one CPU or GPU core at the same time
 - **master node:** responsible for deciding what runs on all of the cluster's nodes. Can include scheduling workloads, like containerized applications, and managing the workloads' lifecycle, scaling, and upgrades. The master also manages network and storage resources for those workloads
+- **Mac OS X:** Apple's popular desktop OS
 
 **N**
 
@@ -165,6 +169,7 @@
 
 **U**
 
+- **Ubuntu:** most popular `Linux OS distribution <https://ubuntu.com/>`_, based on Debian
 - **UNIX:** operating system 
 - **user:** the profile under which applications are started and run, ``root`` is the most powerful system administrator
 
@@ -177,6 +182,7 @@
 
 - **waterfall:** software development broken into linear sequential phases, similar to a Gantt chart
 - **webGL:** JavaScript API for rendering interactive 2D and 3D graphics within any compatible web browser without the use of plug-ins
+- **Windows:** Microsoft's most popular desktop OS
 - **workspace:** (vs. repo)
 - **worker node:** A cluster typically has one or more nodes, which are the worker machines that run your containerized applications and other workloads. Each node is managed from the master, which receives updates on each node's self-reported status.
 
@@ -193,6 +199,7 @@
 - **ZenHub:** team collaboration solution built directly into GitHub that uses kanban style boards
 - **Zenodo:** general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN
 - **zip:** a compressed file format
+- **zsh:** `Z-Shell <https://www.zsh.org/>`_, now the default shell on new Mac OS X
 
 ----
 
