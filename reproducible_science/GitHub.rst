@@ -5,7 +5,7 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Version Control**
+**GitHub**
 ===================
 
 `Version Control <https://en.wikipedia.org/wiki/Version_control>`_ is an important component in software development which manages changes to documents, websites, code, or other digital information. Version control can save you when code changes break things. Web hosting of your code repositories lets you share and work on code together and save your work in the event of a hardware failure. 
