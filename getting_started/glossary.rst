@@ -106,8 +106,9 @@
 
 **M**
 
-- **makefile:** a file containing a set of directives used by a `make build automation tool<https://www.gnu.org/software/make/>`_
+- **makefile:** a file containing a set of directives used by a `make build automation tool <https://www.gnu.org/software/make/>`_
 - **markdown:** a lightweight markup language with plain text formatting syntax
+- **metadata::** data about data, useful for searching and querying  
 - **multi-thread:** a process which runs on more than one CPU or GPU core at the same time
 - **master node:** responsible for deciding what runs on all of the cluster's nodes. Can include scheduling workloads, like containerized applications, and managing the workloads' lifecycle, scaling, and upgrades. The master also manages network and storage resources for those workloads
 - **Mac OS X:** Apple's popular desktop OS
@@ -118,6 +119,7 @@
 
 **O**
 
+- **ontology:** formal naming and structural hierarchy used to describe data, also called a 'knowledge graph <https://en.wikipedia.org/wiki/Ontology_(information_science)>`_
 - **organization:** a group, in the context of GitHub a place where developers contribute code to repositories
 - **Operating System (OS):** software that manages computer hardware, software resources, and provides common services for computer programs
 - **Open Science Grid (OSG):** national, distributed computing partnership for data-intensive research `opensciencegrid.org <https://opensciencegrid.org/>`_
@@ -149,6 +151,7 @@
 **S**
 
 - **SaaS:** `Software as a Service <https://en.wikipedia.org/wiki/Software_as_a_service>`_ web based platform for using software
+- **schema:** a metadata standard for labeling, tagging or coding for recording & cataloging information or structuring descriptive records. see `schema.org <https://schema.org/>`_ 
 - **scrum:** daily set of tasks and evalautions as part of a sprint.
 - **shell:** is a command line interface program that runs other programs (may be complex, technical programs or very simple programs such as making a directory). These simple, stand-alone programs are called commands
 - **Singularity:** a container software, used widely on HPC, created by `SyLabs <https://sylabs.io/>`_
