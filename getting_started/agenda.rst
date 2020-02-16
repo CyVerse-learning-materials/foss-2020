@@ -140,9 +140,9 @@
       - a basic understanding of `git <https://git-scm.com/>`_
     * -
       - 14:00-15:00
-      - Key Concepts: Project Management (Swetnam)
-      - Linux, Communication, and Project Management
-      - basic understanding of how open science operates
+      - Key Concepts: Documentation & Cyberinfrastructure (Swetnam)
+      - Creating documentation, available resources
+      - create manuals, tutorials, wikis, and find computer time
     * -
       - 15:00-15:20
       - Break
