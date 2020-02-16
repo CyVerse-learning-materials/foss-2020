@@ -131,8 +131,8 @@
     * -
       - 12:00-13:00
       - Lunch
-      -
-      -
+      - Optional: Conversation with former NSF program officer (Lyons)
+      - Learn tips and tricks for writing your next research proposal
     * -
       - 13:00-14:00
       - The Research Object I: `Introduction to GitHub <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/reproducible_science/GitHub.html>`_ (Balk)
@@ -140,9 +140,9 @@
       - a basic understanding of `git <https://git-scm.com/>`_
     * -
       - 14:00-15:00
-      - Key Concepts: Documentation (Swetnam)
-      -  ReadTheDocs, Bookdown, Wikis
-      - Create documentation for internal and public use
+      - Key Concepts: Project Management (Swetnam)
+      - Linux, Communication, and Project Management
+      - basic understanding of how open science operates
     * -
       - 15:00-15:20
       - Break
