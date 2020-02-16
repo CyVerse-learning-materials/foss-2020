@@ -119,7 +119,7 @@
 
 **O**
 
-- **ontology:** formal naming and structural hierarchy used to describe data, also called a 'knowledge graph <https://en.wikipedia.org/wiki/Ontology_(information_science)>`_
+- **ontology:** formal naming and structural hierarchy used to describe data, also called a `knowledge graph <https://en.wikipedia.org/wiki/Ontology_(information_science)>`_
 - **organization:** a group, in the context of GitHub a place where developers contribute code to repositories
 - **Operating System (OS):** software that manages computer hardware, software resources, and provides common services for computer programs
 - **Open Science Grid (OSG):** national, distributed computing partnership for data-intensive research `opensciencegrid.org <https://opensciencegrid.org/>`_
