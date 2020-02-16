@@ -8,6 +8,12 @@
 **CI/CD**
 ======
 
+Building your own software, data management or workflow management systems requires you to do a significant amount of interpersonnel management, as well as tracking of development. 
+
+Software engineers having long suffered under the burden of disorganization and communication with clients, have come up with a framework for developing software and sharing it with their users. 
+
+While data science applications have a different audience and intended result, the organizational practices of software developers are a valuable and useful tool to consider integrating into your open science lab group. 
+
 **Frequently Used Terms**
 
 - **Continuous Integration:** (CI) is testing automation to check that the application is not broken whenever new commits are integrated into the main branch
@@ -33,12 +39,12 @@ https://www.atlassian.com/continuous-delivery/principles/continuous-integration-
 **Agile**
 """""""""
 
-Agile development practices involve organizing a team around short term (1-2 week long) 'sprints' 
+Agile development practices involve organizing a team around short term (1-2 week long) 'sprints'. Sprints are organized by `scrum master <https://en.wikipedia.org/wiki/Scrum_(software_development)>`_. Team members are assigned tasks and evaluate their results during sprint reviews and planning sessions. 
 
 **Waterfall**
 """""""""
 
-Similar to the common `Gantt chart <>`_
+Similar to the common `Gantt chart <https://en.wikipedia.org/wiki/Gantt_chart>`_ a `waterfall model <https://en.wikipedia.org/wiki/Waterfall_model>`_ is a breakdown of project activities into linear sequential phases, where each phase depends on the deliverables of the previous one and corresponds to a specialisation of tasks. 
 
 
 .. note:: 
