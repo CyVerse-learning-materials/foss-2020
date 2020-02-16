@@ -22,7 +22,7 @@ While data science applications have a different audience and intended result, t
 - **Continuous Development:** a process for iterative software development and is an umbrella over several other processes including 'continuous integration', 'continuous testing', 'continuous delivery' and 'continuous deployment'
 - **Continuous Testing:** a process of testing and automating software development.
 - **Development:** the environment on your computer where you write code
-- **DevOps:** **Dev**elopment and information techology **Op**erations is the set of practices surrounding CI/CD 
+- **DevOps:** **Dev**\elopment and information techology **Op**\erations is the set of practices surrounding CI/CD 
 - **Production:** environment where users access the final code after all of the updates and testing
 - **Stage:**  environment that is as similar to the production environment as can be for final testing
 
