@@ -65,15 +65,20 @@ Exercise:
 
 - `bulk metadata application <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Addingbulkmetadatatomultiplefilesorfolders>`_
 
-Exercise:
-- Copy the B123 file to your home directory
-
+**Exercise:**
+1. Copy the B123 file to your home directory
+- Using icommands:
 .. code-block:: bash
 
     $ icd /iplant/home/$username
     $ icp -r /iplant/home/rwalls/B123 B123
     $ ils
-
+- In the DE:
+ - create a folder in your home directory called **B123**
+ - Move into B123
+ - Upload from URL
+ 
+2. Apply metadata
 - In the DE apply the DE apply metadata to the contents of B123
 	- Browse to B123
 	- View the metadata for one of the files using the *Metadata* menu or the three dots (it should be black)
