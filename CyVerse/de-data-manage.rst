@@ -76,21 +76,38 @@ Exercise:
 - In the DE:
  - create a folder in your home directory called **B123**
  - Move into B123
- - Upload from URL
+ - Upload >> Import from URL...
+ - paste each of the URLs below into a slot. This must be done in two batches.
+ 
+ .. code-block:: bash
+ 
+      https://raw.githubusercontent.com/CyVerse-learning-materials/foss-2020/master/slides/B123/012.txt
+      https://raw.githubusercontent.com/CyVerse-learning-materials/foss-2020/master/slides/B123/123.txt
+      https://raw.githubusercontent.com/CyVerse-learning-materials/foss-2020/master/slides/B123/234.txt
+      https://raw.githubusercontent.com/CyVerse-learning-materials/foss-2020/master/slides/B123/345.txt
+      https://raw.githubusercontent.com/CyVerse-learning-materials/foss-2020/master/slides/B123/456.txt
+      https://raw.githubusercontent.com/CyVerse-learning-materials/foss-2020/master/slides/B123/567.txt
+      https://raw.githubusercontent.com/CyVerse-learning-materials/foss-2020/master/slides/B123/678.txt
+      https://raw.githubusercontent.com/CyVerse-learning-materials/foss-2020/master/slides/B123/789.txt
  
 2. Apply metadata
 - In the DE apply the DE apply metadata to the contents of B123
 	- Browse to B123
-	- View the metadata for one of the files using the *Metadata* menu or the three dots (it should be black)
+	- View the metadata for one of the files using the *Metadata* menu or the three dots (it should be blank)
 	- View the contents of the file ``Rice_metadata.csv``
 	- Browse back to your home directory
-	- Check the box next to any directory
+	- Check the box next to B123
 	- Select *Metadata* > *Apply Bulk Metadata*
 	- Select the file B123/Rice_metadata.csv
 	- Browse back to B123
 	- View the metadata of the different files in the directory
 	
-
+3. Advanced search
+- Click on the search magnifying glass
+- Click +
+- Change File Name to Metadata
+- Under Attribute, type `treatment`, under Value type `cold`
+- Hit Search
 
 Additional resources
 =========================
