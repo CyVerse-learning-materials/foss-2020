@@ -37,7 +37,7 @@ Read the `FAIR paper <https://www.nature.com/articles/sdata201618>`_. It's short
 
 FAIR - TLC
 ===============
-** Traceable, Licensed, and Connected**
+** Traceable, Licensed, and Connected**  - THe need for metrics. https://zenodo.org/record/203295#.XkrzTxNKjzI
 
 Discussion questions
 =================
