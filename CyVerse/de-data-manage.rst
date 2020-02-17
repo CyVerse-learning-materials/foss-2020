@@ -45,7 +45,7 @@ Using metadata in the DE
 
  - Try a simple search for the word "maize"
  - Try an advanced search for attribute = subject and value = maize
- - Other options to be covered on Thursday:
+ - Other options to be covered on Tuesday:
  	- `bulk metadata application <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Addingbulkmetadatatomultiplefilesorfolders>`_
 	- `metadata templates <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Usingmetadatatemplates>`_ 
 
@@ -57,9 +57,9 @@ The Data Commons provides advanced metadata features in the Discovery Environmen
 
 - `metadata templates <https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE#UsingMetadataintheDE-Usingmetadatatemplates>`_ 
 
-Exercise: 
+**Exercise:** 
 - Open the DE
-- Apply the DOI request template to a folder.
+- Apply a Plant Ontology template to a folder.
 - Apply an ontology term to a file or folder.
 
 
