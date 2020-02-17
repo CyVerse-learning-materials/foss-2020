@@ -35,8 +35,19 @@ Read the `FAIR paper <https://www.nature.com/articles/sdata201618>`_. It's short
  - R1.3. (meta)data meet domain-relevant community standard
 
 
+FAIR - TLC
+===============
+** Traceable, Licensed, and Connected**
 
+Discussion questions
+=================
+ - Which do you think is the hardest, F, A, I, or R, and why?
+ - What is the best way to cite data?
+ - What are the relative values of a data publication verus a peer-reviewed paper?
+ - What role do ontologies play in FAIR-TLC?
 
+Hand on Exercise - Metadata in CyVerse
+======================
 
 
 ----
