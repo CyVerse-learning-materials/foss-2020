@@ -22,6 +22,11 @@ DE interface allows uploading and downloading one file at a time. It works best 
 
 From the DE interface, go to "Upload -> Simple Upload from Desktop" to upload a file. For downloading a file go to "Download -> Simple Download".
 
+.. code-block:: bash
+
+    Sample data for practice
+    /iplant/home/shared/iplantcollaborative/example_data/FOSS_2020/foss_sampledata
+
 iCommands
 ===========
 iCommands is a collection of tools developed by the `iRODS project <https://irods.org/>`_, which is the technology that supports the CyVerse Data Store. Using iCommands is the most flexible way to interact with the Data Store.
