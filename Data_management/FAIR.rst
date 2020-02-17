@@ -38,7 +38,7 @@ Read the `FAIR paper <https://www.nature.com/articles/sdata201618>`_. It's short
 FAIR - TLC
 ===============
 **Traceable, Licensed, and Connected**  
- - THe need for metrics: https://zenodo.org/record/203295#.XkrzTxNKjzI
+ - The need for metrics: https://zenodo.org/record/203295#.XkrzTxNKjzI
 
 Discussion questions
 =================
@@ -52,8 +52,8 @@ Hand on Exercise - Metadata in CyVerse
 
  - `Using metadat in the DE <../CyVerse/de-data-manage.html#using-metadata-in-the-de>`_
  - iCommands metadata: `imeta <https://docs.irods.org/4.2.0/icommands/metadata/>`_
- -- example 1: imeta add -C B123 test_metadata value unit
- -- example 2: imeta add -d B123/0123.txt test_metadata value unit
+  - example 1: imeta add -C B123 test_metadata value unit
+  - example 2: imeta add -d B123/0123.txt test_metadata value unit
 ----
 
 References and Resources
