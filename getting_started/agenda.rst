@@ -8,6 +8,8 @@
 **Agenda**
 ==========
 
+AM and PM lesson feedback `Google Form <https://docs.google.com/forms/d/1vmvptQEo5Zf8HARvoDLUL05XKWNRk_hKQWg6kQta7FY>`_
+
 .. Comment: Last year’s syllabus as a chart (for reference): https://docs.google.com/spreadsheets/d/1n5zCJlT9g_vyWx6z-5vmT300ZH-vC6AP4TYKFeJIMZo/edit#gid=0
 
 .. list-table::
