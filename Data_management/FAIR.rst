@@ -49,7 +49,9 @@ Discussion questions
 Hand on Exercise - Metadata in CyVerse
 ======================
 
-
+ - `Using metadat in the DE </CyVerse/de-data-manage.html#using-metadata-in-the-de>`_
+ - iCommands metadata: `imeta <https://docs.irods.org/4.2.0/icommands/metadata/>`_
+ -- example: imeta add ...
 ----
 
 References and Resources
