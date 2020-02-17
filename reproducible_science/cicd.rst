@@ -26,13 +26,12 @@ While data science applications have a different audience and intended result, t
 - **Production:** environment where users access the final code after all of the updates and testing
 - **Stage:**  environment that is as similar to the production environment as can be for final testing
 
-**Continuous Delivery** 
+**Continuous Development** 
 ~~~~~~~~~~~~~~~~~
 
-The concept of 'continuous delivery' 
+The software developer concept of 'continuous delivery' can be applied to your data science projects and lab. 
 
-As we've discussed, version control is an important component of modern software development. Critically, version control can also be used in data science applications and for researh project management. There are two dominant forms of project management for continuous delivery in open source software: `Waterfall <https://en.wikipedia.org/wiki/Waterfall_model>`_ and `Agile Scrum <https://en.wikipedia.org/wiki/Agile_software_development>`_.
-
+As we've discussed, version control is an important component of modern software development. Critically, version control can also be used in data science applications and for research project management. There are two dominant forms of project management for continuous delivery in open source software: `Waterfall <https://en.wikipedia.org/wiki/Waterfall_model>`_ and `Agile Scrum <https://en.wikipedia.org/wiki/Agile_software_development>`_.
 
 https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment
 
