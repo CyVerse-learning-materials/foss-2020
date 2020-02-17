@@ -66,7 +66,7 @@
     * -
       - 14:00-14:20
       - `Key Concepts: Linux <https://learning.cyverse.org/projects/foss-2020/en/latest/software_essentials/linux.html>`_ (Swetnam)
-      - Why Linux, Version Control, Containers
+      - `GitPitch link <https://github.com/tyson-swetnam/foss-2020>`_  Why Linux, Version Control, Containers
       - Understanding what open source sofware means to open science
     * -
       - 14:20-14:40
