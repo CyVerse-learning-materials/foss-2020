@@ -40,7 +40,7 @@ FOSS will be held in the `Health Sciences Innovation Building (HSIB)(UA Building
 
 HSIB is adjacent the Banner University Medical Center. In the event of a medical emergency, attendees may be transported to Banner, or to the nearest `urgent care <https://goo.gl/maps/ZkLMyDcDQPQEAAia9>`_ facility. 
 
-There are lactation rooms available in HSIB and BSRL buildings. 
+Lactation rooms are available in HSIB 406 and in BSRL on 2nd floor -- ask Tina if you need help locating them. 
 
 **PARKING**
 
