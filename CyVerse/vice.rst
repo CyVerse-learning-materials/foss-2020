@@ -56,7 +56,7 @@ This is optional but highly recommended step to confirm that the Docker image fo
 
 .. code-block:: bash
 
-  $ docker pull cyversevice/rstudio-base:3.6.0
+  $ docker pull cyversevice/rstudio-verse:3.6.0
 
 You could also use `Play with Docker <https://labs.play-with-docker.com/>`_, which is a free resource to test and run the Docker container.
 
@@ -64,7 +64,7 @@ You could also use `Play with Docker <https://labs.play-with-docker.com/>`_, whi
 
 .. code-block:: bash
 
-  $ docker run --rm -d -p 8787:8787 cyversevice/rstudio-base:3.6.0
+  $ docker run --rm -d -p 8787:8787 cyversevice/rstudio-verse:3.6.0
 
 .. Note::
 
@@ -86,7 +86,7 @@ Fill out the following details
   Description: RStudio VICE app
   Version: 3.6.0
   Type: interactive
-  Image Name: cyversevice/rstudio-base:3.6.0
+  Image Name: cyversevice/rstudio-verse:3.6.0
   Docker Hub URL: https://hub.docker.com/repository/docker/cyversevice/rstudio-base
   Tag: 3.6.0
   Port Number: 80
