@@ -11,6 +11,17 @@
 Read the `FAIR paper <https://www.nature.com/articles/sdata201618>`_. It's short.
 
 
+**Vocabulary**
+- Metadata
+- PID: Permanent Identifier
+- GUID: Globally Unique Identifier 
+- Ontology
+- Provenance
+- License
+- Search Index
+- Access protocol
+
+
 **Findable**
  - F1. (meta)data are assigned a globally unique and persistent identifier
  - F2. data are described with rich metadata (defined by R1 below)
