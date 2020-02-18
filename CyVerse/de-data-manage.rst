@@ -68,11 +68,14 @@ The Data Commons provides advanced metadata features in the Discovery Environmen
 **Exercise:**
 1. Copy the B123 file to your home directory
 - Using icommands:
+
 .. code-block:: bash
 
     $ icd /iplant/home/$username
     $ icp -r /iplant/home/rwalls/B123 B123
     $ ils
+
+
 - In the DE:
  - create a folder in your home directory called **B123**
  - Move into B123
@@ -94,7 +97,7 @@ The Data Commons provides advanced metadata features in the Discovery Environmen
 - In the DE apply the DE apply metadata to the contents of B123
 	- Browse to B123
 	- View the metadata for one of the files using the *Metadata* menu or the three dots (it should be blank)
-	- View the contents of the file ``Rice_metadata.csv``
+	- View the contents of the file `Rice_metadata.csv`
 	- Browse back to your home directory
 	- Check the box next to B123
 	- Select *Metadata* > *Apply Bulk Metadata*
