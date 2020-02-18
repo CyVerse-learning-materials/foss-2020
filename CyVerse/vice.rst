@@ -64,7 +64,9 @@ You could also use `Play with Docker <https://labs.play-with-docker.com/>`_, whi
 
 .. code-block:: bash
 
-  $ docker run --rm -d -p 8787:8787 cyversevice/rstudio-verse:3.6.0
+  $ sudo docker run --rm -v /$HOME:/app --workdir /app -p 8787:80 -e REDIRECT_URL=YOUR_IP_ADDRESS:8787 cyversevice/rstudio-verse:3.6.0
+  
+In your browser address bar, type YOUR_IP_ADDRESS:8787 to access RStudio
 
 .. Note::
 
