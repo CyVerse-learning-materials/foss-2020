@@ -104,15 +104,19 @@ Fill out the following details
 
 Step1: Make a new repo on GitHub
 
-- Create a New repository on GitHub. Initialize this repo with a README
-- Copy the URL via the green "Clone or Download" button
+- Create a New repository on GitHub. Click the green "New" button to create a new repo. Enter the name of the repo and check initialize this repo with a README file. Click "Create Repository" button.
 
 Step2: Clone the new GitHub repo
 
+- From Github, copy the repo URL via the green "Clone or Download" button.
 - In RStudio, start a new project. File > New Project > Version Control > Git. Paste the GitHub URL in the "repository URL".
+- Enter the name of the "project directory" which should be same as the name of your GitHub repo.
+- Click "Create Project".
 
 Step3: Push your changes to GitHub
 
+
+To push the changes to the remote GitHub repository press the Push button on the upper right corner of the commit window. You will be prompted to enter the username and password of your GitHub account.
 
 **Sharing VICE apps with collaborators**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
