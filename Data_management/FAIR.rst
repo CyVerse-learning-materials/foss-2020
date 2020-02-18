@@ -40,21 +40,25 @@ FAIR - TLC
 **Traceable, Licensed, and Connected**  
  - The need for metrics: https://zenodo.org/record/203295#.XkrzTxNKjzI
 
-.. Question::
-  
-  Which do you think is the hardest, F, A, I, or R, and why?
-
-.. Question::
+.. admonition:: Question 
+   :class: admonition-question
    
-  What is the best way to cite data?
+   Which do you think is the hardest, F, A, I, or R, and why?
+
+.. admonition:: Question
+   :class: admonition-question 
+   
+   What is the best way to cite data?
   
-.. Question::
+.. admonition:: Question
+   :class: admonition-question
+   
+   What are the relative values of a data publication verus a peer-reviewed paper?
 
-  What are the relative values of a data publication verus a peer-reviewed paper?
-
-.. Question::
-
-  What role do ontologies play in FAIR-TLC?
+.. admonition:: Question
+   :class: admonition-question
+  
+   What role do ontologies play in FAIR-TLC?
 
 Hands on Exercise - Metadata in CyVerse
 ======================
