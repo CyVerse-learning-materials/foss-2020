@@ -92,6 +92,8 @@ The Data Commons provides advanced metadata features in the Discovery Environmen
       https://raw.githubusercontent.com/CyVerse-learning-materials/foss-2020/master/slides/B123/567.txt
       https://raw.githubusercontent.com/CyVerse-learning-materials/foss-2020/master/slides/B123/678.txt
       https://raw.githubusercontent.com/CyVerse-learning-materials/foss-2020/master/slides/B123/789.txt
+      https://raw.githubusercontent.com/CyVerse-learning-materials/foss-2020/master/slides/B123/Rice_metadata.csv
+      
  
 2. Apply metadata
 - In the DE apply the DE apply metadata to the contents of B123
