@@ -40,20 +40,29 @@ FAIR - TLC
 **Traceable, Licensed, and Connected**  
  - The need for metrics: https://zenodo.org/record/203295#.XkrzTxNKjzI
 
-Discussion questions
-=================
- - Which do you think is the hardest, F, A, I, or R, and why?
- - What is the best way to cite data?
- - What are the relative values of a data publication verus a peer-reviewed paper?
- - What role do ontologies play in FAIR-TLC?
+.. Question::
+  
+  Which do you think is the hardest, F, A, I, or R, and why?
 
-Hand on Exercise - Metadata in CyVerse
+.. Question::
+   
+  What is the best way to cite data?
+  
+.. Question::
+
+  What are the relative values of a data publication verus a peer-reviewed paper?
+
+.. Question::
+
+  What role do ontologies play in FAIR-TLC?
+
+Hands on Exercise - Metadata in CyVerse
 ======================
 
- - `Using metadat in the DE <../CyVerse/de-data-manage.html#using-metadata-in-the-de>`_
+ - `Using metadata in the DE <../CyVerse/de-data-manage.html#using-metadata-in-the-de>`_
  - iCommands metadata: `imeta <https://docs.irods.org/4.2.0/icommands/metadata/>`_
-  - example 1: `imeta add -C B123 test_metadata value unit`
-  - example 2: `imeta add -d B123/0123.txt test_metadata value unit`
+  - example 1: ``imeta add -C B123 test_metadata value unit``
+  - example 2: ``imeta add -d B123/0123.txt test_metadata value unit``
 ----
 
 References and Resources
