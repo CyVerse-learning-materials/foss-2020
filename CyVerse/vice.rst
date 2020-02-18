@@ -56,7 +56,7 @@ This is optional but highly recommended step to confirm that the Docker image fo
 
 .. code-block:: bash
 
-  $ docker pull cyversevice/rstudio-base:3.5.2
+  $ docker pull cyversevice/rstudio-base:3.6.0
 
 You could also use `Play with Docker <https://labs.play-with-docker.com/>`_, which is a free resource to test and run the Docker container.
 
@@ -64,7 +64,7 @@ You could also use `Play with Docker <https://labs.play-with-docker.com/>`_, whi
 
 .. code-block:: bash
 
-  $ docker run --rm -d -p 8787:8787 cyversevice/rstudio-base:3.5.2
+  $ docker run --rm -d -p 8787:8787 cyversevice/rstudio-base:3.6.0
 
 .. Note::
 
@@ -84,12 +84,12 @@ Fill out the following details
 
   Tool-Name: FOSS-Rstudio
   Description: RStudio VICE app
-  Version: 3.5.2
+  Version: 3.6.0
   Type: interactive
-  Image Name: cyversevice/rstudio-base:3.5.2
+  Image Name: cyversevice/rstudio-base:3.6.0
   Docker Hub URL: https://hub.docker.com/repository/docker/cyversevice/rstudio-base
-  Tag: 3.5.2
-  Port Number: 8787
+  Tag: 3.6.0
+  Port Number: 80
 
 
 |add-tool-vice|
@@ -107,17 +107,12 @@ Step1: Make a new repo on GitHub
 - Create a New repository on GitHub. Initialize this repo with a README
 - Copy the URL via the green "Clone or Download" button
 
-Step2 A: Clone the new GitHub repo
+Step2: Clone the new GitHub repo
 
 - In RStudio, start a new project. File > New Project > Version Control > Git. Paste the GitHub URL in the "repository URL".
 
-Step2 B: Connect to an exisiting GitHub repo
-
-If you would like to connect to an an existing repo instead of creating a new one. Please follow the steps below:
-
 Step3: Push your changes to GitHub
 
-Leave a note here for config settings
 
 **Sharing VICE apps with collaborators**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
