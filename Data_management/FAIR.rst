@@ -12,14 +12,14 @@ Read the `FAIR paper <https://www.nature.com/articles/sdata201618>`_. It's short
 
 
 **Vocabulary**
-- Metadata
-- PID: Permanent Identifier
-- GUID: Globally Unique Identifier 
-- Ontology
-- Provenance
-- License
-- Search Index
-- Access protocol
+  - Metadata
+  - PID: Permanent Identifier
+  - GUID: Globally Unique Identifier 
+  - Ontology
+  - Provenance
+  - License
+  - Search Index
+  - Access protocol
 
 
 **Findable**
