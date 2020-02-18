@@ -10,9 +10,18 @@
 
 .. #### Comment: References for data management tools
 
-- `CyVerse Data Commons <https://datacommons.cyverse.org/>`_
 - `KNB tools <https://knb.ecoinformatics.org/tools>`_
 - `Open Science Framework <https://osf.io/>`_
+- `CyVerse Data Commons <https://datacommons.cyverse.org/>`_
+
+
+CyVerse Data Commons
+=======================
+
+- Metadata capability (covered earlier - see `Using metadata in the DE <../CyVerse/de-data-manage.html#using-metadata-in-the-de>`_
+- `Managing a shared project on CyVerse <https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons>`_
+- `Community Released Data Folders <https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons>`_
+- `DOIs for datasets <https://cyverse-doi-request-quickstart.readthedocs-hosted.com/en/latest/>`_
 
 
 ----
