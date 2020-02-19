@@ -172,5 +172,6 @@ image reconstruction:
    docker run --rm -v $PWD:/img [DOCKERHUB_USERNAME]/eht-demo -i SR1_M87_2017_095_lo_hops_netcal_StokesI.uvfits -o [NAME].fits --savepdf
 
 It will take some time.  Once it's done, you will see two new files
-`[NAME].fits` and `[NAME].pdf` on the local machines.  Here you go!
-You just reconstructed your own black hole image!
+`[NAME].fits` and `[NAME].pdf` on the local machines.
+
+Here you go!  You just reconstructed your own black hole image!
