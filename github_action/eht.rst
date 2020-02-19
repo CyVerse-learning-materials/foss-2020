@@ -103,3 +103,40 @@ commit.
 Once you are done, click the "Actions" tab again.  You will see the
 workflow is now set up.  It's probably still in the GitHub Action work
 queue.  Wait a bit and it will turn into a running state.
+
+Your "Action" workflow should finish successfully.  However, it built
+an image call `my-image-name` inside the Action build machine.  The
+name is not right, and you cannot use this Docker image.
+
+**Edit GitHub Action**
+----------------------
+
+Click on the name your Action workflow and select the "Workflow file"
+tab, then click the pencil icon on the top right, GitHub gives you an
+online editor again.  Now change the `dockerimage.yml` file to:
+
+.. code-block::
+
+   name: Docker Image CI
+
+   on: [push]
+
+   jobs:
+
+     build:
+
+       runs-on: ubuntu-latest
+
+       steps:
+       - uses: actions/checkout@v2
+       - name: Build the Docker image
+         run: docker build . --file Dockerfile --tag ${{ secrets.DOCKERHUB_USERNAME }}/eht-demo
+       - name: Login to Docker Hub
+         run: echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
+       - name: Push to Docker Hub
+         run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/eht-demo:latest
+
+Once you are done, commit it.  And go back to "Actions" tab.  Because
+editing the Action workflow is itself a Git commit, it triggers Action
+to restart the workflow.  If it works, you it should have built a
+Docker image and push it to Docker Hub.
