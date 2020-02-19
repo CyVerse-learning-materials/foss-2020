@@ -141,8 +141,8 @@ editing the Action workflow is itself a Git commit, it triggers GitHub
 Action to rerun the workflow.  If it works, you it should have built a
 Docker image and push it to Docker Hub.
 
-**EHT Image Reconstruction"**
------------------------------
+**EHT Image Reconstruction**
+----------------------------
 
 Now, we are ready to perform an EHT image reconstruction to create
 your own black hole image!
@@ -175,3 +175,11 @@ It will take some time.  Once it's done, you will see two new files
 `[NAME].fits` and `[NAME].pdf` on the local machines.
 
 Here you go!  You just reconstructed your own black hole image!
+
+**Exercise**
+------------
+
+OK this is cool so far.  But the point of GitHub Actions is that it
+will rerun the workflow whenever you commit and push your repository
+to GitHub.  So try to make some silly changes to your local Git
+repository, push it to GitHub, and see Actions react to your edits.
