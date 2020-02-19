@@ -78,7 +78,7 @@ Once you can open the Rstudio, then you are ready to integrate the tool in DE
 
 **3.1 Log-in to CyVerse Discovery Environment and click on the "Apps" window**
 
-**3.2 Click "Manage Tools" -> "Tools" -> "Add Tool" and fill the details about your Docker image**
+**3.2 Click "Manage Tools" -> "Tools" -> "Add Tool" and fill the details for your Docker image**
 
 Fill out the following details
 
@@ -91,6 +91,7 @@ Fill out the following details
   Image Name: cyversevice/rstudio-verse:3.6.0
   Docker Hub URL: https://hub.docker.com/repository/docker/cyversevice/rstudio-base
   Tag: 3.6.0
+  Working Directory: /home/rstudio
   Port Number: 80
 
 
@@ -102,12 +103,18 @@ Click on the "Apps" window. Click "Apps" -> "Create New"
 
 |create-app-vice|
 
+.. Note::
+
+  For VICE apps, make sure to check "Do not pass this argument to command line"
+
 **Version control using Git within RStudio**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Step1: Make a new repo on GitHub
 
 - Create a New repository on GitHub. Click the green "New" button to create a new repo. Enter the name of the repo and check initialize this repo with a README file. Click "Create Repository" button.
+
+|create-repo|
 
 Step2: Clone the new GitHub repo
 
@@ -127,6 +134,8 @@ Step3: Push your changes to GitHub
   	- git config --global user.name "Your Name"
 
 - To push the changes to the remote GitHub repository press the Push button on the upper right corner of the commit window. You will be prompted to enter the username and password of your GitHub account.
+
+|git-rstudio|
 
 **Sharing VICE apps with collaborators**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -188,6 +197,12 @@ You can share your VICE workspace with colleagues (with a CyVerse account) who c
 
 .. |create-app-vice| image:: ../img/createapp_VICE.png
     :width: 750
+
+.. |create-repo| image:: ../img/createnewrepo.png
+    :width: 250
+
+.. |git-rstudio| image:: ../img/gitrepo.png
+    :width: 250
 
 .. |vice-share-1| image:: ../img/vice-share-1.png
     :width: 750
