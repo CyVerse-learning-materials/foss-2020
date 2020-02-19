@@ -70,9 +70,9 @@ Turn it into an run-able script by
 
    chmod 755 wrapper.sh
 
-Then, add a new ``Dockerfile`` with the follow content:
+Then, add a new :code:`Dockerfile` with the follow content:
 
-.. code-block:: c
+.. code-block:: C
 
    FROM eventhorizontelescope/img-env
 
@@ -110,8 +110,8 @@ workflow is now set up.  It's probably still in the GitHub Action work
 queue.  Wait a bit and it will turn into a running state.
 
 Your "Action" workflow should finish successfully.  However, it built
-an image call ``my-image-name`` inside the Action build machine.  The
-name is not right, and you cannot use this Docker image.
+an image call :code:`my-image-name` inside the Action build machine.
+The name is not right, and you cannot use this Docker image.
 
 
 **Edit GitHub Action**
@@ -119,9 +119,9 @@ name is not right, and you cannot use this Docker image.
 
 Click on the name your Action workflow and select the "Workflow file"
 tab, then click the pencil icon on the top right, GitHub gives you an
-online editor again.  Update the ``dockerimage.yml`` file to:
+online editor again.  Update the :code:`dockerimage.yml` file to:
 
-.. code-block:: c
+.. code-block:: C
 
    name: Docker Image CI
 
@@ -179,7 +179,7 @@ perform the image reconstruction:
    docker run --rm -v $PWD:/img [DOCKERHUB_USERNAME]/eht-demo -i SR1_M87_2017_095_lo_hops_netcal_StokesI.uvfits -o [NAME].fits --savepdf
 
 It will take some time.  Once it's done, you will see two new files
-``[NAME].fits`` and ``[NAME].pdf`` on the local machines.
+:code:`[NAME].fits` and :code:`[NAME].pdf` on the local machines.
 
 Here you go!  You just reconstructed your own black hole image!
 
