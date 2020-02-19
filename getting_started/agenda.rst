@@ -23,7 +23,7 @@
       - Activity (Instructor)
       - Content
       - Expected Outcomes
-    * - Monday (2/17/2020) HSIB 642
+    * - Monday (2/17/2020) Room: HSIB 642
       - 08:30-09:00
       - Instructor pre-briefing (all instructors)
       -
@@ -103,7 +103,7 @@
       - Activity (Instructor)
       - Content
       - Expected Outcomes
-    * - Tuesday (2/18/2020) HSIB 531
+    * - Tuesday (2/18/2020) Room: HSIB 531
       - 08:30-09:00
       - Instructor pre-briefing
       -
@@ -173,7 +173,7 @@
       - Activity (Instructor)
       - Content
       - Expected Outcomes
-    * - Wednesday (2/19/2020) HSIB 642
+    * - Wednesday (2/19/2020) Room: HSIB 642
       - 08:30-09:00
       - Instructor pre-briefing
       -
@@ -243,7 +243,7 @@
       - Activity (Instructor)
       - Content
       - Expected Outcomes
-    * - Thursday (2/19/2020) HSIB 640
+    * - Thursday (2/19/2020) Room: HSIB 640
       - 08:30-09:00
       - Instructor pre-briefing
       -
@@ -293,7 +293,7 @@
       - Activity (Instructor)
       - Content
       - Expected Outcomes
-    * - Friday (2/21/2020) HSIB 640
+    * - Friday (2/21/2020) Room: HSIB 640
       - 08:30-09:00
       - Instructor pre-briefing
       -
