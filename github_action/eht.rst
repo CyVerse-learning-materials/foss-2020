@@ -159,23 +159,27 @@ let's start pulling it first onto your "local" machines (laptop,
 desktop, atmosphere VM, etc).
 
 .. code-block:: bash
+
    docker pull [DOCKERHUB_USERNAME]/eht-demo
 
 Let's also create an empty work directory
 
 .. code-block:: bash
+
    mkdir ~/eht-demo
    cd ~/eht-demo
 
 Remember EHT published its data on CyVerse?  Let's download a data file:
 
 .. code-block:: bash
+
    wget https://de.cyverse.org/anon-files//iplant/home/shared/commons_repo/curated/EHTC_FirstM87Results_Apr2019/uvfits/SR1_M87_2017_095_lo_hops_netcal_StokesI.uvfits
 
 You have both the data and software (in a Docker image).  Let's
 perform the image reconstruction:
 
 .. code-block:: bash
+
    docker run --rm -v $PWD:/img [DOCKERHUB_USERNAME]/eht-demo -i SR1_M87_2017_095_lo_hops_netcal_StokesI.uvfits -o [NAME].fits --savepdf
 
 It will take some time.  Once it's done, you will see two new files
