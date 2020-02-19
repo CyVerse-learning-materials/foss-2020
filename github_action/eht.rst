@@ -25,6 +25,7 @@ published its visibility data on `CyVerse
 and its software pipeline on `GitHub
 <https://github.com/eventhorizontelescope/2019-D01-02>`_ .
 
+
 **Fork the EHT Pipeline**
 -------------------------
 
@@ -37,9 +38,12 @@ something readable for human, e.g., "eht-demo".
 Because we will need to connect to DockerHub to publish our image, go
 to the "Secerts" tab in "Settings" and add the following two secrets:
 
-- `DOCKERHUB_USERNAME`: your Docker Hub username
+.. code-block:: bash
 
-- `DOCKERHUB_PASSWORD`: your Docker Hub password
+   `DOCKERHUB_USERNAME`: your Docker Hub username
+
+   `DOCKERHUB_PASSWORD`: your Docker Hub password
+
 
 **Create a Dockerfile**
 -----------------------
@@ -68,7 +72,7 @@ Turn it into an run-able script by
 
 Then, add a new `Dockerfile` with the follow content:
 
-..
+.. code-block::
 
    FROM eventhorizontelescope/img-env
 
@@ -85,6 +89,7 @@ Commit all your files and push to GitHub:
    git add .
    git commit -m 'For building FOSS demo Docker image'
    git push
+
 
 **Setup GitHub Action**
 -----------------------
@@ -108,6 +113,7 @@ Your "Action" workflow should finish successfully.  However, it built
 an image call `my-image-name` inside the Action build machine.  The
 name is not right, and you cannot use this Docker image.
 
+
 **Edit GitHub Action**
 ----------------------
 
@@ -115,7 +121,7 @@ Click on the name your Action workflow and select the "Workflow file"
 tab, then click the pencil icon on the top right, GitHub gives you an
 online editor again.  Update the `dockerimage.yml` file to:
 
-..
+.. code-block::
 
    name: Docker Image CI
 
@@ -140,6 +146,7 @@ Once you are done, commit it.  And go back to "Actions" tab.  Because
 editing the Action workflow is itself a Git commit, it triggers GitHub
 Action to rerun the workflow.  If it works, you it should have built a
 Docker image and push it to Docker Hub.
+
 
 **EHT Image Reconstruction**
 ----------------------------
@@ -175,6 +182,7 @@ It will take some time.  Once it's done, you will see two new files
 `[NAME].fits` and `[NAME].pdf` on the local machines.
 
 Here you go!  You just reconstructed your own black hole image!
+
 
 **Exercise**
 ------------
