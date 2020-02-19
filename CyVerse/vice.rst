@@ -88,7 +88,7 @@ Fill out the following details
   Description: RStudio VICE app
   Version: 3.6.0
   Type: interactive
-  Image Name: cyversevice/rstudio-verse:3.6.0
+  Image Name: cyversevice/rstudio-verse
   Docker Hub URL: https://hub.docker.com/repository/docker/cyversevice/rstudio-verse
   Tag: 3.6.0
   Working Directory: /home/rstudio
