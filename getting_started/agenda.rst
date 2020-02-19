@@ -190,7 +190,7 @@
       -
     * -
       - 10:20-11:00
-      - Reproducible Research I: Launching VMs (Williams)
+      - `Reproducible Research I <https://learning.cyverse.org/projects/cyverse-cyverse-reproducbility-tutorial/en/latest/index.html>`_ : Launching VMs (Williams)
       - Launch a virtual machine in Atmosphere and provision it
       -
     * -
