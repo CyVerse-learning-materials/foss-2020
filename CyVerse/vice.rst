@@ -95,14 +95,14 @@ Fill out the following details
   Port Number: 80
 
 
-|add-tool-vice|
+|add-tool-vice-1|
 
 
 **3.3 Create a VICE app**
 
 Click on the "Apps" window. Click "Apps" -> "Create New"
 
-|create-app-vice|
+|create-app-vice-1|
 
 .. Note::
 
@@ -195,10 +195,10 @@ You can share your VICE workspace with colleagues (with a CyVerse account) who c
     :width: 25
     :height: 25
 
-.. |add-tool-vice| image:: ../img/addtool_VICE.png
+.. |add-tool-vice-1| image:: ../img/addtool_VICE_1.png
     :width: 750
 
-.. |create-app-vice| image:: ../img/createapp_VICE.png
+.. |create-app-vice-1| image:: ../img/createapp_VICE_1.png
     :width: 750
 
 .. |create-repo| image:: ../img/createnewrepo.png
