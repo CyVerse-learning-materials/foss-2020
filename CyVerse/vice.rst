@@ -107,6 +107,7 @@ Click on the "Apps" window. Click "Apps" -> "Create New"
 .. Note::
 
   For VICE apps, make sure to check "Do not pass this argument to command line"
+  Example data: /iplant/home/shared/iplantcollaborative/example_data/FOSS_2020/vice_exampledata
 
 **Version control using Git within RStudio**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
