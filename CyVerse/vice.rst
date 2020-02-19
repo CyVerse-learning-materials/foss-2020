@@ -98,6 +98,7 @@ Fill out the following details
 
 
 **3.3 Create a VICE app**
+Click on the "Apps" window. Click "Apps" -> "Create New"
 
 |create-app-vice|
 
