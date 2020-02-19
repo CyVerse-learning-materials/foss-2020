@@ -26,7 +26,7 @@ and its software pipeline on
 `GitHub <https://github.com/eventhorizontelescope/2019-D01-02>`_ .
 
 **Fork the EHT Pipeline**
-------------------------------------------
+-------------------------
 
 When you are on the EHT pipeline GitHub repository, first, click the
 "Fork" badge/button to create your own repository.
@@ -42,7 +42,7 @@ to the "Secerts" tab in setting and add the following two secrets:
 - `DOCKERHUB_PASSWORD`: your Docker Hub password
 
 **Create a Dockerfile**
-------------------------------------------
+-----------------------
 
 To edit your version of the pipeline repository, let's clone it to
 your "local" machines (laptop, desktop, atmosphere VM, etc).
@@ -85,3 +85,21 @@ Commit all your files and push to GitHub:
    git add .
    git commit -m 'For building FOSS demo Docker image'
    git push
+
+**Setup GitHub Action**
+-----------------------
+
+Go to your web browser and make sure that your own pipeline repository
+is updated.  Click the "Actions" tab.  Because you haven't not set up
+any GitHub Action, GitHub present you many examples.  Let's click on
+"Workflow for Python, Maven, Docker and more ..." at the bottom of the
+page and look for the "Docker image" example.  Click "Set up this
+workflow" as a starting point.
+
+GitHub now present you an online text editor that describe an Action
+Workflow.  Let's just click "Start commit" to turn this into a Git
+commit.
+
+Once you are done, click the "Actions" tab again.  You will see the
+workflow is now set up.  It's probably still in the GitHub Action work
+queue.  Wait a bit and it will turn into a running state.
