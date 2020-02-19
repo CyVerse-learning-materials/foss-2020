@@ -11,19 +11,19 @@
 **Introduction**
 ----------------
 
-Building Docker images on your machine and then push it to DockerHub
-manually can be time consuming.  Since we use Git and GitHub to keep
-track of all our source codes, it will be great to ask GitHub to
-automatically build and push docker images for us whenever we change
-our codes.
+Building Docker images on your machine and then pushing it to
+DockerHub manually is sometime cumbersome.  Since we use Git and
+GitHub to keep track of all our source codes anyway, it will be great
+to ask GitHub to automatically build and push docker images for us
+whenever we change our codes.
 
-We will use the Event Horizon Telescope (EHT)'s imaging pipeline as an
-example.  The EHT is an international collaboration with a science
-goal to take pictures of black holes.  The EHT published its
-visibility data on
-`CyVerse <https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_FirstM87Results_Apr2019>`_
-and its software pipeline on
-`GitHub <https://github.com/eventhorizontelescope/2019-D01-02>`_ .
+We will use one of the Event Horizon Telescope (EHT)'s imaging
+pipeline as an example.  The EHT is an international collaboration
+with a science goal to take pictures of black holes.  The EHT
+published its visibility data on `CyVerse
+<https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/EHTC_FirstM87Results_Apr2019>`_
+and its software pipeline on `GitHub
+<https://github.com/eventhorizontelescope/2019-D01-02>`_ .
 
 **Fork the EHT Pipeline**
 -------------------------
@@ -35,7 +35,7 @@ In your own repository, go to "Settings" to rename your repository to
 something readable for human, e.g., "eht-demo".
 
 Because we will need to connect to DockerHub to publish our image, go
-to the "Secerts" tab in setting and add the following two secrets:
+to the "Secerts" tab in "Settings" and add the following two secrets:
 
 - `DOCKERHUB_USERNAME`: your Docker Hub username
 
@@ -54,7 +54,7 @@ your "local" machines (laptop, desktop, atmosphere VM, etc).
 Then, change-directory into your local repository and create a
 `wrapper.sh` script:
 
-.. code-block::
+.. code-block:: bash
 
    #!/bin/bash
 
@@ -68,7 +68,7 @@ Turn it into an run-able script by
 
 Then, add a new `Dockerfile` with the follow content:
 
-.. code-block::
+.. code-block:: bash
 
    FROM eventhorizontelescope/img-env
 
@@ -89,14 +89,14 @@ Commit all your files and push to GitHub:
 **Setup GitHub Action**
 -----------------------
 
-Go to your web browser and make sure that your own pipeline repository
-is updated.  Click the "Actions" tab.  Because you haven't not set up
-any GitHub Action, GitHub present you many examples.  Let's click on
-"Workflow for Python, Maven, Docker and more ..." at the bottom of the
-page and look for the "Docker image" example.  Click "Set up this
-workflow" as a starting point.
+Go back to your web browser and make sure that your own pipeline
+repository is updated.  Click the "Actions" tab.  Because you have not
+set up any GitHub Action, GitHub presents you many examples.  Let's
+click on "Workflow for Python, Maven, Docker and more ..." at the
+bottom of the page and look for the "Docker image" example.  Click
+"Set up this workflow" as a starting point.
 
-GitHub now present you an online text editor that describe an Action
+GitHub now presents you an online text editor that describes an Action
 Workflow.  Let's just click "Start commit" to turn this into a Git
 commit.
 
@@ -113,9 +113,9 @@ name is not right, and you cannot use this Docker image.
 
 Click on the name your Action workflow and select the "Workflow file"
 tab, then click the pencil icon on the top right, GitHub gives you an
-online editor again.  Now change the `dockerimage.yml` file to:
+online editor again.  Update the `dockerimage.yml` file to:
 
-.. code-block::
+.. code-block:: bash
 
    name: Docker Image CI
 
@@ -137,8 +137,8 @@ online editor again.  Now change the `dockerimage.yml` file to:
          run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/eht-demo:latest
 
 Once you are done, commit it.  And go back to "Actions" tab.  Because
-editing the Action workflow is itself a Git commit, it triggers Action
-to restart the workflow.  If it works, you it should have built a
+editing the Action workflow is itself a Git commit, it triggers GitHub
+Action to rerun the workflow.  If it works, you it should have built a
 Docker image and push it to Docker Hub.
 
 **EHT Image Reconstruction"**
@@ -165,8 +165,8 @@ Remember EHT published its data on CyVerse?  Let's download a data file:
 .. code-block:: bash
    wget https://de.cyverse.org/anon-files//iplant/home/shared/commons_repo/curated/EHTC_FirstM87Results_Apr2019/uvfits/SR1_M87_2017_095_lo_hops_netcal_StokesI.uvfits
 
-You have both the data and software (in a Docker image).  Let's do the
-image reconstruction:
+You have both the data and software (in a Docker image).  Let's
+perform the image reconstruction:
 
 .. code-block:: bash
    docker run --rm -v $PWD:/img [DOCKERHUB_USERNAME]/eht-demo -i SR1_M87_2017_095_lo_hops_netcal_StokesI.uvfits -o [NAME].fits --savepdf
