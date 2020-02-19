@@ -40,9 +40,9 @@ to the "Secerts" tab in "Settings" and add the following two secrets:
 
 .. code-block:: bash
 
-   `DOCKERHUB_USERNAME`: your Docker Hub username
+   DOCKERHUB_USERNAME : your Docker Hub username
 
-   `DOCKERHUB_PASSWORD`: your Docker Hub password
+   DOCKERHUB_PASSWORD : your Docker Hub password
 
 
 **Create a Dockerfile**
@@ -56,7 +56,7 @@ your "local" machines (laptop, desktop, atmosphere VM, etc).
     git clone git@github.com:[GITHUB_USERNAME]/eht-demo.git
 
 Then, change-directory into your local repository and create a
-`wrapper.sh` script:
+``wrapper.sh`` script:
 
 .. code-block:: bash
 
@@ -70,7 +70,7 @@ Turn it into an run-able script by
 
    chmod 755 wrapper.sh
 
-Then, add a new `Dockerfile` with the follow content:
+Then, add a new ``Dockerfile`` with the follow content:
 
 .. code-block::
 
@@ -110,7 +110,7 @@ workflow is now set up.  It's probably still in the GitHub Action work
 queue.  Wait a bit and it will turn into a running state.
 
 Your "Action" workflow should finish successfully.  However, it built
-an image call `my-image-name` inside the Action build machine.  The
+an image call ``my-image-name`` inside the Action build machine.  The
 name is not right, and you cannot use this Docker image.
 
 
@@ -119,7 +119,7 @@ name is not right, and you cannot use this Docker image.
 
 Click on the name your Action workflow and select the "Workflow file"
 tab, then click the pencil icon on the top right, GitHub gives you an
-online editor again.  Update the `dockerimage.yml` file to:
+online editor again.  Update the ``dockerimage.yml`` file to:
 
 .. code-block::
 
@@ -179,7 +179,7 @@ perform the image reconstruction:
    docker run --rm -v $PWD:/img [DOCKERHUB_USERNAME]/eht-demo -i SR1_M87_2017_095_lo_hops_netcal_StokesI.uvfits -o [NAME].fits --savepdf
 
 It will take some time.  Once it's done, you will see two new files
-`[NAME].fits` and `[NAME].pdf` on the local machines.
+``[NAME].fits`` and ``[NAME].pdf`` on the local machines.
 
 Here you go!  You just reconstructed your own black hole image!
 
