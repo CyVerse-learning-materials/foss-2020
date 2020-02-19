@@ -133,8 +133,8 @@ Step3: Push your changes to GitHub
 - Check the files that you want to commit. Click commit and enter a commit message on the next window. 
 - After you commit, it will promot you to set your account's default identity. Go to terminal and configure your git user name and email using the following commands. You should be able to commit without any problems after you confgure.
 
-	- git config ---global user.email "you@example.com"
-  	- git config ---global user.name "Your Name"
+	- git config --global user.email "you@example.com"
+  	- git config --global user.name "Your Name"
 
 - To push the changes to the remote GitHub repository press the Push button on the upper right corner of the commit window. You will be prompted to enter the username and password of your GitHub account.
 
