@@ -31,7 +31,7 @@ By working through an example project relevant to their interests, participants 
 
 .. toctree::
    :maxdepth: 1
-   
+
    Home <self>
 
 .. toctree::
@@ -45,7 +45,7 @@ By working through an example project relevant to their interests, participants 
 .. toctree::
    :maxdepth: 1
    :caption: Key Information
-   
+
    getting_started/location
    getting_started/agenda
    getting_started/instructors
@@ -55,8 +55,8 @@ By working through an example project relevant to their interests, participants 
 .. toctree::
    :maxdepth: 1
    :caption: Getting Started
-   
-   getting_started/intro   
+
+   getting_started/intro
    getting_started/code_of_conduct
    getting_started/open_sci_lab
    getting_started/colab_culture
@@ -68,8 +68,8 @@ By working through an example project relevant to their interests, participants 
 
    software_essentials/commandline
    software_essentials/linux
-   
-   
+
+
 .. toctree::
    :maxdepth: 1
    :caption: Reproducible Science
@@ -89,7 +89,7 @@ By working through an example project relevant to their interests, participants 
    Data_management/FAIR
    Data_management/dmp
    Data_management/dmtools
-   
+
 .. toctree::
    :maxdepth: 1
    :caption: Using CyVerse
@@ -99,9 +99,9 @@ By working through an example project relevant to their interests, participants 
    CyVerse/de-data-manage
    CyVerse/de-data-analysis
    CyVerse/tool_integration_app_building_DE
-   CyVerse/vice 
- 
-   
+   CyVerse/vice
+
+
 .. toctree::
    :maxdepth: 1
    :caption: Cyberinfrastructure
@@ -111,7 +111,7 @@ By working through an example project relevant to their interests, participants 
    cloud_comput/xsede
    cloud_comput/cyberinfrastructure
 
-   
+
 .. toctree::
    :maxdepth: 1
    :caption: Containers
@@ -124,7 +124,7 @@ By working through an example project relevant to their interests, participants 
 .. toctree::
    :maxdepth: 1
    :caption: Using RStudio
-   
+
    software_essentials/R_Studio
    software_essentials/RStudio_Git
 
@@ -132,6 +132,11 @@ By working through an example project relevant to their interests, participants 
    :maxdepth: 1
    :caption: Instructions and Reporting
 
+.. toctree::
+   :maxdepth: 1
+   :caption: GitHub Action and EHT
+
+   github_action/eht
 
 ----
 
@@ -161,7 +166,7 @@ Please cite CyVerse appropriately when you make use of our resources,
     :width: 500
     :height: 100
 .. _CyVerse_logo2: http://learning.cyverse.org/
-	
+
 .. |Home_Icon| image:: ./img/homeicon.png
     :width: 25
     :height: 25
