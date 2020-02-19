@@ -68,7 +68,7 @@ Turn it into an run-able script by
 
 Then, add a new `Dockerfile` with the follow content:
 
-.. code-block:: bash
+..
 
    FROM eventhorizontelescope/img-env
 
@@ -115,7 +115,7 @@ Click on the name your Action workflow and select the "Workflow file"
 tab, then click the pencil icon on the top right, GitHub gives you an
 online editor again.  Update the `dockerimage.yml` file to:
 
-.. code-block:: bash
+..
 
    name: Docker Image CI
 
