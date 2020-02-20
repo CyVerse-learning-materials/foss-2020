@@ -156,11 +156,11 @@ your own black hole image!
 
 First, because it will take some time to download the Docker image,
 let's start pulling it first onto your "local" machines (laptop,
-desktop, atmosphere VM, etc).
+desktop, atmosphere VM, etc) in the background.
 
 .. code-block:: bash
 
-   docker pull [DOCKERHUB_USERNAME]/eht-demo
+   docker pull [DOCKERHUB_USERNAME]/eht-demo > git-pull-log &
 
 Let's also create an empty work directory
 
