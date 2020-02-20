@@ -182,8 +182,35 @@ perform the image reconstruction:
 
    docker run --rm -v $PWD:/img [DOCKERHUB_USERNAME]/eht-demo -i SR1_M87_2017_095_lo_hops_netcal_StokesI.uvfits -o [NAME].fits --savepdf
 
-It will take some time.  Once it's done, you will see two new files
-:code:`[NAME].fits` and :code:`[NAME].pdf` on the local machines.
+It will take some time.  And it may work or may not work---depending
+on if you pull an old version of the pipeline repository, or a new
+version.
+
+If docker finished with an error message, you used the old version.
+And it is a great opportunity to see how convenient to see how GitHub
+Actions work.  Go to GitHub on your browser, open
+:code:`eht-imaging/eht-imaging_pipeline.py`, and click the pencil icon
+to edit the file directly.
+
+Add the following two lines:
+
+.. code-block:: python
+
+   import matplotlib
+   matplotlib.use('Agg')
+
+on line 50 and the commit from the GitHub website.  Because GitHub
+Actions "license" for changes on your repository, it will
+automatically rebuild your Docker image.  Once it is done, pull the
+new Docker image by:
+
+.. code-block:: bash
+
+    docker pull [DOCKERHUB_USERNAME]/eht-demo
+
+And now you can rerun your analysis with the new Docker image!  Once
+it's done, you will see two new files :code:`[NAME].fits` and
+:code:`[NAME].pdf` on the local machines.
 
 Here you go!  You just reconstructed your own black hole image!
 
