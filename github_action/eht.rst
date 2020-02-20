@@ -188,11 +188,12 @@ version.
 
 If docker finished with an error message, you used the old version.
 And it is a great opportunity to see how convenient to see how GitHub
-Actions work.  Go to GitHub on your browser, open
-:code:`eht-imaging/eht-imaging_pipeline.py`, and click the pencil icon
-to edit the file directly.
+Actions work.  If docker finished without an error, congratulations,
+you can skip the next paragraph.
 
-Add the following two lines:
+Go to GitHub on your browser, open
+:code:`eht-imaging/eht-imaging_pipeline.py`, and click the pencil icon
+to edit the file directly.  Add the following two lines:
 
 .. code-block:: python
 
@@ -208,8 +209,9 @@ new Docker image by:
 
     docker pull [DOCKERHUB_USERNAME]/eht-demo
 
-And now you can rerun your analysis with the new Docker image!  Once
-it's done, you will see two new files :code:`[NAME].fits` and
+And now you can rerun your analysis with the new Docker image!
+
+Once it's done, you will see two new files :code:`[NAME].fits` and
 :code:`[NAME].pdf` on the local machines.
 
 Here you go!  You just reconstructed your own black hole image!
