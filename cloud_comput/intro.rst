@@ -15,7 +15,7 @@ There are three major private cloud providers: `Amazon Web Services (AWS) <https
 
 The big cloud providers have been replicating publicly owned data sets, e.g. `40+ years of NASA and European Space Agency (ESA) earth observation system data <https://aws.amazon.com/earth/>`_, on their cloud-hosted data storage services in the hope that researchers and businesses will pay to use these data by doing cloud computing on them. NASA recently `announced a plan <https://earthdata.nasa.gov/eosdis/cloud-evolution>`_ to move hundreds of PBs of its data to AWS.
 
-Some cloud services are free, like `Google's Earth Engine <https://earthengine.google.com/>`_, others have limited sand-boxs which are useful for training, but may not fit your needs for larger scale data analyses. Launching IDEs like Jupyter Notebooks or RStudio in cloud is possible with platforms like `MyBinder <https://mybinder.org/>`_ and `CoLab <https://colab.research.google.com/>`_. 
+Some cloud services are free, like `Google's Earth Engine <https://earthengine.google.com/>`_, others have limited sandboxes which are useful for training, but may not fit your needs for larger scale data analyses. Launching IDEs like Jupyter Notebooks or RStudio in cloud is possible with platforms like `MyBinder <https://mybinder.org/>`_ and `CoLab <https://colab.research.google.com/>`_. 
 
 There are also options where your institution can stand up a cloud service on its own hardware: `Open Stack <https://www.openstack.org/>`_ and `VMWare <https://www.vmware.com/>`_. CyVerse and XSEDE operate multiple OpenStack clouds which they provide as a service called `Atmosphere (CyVerse) <https://atmo.cyverse.org/>`_ and `Jetstream (XSEDE) <https://use.jetstream-cloud.org/>`_ free to researchers. 
 
