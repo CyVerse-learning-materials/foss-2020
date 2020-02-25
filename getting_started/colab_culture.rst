@@ -15,10 +15,10 @@ Instructor: `Michael Mandel <https://eller.arizona.edu/people/michael-mandel>`_,
 
 Mike's `Personal Website <http://www.m2powered.com/>`_
 
-`Michael's Powerpoint Presentation-Monday <https://github.com/CyVerse-learning-materials/foss-2020/blob/master/Creating_a_Collaborative_Culture_CyVerse_FOSS_Workshop_February_2020.pptx>`_ (link downloads this file)
+`Michael's Powerpoint Presentation-Monday <https://github.com/CyVerse-learning-materials/foss-2020/blob/master/Creating_a_Collaborative_Culture_CyVerse_FOSS_Workshop_February_2020.pptx>`_ (link to download this file)
 
 
-`Michael's Powerpoint Presentation-Friday <https://github.com/CyVerse-learning-materials/foss-2020/blob/master/Creating_a_Collaborative_Culture_CyVerse_FOSS_Workshop_February_2020_Part_II.pptx>`_ (link downloads this file)
+`Michael's Powerpoint Presentation-Friday <https://github.com/CyVerse-learning-materials/foss-2020/blob/master/Creating_a_Collaborative_Culture_CyVerse_FOSS_Workshop_February_2020_Part_II.pptx>`_ (link to download this file)
 
 ----
 
