@@ -55,7 +55,7 @@ Similar to the common `Gantt chart <https://en.wikipedia.org/wiki/Gantt_chart>`_
 
 Doing reproducible science requires you to host your code and versioned software used to complete the analysis, in addition to the actual data. GitHub or Gitlab could become the central point supporting your data science lab.  
 
-Powerful uses of GitHub include integration with other web services, like container registries (`DockerHub <https://hub.docker.com/>`_), websites (`ReadTheDocs <https://readthedocs.org/>`_, web sites `<https://pages.github.com/>`_), continuous integration (`CircleCI <https://circleci.com>`_, `Jenkins <https://jenkins.io/>`_, `Travis<https://travis-ci.org/>`_), and workflow managers `GitHub Actions <https://github.com/features/actions>`_.
+Powerful uses of GitHub include integration with other web services, like container registries (`DockerHub <https://hub.docker.com/>`_), websites (`ReadTheDocs <https://readthedocs.org/>`_, web sites `<https://pages.github.com/>`_), continuous integration (`CircleCI <https://circleci.com>`_, `Jenkins <https://jenkins.io/>`_, `Travis <https://travis-ci.org/>`_), and workflow managers `GitHub Actions <https://github.com/features/actions>`_.
 
 `Continous Integration (CI) <https://en.wikipedia.org/wiki/Continuous_integration>`_ is a practice of checking code repositories (typically a few times a day) to test for changes which may cause failures.
 
