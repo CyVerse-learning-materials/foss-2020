@@ -29,7 +29,7 @@ rights may limit how you use the material.
 
 This license is superseded by and subject to any and all other polices of CyVerse as 
 described at: http://www.cyverse.org/policies; CyVerse is based upon work supported by 
-the National Science Foundation under Grant No. DBI-0735191 and DBI-1265383.
+the National Science Foundation under Grant No. DBI-0735191, DBI-1265383, and DBI-1743442
 
 Any opinions, findings, and conclusions or recommendations expressed in this material are 
 those of the author(s) and do not necessarily reflect the views of 
