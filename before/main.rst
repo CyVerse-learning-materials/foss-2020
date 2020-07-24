@@ -5,27 +5,25 @@
 |Home_Icon2|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Before you arrive**
+**Before FOSS Starts**
 ==========
 
-Please endeavor to complete the `pre-workshop setup <../before/installation.html>`_ before arriving at FOSS.
+Please endeavor to complete the `pre-FOSS setup <../before/installation.html>`_ before arriving at FOSS.
 
 
-The workshop will be run under a `Code of Conduct <../getting_started/code_of_conduct.html>`_. Please familiarize yourself with it prior to your arrival.
-
-There will be a webinar one week before camp to help answer questions about the setup, logistics, and materials. 
+FOSS runs under a `Code of Conduct <../getting_started/code_of_conduct.html>`_. Please familiarize yourself with it.
 
 **Need help?**
 
 Couldn't find what you were looking for?
 
-- You can talk to any of the instructors or TAs if you need immediate help. 
+- You can talk to any of the instructors or TAs if you need immediate help.
 
 - Chat with us on `CyVerseFOSS Slack <https://cyversefossworkspace.slack.com>`_.
 
 - Post an issue on the documentation `issue tracker <https://github.com/CyVerse-learning-materials/foss-2019/issues>`_ on GitHub
 
-|CyverseLogo|_ |LearningCenter|_ 
+|CyverseLogo|_ |LearningCenter|_
 
 ----
 
