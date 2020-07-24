@@ -16,10 +16,13 @@ Please complete the minimum Setup Instructions to prepare for FOSS.
     * - Prerequisite
       - Notes
       - Additional notes
-    * - Wi-Fi-enabled laptop
-      - You should be able to use any laptop (Windows/MacOS/Linux.). We **strongly recommend** Firefox or Chrome browser. It is recommended that you have administrative/install permissions on your laptop.
+    * - Computer with an internet connection
+      - You should be able to use any computer (Windows/MacOS/Linux.). We **strongly recommend** Firefox or Chrome browser. It is recommended that you have administrative/install permissions on your computer.
       - - `Download FireFox <https://www.mozilla.org/en-US/firefox/new/?scene=2>`_
         - `Download Chrome <https://www.google.com/chrome/browser/>`_
+    * - Zoom Account
+      - Please ensure that you have a CyVerse account and have **verified** your account by completing the verification steps in the email you got when you registered.
+      - Register for your cyverse account at http://user.cyverse.org/.
     * - CyVerse Account
       - Please ensure that you have a CyVerse account and have **verified** your account by completing the verification steps in the email you got when you registered.
       - Register for your cyverse account at http://user.cyverse.org/.
