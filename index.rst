@@ -44,7 +44,6 @@ By working through an example project relevant to their interests, participants 
    :maxdepth: 1
    :caption: Key Information
 
-   getting_started/location
    getting_started/agenda
    getting_started/instructors
    getting_started/glossary
