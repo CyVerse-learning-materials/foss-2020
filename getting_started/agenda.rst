@@ -15,47 +15,49 @@
 
 .. Comment: Last year’s syllabus as a chart (for reference): https://docs.google.com/spreadsheets/d/1n5zCJlT9g_vyWx6z-5vmT300ZH-vC6AP4TYKFeJIMZo/edit#gid=0
 
+Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until November) 
+
 .. list-table::
     :header-rows: 1
 
-    * - Week
-      - Date and Time
+    * - Date (Week)
+      - Time 
       - Activity (Instructor)
       - Content
       - Expected Outcomes
-    * - 0
-      - July 28 10:00 am | July 30 1:00 pm
-      - Welcome & Introductions (Swetnam)
+    * - July 28th | 30th (Week 0 - Onboarding)
+      - Tuesday 11:00 am | Thursday 1:00 pm
+      - Welcome (Swetnam)
       - Overview of Code of Conduct, Course Materials, and logistics
-      -
+      - 
     * -
-      -
+      - Tuesday 11:30 AM | Thursday 1:30 PM
       - Discussion: What is Open Science? (Merchant)
       - Overview of CyVerse mission
-      -
+      - Understand why we teach FOSS
+    * -
+      - Tuesday 12:00 PM | Thursday 2:00 PM 
+      - Set up profiles and accounts (Swetnam)
+      - `QUBES Hub Faculty Mentoring Network <https://qubeshub.org/community/groups/cyverse_fmn>`_, `CyVerse <https://learning.cyverse.org/projects/foss-2020/en/latest/CyVerse/intro_to_cyverse.html>`_, `Slack <cyversefossworkspace.slack.com>`_ 
+      - Get familiar with our virtual platforms for learning and creating material
+    * -
+      - Tuesday 12:30 PM | Thursday 2:30 PM 
+      -  `CyVerse Walkthrough <https://learning.cyverse.org/projects/foss-2020/en/latest/CyVerse/intro_to_cyverse.html>`_  (Cooksey)
+      - Navigating the Portal, Discovery Environment, Data Store, and other platforms 
+      - Optional: Launching executable and interactive apps. `Add a tool and app <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/tool_integration_app_building_DE.html>`_
     * -
       -
-      - Intro to CyVerse I: `Data Management <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/data_store.html>`_
-      - Data Store Access: iCommands, WebDav, CyberDuck
-      - Learn to communicate with the Data Store
-    * -
-      -
-      - Intro to Cyverse II: `Discovery Environment <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/de-data-analysis.html>`_ (Cooksey)
-      - Launching Apps in DE Walkthrough and terminology
-      - Launch executable and interactive apps. `Add a tool and app <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/tool_integration_app_building_DE.html>`_
-    * -
-      -
-      - Homework
-      - Introduce yourself
-      - Meet one another, draw a picture of their science
+      - Homework for Week 1
+      - Introduce yourself via QUBES Profile
+      - 
 
 ----
 
 .. list-table::
     :header-rows: 1
 
-    * - Week
-      - Date and Time
+    * - Date (Week)
+      - Time 
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -85,8 +87,8 @@
 .. list-table::
     :header-rows: 1
 
-    * - Week
-      - Date and Time
+    * - Date (Week)
+      - Time 
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -121,8 +123,8 @@
 .. list-table::
     :header-rows: 1
 
-    * - Week
-      - Date and Time
+    * - Date (Week)
+      - Time 
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -137,8 +139,8 @@
 .. list-table::
     :header-rows: 1
 
-    * - Week
-      - Date and Time
+    * - Date (Week)
+      - Time 
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -163,8 +165,8 @@
 .. list-table::
     :header-rows: 1
 
-    * - Week
-      - Date and Time
+    * - Date (Week)
+      - Time 
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -194,8 +196,8 @@
 .. list-table::
     :header-rows: 1
 
-    * - Week
-      - Date and Time
+    * - Date (Week)
+      - Time 
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -225,8 +227,8 @@
 .. list-table::
     :header-rows: 1
 
-    * - Week
-      - Date and Time
+    * - Date (Week)
+      - Time 
       - Activity (Instructor)
       - Content
       - Expected Outcomes
