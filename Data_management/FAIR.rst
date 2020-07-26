@@ -21,7 +21,7 @@
 FAIR Principles
 ===============
 
-In 2016, the |FAIR Guiding Principles for scientific data management and stewardship|_ were published in Scientific Data. Read it. Its short. 
+In 2016, the |FAIR Guiding Principles|_ for scientific data management and stewardship were published in Scientific Data. Read it. Its short. 
 
 **Findable**
  - F1. (meta)data are assigned a globally unique and persistent identifier
@@ -57,19 +57,16 @@ The |CARE principles|_ for Indigenous Data Governance were drafted at the Intern
   - C3. For equitable outcomes
 
 **Authority to Control**
-
   - A1. Recognizing rights and interests 
   - A2. Data for governance
   - A3. Governance of data
 
 **Responsibility**
-
   - R1. For positive relationships
   - R2. For expanding capability and capacity
   - R3. For Indigenous languages and worldviews
   
 **Ethics**
-
   - E1. For minimizing harm and maximizing benefit
   - E2. For justice
   - E3. For future use
@@ -149,14 +146,14 @@ https://www.nature.com/articles/sdata201618
 
       <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
 
-.. |FAIR Guiding Principles for scientific data management and stewardship| raw:: html
+.. |FAIR Guiding Principles| raw:: html
 
-   <a href="https://www.nature.com/articles/sdata201618" target="_blank">FAIR Guiding Principles for scientific data management and stewardship</a>
+   <a href="https://www.nature.com/articles/sdata201618" target="_blank">FAIR Guiding Principles</a>
 
 .. |CARE principles| raw:: html
 
    <a href="https://www.gida-global.org/care" target="_blank">CARE principles</a>
 
-.. |Github Repo Link|  raw:: html
+.. |Github Repo Link| raw:: html
 
    <a href="https://github.com/CyVerse-learning-materials/foss-2019/tree/master/Data_management/FAIR.rst" target="blank">Github Repo Link</a>
