@@ -16,8 +16,8 @@ Please set up the Prerequisite accounts and software to prepare for FOSS Online;
     * - Prerequisite
       - Notes
       - Link or Additional notes
-    * - Wi-Fi-enabled laptop
-      - You should be able to use any laptop (Windows/MacOS/Linux.). We **strongly recommend** Firefox or Chrome as your browser. It is recommended that you have administrative/install permissions on your laptop.
+    * - Internet capable computer!
+      - You should be able to use any OS (Windows/MacOS/Linux.). We **strongly recommend** Firefox or Chrome as your browser. It is recommended that you have administrative/install permissions on your computer.
       - - `Download FireFox <https://www.mozilla.org/en-US/firefox/new/?scene=2>`_
         - `Download Chrome <https://www.google.com/chrome/browser/>`_
     * - CyVerse Account
@@ -37,7 +37,7 @@ Please set up the Prerequisite accounts and software to prepare for FOSS Online;
       - We will be using Slack extensively for communication and networking purposes, especially between online class sessions
       - Register for Slack at `https://slack.com/ <https://slack.com/>`_.
 
-**Optional Downloads**
+**Optional**
 
 Below are some extra downloads that are not required for FOSS, but which provide some options for functionalities we will cover.
 
@@ -47,6 +47,9 @@ Below are some extra downloads that are not required for FOSS, but which provide
     * - Tool/Software
       - Notes
       - Link
+    * - A Second Monitor
+      - Having two monitors will allow you to full screen stream the instructional portion of the course while working on a second screen
+      - 
     * - SSH Clients (Windows)
       - PuTTY allows SSH connection to a remote machine, and is designed for
         Windows users who do not have a Mac/Linux terminal. MobaXterm is a single
