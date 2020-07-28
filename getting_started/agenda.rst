@@ -10,18 +10,18 @@
 
 .. IMPORTANT::
 
-    Please fill out the weekly lesson feedback `Google Form <https://docs.google.com/forms/d/1vmvptQEo5Zf8HARvoDLUL05XKWNRk_hKQWg6kQta7FY>`_
+    Please fill out the weekly lesson feedback `Google Form <https://docs.google.com/forms/d/e/1FAIpQLSenaWAujZE-_3CNGNwyt9atS42O5ZAqe20owtjR_mMvgi5HSQ/viewform?usp=sf_link>`_
 
 
 .. Comment: Last year’s syllabus as a chart (for reference): https://docs.google.com/spreadsheets/d/1n5zCJlT9g_vyWx6z-5vmT300ZH-vC6AP4TYKFeJIMZo/edit#gid=0
 
-Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until November) 
+Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until November)
 
 .. list-table::
     :header-rows: 1
 
     * - Date (Week)
-      - Time 
+      - Time
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -29,21 +29,21 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Tuesday 11:00 am | Thursday 1:00 pm
       - Welcome (Swetnam)
       - Overview of Code of Conduct, Course Materials, and logistics
-      - 
+      -
     * -
       - Tuesday 11:30 AM | Thursday 1:30 PM
       - Discussion: What is Open Science? (Merchant)
       - Overview of CyVerse mission
       - Understand why we teach FOSS
     * -
-      - Tuesday 12:00 PM | Thursday 2:00 PM 
+      - Tuesday 12:00 PM | Thursday 2:00 PM
       - Setup profile and accounts (Swetnam)
-      - `QUBES Hub Faculty Mentoring Network <https://qubeshub.org/community/groups/cyverse_fmn>`_, `CyVerse <https://learning.cyverse.org/projects/foss-2020/en/latest/CyVerse/intro_to_cyverse.html>`_, `Slack <cyversefossworkspace.slack.com>`_ 
+      - `QUBES Hub Faculty Mentoring Network <https://qubeshub.org/community/groups/cyverse_fmn>`_, `CyVerse <https://learning.cyverse.org/projects/foss-2020/en/latest/CyVerse/intro_to_cyverse.html>`_, `Slack <cyversefossworkspace.slack.com>`_
       - Get familiar with our virtual platforms for learning and creating material
     * -
-      - Tuesday 12:30 PM | Thursday 2:30 PM 
+      - Tuesday 12:30 PM | Thursday 2:30 PM
       -  `CyVerse Walkthrough <https://learning.cyverse.org/projects/foss-2020/en/latest/CyVerse/intro_to_cyverse.html>`_ (Cooksey)
-      - Navigating the Portal, Discovery Environment, Data Store, and other platforms 
+      - Navigating the Portal, Discovery Environment, Data Store, and other platforms
       - Optional: Launching executable and interactive apps. `Add a tool and app <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/CyVerse/tool_integration_app_building_DE.html>`_
     * -
       -
@@ -57,7 +57,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
     :header-rows: 1
 
     * - Date (Week)
-      - Time 
+      - Time
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -88,7 +88,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
     :header-rows: 1
 
     * - Date (Week)
-      - Time 
+      - Time
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -124,7 +124,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
     :header-rows: 1
 
     * - Date (Week)
-      - Time 
+      - Time
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -140,7 +140,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
     :header-rows: 1
 
     * - Date (Week)
-      - Time 
+      - Time
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -166,7 +166,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
     :header-rows: 1
 
     * - Date (Week)
-      - Time 
+      - Time
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -197,7 +197,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
     :header-rows: 1
 
     * - Date (Week)
-      - Time 
+      - Time
       - Activity (Instructor)
       - Content
       - Expected Outcomes
@@ -228,7 +228,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
     :header-rows: 1
 
     * - Date (Week)
-      - Time 
+      - Time
       - Activity (Instructor)
       - Content
       - Expected Outcomes
