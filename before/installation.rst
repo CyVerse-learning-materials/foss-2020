@@ -22,7 +22,7 @@ Please set up the Prerequisite accounts and software to prepare for FOSS Online;
         - `Download Chrome <https://www.google.com/chrome/browser/>`_
     * - Zoom Account
       - Please ensure that you have a CyVerse account and have **verified** your account by completing the verification steps in the email you got when you registered.
-      - Register for your cyverse account at http://user.cyverse.org/.
+      - Register for your Zoom account at http://www.zoom.us/.
     * - CyVerse Account
       - Please ensure that you have a CyVerse account and have **verified** your account by completing the verification steps in the email you got when you registered.
       - Register for your CyVerse account at http://user.cyverse.org/.
