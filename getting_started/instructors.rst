@@ -11,41 +11,25 @@
 
 .. #### Comment: This is a placeholder
 
-`Meghan Balk <https://github.com/megbalk>`_, Postdoctoral Researcher, BIO5 Institute | balkm@email.arizona.edu
+.. ## `Meghan Balk <https://github.com/megbalk>`_, Postdoctoral Researcher, BIO5 Institute | balkm@email.arizona.edu
 
 `Amanda Cooksey <https://cyverse.org/Amanda-Cooksey>`_, Science Informatician, CyVerse | amcooksey@cyverse.org
 
 `Eric Lyons <https://datascience.arizona.edu/person/eric-lyons>`_, CyVerse Co-PI and UA Science Lead | ericlyons@email.arizona.edu
 
-`Michael Mandell <https://eller.arizona.edu/people/michael-mandel>`_, Lecturer in Business Communications, Eller College of Management | mkmandel@email.arizona.edu
+.. ## `Michael Mandell <https://eller.arizona.edu/people/michael-mandel>`_, Lecturer in Business Communications, Eller College of Management | mkmandel@email.arizona.edu
 
 `Nirav Merchant <https://datascience.arizona.edu/person/nirav-merchant>`_, Data Science Director | nirav@email.arizona.edu
 
-`Sateesh Peri <https://sateeshperi.github.io/>`_, Ph.D. Candidate, Plant Sciences University of Arizona | 
+.. ## `Sateesh Peri <https://sateeshperi.github.io/>`_, Ph.D. Candidate, Plant Sciences University of Arizona | 
 
 `Tyson Swetnam <https://tyson-swetnam.github.io/>`_, Research Assistant Professor, University of Arizona | tswetnam@cyverse.org
 
 `Reetu Tujeta <https://cyverse.org/Reetu-Tujeta>`_, Science Informatician, CyVerse | reetututeja@cyverse.org
 
-`Ramona Walls <https://futreswebsite.netlify.com/team/>`_, Research Assistant Professor, University of Arizona | rwalls@email.arizona.edu
+.. ## `Ramona Walls <https://futreswebsite.netlify.com/team/>`_, Research Assistant Professor, University of Arizona | rwalls@email.arizona.edu
 
 `Jason Williams <https://jasonjwilliamsny.github.io/profile/>`_, Training Lead, Cold Spring Harbor Laboratory | williams@cshl.edu
-
-
-**Helpers**
----------
-
-TJ Lippincott
-
-Ryan Bartleme
-
-Alex Bigelow
-
-Alise Ponsero
-
-Gustavo de Oliveira Almeida
-
-
 
 
 **CyVerse Staff**
