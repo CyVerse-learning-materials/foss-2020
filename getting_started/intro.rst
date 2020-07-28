@@ -23,7 +23,7 @@ This training will cover key concepts about open science:
 **Learning Objectives**
 ====================
 
-By the end of week one, participants should have the basic skills needed to:
+By the end, participants should have the basic skills needed to:
   - Work on the command line
   - Write basic scripts in Python, R, and the shell
   - Manage, share, and analyze data on CyVerse
