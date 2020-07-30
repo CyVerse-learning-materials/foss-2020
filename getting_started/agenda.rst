@@ -32,7 +32,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       -
     * -
       - Tuesday 11:30 AM | Thursday 1:30 PM
-      - Discussion: `What is Open Science? <https://youtu.be/7BXNs8HkYIo>`_(Merchant)
+      - Discussion: `What is Open Science? <https://youtu.be/7BXNs8HkYIo>`_ (Merchant)
       - Overview of CyVerse mission
       - Understand why we teach FOSS
     * -
