@@ -62,25 +62,25 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Content
       - Expected Outcomes
     * - 1
-      - August 11 10:00 am | August 13 1:00 pm
-      - Lab Communications
-      -
-      -
-    * -
-      -
+      - August 11 11:00 am | August 13 1:00 pm
       - `Key Concepts: Communication <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/communication.html>`_ & `Documentation <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/websites.html>`_ (Swetnam)
       - Using tools like Slack, Medium, Twitter
       - Project management tools, and public relations with social media.
     * -
-      -
-      - Collaboration Culture and Roles I (Mandel, Eller College of Management)
-      -
-      - Learn about yourself, and others
+      -  11:45 am | 1:45 pm onward
+      - Breakout Sessions 
+      - Communication & Project Management Tools  
+      - Discuss how you can use GitHub, Websites, and Project Management Tools to empower your open-science lab
     * -
-      - 14:00-15:00
-      - Key Concepts: Documentation & Cyberinfrastructure (Swetnam)
-      - Creating documentation, available resources
-      - create manuals, tutorials, wikis, and find computer time
+      -
+      - 
+      -
+      - 
+    * -
+      - 
+      - 
+      - 
+      - 
 
 ----
 
