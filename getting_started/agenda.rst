@@ -63,7 +63,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Expected Outcomes
     * - 1
       - August 11 11:00 am | August 13 1:00 pm
-      - `Key Concepts: Communication <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/communication.html>`_ & `Documentation <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/websites.html>`_ (Swetnam)
+      - Key Concepts: `Communication <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/communication.html>`_ & `Documentation <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/websites.html>`_ (Swetnam `slides <https://gitpitch.com/tyson-swetnam/foss-2020>`_)
       - Using tools like Slack, Medium, Twitter
       - Project management tools, and public relations with social media.
     * -
