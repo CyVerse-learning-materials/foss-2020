@@ -14,7 +14,7 @@ ReadTheDocs has become a popular tool for developing web-based documentation. `C
 
 `Bookdown <https://bookdown.org/>`_  is an open-source R package that facilitates writing books and long-form articles/reports with R Markdown.
 
-`GitHub Pages <https://pages.github.com/>`_ using `Jekyll <https://jekyllrb.com/>`_, are another popular way of hosting websites on GitHub.
+`GitHub Pages <https://pages.github.com/>`_ using `Jekyll <https://jekyllrb.com/>`_ or `Bootstrap.js <https://getbootstrap.com/>`_, are another popular way of hosting websites via GitHub.
 
 `Confluence Wikis (CyVerse) <https://wiki.cyverse.org>`_ are another tool for documenting your workflow. 
 

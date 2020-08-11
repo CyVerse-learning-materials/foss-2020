@@ -39,6 +39,9 @@ Please set up the Prerequisite accounts and software to prepare for FOSS Online;
     * - Slack for networking
       - We will be using Slack extensively for communication and networking purposes, especially between online class sessions
       - Register for Slack at `https://slack.com/ <https://slack.com/>`_.
+    * - ORCID ID
+      - If you haven't set up an Open Researcher and Contributor ID (ORCID) yet, please consider doing so
+      - Register for ORCID at `https://orcid.org/ <https://orcid.org/>`_.  
 
 **Optional**
 
