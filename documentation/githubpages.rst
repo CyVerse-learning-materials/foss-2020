@@ -22,11 +22,18 @@ but you can throw up a basic website, use |themes|, and extend it.
 4. Look for the **Settings** menu (upper right, next to a "gear" icon). Scroll
    down to **GitHub Pages** and choose **master** branch and save your selection. Then Choose a theme and select your theme. You will be asked to **Commit changes**.
 
-5. Your website will be visible at https://GITHUBUSERNAME.github.io/REPONAME/.
+5. Your website will be visible at `https ://GITHUBUSERNAME.github.io/REPONAME/`.
    (be sure to change *GITHUBUSERNAME* to your username, and *REPONAME* to the name
    you selected for your repo. )
 
-6. You can edit your website by editing the readme file as desired. 
+6. You can edit your website by editing the readme file as desired.
+
+   .. tip::
+
+     You can preview how your |Markdown| looks using and editor like
+     |Markdown Plus|.
+
+
 
 
 
@@ -85,3 +92,7 @@ but you can throw up a basic website, use |themes|, and extend it.
 .. |themes|  raw:: html
 
    <a href="https://pages.github.com/themes/" target="blank">themes</a>
+
+.. |Markdown Plus|  raw:: html
+
+   <a href="https://mdp.tylingsoft.com/" target="blank">Markdown Plus</a>
