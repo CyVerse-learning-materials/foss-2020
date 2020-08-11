@@ -135,6 +135,12 @@ By working through an example project relevant to their interests, participants 
 
    github_action/eht
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Experimental
+
+   documentation/githubpages
+
 ----
 
 **CyVerse Homepage:** `http://www.cyverse.org <http://www.cyverse.org>`_
