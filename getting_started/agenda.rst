@@ -68,19 +68,19 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Project management tools, and public relations with social media.
     * -
       -  11:45 am | 1:45 pm onward
-      - Breakout Sessions 
-      - Communication & Project Management Tools  
+      - Breakout Sessions
+      - Communication & Project Management Tools
       - Discuss how you can use GitHub, Websites, and Project Management Tools to empower your open-science lab
     * -
       -
-      - 
       -
-      - 
+      -
+      -
     * -
-      - 
-      - 
-      - 
-      - 
+      -
+      -
+      -
+      -
 
 ----
 
@@ -93,7 +93,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Content
       - Expected Outcomes
     * - 2
-      - August 25 10:00 am | August 27 1:00 pm
+      - August 25 11:00 am | August 27 1:00 pm
       - Essential Skills
       - Starting with key concepts of Linus command line and Git
       -
@@ -129,7 +129,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Content
       - Expected Outcomes
     * - 3
-      - September 8 10:00 am | September 10 1:00 pm
+      - September 8 11:00 am | September 10 1:00 pm
       - Planning Your Open Science Lab
       - Making collaboration and project management efficient
       -
@@ -145,7 +145,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Content
       - Expected Outcomes
     * - 4
-      - September 22 10:00 am | September 24 1:00 pm
+      - September 22 11:00 am | September 24 1:00 pm
       - `Data Management Overview <../Data_management/overview.html>`_
       - Organization, Sharing, Metadata
       - Understand why you need data management
@@ -171,7 +171,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Content
       - Expected Outcomes
     * - 5
-      - October 6 10:00 am | October 8 1:00 pm
+      - October 6 11:00 am | October 8 1:00 pm
       - Reproducible Research: Basics
       - Turning tools into a workflow
       -
@@ -202,7 +202,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Content
       - Expected Outcomes
     * - 6
-      - October 20 10:00 am | October 22 1:00 pm
+      - October 20 11:00 am | October 22 1:00 pm
       - Reproducible Research: Containers
       - Developing and using your tools on any platform
       - Basics of Docker, creating your own containers
@@ -233,7 +233,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Content
       - Expected Outcomes
     * - 7
-      - November 3 10:00 am | November 5 1:00 pm
+      - November 3 11:00 am | November 5 1:00 pm
       - Reproducible Research: Continuous Integration
       - Making things reliable and automated
       -
