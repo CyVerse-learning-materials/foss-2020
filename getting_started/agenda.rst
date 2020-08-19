@@ -71,16 +71,6 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Breakout Sessions
       - Communication & Project Management Tools
       - Discuss how you can use GitHub, Websites, and Project Management Tools to empower your open-science lab
-    * -
-      -
-      -
-      -
-      -
-    * -
-      -
-      -
-      -
-      -
 
 ----
 
@@ -92,31 +82,16 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Activity (Instructor)
       - Content
       - Expected Outcomes
-    * - 2
-      - August 25 11:00 am | August 27 1:00 pm
-      - Essential Skills
-      - Starting with key concepts of Linus command line and Git
-      -
-    * -
-      -
+    * - Week 2: August 25 | August 27
+      - 11:00-12:00 | 13:00-14:00
       - `Key Concepts: Linux <https://learning.cyverse.org/projects/foss-2020/en/latest/software_essentials/linux.html>`_ (Swetnam)
-      - `GitPitch link <https://github.com/tyson-swetnam/foss-2020>`_  Why Linux, Version Control, Containers
-      - Understanding what open source sofware means to open science
+      - Hands-on with `bash <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/software_essentials/commandline.html>`_
+      - understanding of command line interface navigation and file manipulation
     * -
-      - 13:00-14:00
-      - The Research Object I: `Introduction to GitHub <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/reproducible_science/GitHub.html>`_ (Balk)
-      -
-      - a basic understanding of `git <https://git-scm.com/>`_
-    * -
-      -
-      -
-      - Optional: `Command Line Refresher <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/software_essentials/commandline.html>`_
-      - Basic navigation and file manipulation
-    * -
-      - 09:20-10:00
-      - `FAIR Data Principles <../Data_management/FAIR.html>`_  (Walls)
-      - Metadata, standards, licensing, legal, and ethics
-      - Be able to find standards for your data, choose a license
+      - 12:00-13:00 | 14:00-15:00
+      - The Research Object I: `Introduction to Git & GitHub <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/GitHub.html`_ (Williams)
+      - Hands-on with `git` 
+      - understanding of `git <https://git-scm.com/>`_ and GitHub for use with your research.
 
 ----
 
