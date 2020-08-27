@@ -89,7 +89,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - understanding of command line interface navigation and file manipulation
     * -
       - 12:00-13:00 | 14:00-15:00
-      - The Research Object I: `Introduction to Git & GitHub <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/GitHub.html`_ (Williams)
+      - The Research Object I: `Introduction to Git & GitHub <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/GitHub.html>`_ (Williams)
       - Hands-on with `git` 
       - understanding of `git <https://git-scm.com/>`_ and GitHub for use with your research.
 
