@@ -121,19 +121,19 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Expected Outcomes
     * - 4
       - September 22 11:00 am | September 24 1:00 pm
-      - `Data Management Overview <../Data_management/overview.html>`_
+      - `Data Management <../Data_management/overview.html>`_
       - Organization, Sharing, Metadata
       - Understand why you need data management
     * -
       -
-      - `Data Management Plans <../Data_management/dmp.html>`_ (Walls)
-      - Writing a Data Management Plan
-      - Learn how to write an excellent DMP!
+      - Guest Lecturer (Thessen)
+      - Semantics, Ontologies, Metadata
+      - 
     * -
       -
       - `Data Management Tools <../Data_management/dmtools.html>`_ (Walls)
-      - Open Science Framework, Protocols.io, CyVerse DataCommons
-      - Be able to work with data management tools
+      - Open Science Framework (osf.io), Protocols.io, CyVerse DataCommons
+      - Creating Data Management Plans, work with metadata
 
 ----
 
