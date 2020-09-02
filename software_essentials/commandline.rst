@@ -715,7 +715,7 @@ Getting help and further learning
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. Note::
-    This is was just a brief summary of how to use the command line. There is much, much more you can do. For more information check out the `Software Caprentry <https://software-carpentry.org/workshops/>`_ page. 
+    This is just a brief summary of how to use the command line. There is much, much more you can do. For more information check out the `Software Caprentry <https://software-carpentry.org/workshops/>`_ page. 
 
 
 There are two common ways to find out how to use a command and what options it accepts:
