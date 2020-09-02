@@ -10,7 +10,7 @@
 
 **Setup**
 ---------
-**Launch the 'ml-workspace-minimal' VICE app**
+**Launch the 'JupyterLab-with-sql-1.0.9' VICE app**
 
 1. Go to `<https://de.cyverse.org/>`_ and login with your CyVerse credentials.
 
