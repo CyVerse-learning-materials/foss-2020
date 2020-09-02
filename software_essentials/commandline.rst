@@ -687,8 +687,6 @@ This is especially useful when writing Bash scripts
     $ grep Tao haiku.txt >> not_haiku.txt
     $ nano not_haiku.txt
 
-|nano>>|
-
 **|**
 ^^^^^^
 **directs output from the first command into the second command (and the second into the third)**
