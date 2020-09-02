@@ -10,27 +10,26 @@
 
 **Setup**
 ---------
-**Launch Atmosphere Instance**
+**Launch the 'ml-workspace-minimal' VICE app**
 
-1. Go to `<https://atmo.cyverse.org/>`_ and click 'Projects' at the top of the page.
+1. Go to `<https://de.cyverse.org/>`_ and login with your CyVerse credentials.
 
-2. Click the 'create new project' button and enter a name and description.
+2. Open the 'Apps' window by clicking on the 'Apps' button on the left side of the Discovery Environment.
 
-3. Click 'images' at the top of the screen.
+3. Click on 'FOSS 2020 Online' under 'My Communities' in the left pane of the 'Apps' window.
 
-4. Select the image called 'Ubuntu 18.04 GUI XFCE Base'
+4. Click on 'JupyterLab-with-sql-1.0.9' in the right pane of the 'Apps' window. This will pop up an app launch window.
 
-5. Click launch.
+5. In the app launch window just click 'launch analysis'. There is no need to enter any data.
 
-6. For this work you can leave all the settings as default and click 'launch instance'.
+6. In the top right corner of Discovery Environment, under the 'bell' icon you should see two notifications.
+    'JupyterLab-with-sql-1.0.9' submitted
+    'JupyterLab-with-sql-1.0.9' running. Access your running analysis here. 
+    
+7. Click on the link to open the analysis (it will open in another browser tab).
 
-**Once Instance is 'Active'**
+8. After the app has launched you should see a window with two panes. The right pane will contain several tiles. At the bottom of the right pane, under 'other', choose 'terminal'.
 
-1. Click on the image name 'Ubuntu 18.04 GUI XFCE Base' in your project.
-
-2. Click 'Open Web Desktop' on the bottom right corner of the screen.
-
-3. On web desktop accept 'default config'.
 
 **Get Some Data**
 
