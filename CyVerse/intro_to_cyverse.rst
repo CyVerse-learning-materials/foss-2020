@@ -69,7 +69,7 @@ Create and manage your CyVerse account
     - Change your CyVerse subscriptions
 
 Manage access to CyVerse platforms/services
-    - Some CyVerse services (such as Atmosphere) have additional restrictions and access must be 'turned on'.
+    - Some CyVerse services have additional restrictions and access must be 'turned on'.
 
 **Manage workshops you've attended or hosted**
 
