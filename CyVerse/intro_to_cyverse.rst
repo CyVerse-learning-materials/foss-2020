@@ -124,12 +124,11 @@ User portal forms
 
 |atmologo|
 
-**Create a custom cloud-based scientific analysis platform or use a ready-made one for your area of scientific interest.**
-
-    - Cloud computing for life sciences
-    - 100s of pre-built images
-    - Fully customize your software setup
-    - Choose (or build) an image that best suits your needs
+**Cloud platform now available for container development and workshops**
+    - Get access to a linux virtual machine
+    - Available for container development
+    - Available for workshops
+    - For analysis cloud-computing see Jetstream `<https://jetstream-cloud.org/>`_
     - `Atmosphere guide <https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/>`_
         
 `Bisque <https://bisque.cyverse.org/client_service/>`_
