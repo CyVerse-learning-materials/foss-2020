@@ -526,11 +526,11 @@ This command is used as a prefix to other commands that you need elevated permis
 
 .. code-block:: bash
 
-    $ docker run hello-world:latest
+    $ apt-get install git
 
 .. code-block:: bash
 
-    $ sudo docker run hello-world:latest
+    $ sudo apt-get install git
 
 .. NOTE:: 
 
