@@ -82,11 +82,11 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Activity (Instructor)
       - Content
       - Expected Outcomes
-    * - Week 2: August 25 | August 27
+    * - 2 
+      - August 25 | August 27
       - 11:00-12:00 | 13:00-14:00
-      - `Key Concepts: Linux <https://learning.cyverse.org/projects/foss-2020/en/latest/software_essentials/linux.html>`_ (Swetnam)
-      - Hands-on with `bash <https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/software_essentials/commandline.html>`_
-      - understanding of command line interface navigation and file manipulation
+      -
+      -
     * -
       - 12:00-13:00 | 14:00-15:00
       - The Research Object I: `Introduction to Git & GitHub <https://learning.cyverse.org/projects/foss-2020/en/latest/reproducible_science/GitHub.html>`_ (Williams)
@@ -105,8 +105,18 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - Expected Outcomes
     * - 3
       - September 8 11:00 am | September 10 1:00 pm
-      - Planning Your Open Science Lab
-      - Making collaboration and project management efficient
+      - Reproducible Research: Basics
+      - Turning tools into a workflow
+      -
+    * -
+      -
+      - `Reproducible Research I <https://learning.cyverse.org/projects/cyverse-cyverse-reproducbility-tutorial/en/latest/index.html>`_ : Launching VMs (Williams)
+      - Launch a virtual machine in Atmosphere and provision it
+      -
+    * -
+      -
+      - Reproducible Research II: Provisioning, GitHub and Licensing (Williams)
+      -
       -
 
 ----
@@ -131,7 +141,7 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       - 
     * -
       -
-      - `Data Management Tools <../Data_management/dmtools.html>`_ (Walls)
+      - `Data Management Tools <../Data_management/dmtools.html>`_ 
       - Open Science Framework (osf.io), Protocols.io, CyVerse DataCommons
       - Creating Data Management Plans, work with metadata
 
@@ -154,16 +164,6 @@ Note: Times are shown in Arizona Time GMT-7 (same as Pacific Daylight Time until
       -
       - Introduction to Cloud and HPC (Swetnam)
       - OpenScienceGrid, XSEDE, HPC, Commercial Services
-      -
-    * -
-      -
-      - `Reproducible Research I <https://learning.cyverse.org/projects/cyverse-cyverse-reproducbility-tutorial/en/latest/index.html>`_ : Launching VMs (Williams)
-      - Launch a virtual machine in Atmosphere and provision it
-      -
-    * -
-      -
-      - Reproducible Research II: Provisioning, GitHub and Licensing (Williams)
-      -
       -
 
 ----
