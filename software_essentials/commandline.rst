@@ -14,38 +14,26 @@
 
 
 1. Go to `<https://atmo.cyverse.org/>`_ and click 'Projects' at the top of the page.
-
 2. Click the 'create new project' button and enter a name and description.
-
 3. Click 'images' at the top of the screen.
-
 4. Select the image called 'Ubuntu 18.04 GUI XFCE Base'
-
 5. Click launch.
-
 6. For this work you can leave all the settings as default and click 'launch instance'.
 
 **Once Instance is 'Active'** 
 
     
 1. Click on the image name 'Ubuntu 18.04 GUI XFCE Base' in your project.
-
 2. Click 'Open Web Desktop' on the bottom right corner of the screen.	
-
 3. On web desktop accept 'default config'.
 
 **Get Some Data**
 
 1. Click the globe icon at the bottom of the Desktop. This will open FireFox. 
-
 2. Copy this link `<http://swcarpentry.github.io/shell-novice/data/data-shell.zip>`_ to the FireFox search bar to download the data. Choose 'save file'.
-
 3. To move the file to your (web) Desktop open the file manager (folder icon on Desktop). Open the downloads folder. Drag the 'data-shell.zip' file onto the Desktop.
-
 4. Unzip/extract the file: Right click the file and select 'extract here'. You should end up with a new folder called 'data-shell' on your Desktop.
-
 5. Open a terminal by selecting the command line icon at the bottom of the desktop.
-
 6. In the terminal, type cd and hit enter.
 
 **Background**
