@@ -147,6 +147,7 @@
 - **RST:** ReStructuredText, a markdown type file
 - **ReadTheDocs:** a web service for rendering documentation (that this website uses) `readthedocs.org <https://readthedocs.org>`_ and `readthedocs.com <https://readthedocs.com/>`_
 - **root:** the administrative user on a linux kernel - use your powers wisely
+- **RStudio:** a privately developed open-source IDE for the R language `rstudio.com <https://rstudio.com/>`_ 
 
 **S**
 
@@ -155,6 +156,7 @@
 - **scrum:** daily set of tasks and evalautions as part of a sprint.
 - **shell:** is a command line interface program that runs other programs (may be complex, technical programs or very simple programs such as making a directory). These simple, stand-alone programs are called commands
 - **Singularity:** a container software, used widely on HPC, created by `SyLabs <https://sylabs.io/>`_
+- **Shiny:** web-based application and interface for R language programs `Shiny<https://shiny.rstudio.com/>`_
 - **SLACK:** Searchable Log of All Conversation and Knowledge, a team communication tool `slack.com <https://slack.com/>`_
 - **sprint:** set period of time during which specific work has to be completed and made ready for review
 - **Singularity def file:** (definition file) recipe for building a Singualrity container
