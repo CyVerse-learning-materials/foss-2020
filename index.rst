@@ -6,12 +6,10 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-CyVerse Learning Institute - Foundations of Open Science Skills (FOSS) 2020
+CyVerse Learning - Foundations of Open Science Skills (FOSS) Online 2020
 ------------------------------------
 
 Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
-
-**Workshop Level**
 
 There are no pre-requisites for FOSS, but the course will cover a lot of material in a short time. Participants who have limited computational experience should try to view the `Software Carpentry Core Lessons <https://software-carpentry.org/lessons/>`_ before attending.
 
@@ -37,7 +35,7 @@ By working through an example project relevant to their interests, participants 
 
 .. toctree::
    :maxdepth: 1
-   :caption: Before you Arrive
+   :caption: Before FOSS Starts
 
    before/main
    before/installation
@@ -47,7 +45,6 @@ By working through an example project relevant to their interests, participants 
    :maxdepth: 1
    :caption: Key Information
 
-   getting_started/location
    getting_started/agenda
    getting_started/instructors
    getting_started/glossary
@@ -139,6 +136,12 @@ By working through an example project relevant to their interests, participants 
 
    github_action/eht
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Experimental
+
+   documentation/githubpages
+
 ----
 
 **CyVerse Homepage:** `http://www.cyverse.org <http://www.cyverse.org>`_
@@ -150,8 +153,12 @@ CyVerse is funded by the National Science Foundation under
 Award Numbers DBI-0735191, DBI-1265383, and DBI-1743442.
 
 Please cite CyVerse appropriately when you make use of our resources,
-`CyVerse citation policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
+`CyVerse citation policy <http://www.cyverse.org/cite-cyverse>`__
 
+License
+-------
+
+Documentation contained in this repo is made available under CC BY 4.0 License: https://creativecommons.org/licenses/by/4.0/legalcode
 
 ----
 

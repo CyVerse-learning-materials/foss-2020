@@ -15,7 +15,7 @@ We will cover both internal and external communication strategies during the wor
 
 Choosing which software to use for your internal lab communication can be complicated by the cost of setting up, the cost of maintaining, and simply by the sheer number of platforms that are out there.
 
-For this workshop, we are use `SLACK <https://slack.com/>`_ (Searchable Log of All Conversation & Knowledge). Microsoft's competitor to SLACK is `Microsoft Teams <https://teams.microsoft.com/start>`_.
+For this workshop, we use `SLACK <https://slack.com/>`_ (Searchable Log of All Conversation & Knowledge). Microsoft's competitor to SLACK is `Microsoft Teams <https://teams.microsoft.com/start>`_.
 
 Remember, the intention of these platforms are to **improve productivity** & not become a distraction.
 

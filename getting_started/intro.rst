@@ -8,9 +8,9 @@
 **About FOSS**
 ----------
 
-Foundational Open Science Skills (FOSS) is a novel, camp-style training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
+Foundational Open Science Skills (FOSS) is a novel training designed to prepare principal investigators and their lab teams, both new and established, to meet the growing expectations of funding agencies, publishers, and research institutions for scientific reproducibility and data accessibility.
 
-The workshop will cover key concepts about open science:
+This training will cover key concepts about open science:
 
 - Collaboration culture
 - Software essentials
@@ -23,9 +23,9 @@ The workshop will cover key concepts about open science:
 **Learning Objectives**
 ====================
 
-By the end of week one, participants should have the basic skills needed to:
+By the end, participants should have the basic skills needed to:
   - Work on the command line
-  - Write basic scripts in Python, R, and the shell 
+  - Write basic scripts in Python, R, and the shell
   - Manage, share, and analyze data on CyVerse
   - Submit and run jobs in high performance and cloud computing environments
   - Communicate and collaborate on data science projects with other scientists and software developers
@@ -40,13 +40,13 @@ Our goals are to have each participant leave with a plan for how they will set u
 **Approach**
 ~~~~~
 
-FOSS camp focuses on hands on activities -- participants should learn skills by practicing them. Most of the skill taught in this course are interdepent, and lessons are designed to reinforce skills learned earlier in the week. Some material may be completely new to you, and some may be familiar. If you have experience with a subject, please help your less-experienced neighbor. 
+FOSS camp focuses on hands on activities -- participants should learn skills by practicing them. Most of the skill taught in this course are interdepent, and lessons are designed to reinforce skills learned earlier in the week. Some material may be completely new to you, and some may be familiar. If you have experience with a subject, please help your less-experienced neighbor.
 
-During this week, we will introduce many new tools and technologies, but these are just a sample of what is available for you to use in your own Open Science Lab. Before choosing which technologies to adopt, you should look around and see what others in your community are using. This is a case where fitting in with your peers can make you more productive. For example, if everyone you know is already on Google Chat, you may have a hard time convincing them to use Slack or Gitter, and vice versa. 
+During this week, we will introduce many new tools and technologies, but these are just a sample of what is available for you to use in your own Open Science Lab. Before choosing which technologies to adopt, you should look around and see what others in your community are using. This is a case where fitting in with your peers can make you more productive. For example, if everyone you know is already on Google Chat, you may have a hard time convincing them to use Slack or Gitter, and vice versa.
 
 We don't expect anyone to be experts at these skills after one week. Instead, we aim to give you enough hands on experience to confidently continue with your own self-pased learning. Each lesson includes links to addtional learning materials that can enhance or expand on what you have learned at FOSS camp.
 
-For up to one year following FOSS camp, CyVerse will provide concierge service to participants, to ensure that they are able to take full advantage of CyVerse infrastructure for their open science projects. 
+For up to one year following FOSS camp, CyVerse will provide concierge service to participants, to ensure that they are able to take full advantage of CyVerse infrastructure for their open science projects.
 
 `See the Agenda <agenda.html>`_
 
