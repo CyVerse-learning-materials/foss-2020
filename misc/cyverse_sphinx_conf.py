@@ -1,3 +1,5 @@
+# Version 2.0, May 2020
+
 # -*- coding: utf-8 -*-
 
 import sys
@@ -9,11 +11,11 @@ extensions = [
     'sphinx.ext.autodoc',
 ]
 
-project = 'CyVerse Learning Center Home'
-copyright = '2017, CyVerse'
+project = 'YOUR PROJECT NAME HERE'
+copyright = '2020, CyVerse'
 author = 'CyVerse'
-version = '1.0'
-release = '1.0'
+version = '2.0'
+release = '2.0'
 
 language = None
 source_parsers = {
@@ -77,3 +79,4 @@ def setup(app):
     app.add_javascript('cyverse.js')
     app.add_javascript('detail-expand.js')
     app.add_javascript('question-answer.js')
+    app.add_javascript('intercom-script-for-learning.js')
