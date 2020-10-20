@@ -43,7 +43,7 @@ CyVerse resources are mirrored between the University of Arizona and the `Texas 
 **Open Science Grid**
 ~~~~~~~
 
-The `OpenScienceGrid (OSG) <https://opensciencegrid.org/>`_ is another CyVerse partner. You can use the OSG through our Discovery Environmetn to launch high throughput computing jobs. 
+The `OpenScienceGrid (OSG) <https://opensciencegrid.org/>`_ is another CyVerse partner. You can use the OSG through our Discovery Environment to launch high throughput computing jobs. 
 
 **CyVerse Powered By**
 ------------
