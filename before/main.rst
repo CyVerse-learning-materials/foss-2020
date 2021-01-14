@@ -10,8 +10,9 @@
 
 Please endeavor to complete the `pre-FOSS setup <../before/installation.html>`_ before arriving at FOSS.
 
-
 FOSS runs under a `Code of Conduct <../getting_started/code_of_conduct.html>`_. Please familiarize yourself with it.
+
+FOSS Online sessions are recorded and recordings are posted on CyVerse's private YouTube channel for participants to review at any time (only those with the link can view).  
 
 **Need help?**
 
