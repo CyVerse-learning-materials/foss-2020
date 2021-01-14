@@ -33,19 +33,19 @@ Please set up the Prerequisite accounts and software to prepare for FOSS Online;
       - Please ensure that you have a Dockerhub account if you don't have one already
       - Register for your Dockerhub account at `https://hub.docker.com/ <https://hub.docker.com/>`_.
     * - Text Editor
-      - Please ensure that you have a Text Editor of your choice. Any decent Text Editor would be sufficient and
-        recommended ones include SublimeText and Atom (see also Optional Downloads below)
+      - Please ensure that you have a Text Editor of your choice. Any decent Text Editor would be sufficient.
+        Recommended ones include SublimeText and Atom (more in Optional Downloads below)
       - Register for Sublime at `https://www.sublimetext.com/ <https://www.sublimetext.com/>`_. Register for Atom at `https://atom.io/ <https://atom.io/>`_.
     * - Slack for networking
       - We will be using Slack extensively for communication and networking purposes, especially between online class sessions
       - Register for Slack at `https://slack.com/ <https://slack.com/>`_.
     * - ORCID ID
-      - If you haven't set up an Open Researcher and Contributor ID (ORCID) yet, please consider doing so
+      - If you haven't set up an Open Researcher and Contributor ID (ORCID) yet, please consider doing so (and add it to your CyVerse account profile)
       - Register for ORCID at `https://orcid.org/ <https://orcid.org/>`_.  
 
 **Optional**
 
-Below are some extra downloads that are not required for FOSS, but which provide some options for functionalities we will cover.
+Below are some other downloads that are not required for FOSS, but which provide some options for functionalities we will cover.
 
 .. list-table::
     :header-rows: 1
@@ -53,8 +53,9 @@ Below are some extra downloads that are not required for FOSS, but which provide
     * - Tool/Software
       - Notes
       - Link
-    * - A Second Monitor
-      - Having two monitors will allow you to full screen stream the instructional portion of the course while working on a second screen
+    * - A Second Monitor (highly recommended)
+      - Having two monitors enables you to full-screen stream the instructional portion of the course while working on a second screen. 
+      This is particularly helpful if you currently only have a laptop screen. 
       -
     * - SSH Clients (Windows)
       - PuTTY allows SSH connection to a remote machine, and is designed for
