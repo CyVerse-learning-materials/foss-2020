@@ -24,6 +24,8 @@ We expect participants to follow these rules at conference and workshop venues a
 
 See http://www.ashedryden.com/blog/codes-of-conduct-101-faq or The Carpentries https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html for more information on Codes of Conduct.
 
+To see the Diversity & Inclusion information for CyVerse, visit https://cyverse.org/diversity-and-inclusion.
+
 ----
 
 **Fix or improve this documentation:**
